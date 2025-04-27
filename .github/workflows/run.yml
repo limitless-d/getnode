@@ -2,7 +2,7 @@ jobs:
   crawl:
     runs-on: ubuntu-latest
     env:  # 关键设置
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      CRAWLER_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v4
