@@ -1,10 +1,13 @@
 import requests
 import json
 import time
+import os
 
 # ↓↓↓ 替换成你的令牌 ↓↓↓
-GITHUB_TOKEN = "ghp_你的令牌"
-SEARCH_KEYWORDS = ["vmess nodes", "ssr订阅", "free proxies"]
+GITHUB_TOKEN = os.getenv("GITHUB_TOKEN_CRAWLER")  # 从环境变量获取
+
+# SEARCH_KEYWORDS = ["v2ray free", "vmess nodes", "ssr订阅", "free proxies"]
+SEARCH_KEYWORDS = ["v2ray free"]
 
 def search_github():
     """自动搜索含节点的仓库"""
