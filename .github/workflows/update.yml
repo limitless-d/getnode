@@ -1,0 +1,21 @@
+name: Daily Update
+on:
+  schedule:
+    - cron: '0 0 * * *'  # 每天UTC 0点运行（北京时间8点）
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      - run: pip install requests
+      - run: python auto_crawler.py
+      - name: Commit changes
+        run: |
+          git config --global user.email "you@example.com"
+          git config --global user.name "GitHub Actions"
+          git add .
+          git commit -m "Auto-update nodes"
+          git push
