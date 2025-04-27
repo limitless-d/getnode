@@ -1,7 +1,10 @@
 import requests
 import json
 import time
+from dotenv import load_dotenv
 import os
+
+load_dotenv()  # 加载.env文件
 
 # ↓↓↓ 替换成你的令牌 ↓↓↓
 GITHUB_TOKEN = os.getenv("CRAWLER_GITHUB_TOKEN")  # 从环境变量获取
