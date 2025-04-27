@@ -1,0 +1,33 @@
+name: Node Crawler
+on:
+  push:
+    branches: [ main ]
+  schedule:
+    - cron: '0 0 * * *'  # 每天UTC 0点运行
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    permissions:  # 新增权限声明
+      contents: read
+      actions: read
+    env:  # 必须与Python代码中的变量名一致
+      CRAWLER_GITHUB_TOKEN: ${{ secrets.CRAWLER_GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+          
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          
+      - name: Run Crawler with Debug
+        run: |
+          echo "当前环境变量列表："
+          printenv
+          python auto_crawler.py
