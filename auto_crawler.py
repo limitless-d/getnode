@@ -28,6 +28,7 @@ RESULTS_PER_PAGE = 30
 SLEEP_INTERVAL = 1.2
 MAX_RETRIES = 3
 LATENCY_THRESHOLD = 5000  # 节点延迟阈值（毫秒）
+CF_NAMESPACE_NAME = KV
 
 class APICounter:
     """API调用计数器"""
