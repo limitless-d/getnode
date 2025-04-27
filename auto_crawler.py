@@ -184,15 +184,15 @@ def test_node_latency(links: List[str]) -> List[str]:
 def save_to_cloudflare_kv(links: List[str]):
     """保存到Cloudflare KV存储"""
     cf_api_token = os.getenv("CF_API_TOKEN")
-    namespace_name = os.getenv("CF_NAMESPACE_NAME")
+    # namespace_name = os.getenv("CF_NAMESPACE_NAME")
 
-    if not cf_api_token or not namespace_name:
+    if not cf_api_token:
         logger.error("缺少Cloudflare配置参数")
         return
 
     try:
         account_id = get_cf_account_id(cf_api_token)
-        namespace_id = get_cf_namespace_id(cf_api_token, account_id, namespace_name)
+        namespace_id = get_cf_namespace_id(cf_api_token, account_id, CF_NAMESPACE_NAME)
         
         url = f"{CF_API_BASE}/accounts/{account_id}/storage/kv/namespaces/{namespace_id}/values/v2ray_nodes"
         headers = {
@@ -255,20 +255,21 @@ if __name__ == "__main__":
         link_list = raw_links.split("\n")
         logger.info(f"生成 {len(link_list)} 个节点配置")
         
-        logger.info("测试节点延迟...")
-        valid_links = test_node_latency(link_list)
-        logger.info(f"有效节点数量：{len(valid_links)}")
+#        logger.info("测试节点延迟...")
+#        valid_links = test_node_latency(link_list)
+#        logger.info(f"有效节点数量：{len(valid_links)}")
         
         with open("nodes.txt", "w") as f:
-            f.write("\n".join(valid_links))
+            f.write("\n".join(link_list))
         
         if os.getenv("CF_ENABLE_KV") == "true":
-            save_to_cloudflare_kv(valid_links)
+            save_to_cloudflare_kv(link_list)
         
         generate_static_site(uuid)
         logger.info("静态网站生成完成")
         
-        logger.info(f"=== 任务完成，有效节点数：{len(valid_links)} ===")
+#        logger.info(f"=== 任务完成，有效节点数：{len(valid_links)} ===")
+        logger.info(f"=== 任务完成，有效节点数：{len(link_list)} ===")
     except Exception as e:
         logger.error(f"执行失败: {str(e)}")
         exit(1)
