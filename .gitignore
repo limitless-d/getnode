@@ -1,0 +1,4 @@
+# 在.gitignore文件中添加：
+/.env
+/config.ini
+/*.token
