@@ -4,7 +4,7 @@ import time
 import os
 
 # ↓↓↓ 替换成你的令牌 ↓↓↓
-GITHUB_TOKEN = os.getenv("GITHUB_TOKEN_CRAWLER")  # 从环境变量获取
+GITHUB_TOKEN = os.getenv("CRAWLER_GITHUB_TOKEN")  # 从环境变量获取
 
 # SEARCH_KEYWORDS = ["v2ray free", "vmess nodes", "ssr订阅", "free proxies"]
 SEARCH_KEYWORDS = ["v2ray free"]
