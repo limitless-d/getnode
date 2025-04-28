@@ -24,7 +24,7 @@ logger = logging.getLogger(__name__)
 
 # 配置常量
 GITHUB_API_URL = "https://api.github.com/search/repositories"
-MAX_RESULTS = 210
+MAX_RESULTS = 60
 RESULTS_PER_PAGE = 30
 SLEEP_INTERVAL = 1.2
 MAX_RETRIES = 3
@@ -82,7 +82,7 @@ class GitHubCrawler:
     def search_repos(self) -> list:
         repos = []
         params = {
-            "q": "proxy OR v2ray OR clash OR subscribe",
+            "q": "v2ray free OR clash OR subscribe",
             "sort": "updated",
             "order": "desc",
             "per_page": RESULTS_PER_PAGE
@@ -766,6 +766,7 @@ if __name__ == "__main__":
         logger.info(f"发现 {len(repos)} 个相关仓库")
         
         logger.info("正在查找节点文件...")
+        logger.info(f"repos:{repos}\n")
         for repo in repos:
             repo_url = repo["html_url"]
             node_links = crawler.find_node_files(repo_url)
