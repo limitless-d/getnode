@@ -100,7 +100,7 @@ class GitHubCrawler:
         except Exception as e:
             logger.error(f"仓库搜索失败: {str(e)}")
 
-        return repos[:MAX_RESULTS]
+        return repos[:MAX_RETRIES]
 
     def find_node_files(self, repo_url: str) -> list:
         """递归查找仓库中的节点文件"""
@@ -766,7 +766,6 @@ if __name__ == "__main__":
         logger.info(f"发现 {len(repos)} 个相关仓库")
         
         logger.info("正在查找节点文件...")
-        logger.info(f"repos:{repos}\n")
         for repo in repos:
             repo_url = repo["html_url"]
             node_links = crawler.find_node_files(repo_url)
