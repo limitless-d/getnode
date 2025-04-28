@@ -24,7 +24,7 @@ logger = logging.getLogger(__name__)
 
 # 配置常量
 GITHUB_API_URL = "https://api.github.com/search/repositories"
-MAX_RESULTS = 60
+MAX_RESULTS = 30
 RESULTS_PER_PAGE = 30
 SLEEP_INTERVAL = 1.2
 MAX_RETRIES = 5
@@ -55,7 +55,7 @@ class APICounter:
             logger.info(f"已使用API次数: {cls.count}/小时")
 
 class FileCounter:
-    totol = 0
+    total = 0
     skipped = 0
     total_nodes = 0
     dup_nodes = 0
