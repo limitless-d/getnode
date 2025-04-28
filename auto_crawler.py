@@ -28,7 +28,6 @@ RESULTS_PER_PAGE = 30
 SLEEP_INTERVAL = 1.2
 MAX_RETRIES = 3
 LATENCY_THRESHOLD = 5000  # 节点延迟阈值（毫秒）
-CF_NAMESPACE_NAME = "KV"
 
 class APICounter:
     """API调用计数器"""
@@ -184,7 +183,7 @@ def test_node_latency(links: List[str]) -> List[str]:
 def save_to_cloudflare_kv(links: List[str]):
     """保存到Cloudflare KV存储"""
     cf_api_token = os.getenv("CF_API_TOKEN")
-    # namespace_name = os.getenv("CF_NAMESPACE_NAME")
+    namespace_name = os.getenv("CF_NAMESPACE_NAME")
 
     if not cf_api_token:
         logger.error("缺少Cloudflare配置参数")
@@ -192,7 +191,7 @@ def save_to_cloudflare_kv(links: List[str]):
 
     try:
         account_id = get_cf_account_id(cf_api_token)
-        namespace_id = get_cf_namespace_id(cf_api_token, account_id, CF_NAMESPACE_NAME)
+        namespace_id = get_cf_namespace_id(cf_api_token, account_id, namespace_name)
         
         url = f"{CF_API_BASE}/accounts/{account_id}/storage/kv/namespaces/{namespace_id}/values/v2ray_nodes"
         headers = {
