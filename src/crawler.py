@@ -24,11 +24,10 @@ logger = logging.getLogger(__name__)
 
 # 配置常量
 GITHUB_API_URL = "https://api.github.com/search/repositories"
-MAX_RESULTS = 210
+MAX_RESULTS = 60
 RESULTS_PER_PAGE = 30
 SLEEP_INTERVAL = 1.2
 MAX_RETRIES = 5
-NODE_KEYWORDS = ['v2ray', 'clash', 'subscribe', 'proxy', 'node', 'free', 'config']
 MAX_FILE_SIZE = 1024 * 200  # 200KB
 
 class APICounter:
@@ -82,25 +81,35 @@ class GitHubCrawler:
     def search_repos(self) -> list:
         repos = []
         params = {
-            "q": " OR ".join(NODE_KEYWORDS) + " in:readme,description",
+            "q": "v2ray free in:readme,description",  # 使用单一关键词
             "sort": "updated",
             "order": "desc",
             "per_page": RESULTS_PER_PAGE
         }
 
         try:
+            # 添加查询验证
+            if any(op in params["q"] for op in [" OR ", " AND ", " NOT "]):
+                raise ValueError("搜索查询包含非法逻辑操作符")
+            
             for page in range(1, (MAX_RESULTS // RESULTS_PER_PAGE) + 1):
                 params["page"] = page
-                data = self.safe_request(GITHUB_API_URL, params)
-                repos.extend(data.get("items", []))
-                time.sleep(SLEEP_INTERVAL)
+                try:
+                    data = self.safe_request(GITHUB_API_URL, params)
+                    repos.extend(data.get("items", []))
+                    time.sleep(SLEEP_INTERVAL)
+                except requests.HTTPError as e:
+                    if e.response.status_code == 422:
+                        logger.error("GitHub API查询验证失败，请简化搜索条件")
+                        break
+                    raise
 
                 if len(repos) >= MAX_RESULTS:
                     break
         except Exception as e:
             logger.error(f"仓库搜索失败: {str(e)}", exc_info=True)
 
-        return repos[:MAX_RESULTS]
+        return repos
 
     def find_node_files(self, repo_url: str) -> list:
         repo_api_url = repo_url.replace("https://github.com/", "https://api.github.com/repos/")
@@ -129,7 +138,7 @@ class GitHubCrawler:
                     if not download_url.startswith("http"):
                         continue
                     
-                    if any(kw in name for kw in NODE_KEYWORDS) and \
+                    if any(kw in name for kw in "v2ray free") and \
                        name.endswith((".yaml", ".yml", ".txt", ".json")):
                         node_files.append({
                             "name": item["name"],

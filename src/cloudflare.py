@@ -14,7 +14,7 @@ class CloudflareDeployer:
             metadata = CloudflareDeployer.generate_metadata(output_dir, cf_dir)
             
             account_id = os.getenv("CF_ACCOUNT_ID")
-            api_token = os.getenv("CF_API_TOKEN")
+            api_token = os.getenv("CLOUDFLARE_API_TOKEN")
             project_name = os.getenv("CF_PROJECT_NAME", "node-subscription")
 
             if not account_id or not api_token:
