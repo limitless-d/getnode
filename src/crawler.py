@@ -7,8 +7,8 @@ import yaml
 import logging
 from datetime import datetime
 from tenacity import retry, wait_exponential, stop_after_attempt, retry_if_exception_type
+from collections import OrderedDict
 from typing import List, Dict
-from urllib.parse import urlparse, unquote, quote
 import hashlib
 
 # 配置日志系统
@@ -29,6 +29,7 @@ RESULTS_PER_PAGE = 30
 SLEEP_INTERVAL = 1.2
 MAX_RETRIES = 5
 MAX_FILE_SIZE = 1024 * 512  # 500KB
+NODE_KEYWORDS = ['v2ray', 'subscribe', 'clash', 'sub', 'config', 'vless', 'vmess']  # 节点文件关键词
 
 class APICounter:
     """API调用计数器"""
@@ -56,6 +57,8 @@ class APICounter:
 class FileCounter:
     totol = 0
     skipped = 0
+    total_nodes = 0
+    dup_nodes = 0
 
 class GitHubCrawler:
     def __init__(self):
@@ -124,7 +127,7 @@ class GitHubCrawler:
         return self._search_contents(repo_api_url + "/contents/")
 
     def _search_contents(self, path: str, depth=0) -> list:
-        if depth > 5:
+        if depth > 3:
             logger.warning(f"达到最大递归深度: {path}")
             return []
             
@@ -145,7 +148,7 @@ class GitHubCrawler:
                     break
 
                 for item in contents:
-                    logger.debug(f"处理条目: {item.get('name')}")
+                    logger.debug(f"处理文件: {item.get('name')}")
                     FileCounter.total += 1  # 总文件数+1
 
                     # 文件大小过滤
@@ -167,14 +170,16 @@ class GitHubCrawler:
                         logger.debug(f"无效下载链接: {download_url}")
                         continue
                         
-                    if "v2ray free" in name and name.endswith((".yaml", ".yml", ".txt", ".json")):
+                    if any(kw in name for kw in NODE_KEYWORDS) and \
+                       name.endswith((".yaml", ".yml", ".txt", ".json")):
                         logger.info(f"发现节点文件: {name}")
+                        
                         node_files.append({
                             "name": item["name"],
                             "url": item["html_url"],
                             "download_url": download_url
                         })
-                
+
                 # 检查是否还有下一页
                 if len(contents) < 100:
                     break
@@ -219,6 +224,13 @@ class NodeProcessor:
                     result['success_count'] += 1
                     NodeProcessor._add_nodes(result, seen, txt_result['data'], url, 'text')
                     continue
+
+                # 新增：尝试解析为Base64编码内容
+                base64_result = NodeProcessor._parse_base64_config(url)
+                if base64_result['success']:
+                    result['success_count'] += 1
+                    NodeProcessor._add_nodes(result, seen, base64_result['data'], url, 'base64')
+                    continue
                 
                 result['failure_count'] += 1
                 result['failures'].append({'url': url, 'error': '无法识别配置格式'})
@@ -234,26 +246,159 @@ class NodeProcessor:
         return result
 
     @staticmethod
+    def _parse_base64_config(url: str) -> Dict:
+        """
+        解析Base64编码的节点配置
+        支持格式：
+        1. 直接Base64字符串
+        2. Base64编码的Clash配置
+        3. Base64编码的节点列表
+        """
+        result = {'success': False, 'data': [], 'message': ''}
+        
+        try:
+            # 获取内容并尝试解码
+            response = requests.get(url, timeout=15)
+            response.raise_for_status()
+            
+            encoded_content = response.text.strip()
+            
+            # 添加缺失的填充字符
+            missing_padding = len(encoded_content) % 4
+            if missing_padding:
+                encoded_content += '=' * (4 - missing_padding)
+                
+            # 尝试解码
+            decoded_content = base64.b64decode(encoded_content).decode('utf-8')
+            logger.debug(f"Base64解码成功，内容长度: {len(decoded_content)}")
+
+            # 递归解析解码后的内容
+            if decoded_content.startswith('proxies:'):  # Clash配置特征
+                clash_result = NodeProcessor._parse_clash_config_content(decoded_content)
+                if clash_result['success']:
+                    result['success'] = True
+                    result['data'] = clash_result['data']
+            else:  # 文本节点列表
+                txt_result = NodeProcessor._parse_txt_content(decoded_content)
+                if txt_result['success']:
+                    result['success'] = True
+                    result['data'] = txt_result['data']
+
+            if not result['success']:
+                result['message'] = '解码成功但内容无法识别'
+                
+        except (requests.RequestException, UnicodeDecodeError) as e:
+            result['message'] = f'Base64处理失败: {str(e)}'
+        except Exception as e:
+            result['message'] = f'未知错误: {str(e)}'
+            logger.error(f"Base64解析异常: {str(e)}", exc_info=True)
+            
+        return result
+
+    @staticmethod
+    def _parse_clash_config_content(content: str) -> Dict:
+        """解析Clash配置内容（非URL）"""
+        result = {'success': False, 'data': []}
+        try:
+            config = yaml.safe_load(content)
+            proxies = config.get('proxies', [])
+            result['data'] = proxies
+            result['success'] = True
+        except yaml.YAMLError as e:
+            logger.error(f"Clash内容解析失败: {str(e)}")
+        return result
+
+    @staticmethod
+    def _parse_txt_content(content: str) -> Dict:
+        """解析纯文本内容（非URL）"""
+        result = {'success': False, 'data': []}
+        nodes = []
+        
+        for line in content.splitlines():
+            line = line.strip()
+            if not line:
+                continue
+                
+            # 尝试解析为各种协议
+            node = NodeProcessor._parse_single_line(line)
+            if node:
+                nodes.append(node)
+                
+        if nodes:
+            result['success'] = True
+            result['data'] = nodes
+            
+        return result
+
+    @staticmethod
     def _add_nodes(result, seen, nodes, url, source_type):
         for node in nodes:
-            node_hash = hashlib.md5(json.dumps(node, sort_keys=True).encode()).hexdigest()
-            if node_hash not in seen:
-                seen.add(node_hash)
+            # 新增：提取关键特征生成唯一指纹
+            node_fingerprint = NodeProcessor._generate_fingerprint(node)
+
+            FileCounter.total_nodes += 1
+            if node_fingerprint in seen:
+                FileCounter.dup_nodes += 1
+
+            if node_fingerprint not in seen:
+                seen.add(node_fingerprint)
                 result['nodes'].append({
                     'source_type': source_type,
                     'url': url,
                     'data': node
                 })
+            else:
+                logger.debug(f"发现重复节点: {NodeProcessor._get_node_identity(node)}")
+        logger.info(f"去重统计: 总发现节点={FileCounter.total_nodes} 重复节点={FileCounter.dup_nodes}")
 
     @staticmethod
-    def _parse_clash_config(url):
-        # 实现与之前相同的Clash解析逻辑
-        pass
-    
+    def _generate_fingerprint(node_data: dict) -> str:
+        """生成节点唯一指纹"""
+        # 按协议类型提取关键字段
+        node_type = node_data.get('type', 'unknown').lower()
+        core_fields = OrderedDict()
+
+        # 通用关键字段
+        core_fields['type'] = node_type
+        core_fields['server'] = node_data.get('server', '')
+        core_fields['port'] = str(node_data.get('port', ''))
+        
+        # 协议特定字段
+        if node_type == 'ss':
+            core_fields.update({
+                'cipher': node_data.get('cipher', ''),
+                'password': node_data.get('password', '')
+            })
+        elif node_type == 'vmess':
+            core_fields.update({
+                'uuid': node_data.get('uuid', ''),
+                'alterId': str(node_data.get('alterId', '0')),
+                'network': node_data.get('network', 'tcp')
+            })
+        elif node_type == 'trojan':
+            core_fields.update({
+                'password': node_data.get('password', ''),
+                'sni': node_data.get('sni', '')
+            })
+        else:
+            # 未知协议使用完整数据哈希
+            return hashlib.md5(
+                json.dumps(node_data, sort_keys=True).encode()
+            ).hexdigest()
+
+        # 生成标准化哈希
+        return hashlib.md5(
+            json.dumps(core_fields, sort_keys=True).encode()
+        ).hexdigest()
+
     @staticmethod
-    def _parse_txt_config(url):
-        # 实现与之前相同的文本解析逻辑
-        pass
+    def _get_node_identity(node_data: dict) -> str:
+        """获取节点可读标识"""
+        base_info = f"{node_data.get('type', 'unknown')}://"
+        if 'server' in node_data:
+            base_info += f"{node_data['server']}:{node_data.get('port', '')}"
+        return base_info
+    
 
 class FileGenerator:
     @staticmethod
