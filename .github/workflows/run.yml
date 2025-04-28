@@ -16,6 +16,6 @@ jobs:
         env:
           CRAWLER_GITHUB_TOKEN: ${{ secrets.CRAWLER_GITHUB_TOKEN }}
           CF_API_TOKEN: ${{ secrets.CF_TOKEN }}
-          CF_NAMESPACE_NAME: 'v2ray-nodes'
+          CF_NAMESPACE_NAME: 'GetNode'
           CF_PAGES_UUID: ${{ secrets.UUID }}
           CF_ENABLE_KV: 'true'
