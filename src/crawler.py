@@ -3,6 +3,7 @@ import time
 import requests
 import json
 import base64
+import binascii
 import yaml
 import logging
 from datetime import datetime
@@ -127,7 +128,7 @@ class GitHubCrawler:
         return self._search_contents(repo_api_url + "/contents/")
 
     def _search_contents(self, path: str, depth=0) -> list:
-        if depth > 3:
+        if depth > 1:
             logger.warning(f"达到最大递归深度: {path}")
             return []
             
@@ -246,34 +247,49 @@ class NodeProcessor:
         return result
 
     @staticmethod
-    def _parse_base64_config(url: str) -> Dict:
+    def _parse_base64_config(url: str, depth=0, is_content=False) -> Dict:
         """
-        解析Base64编码的节点配置
-        支持格式：
-        1. 直接Base64字符串
-        2. Base64编码的Clash配置
-        3. Base64编码的节点列表
+        解析Base64编码内容（支持递归）
+        :param url: 当is_content=False时为URL，否则为待解码的Base64字符串
+        :param depth: 当前递归深度
+        :param is_content: 标记当前处理的是否为原始内容
         """
+        if depth > 2:
+            return {'success': False, 'message': '超过最大递归深度（3层）'}
+        
         result = {'success': False, 'data': [], 'message': ''}
         
         try:
-            # 获取内容并尝试解码
-            response = requests.get(url, timeout=15)
-            response.raise_for_status()
-            
-            encoded_content = response.text.strip()
-            
-            # 添加缺失的填充字符
+            # 获取原始内容
+            if is_content:
+                encoded_content = url  # 直接使用传入的内容
+            else:
+                response = requests.get(url, timeout=15)
+                response.raise_for_status()
+                encoded_content = response.text.strip()
+
+            # 修复Base64填充
             missing_padding = len(encoded_content) % 4
             if missing_padding:
                 encoded_content += '=' * (4 - missing_padding)
-                
-            # 尝试解码
-            decoded_content = base64.b64decode(encoded_content).decode('utf-8')
-            logger.debug(f"Base64解码成功，内容长度: {len(decoded_content)}")
 
-            # 递归解析解码后的内容
-            if decoded_content.startswith('proxies:'):  # Clash配置特征
+            # 解码内容
+            decoded_content = base64.b64decode(encoded_content).decode('utf-8')
+            logger.debug(f"Base64解码成功（深度{depth}），内容长度: {len(decoded_content)}")
+
+            # 递归解析场景：解码后的内容仍是Base64
+            if NodeProcessor._is_base64(decoded_content):
+                logger.debug(f"检测到嵌套Base64（深度{depth}），尝试递归解析")
+                nested_result = NodeProcessor._parse_base64_config(
+                    decoded_content,  # 传递解码后的内容
+                    depth=depth + 1,   # 深度+1
+                    is_content=True    # 标记为内容模式
+                )
+                if nested_result['success']:
+                    return nested_result
+
+            # 解析解码后的内容
+            if decoded_content.startswith('proxies:'):  # Clash配置
                 clash_result = NodeProcessor._parse_clash_config_content(decoded_content)
                 if clash_result['success']:
                     result['success'] = True
@@ -286,14 +302,30 @@ class NodeProcessor:
 
             if not result['success']:
                 result['message'] = '解码成功但内容无法识别'
-                
-        except (requests.RequestException, UnicodeDecodeError) as e:
-            result['message'] = f'Base64处理失败: {str(e)}'
+
+        except requests.RequestException as e:
+            result['message'] = f'请求失败: {str(e)}'
+        except (UnicodeDecodeError, binascii.Error) as e:
+            result['message'] = f'Base64解码失败: {str(e)}'
         except Exception as e:
             result['message'] = f'未知错误: {str(e)}'
             logger.error(f"Base64解析异常: {str(e)}", exc_info=True)
-            
+        
         return result
+
+    @staticmethod
+    def _is_base64(content: str) -> bool:
+        """判断内容是否为Base64编码"""
+        try:
+            # 特征检查：Base64字符集+长度为4的倍数
+            if not re.match(r'^[A-Za-z0-9+/=]+$', content):
+                return False
+            
+            # 尝试解码验证
+            base64.b64decode(content)
+            return True
+        except Exception:
+            return False
 
     @staticmethod
     def _parse_clash_config_content(content: str) -> Dict:
