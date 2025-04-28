@@ -34,6 +34,7 @@ MAX_RETRIES = 5
 MAX_FILE_SIZE = 1024 * 512  # 500KB
 MAX_RECURSION_DEPTH = 1
 PER_PAGE = 100
+MAX_CONTENTS_TOTAL = 30
 NODE_KEYWORDS = ['v2ray', 'subscribe', 'clash', 'sub', 'config', 'vless', 'vmess']  # 节点文件关键词
 
 class APICounter:
@@ -145,12 +146,19 @@ class GitHubCrawler:
                 params = {"page": page, "per_page": PER_PAGE}
                 contents = self.safe_request(path, params)
                 
+                # 处理异常响应
                 if not isinstance(contents, list):
                     logger.warning(f"异常响应类型: {type(contents)}")
                     break
-                    
+
+                # 处理空目录    
                 if not contents:
                     logger.debug(f"空目录: {path}")
+                    break
+
+                # 处理条目过多的目录
+                if len(contents) > MAX_CONTENTS_TOTAL:
+                    logger.debug(f"条目过多：{path}")
                     break
 
                 for item in contents:
