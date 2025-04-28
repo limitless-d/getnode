@@ -1,4 +1,5 @@
 import os
+import re
 import time
 import requests
 import json
@@ -10,6 +11,7 @@ from datetime import datetime
 from tenacity import retry, wait_exponential, stop_after_attempt, retry_if_exception_type
 from collections import OrderedDict
 from typing import List, Dict
+from urllib.parse import urlparse
 import hashlib
 
 # 配置日志系统
@@ -30,6 +32,8 @@ RESULTS_PER_PAGE = 30
 SLEEP_INTERVAL = 1.2
 MAX_RETRIES = 5
 MAX_FILE_SIZE = 1024 * 512  # 500KB
+MAX_RECURSION_DEPTH = 1
+PER_PAGE = 100
 NODE_KEYWORDS = ['v2ray', 'subscribe', 'clash', 'sub', 'config', 'vless', 'vmess']  # 节点文件关键词
 
 class APICounter:
@@ -60,6 +64,7 @@ class FileCounter:
     skipped = 0
     total_nodes = 0
     dup_nodes = 0
+    total_links = 0
 
 class GitHubCrawler:
     def __init__(self):
@@ -128,20 +133,20 @@ class GitHubCrawler:
         return self._search_contents(repo_api_url + "/contents/")
 
     def _search_contents(self, path: str, depth=0) -> list:
-        if depth > 1:
-            logger.warning(f"达到最大递归深度: {path}")
+        if depth > MAX_RECURSION_DEPTH:
+            logger.warning(f"达到最大递归深度{depth}: {path}")
             return []
             
         node_files = []
         page = 1
         while True:
             try:
-                logger.debug(f"处理目录: {path} [第{page}页]")
-                params = {"page": page, "per_page": 100}
+                logger.debug(f"扫描目录: {path} [第{page}页]")
+                params = {"page": page, "per_page": PER_PAGE}
                 contents = self.safe_request(path, params)
                 
                 if not isinstance(contents, list):
-                    logger.warning(f"异常目录响应: {contents}")
+                    logger.warning(f"异常响应类型: {type(contents)}")
                     break
                     
                 if not contents:
@@ -149,49 +154,75 @@ class GitHubCrawler:
                     break
 
                 for item in contents:
-                    logger.debug(f"处理文件: {item.get('name')}")
-                    FileCounter.total += 1  # 总文件数+1
+                    if not self._process_item(item, depth):
+                        continue
+                    
+                    node_files.append({
+                        "name": item["name"],
+                        "url": item["html_url"],
+                        "download_url": item["download_url"]
+                    })
+                    FileCounter.total_links += 1
+                    logger.info(f"发现节点文件: {item['name']}")
 
-                    # 文件大小过滤
-                    if item.get("size", 0) > MAX_FILE_SIZE:
-                        FileCounter.skipped += 1  # 跳过计数+1
-                        logger.debug(f"跳过大文件（{item.get('size',0)/1024:.1f}KB）: {item.get('name','')}")
-                        continue
-                    
-                    # 目录递归
-                    if item.get("type") == "dir":
-                        node_files.extend(self._search_contents(item["url"], depth+1))
-                        continue
-                    
-                    # 文件处理
-                    name = item.get("name", "").lower()
-                    download_url = item.get("download_url", "")
-                    
-                    if not download_url.startswith("http"):
-                        logger.debug(f"无效下载链接: {download_url}")
-                        continue
-                        
-                    if any(kw in name for kw in NODE_KEYWORDS) and \
-                       name.endswith((".yaml", ".yml", ".txt", ".json")):
-                        logger.info(f"发现节点文件: {name}")
-                        
-                        node_files.append({
-                            "name": item["name"],
-                            "url": item["html_url"],
-                            "download_url": download_url
-                        })
-
-                # 检查是否还有下一页
-                if len(contents) < 100:
+                if len(contents) < PER_PAGE:
                     break
                 page += 1
-                time.sleep(0.5)  # 添加页间延迟
+                time.sleep(SLEEP_INTERVAL)
                 
+            except requests.HTTPError as e:
+                logger.error(f"API请求失败[{e.status_code}]: {path}")
+                break
             except Exception as e:
-                logger.error(f"目录处理异常: {str(e)}")
+                logger.error(f"处理异常: {str(e)}", exc_info=True)
                 break
                 
         return node_files
+
+    def _process_item(self, item, depth) -> bool:
+        """处理单个目录项，返回是否有效节点文件"""
+        FileCounter.total += 1
+        
+        # 验证基础字段
+        if not all(key in item for key in ['type', 'name', 'url', 'download_url']):
+            logger.debug(f"字段缺失: {item.get('name')}")
+            return False
+            
+        # 过滤特殊文件
+        name = item["name"].lower()
+        if name.startswith(('.', '_')):
+            logger.debug(f"忽略系统文件: {name}")
+            return False
+            
+        # 文件大小过滤
+        if item.get("size", 0) > MAX_FILE_SIZE:
+            FileCounter.skipped += 1
+            logger.debug(f"跳过 {item['size']/1024:.1f}KB 文件: {name}")
+            return False
+            
+        # 目录递归
+        if item["type"] == "dir":
+            logger.debug(f"进入子目录: {name}")
+            self._search_contents(item["url"], depth+1)
+            return False
+            
+        # 文件类型过滤
+        if not name.endswith((".yaml", ".yml", ".txt")):
+            return False
+            
+        # 关键词匹配
+        keyword_pattern = re.compile(r'v2ray|clash|node|proxy|sub|vless|vmess', re.IGNORECASE)
+        if not keyword_pattern.search(name):
+            return False
+            
+        # 验证下载链接
+        parsed = urlparse(item["download_url"])
+        if not parsed.scheme.startswith('http'):
+            logger.debug(f"非常用协议: {parsed.scheme}")
+            return False
+            
+        return True
+
 
 class NodeProcessor:
     @staticmethod
