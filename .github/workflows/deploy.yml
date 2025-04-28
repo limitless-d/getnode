@@ -1,0 +1,49 @@
+# .github/workflows/deploy.yml
+name: Node Crawler & Deploy
+
+on:
+  # 触发条件配置
+  schedule:
+    - cron: "0 0 * * *"  # 每天UTC时间0点自动运行（北京时间8点）
+  workflow_dispatch:     # 允许在GitHub网页手动触发
+
+jobs:
+  crawl-and-deploy:
+    runs-on: ubuntu-latest  # 使用最新的Ubuntu系统作为运行环境
+    
+    steps:
+    # 第一步：获取仓库代码
+    - name: Checkout code
+      uses: actions/checkout@v3  # 官方提供的代码检出动作
+
+    # 第二步：设置Python环境
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'  # 指定使用Python 3.10版本
+
+    # 第三步：安装所有依赖
+    - name: Install dependencies
+      run: |
+        # 升级pip并安装Python包
+        python -m pip install --upgrade pip
+        pip install requests pyyaml tenacity
+        
+        # 安装Cloudflare命令行工具
+        npm install -g wrangler@latest
+
+    # 第四步：运行爬虫程序
+    - name: Run auto_crawler
+      env:
+        # 从仓库Secrets读取GitHub Token
+        CRAWLER_GITHUB_TOKEN: ${{ secrets.CRAWLER_GITHUB_TOKEN }}
+      run: python auto_crawler.py  # 执行爬虫程序
+
+    # 第六步：部署到Cloudflare
+    - name: Deploy to Cloudflare
+      env:
+        CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
+        CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+        CF_PROJECT_NAME: "node-subscription"
+      run: |
+        python -c 'from your_module import deploy_to_cloudflare; deploy_to_cloudflare("output/cloudflare")'
