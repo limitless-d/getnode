@@ -13,7 +13,7 @@ import hashlib
 
 # 配置日志系统
 logging.basicConfig(
-    level=logging.INFO,
+    level=logging.DEBUG,
     format='%(asctime)s - %(levelname)s - %(message)s',
     handlers=[
         logging.FileHandler('crawler.log'),
@@ -49,6 +49,9 @@ class APICounter:
             time.sleep(wait_time)
             cls.last_reset = current_time
             cls.count = 0
+
+        if cls.count % 10 == 0:  # 新增监控日志
+            logger.info(f"已使用API次数: {cls.count}/小时")
 
 class GitHubCrawler:
     def __init__(self):
@@ -112,43 +115,71 @@ class GitHubCrawler:
         return repos
 
     def find_node_files(self, repo_url: str) -> list:
+        logger.info(f"开始处理仓库: {repo_url}")  # 新增日志
         repo_api_url = repo_url.replace("https://github.com/", "https://api.github.com/repos/")
         return self._search_contents(repo_api_url + "/contents/")
 
-    def _search_contents(self, path: str) -> list:
-        try:
-            contents = self.safe_request(path, {})
-            node_files = []
-
-            for item in contents:
-                if not isinstance(item, dict):
-                    logger.warning(f"异常响应内容: {item}")
-                    continue
+    def _search_contents(self, path: str, depth=0) -> list:
+        if depth > 5:
+            logger.warning(f"达到最大递归深度: {path}")
+            return []
+            
+        node_files = []
+        page = 1
+        while True:
+            try:
+                logger.debug(f"处理目录: {path} [第{page}页]")
+                params = {"page": page, "per_page": 100}
+                contents = self.safe_request(path, params)
                 
-                if item.get("size", 0) > MAX_FILE_SIZE:
-                    logger.debug(f"跳过过大文件: {item.get('name')}")
-                    continue
+                if not isinstance(contents, list):
+                    logger.warning(f"异常目录响应: {contents}")
+                    break
+                    
+                if not contents:
+                    logger.debug(f"空目录: {path}")
+                    break
 
-                if item.get("type") == "dir":
-                    node_files.extend(self._search_contents(item["url"]))
-                else:
+                for item in contents:
+                    logger.debug(f"处理条目: {item.get('name')}")
+                    
+                    # 文件大小过滤
+                    if item.get("size", 0) > MAX_FILE_SIZE:
+                        logger.debug(f"跳过大文件: {item.get('name')}")
+                        continue
+                    
+                    # 目录递归
+                    if item.get("type") == "dir":
+                        node_files.extend(self._search_contents(item["url"], depth+1))
+                        continue
+                    
+                    # 文件处理
                     name = item.get("name", "").lower()
                     download_url = item.get("download_url", "")
                     
                     if not download_url.startswith("http"):
+                        logger.debug(f"无效下载链接: {download_url}")
                         continue
-                    
-                    if any(kw in name for kw in "v2ray free") and \
-                       name.endswith((".yaml", ".yml", ".txt", ".json")):
+                        
+                    if "v2ray free" in name and name.endswith((".yaml", ".yml", ".txt", ".json")):
+                        logger.info(f"发现节点文件: {name}")
                         node_files.append({
                             "name": item["name"],
                             "url": item["html_url"],
                             "download_url": download_url
                         })
-            return node_files
-        except Exception as e:
-            logger.error(f"搜索目录失败 {path}: {str(e)}", exc_info=True)
-            return []
+                
+                # 检查是否还有下一页
+                if len(contents) < 100:
+                    break
+                page += 1
+                time.sleep(0.5)  # 添加页间延迟
+                
+            except Exception as e:
+                logger.error(f"目录处理异常: {str(e)}")
+                break
+                
+        return node_files
 
 class NodeProcessor:
     @staticmethod
