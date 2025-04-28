@@ -1,4 +1,4 @@
-from crawler import GitHubCrawler, NodeProcessor, FileGenerator
+from crawler import GitHubCrawler, NodeProcessor, FileGenerator, FileCounter
 from cloudflare import CloudflareDeployer
 import logging
 
@@ -36,6 +36,18 @@ def main():
 
     except Exception as e:
         logger.error(f"执行失败: {str(e)}", exc_info=True)
+
+    finally:
+        # 添加统计输出
+        if FileCounter.total > 0:
+            logger.info(
+                f"\n=== 文件处理统计 ==="
+                f"\n• 扫描文件总数: {FileCounter.total}"
+                f"\n• 因大小跳过: {FileCounter.skipped} ({(FileCounter.skipped/FileCounter.total)*100:.1f}%)"
+                f"\n• 有效处理文件: {FileCounter.total - FileCounter.skipped}"
+            )
+        else:
+            logger.warning("未扫描到任何文件")
 
 if __name__ == "__main__":
     main()

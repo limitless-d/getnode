@@ -13,7 +13,7 @@ import hashlib
 
 # 配置日志系统
 logging.basicConfig(
-    level=logging.DEBUG,
+    level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s',
     handlers=[
         logging.FileHandler('crawler.log'),
@@ -28,7 +28,7 @@ MAX_RESULTS = 60
 RESULTS_PER_PAGE = 30
 SLEEP_INTERVAL = 1.2
 MAX_RETRIES = 5
-MAX_FILE_SIZE = 1024 * 200  # 200KB
+MAX_FILE_SIZE = 1024 * 512  # 500KB
 
 class APICounter:
     """API调用计数器"""
@@ -52,6 +52,10 @@ class APICounter:
 
         if cls.count % 10 == 0:  # 新增监控日志
             logger.info(f"已使用API次数: {cls.count}/小时")
+
+class FileCounter:
+    totol = 0
+    skipped = 0
 
 class GitHubCrawler:
     def __init__(self):
@@ -142,10 +146,12 @@ class GitHubCrawler:
 
                 for item in contents:
                     logger.debug(f"处理条目: {item.get('name')}")
-                    
+                    FileCounter.total += 1  # 总文件数+1
+
                     # 文件大小过滤
                     if item.get("size", 0) > MAX_FILE_SIZE:
-                        logger.debug(f"跳过大文件: {item.get('name')}")
+                        FileCounter.skipped += 1  # 跳过计数+1
+                        logger.debug(f"跳过大文件（{item.get('size',0)/1024:.1f}KB）: {item.get('name','')}")
                         continue
                     
                     # 目录递归
