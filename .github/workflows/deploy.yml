@@ -36,6 +36,5 @@ jobs:
         CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
         CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
       run: |
-        wrangler login --api-key "${{ secrets.CLOUDFLARE_API_TOKEN }}"
         cd output/cloudflare
-        wrangler pages deploy --project-name=node-center --branch=main
+        wrangler pages deploy --project-name=node-subscription --branch=main

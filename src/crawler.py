@@ -34,7 +34,7 @@ MAX_RETRIES = 5
 MAX_FILE_SIZE = 1024 * 512  # 500KB
 MAX_RECURSION_DEPTH = 1
 PER_PAGE = 100
-MAX_CONTENTS_TOTAL = 30
+MAX_CONTENTS_TOTAL = 50
 NODE_KEYWORDS = ['v2ray', 'subscribe', 'clash', 'sub', 'config', 'vless', 'vmess']  # 节点文件关键词
 
 class APICounter:
@@ -158,7 +158,7 @@ class GitHubCrawler:
 
                 # 处理条目过多的目录
                 if len(contents) > MAX_CONTENTS_TOTAL:
-                    logger.debug(f"条目过多：{path}")
+                    logger.info(f"条目过多跳过：{path}")
                     break
 
                 for item in contents:
@@ -252,14 +252,14 @@ class NodeProcessor:
                 logger.info(f"正在处理链接 ({index}/{len(links)}): {url}")
                 
                 # 尝试解析为Clash配置
-                clash_result = NodeProcessor._parse_clash_config(url)
+                clash_result = NodeProcessor._parse_clash_config_content(url)
                 if clash_result['success']:
                     result['success_count'] += 1
                     NodeProcessor._add_nodes(result, seen, clash_result['data'], url, 'clash')
                     continue
                 
                 # 尝试解析为文本节点
-                txt_result = NodeProcessor._parse_txt_config(url)
+                txt_result = NodeProcessor._parse_txt_content(url)
                 if txt_result['success']:
                     result['success_count'] += 1
                     NodeProcessor._add_nodes(result, seen, txt_result['data'], url, 'text')
