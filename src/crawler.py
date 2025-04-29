@@ -127,7 +127,7 @@ class GitHubCrawler:
 
     def _search_contents(self, path: str, depth=0) -> list:
         if depth > MAX_RECURSION_DEPTH:
-            logger.warning(f"达到最大递归深度{depth}: {path}")
+            logger.debug(f"达到最大递归深度{depth}: {path}")
             return []
             
         node_files = []

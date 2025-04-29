@@ -141,19 +141,19 @@ class NodeProcessor:
 
             # 添加配置结构验证
             if not isinstance(config, dict):
-                logger.error("Clash配置格式错误")
+                logger.debug("Clash配置格式错误")
                 return {'success': False, 'data': []}
 
             # 增强proxies字段检查
             proxies = config.get('proxies', [])
             if not isinstance(proxies, list):
-                logger.warning("proxies字段类型异常")
+                logger.debug("proxies字段类型异常")
                 proxies = []
 
             return {'success': bool(proxies), 'data': proxies}
 
         except yaml.YAMLError as e:
-            logger.error(f"YAML解析失败: {str(e)}")
+            logger.debug(f"YAML解析失败: {str(e)}")
             return {'success': False, 'data': []}
         
     @staticmethod
@@ -676,7 +676,7 @@ class FileGenerator:
                 return f"httpupgrade://{server}:{port}?{query}#{name}"
             
             else:
-                logger.warning(f"未知节点类型: {node_type}")
+                logger.debug(f"未知节点类型: {node_type}")
                 return None    
         
         except KeyError as e:
