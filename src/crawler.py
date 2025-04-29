@@ -22,7 +22,7 @@ logger = logging.getLogger(__name__)
 
 # 配置常量
 GITHUB_API_URL = "https://api.github.com/search/repositories"
-MAX_RESULTS = 5
+MAX_RESULTS = 30
 RESULTS_PER_PAGE = 30
 SLEEP_INTERVAL = 1.2
 MAX_RETRIES = 5
