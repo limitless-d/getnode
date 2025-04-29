@@ -63,29 +63,37 @@ class CloudflareDeployer:
 
     @staticmethod
     def prepare_structure(output_dir: str) -> str:
-        """准备部署目录结构"""
         cf_dir = os.path.join(output_dir, 'cloudflare')
         os.makedirs(cf_dir, exist_ok=True)
 
-        # 生成基础索引页面
         index_content = """<!DOCTYPE html>
 <html>
 <head>
     <title>节点订阅中心</title>
     <meta charset="utf-8">
+    <script>
+        fetch('/file-list.json')
+            .then(response => response.json())
+            .then(data => {
+                const list = document.getElementById('file-list');
+                data.files.forEach(file => {
+                    const li = document.createElement('li');
+                    li.innerHTML = `<a href="${file.path}">${file.name}</a> (${file.size}KB)`;
+                    list.appendChild(li);
+                });
+            });
+    </script>
 </head>
 <body>
     <h1>订阅文件列表</h1>
-    <div id="file-list"></div>
-    <script src="/file-list.json"></script>
+    <ul id="file-list"></ul>
 </body>
 </html>"""
         
         index_path = os.path.join(cf_dir, 'index.html')
-        if not os.path.exists(index_path):
-            with open(index_path, 'w') as f:
-                f.write(index_content)
-        
+        with open(index_path, 'w') as f:
+            f.write(index_content)
+            
         return cf_dir
 
     @staticmethod
