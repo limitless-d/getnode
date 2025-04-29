@@ -13,6 +13,9 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v4
+      with:
+        persist-credentials: false  # 为 false，以便使用 GITHUB_TOKEN 进行身份验证
+        fetch-depth: 0  # 获取完整的提交历史，以便进行 git diff
 
     - name: Setup Python
       uses: actions/setup-python@v4
