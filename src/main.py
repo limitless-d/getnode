@@ -1,4 +1,5 @@
-from crawler import GitHubCrawler, NodeProcessor, FileGenerator, FileCounter
+from crawler import GitHubCrawler, FileCounter
+from nodesjob import NodeProcessor, FileGenerator
 from cloudflare import CloudflareDeployer
 import logging
 
