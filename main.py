@@ -1,6 +1,6 @@
 from src.crawler import GitHubCrawler, FileCounter
 from src.nodesjob import NodeProcessor, FileGenerator
-from src.cloudflare import CloudflareDeployer
+# from src.cloudflare import CloudflareDeployer
 import logging
 
 logger = logging.getLogger(__name__)
@@ -30,10 +30,10 @@ def main():
             raise RuntimeError("文件保存失败")
 
         # 部署到Cloudflare
-        if CloudflareDeployer.deploy():
-            logger.info("=== 部署成功 ===")
-        else:
-            logger.error("=== 部署失败 ===")
+        # if CloudflareDeployer.deploy():
+        #     logger.info("=== 部署成功 ===")
+        # else:
+        #     logger.error("=== 部署失败 ===")
 
     except Exception as e:
         logger.error(f"执行失败: {str(e)}", exc_info=True)

@@ -36,19 +36,14 @@ class NodeProcessor:
             try:
                 logger.info(f"正在处理链接 ({index}/{len(links)}): {url}")
                 
-                # 新增内容获取步骤
+                # 内容获取步骤
                 response = requests.get(url, timeout=15)
                 response.raise_for_status()
                 content = response.text
 
 
-
-                # 尝试解析为Clash配置
-                clash_result = NodeProcessor._parse_clash_config_content(content)
-                if clash_result['success']:
-                    result['success_count'] += 1
-                    NodeProcessor._add_nodes(result, seen, clash_result['data'], url, 'clash')
-                    continue
+                # 尝试解析为Base64编码内容
+                content = NodeProcessor._parse_base64_config(content)
                 
                 # 尝试解析为文本节点
                 txt_result = NodeProcessor._parse_txt_content(content)
@@ -57,11 +52,11 @@ class NodeProcessor:
                     NodeProcessor._add_nodes(result, seen, txt_result['data'], url, 'text')
                     continue
 
-                # 新增：尝试解析为Base64编码内容
-                base64_result = NodeProcessor._parse_base64_config(content)
-                if base64_result['success']:
+                # 尝试解析为Clash配置
+                clash_result = NodeProcessor._parse_clash_config_content(content)
+                if clash_result['success']:
                     result['success_count'] += 1
-                    NodeProcessor._add_nodes(result, seen, base64_result['data'], url, 'base64')
+                    NodeProcessor._add_nodes(result, seen, clash_result['data'], url, 'clash')
                     continue
                 
                 result['failure_count'] += 1
@@ -78,80 +73,48 @@ class NodeProcessor:
         return result
 
     @staticmethod
-    def _parse_base64_config(url: str, depth=0) -> Dict:
+    def _parse_base64_config(encoded_content: str, depth=0) -> Dict:
         """
         解析Base64编码内容（支持递归）
-        :param url: 当is_content=False时为URL，否则为待解码的Base64字符串
+        :param encoded_content: 待解码的Base64字符串
         :param depth: 当前递归深度
-        :param is_content: 标记当前处理的是否为原始内容
         """
         if depth > 2:
-            return {'success': False, 'message': '超过最大递归深度（3层）'}
-        
-        result = {'success': False, 'data': [], 'message': ''}
-        
+            return encoded_content
+                
         try:
-            """
-            # 获取原始内容
-            if is_content:
-                encoded_content = url  # 直接使用传入的内容
-            else:
-                response = requests.get(url, timeout=15)
-                response.raise_for_status()
-                encoded_content = response.text.strip()
-            """
+            if NodeProcessor._is_base64(encoded_content):
+                # 修复Base64填充
+                encoded_content = encoded_content.rstrip('=')  # 移除多余的 '='
+                missing_padding = len(encoded_content) % 4
+                if missing_padding:
+                    encoded_content += '=' * (4 - missing_padding)
 
-            # 修复Base64填充
-            missing_padding = len(encoded_content) % 4
-            if missing_padding:
-                encoded_content += '=' * (4 - missing_padding)
+                # 解码内容
+                decoded_content = base64.b64decode(encoded_content).decode('utf-8')
+                logger.debug(f"Base64解码成功（深度{depth}），内容长度: {len(decoded_content)}")
 
-            # 解码内容
-            decoded_content = base64.b64decode(encoded_content).decode('utf-8')
-            logger.debug(f"Base64解码成功（深度{depth}），内容长度: {len(decoded_content)}")
-
-            # 递归解析场景：解码后的内容仍是Base64
-            if NodeProcessor._is_base64(decoded_content):
-                logger.debug(f"检测到嵌套Base64（深度{depth}），尝试递归解析")
-                nested_result = NodeProcessor._parse_base64_config(
-                    decoded_content,  # 传递解码后的内容
-                    depth=depth + 1,   # 深度+1
-                #    is_content=True    # 标记为内容模式
-                )
-                if nested_result['success']:
-                    return nested_result
-
-            # 解析解码后的内容
-            if decoded_content.startswith('proxies:'):  # Clash配置
-                clash_result = NodeProcessor._parse_clash_config_content(decoded_content)
-                if clash_result['success']:
-                    result['success'] = True
-                    result['data'] = clash_result['data']
-            else:  # 文本节点列表
-                txt_result = NodeProcessor._parse_txt_content(decoded_content)
-                if txt_result['success']:
-                    result['success'] = True
-                    result['data'] = txt_result['data']
-
-            if not result['success']:
-                result['message'] = '解码成功但内容无法识别'
-
-        except requests.RequestException as e:
-            result['message'] = f'请求失败: {str(e)}'
-        except (UnicodeDecodeError, binascii.Error) as e:
-            result['message'] = f'Base64解码失败: {str(e)}'
-        except Exception as e:
-            result['message'] = f'未知错误: {str(e)}'
-            logger.error(f"Base64解析异常: {str(e)}", exc_info=True)
+                # 如果解码后的内容仍是Base64，递归解析
+                if NodeProcessor._is_base64(decoded_content):
+                    logger.debug(f"检测到嵌套Base64（深度{depth}），尝试递归解析")
+                    return NodeProcessor._parse_base64_config(decoded_content, depth + 1)
+                
+                return decoded_content  # 返回解码后的内容
+            
+            # 处理非Base64编码的内容 返回原始内容
+            return encoded_content  
         
-        return result
+        # 处理异常情况，返回原始内容    
+        except Exception as e:
+            logger.error(f"Base64解码失败: {str(e)}")
+            return encoded_content
 
     @staticmethod
     def _is_base64(content: str) -> bool:
         """判断内容是否为Base64编码"""
         try:
             # 特征检查：Base64字符集+长度为4的倍数
-            if not re.match(r'^[A-Za-z0-9+/=]+$', content):
+            if not re.match(r'^[A-Za-z0-9+/]*={0,2}$', content):
                 return False
             
             # 尝试解码验证
@@ -525,7 +488,7 @@ class FileGenerator:
                     v2rayn_lines.append(uri)
                     logger.debug(f"生成URI成功: {uri[:50]}...")
                 else:
-                    logger.warning(f"无法生成URI: {node_type}节点 {node_name}")
+                    logger.debug(f"无法生成URI: {node_type}节点 {node_name}")
 
             # 生成Clash配置
             clash_proxy = FileGenerator._convert_to_clash(node['data'])
@@ -587,9 +550,98 @@ class FileGenerator:
                 
                 query = f"security=tls&sni={sni}" if sni else "security=tls"
                 return f"trojan://{password}@{server}:{port}?{query}#{name}"
-                
-            logger.debug(f"成功生成{node_type}协议URI")
+            
+            elif node_type == 'vless':
+                # vless://uuid@server:port?params#name
+                uuid = node_data.get('uuid', '')
+                server = node_data.get('server', '')
+                port = node_data.get('port', '')
+                name = quote(node_data.get('name', ''))
+                security = node_data.get('security', 'none')
+                sni = node_data.get('sni', '')
+                flow = node_data.get('flow', '')
+                network = node_data.get('network', 'tcp')
+                host = node_data.get('host', '')
+                path = node_data.get('path', '/')
 
+                # 构建查询参数
+                query_params = []
+                if security:
+                    query_params.append(f"security={security}")
+                if sni:
+                    query_params.append(f"sni={sni}")
+                if flow:
+                    query_params.append(f"flow={flow}")
+                if network:
+                    query_params.append(f"type={network}")
+                if host:
+                    query_params.append(f"host={host}")
+                if path:
+                    query_params.append(f"path={path}")
+
+                query = '&'.join(query_params)
+                return f"vless://{uuid}@{server}:{port}?{query}#{name}"
+
+            elif node_type == 'tcp':
+                # tcp://server:port#name
+                server = node_data.get('server', '')
+                port = node_data.get('port', '')
+                name = quote(node_data.get('name', ''))
+                return f"tcp://{server}:{port}#{name}"
+
+            elif node_type == 'ws':
+                # ws://server:port?host=host&path=path#name
+                server = node_data.get('server', '')
+                port = node_data.get('port', '')
+                name = quote(node_data.get('name', ''))
+                host = node_data.get('host', '')
+                path = node_data.get('path', '/')
+
+                # 构建查询参数
+                query_params = []
+                if host:
+                    query_params.append(f"host={host}")
+                if path:
+                    query_params.append(f"path={path}")
+
+                query = '&'.join(query_params)
+                return f"ws://{server}:{port}?{query}#{name}"
+
+            elif node_type == 'ssr':
+                # ssr://base64(server:port:protocol:method:obfs:password_base64/?params)
+                server = node_data.get('server', '')
+                port = node_data.get('port', '')
+                protocol = node_data.get('protocol', 'origin')
+                method = node_data.get('cipher', 'aes-256-cfb')
+                obfs = node_data.get('obfs', 'plain')
+                password = base64.b64encode(node_data.get('password', '').encode()).decode()
+                name = quote(node_data.get('name', ''))
+                
+                # 构建 SSR 链接的参数部分
+                params = []
+                obfs_param = node_data.get('obfs_param', '')
+                if obfs_param:
+                    params.append(f"obfsparam={base64.b64encode(obfs_param.encode()).decode()}")
+                protocol_param = node_data.get('protocol_param', '')
+                if protocol_param:
+                    params.append(f"protoparam={base64.b64encode(protocol_param.encode()).decode()}")
+                remarks = base64.b64encode(node_data.get('name', '').encode()).decode()
+                group = base64.b64encode(node_data.get('group', '').encode()).decode()
+                params.append(f"remarks={remarks}")
+                params.append(f"group={group}")
+                
+                # 拼接参数部分
+                params_str = '&'.join(params)
+                
+                # 构建完整的 SSR URI
+                ssr_uri = f"{server}:{port}:{protocol}:{method}:{obfs}:{password}/?{params_str}"
+                encoded_ssr_uri = base64.b64encode(ssr_uri.encode()).decode()
+                return f"ssr://{encoded_ssr_uri}"
+            
+            else:
+                logger.warning(f"未知节点类型: {node_type}")
+                return None    
+        
         except KeyError as e:
             logger.error(f"生成URI缺少必要字段: {node_type}节点 {node_name} - {str(e)}")
             return None

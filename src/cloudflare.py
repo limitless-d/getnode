@@ -30,7 +30,7 @@ class CloudflareDeployer:
             CloudflareDeployer.generate_metadata(output_dir, cf_dir)
 
             # 构造部署命令
-            project_name = os.getenv("CLOUDFLARE_PROJECT_NAME", "getnodeS")
+            project_name = "getnode"
             deploy_cmd = [
                 "npx", "wrangler", "pages", "deploy", cf_dir,
                 "--project-name", project_name,

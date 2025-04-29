@@ -13,9 +13,6 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v4
-      with:
-        persist-credentials: false  # 为 false，以便使用 GITHUB_TOKEN 进行身份验证
-        fetch-depth: 0  # 获取完整的提交历史，以便进行 git diff
 
     - name: Setup Python
       uses: actions/setup-python@v4
@@ -30,8 +27,8 @@ jobs:
     - name: Run Crawler
       env:
         CRAWLER_GITHUB_TOKEN: ${{ secrets.CRAWLER_GITHUB_TOKEN }}
-        CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-        CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        # CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        # CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
       run: python main.py
 
     - name: Verify files
@@ -43,30 +40,23 @@ jobs:
         echo "--- clash_config.yaml ---"
         head -n 20 output/clash_config.yaml
 
-    - name: Commit files
-      run: |
-        # 配置 Git 用户信息（仅限当前仓库）
-        git config user.name "limitless-d"
-        git config user.email "353076119@qq.com"
-    
-        # 添加并提交文件（仅在有更改时提交）
-        git add output/
-        git diff --quiet || git commit -m "Auto-commit generated files"
-    
-        # 推送更改到远程分支
-        git push origin main --force
-      env:
-        GITHUB_TOKEN: ${{ secrets.CRAWLER_GITHUB_TOKEN }}
-
-    - name: Deploy to Cloudflare
-      env:
-        CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-        CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-      run: |
-        # 检查部署目录
-        echo "部署目录内容:"
-        ls -la output/cloudflare
+    # - name: Deploy to Cloudflare
+    #   env:
+    #     CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+    #     CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+    #   run: |
+    #     # 检查部署目录
+    #     echo "部署目录内容:"
+    #     ls -la output/cloudflare
         
-        # 进入目录部署
-        cd output/cloudflare
-        wrangler pages deploy . --project-name=getnode --branch=main
+    #     # 进入目录部署
+    #     cd output/cloudflare
+    #     wrangler pages deploy . --project-name=getnode --branch=main
+
+    - name: Commit files
+      uses: stefanzweifel/git-auto-commit-action@v5
+      with:
+        commit_message: "Update subscription and config files"
+        commit_user_name: "GitHub Action"
+        add: |
+          output/*

@@ -26,8 +26,8 @@ MAX_RESULTS = 30
 RESULTS_PER_PAGE = 30
 SLEEP_INTERVAL = 1.2
 MAX_RETRIES = 5
-MAX_FILE_SIZE = 1024 * 512  # 500KB
-MAX_RECURSION_DEPTH = 1
+MAX_FILE_SIZE = 1024 * 1024 * 1.2  # 1.2MB
+MAX_RECURSION_DEPTH = 3
 PER_PAGE = 100
 MAX_CONTENTS_TOTAL = 60
 # NODE_KEYWORDS = ['v2ray', 'subscribe', 'clash', 'sub', 'config', 'vless', 'vmess']  # 节点文件关键词
@@ -127,7 +127,7 @@ class GitHubCrawler:
 
     def _search_contents(self, path: str, depth=0) -> list:
         if depth > MAX_RECURSION_DEPTH:
-            logger.warning(f"达到最大递归深度{depth}: {path}")
+            logger.debug(f"达到最大递归深度{depth}: {path}")
             return []
             
         node_files = []
@@ -141,7 +141,7 @@ class GitHubCrawler:
                 total_links = 0
                 # 处理异常响应
                 if not isinstance(contents, list):
-                    logger.warning(f"异常响应类型: {type(contents)}")
+                    logger.debug(f"异常响应类型: {type(contents)}")
                     break
 
                 # 处理空目录    
@@ -166,7 +166,7 @@ class GitHubCrawler:
                     total_links += 1
                     logger.debug(f"发现节点文件: {item['name']}")
 
-                logger.info(f"目录中一个发现了{total_links}个节点文件")
+                logger.info(f"目录{path}中发现了{total_links}个节点文件")
 
                 if len(contents) < PER_PAGE:
                     break
@@ -214,7 +214,7 @@ class GitHubCrawler:
             return False
             
         # 关键词匹配
-        keyword_pattern = re.compile(r'v2ray|clash|node|proxy|sub|vless|vmess', re.IGNORECASE)
+        keyword_pattern = re.compile(r'v2ray|clash|node|proxy|sub|vless|vmess|ss|ssr|trojan', re.IGNORECASE)
         if not keyword_pattern.search(name):
             return False
             
