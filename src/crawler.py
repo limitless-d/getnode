@@ -29,7 +29,7 @@ MAX_RETRIES = 5
 MAX_FILE_SIZE = 1024 * 512  # 500KB
 MAX_RECURSION_DEPTH = 1
 PER_PAGE = 100
-MAX_CONTENTS_TOTAL = 50
+MAX_CONTENTS_TOTAL = 60
 # NODE_KEYWORDS = ['v2ray', 'subscribe', 'clash', 'sub', 'config', 'vless', 'vmess']  # 节点文件关键词
 
 class APICounter:

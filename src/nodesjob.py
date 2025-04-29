@@ -652,14 +652,14 @@ class FileGenerator:
     def _write_files(output_dir, clash_config, v2rayn_lines):
         """写入文件"""
         try:
-            txt_path = os.path.join(output_dir, 'subscription.txt')
+            txt_path = os.path.abspath(os.path.join(output_dir, 'subscription.txt'))
             logger.info(f"生成v2rayN订阅文件: {txt_path} ({len(v2rayn_lines)}节点)")
             
             with open(txt_path, 'w', encoding='utf-8') as f:
                 f.write('\n'.join(v2rayn_lines))
                 logger.debug(f"写入成功，文件大小: {os.path.getsize(txt_path)}字节")
 
-            yaml_path = os.path.join(output_dir, 'clash_config.yaml')
+            yaml_path = os.path.abspath(os.path.join(output_dir, 'clash_config.yaml'))
             logger.info(f"生成Clash配置文件: {yaml_path} ({len(clash_config['proxies'])}节点)")
             
             with open(yaml_path, 'w', encoding='utf-8') as f:
