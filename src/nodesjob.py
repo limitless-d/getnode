@@ -34,7 +34,7 @@ class NodeProcessor:
 
         for index, url in enumerate(links, 1):
             try:
-                logger.info(f"正在处理链接 ({index}/{len(links)}): {url}")
+                logger.debug(f"正在处理链接 ({index}/{len(links)}): {url}")
                 
                 # 内容获取步骤
                 response = requests.get(url, timeout=15)
@@ -70,6 +70,7 @@ class NodeProcessor:
         
         result['total_nodes'] = len(result['nodes'])
         logger.info(f"处理完成。成功: {result['success_count']}, 失败: {result['failure_count']}, 节点数: {result['total_nodes']}")
+        logger.info(f"去重统计: 总发现节点={NodeCounter.total_nodes} 重复节点={NodeCounter.dup_nodes}")
         return result
 
     @staticmethod
@@ -375,7 +376,6 @@ class NodeProcessor:
                 })
             else:
                 logger.debug(f"发现重复节点: {NodeProcessor._get_node_identity(node)}")
-        logger.info(f"去重统计: 总发现节点={NodeCounter.total_nodes} 重复节点={NodeCounter.dup_nodes}")
 
     @staticmethod
     def _generate_fingerprint(node_data: dict) -> str:
@@ -637,6 +637,43 @@ class FileGenerator:
                 ssr_uri = f"{server}:{port}:{protocol}:{method}:{obfs}:{password}/?{params_str}"
                 encoded_ssr_uri = base64.b64encode(ssr_uri.encode()).decode()
                 return f"ssr://{encoded_ssr_uri}"
+            
+            elif node_type == 'grpc':
+                # grpc://uuid@server:port?serviceName=serviceName&security=security#name
+                uuid = node_data.get('uuid', '')
+                server = node_data.get('server', '')
+                port = node_data.get('port', '')
+                name = quote(node_data.get('name', ''))
+                service_name = node_data.get('serviceName', '')
+                security = node_data.get('security', 'none')
+
+                # 构建查询参数
+                query_params = []
+                if service_name:
+                    query_params.append(f"serviceName={service_name}")
+                if security:
+                    query_params.append(f"security={security}")
+
+                query = '&'.join(query_params)
+                return f"grpc://{uuid}@{server}:{port}?{query}#{name}"
+
+            elif node_type == 'httpupgrade':
+                # httpupgrade://server:port?host=host&path=path#name
+                server = node_data.get('server', '')
+                port = node_data.get('port', '')
+                name = quote(node_data.get('name', ''))
+                host = node_data.get('host', '')
+                path = node_data.get('path', '/')
+
+                # 构建查询参数
+                query_params = []
+                if host:
+                    query_params.append(f"host={host}")
+                if path:
+                    query_params.append(f"path={path}")
+
+                query = '&'.join(query_params)
+                return f"httpupgrade://{server}:{port}?{query}#{name}"
             
             else:
                 logger.warning(f"未知节点类型: {node_type}")

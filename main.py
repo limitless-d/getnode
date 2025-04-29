@@ -19,7 +19,7 @@ def main():
         for repo in repos:
             links = crawler.find_node_files(repo['html_url'])
             node_links.extend(links)
-        logger.info(f"发现 {len(node_links)} 个节点文件")
+        logger.info(f"总共发现 {len(node_links)} 个节点文件")
 
         # 处理节点链接
         parsed = NodeProcessor.parse_node_links([link['download_url'] for link in node_links])

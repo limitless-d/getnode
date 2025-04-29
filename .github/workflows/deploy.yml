@@ -31,14 +31,14 @@ jobs:
         # CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
       run: python main.py
 
-    - name: Verify files
-      run: |
-        echo "=== 文件验证 ==="
-        ls -la output/
-        echo "--- subscription.txt ---"
-        head -n 5 output/subscription.txt
-        echo "--- clash_config.yaml ---"
-        head -n 20 output/clash_config.yaml
+    # - name: Verify files
+    #   run: |
+    #     echo "=== 文件验证 ==="
+    #     ls -la output/
+    #     echo "--- subscription.txt ---"
+    #     head -n 5 output/subscription.txt
+    #     echo "--- clash_config.yaml ---"
+    #     head -n 20 output/clash_config.yaml
 
     # - name: Deploy to Cloudflare
     #   env:
@@ -58,5 +58,6 @@ jobs:
       with:
         commit_message: "Update subscription and config files"
         commit_user_name: "GitHub Action"
-        add: |
+        commit_user_email: "actions@github.com"
+        file_pattern: |
           output/*

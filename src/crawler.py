@@ -22,14 +22,14 @@ logger = logging.getLogger(__name__)
 
 # 配置常量
 GITHUB_API_URL = "https://api.github.com/search/repositories"
-MAX_RESULTS = 30
+MAX_RESULTS = 120  # 最大搜索结果数
 RESULTS_PER_PAGE = 30
 SLEEP_INTERVAL = 1.2
 MAX_RETRIES = 5
 MAX_FILE_SIZE = 1024 * 1024 * 1.2  # 1.2MB
 MAX_RECURSION_DEPTH = 3
 PER_PAGE = 100
-MAX_CONTENTS_TOTAL = 60
+MAX_CONTENTS_TOTAL = 100  # 最大目录条目数
 # NODE_KEYWORDS = ['v2ray', 'subscribe', 'clash', 'sub', 'config', 'vless', 'vmess']  # 节点文件关键词
 
 class APICounter:
@@ -127,7 +127,7 @@ class GitHubCrawler:
 
     def _search_contents(self, path: str, depth=0) -> list:
         if depth > MAX_RECURSION_DEPTH:
-            logger.debug(f"达到最大递归深度{depth}: {path}")
+            logger.warning(f"达到最大递归深度{depth}: {path}")
             return []
             
         node_files = []
@@ -165,8 +165,8 @@ class GitHubCrawler:
                     })
                     total_links += 1
                     logger.debug(f"发现节点文件: {item['name']}")
-
-                logger.info(f"目录{path}中发现了{total_links}个节点文件")
+                
+                logger.debug(f"目录中发现了{total_links}个节点文件")
 
                 if len(contents) < PER_PAGE:
                     break
@@ -208,13 +208,13 @@ class GitHubCrawler:
             logger.debug(f"进入子目录: {name}")
             self._search_contents(item["url"], depth+1)
             return False
-            
-        # 文件类型过滤
-        if not name.endswith((".yaml", ".yml", ".txt")):
+        
+        # 确保文件名存在    
+        if not name:  
             return False
             
         # 关键词匹配
-        keyword_pattern = re.compile(r'v2ray|clash|node|proxy|sub|vless|vmess|ss|ssr|trojan', re.IGNORECASE)
+        keyword_pattern = re.compile(r'v2ray|clash|node|proxy|sub|ss|trojan|conf|tls|ws', re.IGNORECASE)
         if not keyword_pattern.search(name):
             return False
             
