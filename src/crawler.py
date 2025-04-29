@@ -58,7 +58,6 @@ class APICounter:
 class FileCounter:
     total = 0
     skipped = 0
-    total_links = 0
 
 class GitHubCrawler:
     def __init__(self):
@@ -139,6 +138,7 @@ class GitHubCrawler:
                 params = {"page": page, "per_page": PER_PAGE}
                 contents = self.safe_request(path, params)
                 
+                total_links = 0
                 # 处理异常响应
                 if not isinstance(contents, list):
                     logger.warning(f"异常响应类型: {type(contents)}")
@@ -163,8 +163,10 @@ class GitHubCrawler:
                         "url": item["html_url"],
                         "download_url": item["download_url"]
                     })
-                    FileCounter.total_links += 1
-                    logger.info(f"发现节点文件: {item['name']}")
+                    total_links += 1
+                    logger.debug(f"发现节点文件: {item['name']}")
+
+                logger.info(f"目录中一个发现了{total_links}个节点文件")
 
                 if len(contents) < PER_PAGE:
                     break
