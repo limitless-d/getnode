@@ -1,6 +1,6 @@
-from crawler import GitHubCrawler, FileCounter
-from nodesjob import NodeProcessor, FileGenerator
-from cloudflare import CloudflareDeployer
+from src.crawler import GitHubCrawler, FileCounter
+from src.nodesjob import NodeProcessor, FileGenerator
+from src.cloudflare import CloudflareDeployer
 import logging
 
 logger = logging.getLogger(__name__)

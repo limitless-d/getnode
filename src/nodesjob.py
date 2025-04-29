@@ -465,16 +465,32 @@ class NodeProcessor:
 class FileGenerator:
     @staticmethod
     def save_results(node_results, output_dir='output'):
+        """保存结果到文件"""
         try:
+            logger.info(f"开始保存节点结果到目录: {output_dir}")
             os.makedirs(output_dir, exist_ok=True)
+            logger.debug(f"已创建/确认输出目录: {os.path.abspath(output_dir)}")
+
             clash_config = {'proxies': []}
             v2rayn_lines = []
             node_counter = {}
 
-            for node in node_results['nodes']:
-                FileGenerator._process_node(node, clash_config, v2rayn_lines, node_counter)
+            # 处理节点统计
+            total_nodes = len(node_results.get('nodes', []))
+            logger.info(f"需要处理的节点总数: {total_nodes}")
 
+            for index, node in enumerate(node_results.get('nodes', []), 1):
+                FileGenerator._process_node(node, clash_config, v2rayn_lines, node_counter)
+                if index % 50 == 0:  # 每50个节点记录进度
+                    logger.debug(f"节点处理进度: {index}/{total_nodes}")
+
+            # 写入文件
+            logger.info("开始写入输出文件...")
             FileGenerator._write_files(output_dir, clash_config, v2rayn_lines)
+            
+            logger.info(f"成功生成订阅文件，总节点数: {len(v2rayn_lines)}")
+            logger.info(f"节点类型分布: {node_counter}")
+            
             return {
                 'success': True,
                 'files': [
@@ -484,30 +500,54 @@ class FileGenerator:
                 'node_counts': node_counter
             }
         except Exception as e:
-            logger.error(f"保存失败: {str(e)}", exc_info=True)
+            logger.error(f"保存结果时发生严重错误: {str(e)}", exc_info=True)
             return {'success': False, 'message': str(e)}
 
     @staticmethod
     def _process_node(node, clash_config, v2rayn_lines, node_counter):
-        node_type = node['data'].get('type', 'unknown')
-        node_counter[node_type] = node_counter.get(node_type, 0) + 1
+        """处理单个节点"""
+        try:
+            node_type = node['data'].get('type', 'unknown').lower()
+            node_name = node['data'].get('name', 'unnamed')
+            logger.debug(f"处理节点: [类型]{node_type} [名称]{node_name}")
 
-        if node['source_type'] == 'text' and 'raw' in node['data']:
-            v2rayn_lines.append(node['data']['raw'])
-        else:
-            uri = FileGenerator._generate_uri(node['data'])
-            if uri:
-                v2rayn_lines.append(uri)
+            # 统计节点类型
+            node_counter[node_type] = node_counter.get(node_type, 0) + 1
 
-        clash_proxy = FileGenerator._convert_to_clash(node['data'])
-        if clash_proxy:
-            clash_config['proxies'].append(clash_proxy)
+            # 原始文本处理
+            if node['source_type'] == 'text' and 'raw' in node['data']:
+                v2rayn_lines.append(node['data']['raw'])
+                logger.debug(f"添加原始文本节点: {node['data']['raw'][:50]}...")
+            else:
+                # 生成URI
+                uri = FileGenerator._generate_uri(node['data'])
+                if uri:
+                    v2rayn_lines.append(uri)
+                    logger.debug(f"生成URI成功: {uri[:50]}...")
+                else:
+                    logger.warning(f"无法生成URI: {node_type}节点 {node_name}")
+
+            # 生成Clash配置
+            clash_proxy = FileGenerator._convert_to_clash(node['data'])
+            if clash_proxy:
+                clash_config['proxies'].append(clash_proxy)
+                logger.debug(f"添加Clash配置: {clash_proxy.get('name')}")
+            else:
+                logger.warning(f"无法生成Clash配置: {node_type}节点 {node_name}")
+                
+        except KeyError as e:
+            logger.error(f"节点数据缺少必要字段: {str(e)}", exc_info=True)
+        except Exception as e:
+            logger.error(f"处理节点时发生意外错误: {str(e)}", exc_info=True)
 
     @staticmethod
     def _generate_uri(node_data):
-        """将Clash节点转换为标准URI格式"""
-        node_type = node_data.get('type')
+        """生成标准URI"""
         try:
+            node_type = node_data.get('type')
+            node_name = node_data.get('name', 'unnamed')
+            logger.debug(f"开始生成URI: [类型]{node_type} [名称]{node_name}")
+
             if node_type == 'ss':
                 # ss://method:password@server:port#name
                 method = node_data.get('cipher', '')
@@ -548,50 +588,90 @@ class FileGenerator:
                 query = f"security=tls&sni={sni}" if sni else "security=tls"
                 return f"trojan://{password}@{server}:{port}?{query}#{name}"
                 
+            logger.debug(f"成功生成{node_type}协议URI")
+
+        except KeyError as e:
+            logger.error(f"生成URI缺少必要字段: {node_type}节点 {node_name} - {str(e)}")
+            return None
         except Exception as e:
-            logger.warning(f"转换URI失败：{str(e)}")
-        return None
+            logger.warning(f"生成URI失败: {node_type}节点 {node_name} - {str(e)}")
+            return None
 
     @staticmethod
     def _convert_to_clash(node_data):
-        """转换为Clash兼容配置"""
-        base_proxy = {
-            'name': node_data.get('name', ''),
-            'type': node_data.get('type'),
-            'server': node_data.get('server'),
-            'port': node_data.get('port')
-        }
+        """转换为Clash配置"""
+        try:
+            node_type = node_data.get('type')
+            node_name = node_data.get('name', 'unnamed')
+            
+            # 基础字段验证
+            if not all(key in node_data for key in ['server', 'port']):
+                logger.error(f"Clash配置缺少server/port字段: {node_type}节点 {node_name}")
+                return None
+
+            base_proxy = {
+                'name': node_data.get('name', ''),
+                'type': node_data.get('type'),
+                'server': node_data.get('server'),
+                'port': node_data.get('port')
+            }
+            
+            # 协议特定字段
+            if node_data['type'] == 'ss':
+                base_proxy.update({
+                    'cipher': node_data.get('cipher'),
+                    'password': node_data.get('password'),
+                    'udp': True
+                })
+            elif node_data['type'] == 'vmess':
+                base_proxy.update({
+                    'uuid': node_data.get('uuid'),
+                    'alterId': node_data.get('alterId', 0),
+                    'cipher': 'auto',
+                    'tls': node_data.get('tls', False),
+                    'network': node_data.get('network', 'tcp')
+                })
+            elif node_data['type'] == 'trojan':
+                base_proxy.update({
+                    'password': node_data.get('password'),
+                    'sni': node_data.get('sni', ''),
+                    'udp': True
+                })
+
+            logger.debug(f"成功生成Clash配置: {base_proxy.get('name')}")
+            return base_proxy
         
-        # 协议特定字段
-        if node_data['type'] == 'ss':
-            base_proxy.update({
-                'cipher': node_data.get('cipher'),
-                'password': node_data.get('password'),
-                'udp': True
-            })
-        elif node_data['type'] == 'vmess':
-            base_proxy.update({
-                'uuid': node_data.get('uuid'),
-                'alterId': node_data.get('alterId', 0),
-                'cipher': 'auto',
-                'tls': node_data.get('tls', False),
-                'network': node_data.get('network', 'tcp')
-            })
-        elif node_data['type'] == 'trojan':
-            base_proxy.update({
-                'password': node_data.get('password'),
-                'sni': node_data.get('sni', ''),
-                'udp': True
-            })
-        
-        return base_proxy
+        except KeyError as e:
+            logger.error(f"生成Clash配置缺少字段: {node_type}节点 {node_name} - {str(e)}")
+            return None
+        except Exception as e:
+            logger.warning(f"生成Clash配置失败: {node_type}节点 {node_name} - {str(e)}")
+            return None
 
     @staticmethod
     def _write_files(output_dir, clash_config, v2rayn_lines):
-        txt_path = os.path.join(output_dir, 'subscription.txt')
-        with open(txt_path, 'w', encoding='utf-8') as f:
-            f.write('\n'.join(v2rayn_lines))
+        """写入文件"""
+        try:
+            txt_path = os.path.join(output_dir, 'subscription.txt')
+            logger.info(f"生成v2rayN订阅文件: {txt_path} ({len(v2rayn_lines)}节点)")
+            
+            with open(txt_path, 'w', encoding='utf-8') as f:
+                f.write('\n'.join(v2rayn_lines))
+                logger.debug(f"写入成功，文件大小: {os.path.getsize(txt_path)}字节")
 
-        yaml_path = os.path.join(output_dir, 'clash_config.yaml')
-        with open(yaml_path, 'w', encoding='utf-8') as f:
-            yaml.safe_dump(clash_config, f, allow_unicode=True, sort_keys=False)
+            yaml_path = os.path.join(output_dir, 'clash_config.yaml')
+            logger.info(f"生成Clash配置文件: {yaml_path} ({len(clash_config['proxies'])}节点)")
+            
+            with open(yaml_path, 'w', encoding='utf-8') as f:
+                yaml.safe_dump(clash_config, f, allow_unicode=True, sort_keys=False)
+                logger.debug(f"写入成功，文件大小: {os.path.getsize(yaml_path)}字节")
+                
+            logger.debug(f"示例Clash节点: {clash_config['proxies'][0] if clash_config['proxies'] else '无'}") 
+            logger.debug(f"示例订阅链接: {v2rayn_lines[0] if v2rayn_lines else '无'}")
+            
+        except IOError as e:
+            logger.error(f"文件写入失败: {str(e)}", exc_info=True)
+            raise
+        except Exception as e:
+            logger.error(f"写入文件时发生未知错误: {str(e)}", exc_info=True)
+            raise
