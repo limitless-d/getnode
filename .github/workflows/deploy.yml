@@ -13,8 +13,6 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v4
-      with:
-        persist-credentials: false  # 必须配置
 
     - name: Setup Python
       uses: actions/setup-python@v4
@@ -44,16 +42,18 @@ jobs:
 
     - name: Commit files
       run: |
-        # 配置 Git 用户信息
-        git config --global user.name "limitless-d"
-        git config --global user.email "353076119@qq.com"
-
-        # 添加并提交文件
+        # 配置 Git 用户信息（仅限当前仓库）
+        git config user.name "limitless-d"
+        git config user.email "353076119@qq.com"
+    
+        # 添加并提交文件（仅在有更改时提交）
         git add output/
-        git commit -m "Auto-commit generated files"
-        git push origin main
+        git diff --quiet || git commit -m "Auto-commit generated files"
+    
+        # 推送更改到远程分支
+        git push origin main --force
       env:
-        CRAWLER_GITHUB_TOKEN: ${{ secrets.CRAWLER_GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.CRAWLER_GITHUB_TOKEN }}
 
     - name: Deploy to Cloudflare
       env:
