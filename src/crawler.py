@@ -158,7 +158,7 @@ class GitHubCrawler:
 
                 # 处理条目过多的目录
                 if len(contents) > MAX_CONTENTS_TOTAL:
-                    logger.info(f"条目过多跳过：{path}")
+                    logger.warning(f"条目过多跳过：{path}\n 该目录条目数：{len(contents)}")
                     break
 
                 for item in contents:
@@ -231,7 +231,6 @@ class GitHubCrawler:
             
         return True
 
-
 class NodeProcessor:
     @staticmethod
     def parse_node_links(links: List[str]) -> Dict:
@@ -251,22 +250,29 @@ class NodeProcessor:
             try:
                 logger.info(f"正在处理链接 ({index}/{len(links)}): {url}")
                 
+                # 新增内容获取步骤
+                response = requests.get(url, timeout=15)
+                response.raise_for_status()
+                content = response.text
+
+
+
                 # 尝试解析为Clash配置
-                clash_result = NodeProcessor._parse_clash_config_content(url)
+                clash_result = NodeProcessor._parse_clash_config_content(content)
                 if clash_result['success']:
                     result['success_count'] += 1
                     NodeProcessor._add_nodes(result, seen, clash_result['data'], url, 'clash')
                     continue
                 
                 # 尝试解析为文本节点
-                txt_result = NodeProcessor._parse_txt_content(url)
+                txt_result = NodeProcessor._parse_txt_content(content)
                 if txt_result['success']:
                     result['success_count'] += 1
                     NodeProcessor._add_nodes(result, seen, txt_result['data'], url, 'text')
                     continue
 
                 # 新增：尝试解析为Base64编码内容
-                base64_result = NodeProcessor._parse_base64_config(url)
+                base64_result = NodeProcessor._parse_base64_config(content)
                 if base64_result['success']:
                     result['success_count'] += 1
                     NodeProcessor._add_nodes(result, seen, base64_result['data'], url, 'base64')
@@ -286,7 +292,7 @@ class NodeProcessor:
         return result
 
     @staticmethod
-    def _parse_base64_config(url: str, depth=0, is_content=False) -> Dict:
+    def _parse_base64_config(url: str, depth=0) -> Dict:
         """
         解析Base64编码内容（支持递归）
         :param url: 当is_content=False时为URL，否则为待解码的Base64字符串
@@ -299,6 +305,7 @@ class NodeProcessor:
         result = {'success': False, 'data': [], 'message': ''}
         
         try:
+            """
             # 获取原始内容
             if is_content:
                 encoded_content = url  # 直接使用传入的内容
@@ -306,6 +313,7 @@ class NodeProcessor:
                 response = requests.get(url, timeout=15)
                 response.raise_for_status()
                 encoded_content = response.text.strip()
+            """
 
             # 修复Base64填充
             missing_padding = len(encoded_content) % 4
@@ -322,7 +330,7 @@ class NodeProcessor:
                 nested_result = NodeProcessor._parse_base64_config(
                     decoded_content,  # 传递解码后的内容
                     depth=depth + 1,   # 深度+1
-                    is_content=True    # 标记为内容模式
+                #    is_content=True    # 标记为内容模式
                 )
                 if nested_result['success']:
                     return nested_result
@@ -368,17 +376,36 @@ class NodeProcessor:
 
     @staticmethod
     def _parse_clash_config_content(content: str) -> Dict:
-        """解析Clash配置内容（非URL）"""
-        result = {'success': False, 'data': []}
+        """解析Clash配置内容"""
         try:
-            config = yaml.safe_load(content)
-            proxies = config.get('proxies', [])
-            result['data'] = proxies
-            result['success'] = True
-        except yaml.YAMLError as e:
-            logger.error(f"Clash内容解析失败: {str(e)}")
-        return result
+            # 添加内容预览日志
+            logger.debug(f"解析Clash配置内容片段: {content[:200]}...")
 
+            # 添加内容类型验证
+            if isinstance(content, str):
+                config = yaml.safe_load(content)
+            elif isinstance(content, dict):
+                config = content
+            else:
+                raise ValueError("无效的配置类型")
+
+            # 添加配置结构验证
+            if not isinstance(config, dict):
+                logger.error("Clash配置格式错误")
+                return {'success': False, 'data': []}
+
+            # 增强proxies字段检查
+            proxies = config.get('proxies', [])
+            if not isinstance(proxies, list):
+                logger.warning("proxies字段类型异常")
+                proxies = []
+
+            return {'success': bool(proxies), 'data': proxies}
+
+        except yaml.YAMLError as e:
+            logger.error(f"YAML解析失败: {str(e)}")
+            return {'success': False, 'data': []}
+        
     @staticmethod
     def _parse_txt_content(content: str) -> Dict:
         """解析纯文本内容（非URL）"""
@@ -514,13 +541,86 @@ class FileGenerator:
 
     @staticmethod
     def _generate_uri(node_data):
-        # URI生成逻辑
-        pass
+        """将Clash节点转换为标准URI格式"""
+        node_type = node_data.get('type')
+        try:
+            if node_type == 'ss':
+                # ss://method:password@server:port#name
+                method = node_data.get('cipher', '')
+                password = node_data.get('password', '')
+                server = node_data.get('server', '')
+                port = node_data.get('port', '')
+                name = quote(node_data.get('name', ''))
+                
+                ss_uri = f"{method}:{password}@{server}:{port}"
+                encoded = base64.b64encode(ss_uri.encode()).decode()
+                return f"ss://{encoded}#{name}"
+
+            elif node_type == 'vmess':
+                # vmess://base64(json)
+                vmess_json = {
+                    "v": "2",
+                    "ps": node_data.get('name', ''),
+                    "add": node_data.get('server', ''),
+                    "port": node_data.get('port', ''),
+                    "id": node_data.get('uuid', ''),
+                    "aid": node_data.get('alterId', '0'),
+                    "scy": "auto",
+                    "net": node_data.get('network', 'tcp'),
+                    "type": "none",
+                    "tls": "tls" if node_data.get('tls') else ""
+                }
+                encoded = base64.b64encode(json.dumps(vmess_json).encode()).decode()
+                return f"vmess://{encoded}"
+
+            elif node_type == 'trojan':
+                # trojan://password@server:port?security=tls#name
+                password = node_data.get('password', '')
+                server = node_data.get('server', '')
+                port = node_data.get('port', '')
+                name = quote(node_data.get('name', ''))
+                sni = node_data.get('sni', '')
+                
+                query = f"security=tls&sni={sni}" if sni else "security=tls"
+                return f"trojan://{password}@{server}:{port}?{query}#{name}"
+                
+        except Exception as e:
+            logger.warning(f"转换URI失败：{str(e)}")
+        return None
 
     @staticmethod
     def _convert_to_clash(node_data):
-        # Clash配置转换逻辑
-        pass
+        """转换为Clash兼容配置"""
+        base_proxy = {
+            'name': node_data.get('name', ''),
+            'type': node_data.get('type'),
+            'server': node_data.get('server'),
+            'port': node_data.get('port')
+        }
+        
+        # 协议特定字段
+        if node_data['type'] == 'ss':
+            base_proxy.update({
+                'cipher': node_data.get('cipher'),
+                'password': node_data.get('password'),
+                'udp': True
+            })
+        elif node_data['type'] == 'vmess':
+            base_proxy.update({
+                'uuid': node_data.get('uuid'),
+                'alterId': node_data.get('alterId', 0),
+                'cipher': 'auto',
+                'tls': node_data.get('tls', False),
+                'network': node_data.get('network', 'tcp')
+            })
+        elif node_data['type'] == 'trojan':
+            base_proxy.update({
+                'password': node_data.get('password'),
+                'sni': node_data.get('sni', ''),
+                'udp': True
+            })
+        
+        return base_proxy
 
     @staticmethod
     def _write_files(output_dir, clash_config, v2rayn_lines):
