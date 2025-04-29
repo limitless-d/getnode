@@ -18,23 +18,31 @@ jobs:
       uses: actions/setup-python@v4
       with:
         python-version: '3.10'
+    
+    - name: Clear npm cache
+      run: npm cache clean --force
 
     - name: Install Dependencies
       run: |
-        pip install requests pyyaml tenacity
+        pip install --upgrade requests pyyaml tenacity
         npm install -g wrangler@latest
 
     - name: Run Crawler
       env:
         CRAWLER_GITHUB_TOKEN: ${{ secrets.CRAWLER_GITHUB_TOKEN }}
-        CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
+        CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
         CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
       run: python main.py
 
     - name: Deploy to Cloudflare
       env:
-        CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
+        CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
         CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
       run: |
+        # 检查部署目录
+        echo "部署目录内容:"
+        ls -la output/cloudflare
+        
+        # 进入目录部署
         cd output/cloudflare
-        wrangler pages deploy --project-name=node-subscription --branch=main
+        wrangler pages deploy . --project-name=node-subscription --branch=main

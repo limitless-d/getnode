@@ -18,7 +18,7 @@ class CloudflareDeployer:
         try:
             # 验证环境变量
             required_envs = {
-                "CLOUDFLARE_ACCOUNT_ID": os.getenv("CF_ACCOUNT_ID"),
+                "CLOUDFLARE_ACCOUNT_ID": os.getenv("CLOUDFLARE_ACCOUNT_ID"),
                 "CLOUDFLARE_API_TOKEN": os.getenv("CLOUDFLARE_API_TOKEN")
             }
             missing = [k for k, v in required_envs.items() if not v]
