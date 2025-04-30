@@ -151,12 +151,12 @@ class GitHubCrawler:
 
                 # 处理条目过多的目录
                 if len(contents) > MAX_CONTENTS_TOTAL:
-                    logger.warning(f"条目过多跳过：{path}\n 该目录条目数：{len(contents)}")
+                    logger.debug(f"条目过多跳过：{path}\n 该目录条目数：{len(contents)}")
                     break
 
                 for item in contents:
                     if not self._process_item(item, depth):
-                        logger.warning(f"跳过无效节点文件: {item.get('name')}")
+                        logger.debug(f"跳过无效节点文件: {item.get('name')}")
                         continue
                     
                     node_files.append({
@@ -201,7 +201,7 @@ class GitHubCrawler:
         # 文件大小过滤
         if item.get("size", 0) > MAX_FILE_SIZE:
             FileCounter.skipped += 1
-            logger.warning(f"跳过 {item['size']/1024:.1f}KB 文件: {name}")
+            logger.warning(f"跳过 {item['size']/1024:.1f}KB 文件: {item.get('url')}")
             return False
             
         # 目录递归
