@@ -1,0 +1,25 @@
+{
+    "name": "cloudflare",
+    "version": "1.0.0",
+    "description": "A modular JavaScript project for Cloudflare Workers",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "lint": "eslint src/**/*.js",
+        "start": "node index.js",
+        "test": "echo \"No test specified\" && exit 0"
+    },
+    "keywords": [
+        "cloudflare",
+        "workers",
+        "modular",
+        "javascript"
+    ],
+    "author": "limitless-d",
+    "license": "MIT",
+    "devDependencies": {
+        "@eslint/js": "^9.25.1",
+        "eslint": "^8.57.1",
+        "globals": "^16.0.0"
+    }
+}
