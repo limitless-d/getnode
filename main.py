@@ -16,6 +16,7 @@ def main():
 
         # 收集节点文件
         node_links = []
+        logger.info("开始收集节点文件...")
         for repo in repos:
             links = crawler.find_node_files(repo['html_url'])
             node_links.extend(links)

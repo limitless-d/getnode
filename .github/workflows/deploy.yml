@@ -1,4 +1,4 @@
-name: Node Crawler & Deploy
+name: Node Crawler
 
 on:
   schedule:

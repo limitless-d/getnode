@@ -14,7 +14,7 @@ logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s',
     handlers=[
-        logging.FileHandler('crawler.log'),
+        logging.FileHandler('output/crawler.log'),
         logging.StreamHandler()
     ]
 )
@@ -22,7 +22,7 @@ logger = logging.getLogger(__name__)
 
 # 配置常量
 GITHUB_API_URL = "https://api.github.com/search/repositories"
-MAX_RESULTS = 90  # 最大搜索结果数
+MAX_RESULTS = 300  # 最大搜索结果数
 RESULTS_PER_PAGE = 30
 SLEEP_INTERVAL = 1.2
 MAX_RETRIES = 5
@@ -56,7 +56,7 @@ class APICounter:
             cls.last_reset = current_time
             cls.count = 0
 
-        if cls.count % 100 == 0:  # 新增监控日志
+        if cls.count % 200 == 0:  # 新增监控日志
             logger.info(f"已使用API次数: {cls.count}/小时")
 
 class GitHubCrawler:
@@ -121,7 +121,7 @@ class GitHubCrawler:
         return repos
 
     def find_node_files(self, repo_url: str) -> list:
-        logger.info(f"开始处理仓库: {repo_url}")  # 新增日志
+        logger.debug(f"开始处理仓库: {repo_url}")  # 新增日志
         repo_api_url = repo_url.replace("https://github.com/", "https://api.github.com/repos/")
         return self._search_contents(repo_api_url + "/contents/")
 
@@ -201,7 +201,7 @@ class GitHubCrawler:
         # 文件大小过滤
         if item.get("size", 0) > MAX_FILE_SIZE:
             FileCounter.skipped += 1
-            logger.warning(f"跳过 {item['size']/1024:.1f}KB 文件: {item.get('url')}")
+            logger.debug(f"跳过 {item['size']/1024:.1f}KB 文件: {item.get('url')}")
             return False
             
         # 目录递归

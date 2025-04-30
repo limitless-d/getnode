@@ -66,7 +66,7 @@ class NodeProcessor:
                     NodeProcessor._add_nodes(result, seen, json_result['data'], url, 'clash')
                     continue
                 
-                logger.warning(f"无法解析链接内容: {url}，可能是格式错误")
+                logger.debug(f"无法解析链接内容: {url}")
                 result['failure_count'] += 1
                 result['failures'].append({'url': url, 'error': '无法识别配置格式'})
                 
@@ -164,7 +164,7 @@ class NodeProcessor:
                 if all(key in proxy for key in ['name', 'type', 'server', 'port']):
                     valid_proxies.append(proxy)
                 else:
-                    logger.warning(f"跳过无效节点: {proxy}")
+                    logger.debug(f"跳过无效节点: {proxy}")
             proxies = valid_proxies
 
             # 日志记录
@@ -199,12 +199,12 @@ class NodeProcessor:
 
             # 验证JSON结构是否包含节点信息
             if not isinstance(config, dict) or 'nodes' not in config:
-                logger.warning("JSON内容不包含有效的节点信息")
+                logger.debug("JSON内容不包含有效的节点信息")
                 return {'success': False, 'data': []}
 
             nodes = config.get('nodes', [])
             if not isinstance(nodes, list):
-                logger.warning("JSON中的节点信息格式错误")
+                logger.debug("JSON中的节点信息格式错误")
                 return {'success': False, 'data': []}
 
             # 返回解析结果
@@ -641,7 +641,7 @@ class FileGenerator:
 
             # 处理节点统计
             total_nodes = len(node_results.get('nodes', []))
-            logger.info(f"需要处理的节点总数: {total_nodes}")
+            logger.debug(f"需要处理的节点总数: {total_nodes}")
 
             for index, node in enumerate(node_results.get('nodes', []), 1):
                 FileGenerator._process_node(node, clash_config, v2rayn_lines, node_counter)
@@ -652,8 +652,8 @@ class FileGenerator:
             logger.info("开始写入输出文件...")
             FileGenerator._write_files(output_dir, clash_config, v2rayn_lines)
             
-            logger.info(f"成功生成订阅文件，总节点数: {len(v2rayn_lines)}")
-            logger.info(f"节点类型分布: {node_counter}")
+            logger.debug(f"成功生成订阅文件，总节点数: {len(v2rayn_lines)}")
+            logger.debug(f"节点类型分布: {node_counter}")
             
             return {
                 'success': True,
@@ -697,7 +697,7 @@ class FileGenerator:
                 clash_config['proxies'].append(clash_proxy)
                 logger.debug(f"添加Clash配置: {clash_proxy.get('name')}")
             else:
-                logger.warning(f"无法生成Clash配置: {node_type}节点 {node_name}")
+                logger.debug(f"无法生成Clash配置: {node_type}节点 {node_name}")
                 
         except KeyError as e:
             logger.error(f"节点数据缺少必要字段: {str(e)}", exc_info=True)
@@ -967,18 +967,18 @@ class FileGenerator:
         """写入文件"""
         try:
             txt_path = os.path.abspath(os.path.join(output_dir, 'subscription.txt'))
-            logger.info(f"生成v2rayN订阅文件: {txt_path} ({len(v2rayn_lines)}节点)")
+            logger.debug(f"生成v2rayN订阅文件: {txt_path} ({len(v2rayn_lines)}节点)")
             
             with open(txt_path, 'w', encoding='utf-8') as f:
                 f.write('\n'.join(v2rayn_lines))
-                logger.debug(f"写入成功，文件大小: {os.path.getsize(txt_path)}字节")
+                logger.info(f"v2rayN订阅文件写入成功，文件大小: {os.path.getsize(txt_path)}字节")
 
             yaml_path = os.path.abspath(os.path.join(output_dir, 'clash_config.yaml'))
-            logger.info(f"生成Clash配置文件: {yaml_path} ({len(clash_config['proxies'])}节点)")
+            logger.debug(f"生成Clash配置文件: {yaml_path} ({len(clash_config['proxies'])}节点)")
             
             with open(yaml_path, 'w', encoding='utf-8') as f:
                 yaml.safe_dump(clash_config, f, allow_unicode=True, sort_keys=False)
-                logger.debug(f"写入成功，文件大小: {os.path.getsize(yaml_path)}字节")
+                logger.info(f"Clash配置文件写入成功，文件大小: {os.path.getsize(yaml_path)}字节")
                 
             logger.debug(f"示例Clash节点: {clash_config['proxies'][0] if clash_config['proxies'] else '无'}") 
             logger.debug(f"示例订阅链接: {v2rayn_lines[0] if v2rayn_lines else '无'}")

@@ -2,7 +2,7 @@ name: Save GitHub Actions Logs
 
 on:
   workflow_run:
-    workflows: ["Node Crawler & Deploy"]  # 替换为你想保存日志的工作流名称
+    workflows: ["Node Crawler"]  # 替换为你想保存日志的工作流名称
     types:
       - completed
 
