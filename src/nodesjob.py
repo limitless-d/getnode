@@ -150,10 +150,31 @@ class NodeProcessor:
                 logger.debug("proxies字段类型异常")
                 proxies = []
 
-            return {'success': bool(proxies), 'data': proxies}
+            # 验证每个节点的格式
+            valid_proxies = []
+            for proxy in proxies:
+                if all(key in proxy for key in ['name', 'type', 'server', 'port']):
+                    valid_proxies.append(proxy)
+                else:
+                    logger.warning(f"跳过无效节点: {proxy}")
+            proxies = valid_proxies
+
+            # 日志记录
+            if proxies:
+                logger.debug(f"成功解析到 {len(proxies)} 个节点")
+            else:
+                logger.warning("未解析到任何有效的节点，可能是配置文件格式错误或内容为空")
+
+            return {
+                'success': bool(proxies),
+                'data': proxies
+            }
 
         except yaml.YAMLError as e:
-            logger.debug(f"YAML解析失败: {str(e)}")
+            logger.error(f"YAML解析失败: {str(e)}")
+            return {'success': False, 'data': []}
+        except Exception as e:
+            logger.error(f"解析Clash配置文件时发生未知错误: {str(e)}", exc_info=True)
             return {'success': False, 'data': []}
         
     @staticmethod
@@ -207,14 +228,26 @@ class NodeProcessor:
                 return NodeProcessor._parse_trojan(line)
             elif line.startswith("vless://"):
                 return NodeProcessor._parse_vless(line)
+            elif line.startswith("hysteria2://"):
+                return NodeProcessor._parse_hysteria2(line)
+            elif line.startswith("tcp://"):
+                return NodeProcessor._parse_tcp(line)
+            elif line.startswith("ws://"):
+                return NodeProcessor._parse_ws(line)
+            elif line.startswith("ssr://"):
+                return NodeProcessor._parse_ssr(line)
+            elif line.startswith("grpc://"):
+                return NodeProcessor._parse_grpc(line)
+            elif line.startswith("httpupgrade://"):
+                return NodeProcessor._parse_httpupgrade(line)
             else:
                 logger.debug(f"未知协议: {line[:50]}...")
                 return None
-                
+
         except Exception as e:
             logger.debug(f"解析失败: {line[:50]}... | 错误: {str(e)}")
             return None
-
+        
     @staticmethod
     def _parse_vmess(line: str) -> dict:
         """解析VMESS协议链接
@@ -356,7 +389,135 @@ class NodeProcessor:
             }
         except ValueError as e:
             raise ValueError(f"VLESS解析错误: {str(e)}")
-        
+
+    @staticmethod
+    def _parse_hysteria2(line: str) -> dict:
+        """解析Hysteria2协议链接
+        格式：hysteria2://server:port?protocol=protocol&auth=auth&obfs=obfs&peer=peer#name
+        """
+        try:
+            parsed = urlparse(line)
+            server, port = parsed.netloc.split(':')
+            query = parse_qs(parsed.query)
+            return {
+                'type': 'hysteria2',
+                'name': unquote(parsed.fragment) if parsed.fragment else '未命名节点',
+                'server': server,
+                'port': port,
+                'protocol': query.get('protocol', ['udp'])[0],
+                'auth': query.get('auth', [''])[0],
+                'obfs': query.get('obfs', [''])[0],
+                'peer': query.get('peer', [''])[0]
+            }
+        except ValueError as e:
+            raise ValueError(f"Hysteria2解析错误: {str(e)}")
+
+    @staticmethod
+    def _parse_tcp(line: str) -> dict:
+        """解析TCP协议链接
+        格式：tcp://server:port#name
+        """
+        try:
+            parsed = urlparse(line)
+            server, port = parsed.netloc.split(':')
+            return {
+                'type': 'tcp',
+                'name': unquote(parsed.fragment) if parsed.fragment else '未命名节点',
+                'server': server,
+                'port': port
+            }
+        except ValueError as e:
+            raise ValueError(f"TCP解析错误: {str(e)}")
+
+    @staticmethod
+    def _parse_ws(line: str) -> dict:
+        """解析WebSocket协议链接
+        格式：ws://server:port?host=host&path=path#name
+        """
+        try:
+            parsed = urlparse(line)
+            server, port = parsed.netloc.split(':')
+            query = parse_qs(parsed.query)
+            return {
+                'type': 'ws',
+                'name': unquote(parsed.fragment) if parsed.fragment else '未命名节点',
+                'server': server,
+                'port': port,
+                'host': query.get('host', [''])[0],
+                'path': query.get('path', ['/'])[0]
+            }
+        except ValueError as e:
+            raise ValueError(f"WebSocket解析错误: {str(e)}")
+
+    @staticmethod
+    def _parse_ssr(line: str) -> dict:
+        """解析ShadowsocksR协议链接
+        格式：ssr://base64(server:port:protocol:method:obfs:password_base64/?params)
+        """
+        try:
+            encoded = line[6:]  # 去掉开头的"ssr://"
+            decoded = base64.b64decode(encoded).decode('utf-8')
+            server_info, params = decoded.split('/?', 1)
+            server, port, protocol, method, obfs, password = server_info.split(':')
+            query = parse_qs(params)
+            return {
+                'type': 'ssr',
+                'name': base64.b64decode(query.get('remarks', [''])[0]).decode() if 'remarks' in query else '未命名节点',
+                'server': server,
+                'port': port,
+                'protocol': protocol,
+                'cipher': method,
+                'obfs': obfs,
+                'password': base64.b64decode(password).decode(),
+                'obfs_param': base64.b64decode(query.get('obfsparam', [''])[0]).decode() if 'obfsparam' in query else '',
+                'protocol_param': base64.b64decode(query.get('protoparam', [''])[0]).decode() if 'protoparam' in query else '',
+                'group': base64.b64decode(query.get('group', [''])[0]).decode() if 'group' in query else ''
+            }
+        except (binascii.Error, ValueError) as e:
+            raise ValueError(f"SSR解析错误: {str(e)}")
+
+    @staticmethod
+    def _parse_grpc(line: str) -> dict:
+        """解析gRPC协议链接
+        格式：grpc://uuid@server:port?serviceName=serviceName&security=security#name
+        """
+        try:
+            parsed = urlparse(line)
+            uuid, server_port = parsed.netloc.split('@')
+            server, port = server_port.split(':')
+            query = parse_qs(parsed.query)
+            return {
+                'type': 'grpc',
+                'name': unquote(parsed.fragment) if parsed.fragment else '未命名节点',
+                'server': server,
+                'port': port,
+                'uuid': uuid,
+                'serviceName': query.get('serviceName', [''])[0],
+                'security': query.get('security', ['none'])[0]
+            }
+        except ValueError as e:
+            raise ValueError(f"gRPC解析错误: {str(e)}")
+
+    @staticmethod
+    def _parse_httpupgrade(line: str) -> dict:
+        """解析HTTP Upgrade协议链接
+        格式：httpupgrade://server:port?host=host&path=path#name
+        """
+        try:
+            parsed = urlparse(line)
+            server, port = parsed.netloc.split(':')
+            query = parse_qs(parsed.query)
+            return {
+                'type': 'httpupgrade',
+                'name': unquote(parsed.fragment) if parsed.fragment else '未命名节点',
+                'server': server,
+                'port': port,
+                'host': query.get('host', [''])[0],
+                'path': query.get('path', ['/'])[0]
+            }
+        except ValueError as e:
+            raise ValueError(f"HTTP Upgrade解析错误: {str(e)}")
+
     @staticmethod
     def _add_nodes(result, seen, nodes, url, source_type):
         for node in nodes:
@@ -582,6 +743,30 @@ class FileGenerator:
                 query = '&'.join(query_params)
                 return f"vless://{uuid}@{server}:{port}?{query}#{name}"
 
+            elif node_type == 'hysteria2':
+                # hysteria2://server:port?protocol=protocol&auth=auth&obfs=obfs&peer=peer#name
+                server = node_data.get('server', '')
+                port = node_data.get('port', '')
+                name = quote(node_data.get('name', ''))
+                protocol = node_data.get('protocol', 'udp')  # 默认协议为 udp
+                auth = node_data.get('auth', '')  # 认证信息
+                obfs = node_data.get('obfs', '')  # 混淆信息
+                peer = node_data.get('peer', '')  # TLS peer 名称
+
+                # 构建查询参数
+                query_params = []
+                if protocol:
+                    query_params.append(f"protocol={protocol}")
+                if auth:
+                    query_params.append(f"auth={auth}")
+                if obfs:
+                    query_params.append(f"obfs={obfs}")
+                if peer:
+                    query_params.append(f"peer={peer}")
+
+                query = '&'.join(query_params)
+                return f"hysteria2://{server}:{port}?{query}#{name}"
+            
             elif node_type == 'tcp':
                 # tcp://server:port#name
                 server = node_data.get('server', '')
