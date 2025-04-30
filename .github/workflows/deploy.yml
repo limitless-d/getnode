@@ -62,4 +62,3 @@ jobs:
         file_pattern: |
           output/*
           crawler.log
-        
