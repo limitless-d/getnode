@@ -1,4 +1,4 @@
-import { fetchHandler } from './src/fetchHandler.js';
+import { fetchHandler } from './cloudflare/fetchHandler.js';
 
 /**
  * Cloudflare Workers 的主入口。
