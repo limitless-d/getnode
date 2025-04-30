@@ -59,6 +59,14 @@ class NodeProcessor:
                     NodeProcessor._add_nodes(result, seen, clash_result['data'], url, 'clash')
                     continue
                 
+                # 尝试解析为Json配置
+                json_result = NodeProcessor._parse_clash_config_content(content)
+                if json_result['success']:
+                    result['success_count'] += 1
+                    NodeProcessor._add_nodes(result, seen, json_result['data'], url, 'clash')
+                    continue
+                
+                logger.warning(f"无法解析链接内容: {url}，可能是格式错误")
                 result['failure_count'] += 1
                 result['failures'].append({'url': url, 'error': '无法识别配置格式'})
                 
@@ -69,8 +77,8 @@ class NodeProcessor:
                 result['failures'].append({'url': url, 'error': error_msg})
         
         result['total_nodes'] = len(result['nodes'])
-        logger.info(f"处理完成。成功: {result['success_count']}, 失败: {result['failure_count']}, 节点数: {result['total_nodes']}")
-        logger.info(f"去重统计: 总发现节点={NodeCounter.total_nodes} 重复节点={NodeCounter.dup_nodes}")
+        logger.info(f"链接处理完成。成功: {result['success_count']}, 失败: {result['failure_count']}")
+        logger.debug(f"去重统计: 总发现节点={NodeCounter.total_nodes} 重复节点={NodeCounter.dup_nodes}")
         return result
 
     @staticmethod
@@ -163,7 +171,7 @@ class NodeProcessor:
             if proxies:
                 logger.debug(f"成功解析到 {len(proxies)} 个节点")
             else:
-                logger.warning("未解析到任何有效的节点，可能是配置文件格式错误或内容为空")
+                logger.debug("未解析到任何有效的节点，可能是配置文件格式错误或内容为空")
 
             return {
                 'success': bool(proxies),
@@ -171,12 +179,44 @@ class NodeProcessor:
             }
 
         except yaml.YAMLError as e:
-            logger.error(f"YAML解析失败: {str(e)}")
+            logger.debug(f"YAML解析失败: {str(e)}")
             return {'success': False, 'data': []}
         except Exception as e:
             logger.error(f"解析Clash配置文件时发生未知错误: {str(e)}", exc_info=True)
             return {'success': False, 'data': []}
         
+    @staticmethod
+    def _parse_json_content(content: str) -> Dict:
+        """
+        解析JSON格式的节点文件
+        :param content: JSON字符串
+        :return: 包含解析结果的字典 {'success': bool, 'data': list}
+        """
+        try:
+            # 尝试将内容解析为JSON
+            config = json.loads(content)
+            logger.debug(f"成功解析JSON内容，长度: {len(content)}")
+
+            # 验证JSON结构是否包含节点信息
+            if not isinstance(config, dict) or 'nodes' not in config:
+                logger.warning("JSON内容不包含有效的节点信息")
+                return {'success': False, 'data': []}
+
+            nodes = config.get('nodes', [])
+            if not isinstance(nodes, list):
+                logger.warning("JSON中的节点信息格式错误")
+                return {'success': False, 'data': []}
+
+            # 返回解析结果
+            return {'success': True, 'data': nodes}
+
+        except json.JSONDecodeError as e:
+            logger.error(f"JSON解析失败: {str(e)}")
+            return {'success': False, 'data': []}
+        except Exception as e:
+            logger.error(f"解析JSON内容时发生未知错误: {str(e)}", exc_info=True)
+            return {'success': False, 'data': []}
+
     @staticmethod
     def _parse_txt_content(content: str) -> Dict:
         """解析纯文本内容（非URL）

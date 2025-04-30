@@ -22,7 +22,7 @@ logger = logging.getLogger(__name__)
 
 # 配置常量
 GITHUB_API_URL = "https://api.github.com/search/repositories"
-MAX_RESULTS = 120  # 最大搜索结果数
+MAX_RESULTS = 90  # 最大搜索结果数
 RESULTS_PER_PAGE = 30
 SLEEP_INTERVAL = 1.2
 MAX_RETRIES = 5
@@ -31,6 +31,10 @@ MAX_RECURSION_DEPTH = 3
 PER_PAGE = 100
 MAX_CONTENTS_TOTAL = 100  # 最大目录条目数
 # NODE_KEYWORDS = ['v2ray', 'subscribe', 'clash', 'sub', 'config', 'vless', 'vmess']  # 节点文件关键词
+
+class FileCounter:
+    total = 0
+    skipped = 0
 
 class APICounter:
     """API调用计数器"""
@@ -52,12 +56,8 @@ class APICounter:
             cls.last_reset = current_time
             cls.count = 0
 
-        if cls.count % 10 == 0:  # 新增监控日志
+        if cls.count % 100 == 0:  # 新增监控日志
             logger.info(f"已使用API次数: {cls.count}/小时")
-
-class FileCounter:
-    total = 0
-    skipped = 0
 
 class GitHubCrawler:
     def __init__(self):
@@ -156,6 +156,7 @@ class GitHubCrawler:
 
                 for item in contents:
                     if not self._process_item(item, depth):
+                        logger.warning(f"跳过无效节点文件: {item.get('name')}")
                         continue
                     
                     node_files.append({
@@ -200,7 +201,7 @@ class GitHubCrawler:
         # 文件大小过滤
         if item.get("size", 0) > MAX_FILE_SIZE:
             FileCounter.skipped += 1
-            logger.debug(f"跳过 {item['size']/1024:.1f}KB 文件: {name}")
+            logger.warning(f"跳过 {item['size']/1024:.1f}KB 文件: {name}")
             return False
             
         # 目录递归

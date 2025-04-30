@@ -1,5 +1,5 @@
 from src.crawler import GitHubCrawler, FileCounter
-from src.nodesjob import NodeProcessor, FileGenerator
+from src.nodesjob import NodeProcessor, FileGenerator, NodeCounter
 # from src.cloudflare import CloudflareDeployer
 import logging
 
@@ -44,8 +44,12 @@ def main():
             logger.info(
                 f"\n=== 文件处理统计 ==="
                 f"\n• 扫描文件总数: {FileCounter.total}"
-                f"\n• 因大小跳过: {FileCounter.skipped} ({(FileCounter.skipped/FileCounter.total)*100:.1f}%)"
+                f"\n• 因大小跳过:   {FileCounter.skipped} ({(FileCounter.skipped/FileCounter.total)*100:.1f}%)"
                 f"\n• 有效处理文件: {FileCounter.total - FileCounter.skipped}"
+                f"\n=== 节点处理统计 ==="
+                f"\n• 扫描节点总数: {NodeCounter.total_nodes}"
+                f"\n• 节点去重数:   {NodeCounter.dup_nodes}"
+                f"\n• 真实节点数:   {NodeCounter.total_nodes - NodeCounter.dup_nodes}"
             )
         else:
             logger.warning("未扫描到任何文件")
