@@ -1,0 +1,50 @@
+name: Save GitHub Actions Logs
+
+on:
+  workflow_run:
+    workflows: ["Node Crawler & Deploy"]  # 替换为你想保存日志的工作流名称
+    types:
+      - completed
+
+jobs:
+  save-logs:
+    runs-on: ubuntu-latest
+
+    steps:
+    # 检查出仓库代码
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    # 创建日志文件夹
+    - name: Create log directory
+      run: mkdir -p log
+
+    # 保存日志到 log 文件夹
+    - name: Save logs
+      run: |
+        TIMESTAMP=$(date +"%Y-%m-%d_%H-%M")
+        LOG_FILE="log/${TIMESTAMP}_logs.txt"
+        echo "Saving logs to $LOG_FILE"
+        echo "Workflow logs for $GITHUB_WORKFLOW" > $LOG_FILE
+        echo "Run ID: $GITHUB_RUN_ID" >> $LOG_FILE
+        echo "Run Number: $GITHUB_RUN_NUMBER" >> $LOG_FILE
+        echo "Triggered by: $GITHUB_ACTOR" >> $LOG_FILE
+        echo "Logs:" >> $LOG_FILE
+        cat $GITHUB_WORKSPACE >> $LOG_FILE
+
+    # 提交日志文件到仓库
+    - name: Commit and push logs
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git add log/
+        git commit -m "Add logs for workflow run $GITHUB_RUN_ID"
+        git push
+    # - name: Commit files
+    #   uses: stefanzweifel/git-auto-commit-action@v5
+    #   with:
+    #     commit_message: "Update subscription and config files"
+    #     commit_user_name: "github-actions[bot]"
+    #     commit_user_email: "github-actions[bot]@users.noreply.github.com"
+    #     file_pattern: |
+    #         log/* 
