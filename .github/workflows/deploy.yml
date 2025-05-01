@@ -41,4 +41,4 @@ jobs:
         commit_user_name: "github-actions[bot]" # 提交用户名
         commit_user_email: "github-actions[bot]@users.noreply.github.com" # 提交用户邮箱
         file_pattern: |
-          output/* # 提交 output 文件夹中的所有文件
+          output/* 
