@@ -218,11 +218,17 @@ class GitHubCrawler:
         keyword_pattern = re.compile(r'v2ray|clash|node|proxy|sub|ss|trojan|conf|tls|ws', re.IGNORECASE)
         if not keyword_pattern.search(name):
             return False
-            
-        # 验证下载链接
+    
+        
         parsed = urlparse(item["download_url"])
-        if not parsed.scheme.startswith('http'):
-            logger.debug(f"非常用协议: {parsed.scheme}")
+        scheme = parsed.scheme
+
+        # 确保 scheme 是字符串类型
+        if isinstance(scheme, bytes):
+            scheme = scheme.decode('utf-8')
+        # 验证下载链接
+        if not scheme.startswith('http'):
+            logger.debug(f"非常用协议: {scheme}")
             return False
             
         return True
