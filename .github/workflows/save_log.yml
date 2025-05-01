@@ -25,12 +25,7 @@ jobs:
         TIMESTAMP=$(date +"%Y-%m-%d_%H-%M")
         LOG_FILE="logs/${TIMESTAMP}_log.txt"
         echo "Saving logs to $LOG_FILE"
-        echo "Workflow logs for $GITHUB_WORKFLOW" > $LOG_FILE
-        echo "Run ID: $GITHUB_RUN_ID" >> $LOG_FILE
-        echo "Run Number: $GITHUB_RUN_NUMBER" >> $LOG_FILE
-        echo "Triggered by: $GITHUB_ACTOR" >> $LOG_FILE
-        echo "Logs:" >> $LOG_FILE
-        echo $GITHUB_WORKSPACE >> $LOG_FILE
+        cp output/crawler.log $LOG_FILE
 
     # 提交日志文件到仓库
     - name: Commit and push logs
