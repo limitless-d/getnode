@@ -1,40 +1,44 @@
-name: Node Crawler
+name: Node Crawler # 工作流名称
 
 on:
   schedule:
-    - cron: "0 20 * * 1"
-  workflow_dispatch:
+    - cron: "0 20 * * 1" # 每周一 20:00 自动触发工作流
+  workflow_dispatch: # 允许手动触发工作流
 
 jobs:
   crawl-deploy:
-    runs-on: ubuntu-latest
-    timeout-minutes: 30
+    runs-on: ubuntu-latest # 使用最新的 Ubuntu 运行器
+    timeout-minutes: 30 # 设置超时时间为 30 分钟
     
     steps:
+    # 第一步：检出代码仓库
     - name: Checkout
-      uses: actions/checkout@v4
+      uses: actions/checkout@v4 # 使用官方的 checkout action 检出代码
 
+    # 第二步：设置 Python 环境
     - name: Setup Python
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v4 # 使用官方的 setup-python action
       with:
-        python-version: '3.10'
+        python-version: '3.10' # 指定 Python 版本为 3.10
 
+    # 第三步：安装依赖
     - name: Install Dependencies
       run: |
-        pip install --upgrade requests pyyaml tenacity
-        npm install -g wrangler@latest
+        pip install --upgrade requests pyyaml tenacity # 安装 Python 依赖
+        npm install -g wrangler@latest # 安装最新版本的 Wrangler
 
+    # 第四步：运行爬虫脚本
     - name: Run Crawler
       env:
-        CRAWLER_GITHUB_TOKEN: ${{ secrets.CRAWLER_GITHUB_TOKEN }}
-      run: python main.py
+        CRAWLER_GITHUB_TOKEN: ${{ secrets.CRAWLER_GITHUB_TOKEN }} # 设置环境变量，使用 GitHub Token
+      run: python main.py # 执行爬虫脚本
 
+    # 第五步：提交生成的文件
     - name: Commit files
-      uses: stefanzweifel/git-auto-commit-action@v5
+      uses: stefanzweifel/git-auto-commit-action@v5 # 使用自动提交的 Action
       with:
-        commit_message: "Update subscription and config files"
-        commit_user_name: "github-actions[bot]"
-        commit_user_email: "github-actions[bot]@users.noreply.github.com"
+        commit_message: "Update subscription and config files" # 提交信息
+        commit_user_name: "github-actions[bot]" # 提交用户名
+        commit_user_email: "github-actions[bot]@users.noreply.github.com" # 提交用户邮箱
         file_pattern: |
-          output/*
-          
+          output/* # 提交 output 文件夹中的所有文件
