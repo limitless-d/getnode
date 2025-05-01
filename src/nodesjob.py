@@ -691,14 +691,14 @@ class FileGenerator:
                 txt_path = os.path.abspath(os.path.join(output_dir, f'subscription_{i}.txt'))
                 with open(txt_path, 'w', encoding='utf-8') as f:
                     f.write('\n'.join(v2rayn_part))
-                    logger.info(f"v2rayN订阅文件写入成功: {txt_path}，文件大小: {os.path.getsize(txt_path)}字节")
+                    logger.info(f"v2rayN订阅文件写入成功: subscription_{i}.txt，文件大小: {os.path.getsize(txt_path)}字节，节点数: {len(v2rayn_part)}")
 
                 # 写入 Clash 配置文件
                 yaml_path = os.path.abspath(os.path.join(output_dir, f'clash_config_{i}.yaml'))
                 clash_config_part = {'proxies': clash_part}
                 with open(yaml_path, 'w', encoding='utf-8') as f:
                     yaml.safe_dump(clash_config_part, f, allow_unicode=True, sort_keys=False)
-                    logger.info(f"Clash配置文件写入成功: {yaml_path}，文件大小: {os.path.getsize(yaml_path)}字节")
+                    logger.info(f"Clash配置文件写入成功: clash_config_{i}.yaml，文件大小: {os.path.getsize(yaml_path)}字节，节点数: {len(clash_part)}")
 
         except IOError as e:
             logger.error(f"文件写入失败: {str(e)}", exc_info=True)
@@ -1011,14 +1011,14 @@ class FileGenerator:
             
             with open(txt_path, 'w', encoding='utf-8') as f:
                 f.write('\n'.join(v2rayn_lines))
-                logger.info(f"v2rayN订阅文件写入成功，文件大小: {os.path.getsize(txt_path)}字节")
+                logger.info(f"v2rayN订阅文件写入成功: all_subscription.txt，文件大小: {os.path.getsize(txt_path)}字节，节点数: {len(v2rayn_lines)}")
 
             yaml_path = os.path.abspath(os.path.join(output_dir, 'all_clash_config.yaml'))
             logger.debug(f"生成Clash配置文件: {yaml_path} ({len(clash_config['proxies'])}节点)")
             
             with open(yaml_path, 'w', encoding='utf-8') as f:
                 yaml.safe_dump(clash_config, f, allow_unicode=True, sort_keys=False)
-                logger.info(f"Clash配置文件写入成功，文件大小: {os.path.getsize(yaml_path)}字节")
+                logger.info(f"Clash配置文件写入成功: all_clash_config.yaml，文件大小: {os.path.getsize(yaml_path)}字节，节点数: {len(clash_config['proxies'])}")
                 
             logger.debug(f"示例Clash节点: {clash_config['proxies'][0] if clash_config['proxies'] else '无'}") 
             logger.debug(f"示例订阅链接: {v2rayn_lines[0] if v2rayn_lines else '无'}")
