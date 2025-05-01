@@ -627,6 +627,7 @@ class NodeProcessor:
         return base_info
     
 class FileGenerator:
+    
     @staticmethod
     def save_results(node_results, output_dir='output'):
         """保存结果到文件"""
@@ -650,11 +651,17 @@ class FileGenerator:
 
             # 写入文件
             logger.info("开始写入输出文件...")
-            FileGenerator._write_files(output_dir, clash_config, v2rayn_lines)
+
+            # 判断是否需要分成多份
+            if len(clash_config['proxies']) > 5000 or len(v2rayn_lines) > 5000:
+                logger.debug("节点数量超过 5000，开始分成多份保存")
+                FileGenerator._write_split_files(output_dir, clash_config, v2rayn_lines, 5000)
             
+            FileGenerator._write_files(output_dir, clash_config, v2rayn_lines)
+
             logger.debug(f"成功生成订阅文件，总节点数: {len(v2rayn_lines)}")
             logger.debug(f"节点类型分布: {node_counter}")
-            
+
             return {
                 'success': True,
                 'files': [
@@ -667,6 +674,39 @@ class FileGenerator:
             logger.error(f"保存结果时发生严重错误: {str(e)}", exc_info=True)
             return {'success': False, 'message': str(e)}
 
+    @staticmethod
+    def _write_split_files(output_dir, clash_config, v2rayn_lines, chunk_size):
+        """将节点按指定大小分成多份并写入文件"""
+        try:
+            # 按指定大小分割数据
+            def split_into_chunks(data, chunk_size):
+                return [data[i:i + chunk_size] for i in range(0, len(data), chunk_size)]
+
+            clash_chunks = split_into_chunks(clash_config['proxies'], chunk_size)
+            v2rayn_chunks = split_into_chunks(v2rayn_lines, chunk_size)
+
+            # 写入分割后的文件
+            for i, (clash_part, v2rayn_part) in enumerate(zip(clash_chunks, v2rayn_chunks), 1):
+                # 写入 v2rayn 文件
+                txt_path = os.path.abspath(os.path.join(output_dir, f'subscription_{i}.txt'))
+                with open(txt_path, 'w', encoding='utf-8') as f:
+                    f.write('\n'.join(v2rayn_part))
+                    logger.info(f"v2rayN订阅文件写入成功: {txt_path}，文件大小: {os.path.getsize(txt_path)}字节")
+
+                # 写入 Clash 配置文件
+                yaml_path = os.path.abspath(os.path.join(output_dir, f'clash_config_{i}.yaml'))
+                clash_config_part = {'proxies': clash_part}
+                with open(yaml_path, 'w', encoding='utf-8') as f:
+                    yaml.safe_dump(clash_config_part, f, allow_unicode=True, sort_keys=False)
+                    logger.info(f"Clash配置文件写入成功: {yaml_path}，文件大小: {os.path.getsize(yaml_path)}字节")
+
+        except IOError as e:
+            logger.error(f"文件写入失败: {str(e)}", exc_info=True)
+            raise
+        except Exception as e:
+            logger.error(f"写入文件时发生未知错误: {str(e)}", exc_info=True)
+            raise
+            
     @staticmethod
     def _process_node(node, clash_config, v2rayn_lines, node_counter):
         """处理单个节点"""
@@ -966,14 +1006,14 @@ class FileGenerator:
     def _write_files(output_dir, clash_config, v2rayn_lines):
         """写入文件"""
         try:
-            txt_path = os.path.abspath(os.path.join(output_dir, 'subscription.txt'))
+            txt_path = os.path.abspath(os.path.join(output_dir, 'all_subscription.txt'))
             logger.debug(f"生成v2rayN订阅文件: {txt_path} ({len(v2rayn_lines)}节点)")
             
             with open(txt_path, 'w', encoding='utf-8') as f:
                 f.write('\n'.join(v2rayn_lines))
                 logger.info(f"v2rayN订阅文件写入成功，文件大小: {os.path.getsize(txt_path)}字节")
 
-            yaml_path = os.path.abspath(os.path.join(output_dir, 'clash_config.yaml'))
+            yaml_path = os.path.abspath(os.path.join(output_dir, 'all_clash_config.yaml'))
             logger.debug(f"生成Clash配置文件: {yaml_path} ({len(clash_config['proxies'])}节点)")
             
             with open(yaml_path, 'w', encoding='utf-8') as f:

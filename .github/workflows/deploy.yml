@@ -27,31 +27,7 @@ jobs:
     - name: Run Crawler
       env:
         CRAWLER_GITHUB_TOKEN: ${{ secrets.CRAWLER_GITHUB_TOKEN }}
-        # CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-        # CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
       run: python main.py
-
-    # - name: Verify files
-    #   run: |
-    #     echo "=== 文件验证 ==="
-    #     ls -la output/
-    #     echo "--- subscription.txt ---"
-    #     head -n 5 output/subscription.txt
-    #     echo "--- clash_config.yaml ---"
-    #     head -n 20 output/clash_config.yaml
-
-    # - name: Deploy to Cloudflare
-    #   env:
-    #     CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-    #     CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-    #   run: |
-    #     # 检查部署目录
-    #     echo "部署目录内容:"
-    #     ls -la output/cloudflare
-        
-    #     # 进入目录部署
-    #     cd output/cloudflare
-    #     wrangler pages deploy . --project-name=getnode --branch=main
 
     - name: Commit files
       uses: stefanzweifel/git-auto-commit-action@v5
