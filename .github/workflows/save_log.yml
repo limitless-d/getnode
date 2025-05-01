@@ -30,7 +30,8 @@ jobs:
         echo "Run Number: $GITHUB_RUN_NUMBER" >> $LOG_FILE
         echo "Triggered by: $GITHUB_ACTOR" >> $LOG_FILE
         echo "Logs:" >> $LOG_FILE
-        cat $GITHUB_WORKSPACE >> $LOG_FILE
+        echo $GITHUB_WORKSPACE >> $LOG_FILE
+        ls -la $GITHUB_WORKSPACE >> $LOG_FILE # 列出工作目录的文件和目录
 
     # 提交日志文件到仓库
     - name: Commit and push logs
