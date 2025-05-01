@@ -13,10 +13,11 @@ from typing import Dict
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s',
-    handlers=[
-        logging.FileHandler('output/crawler.log'),
-        logging.StreamHandler()
-    ]
+    filemode='output/crawler.log'
+    # handlers=[
+    #     logging.FileHandler('output/crawler.log'),
+    #     logging.StreamHandler()
+    # ]
 )
 logger = logging.getLogger(__name__)
 
