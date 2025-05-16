@@ -23,9 +23,9 @@ jobs:
     - name: Save logs
       run: |
         TIMESTAMP=$(date +"%Y-%m-%d_%H-%M")
-        LOG_FILE="logs/${TIMESTAMP}_log.txt"
+        LOG_FILE="logs/${TIMESTAMP}.log"
         echo "Saving logs to $LOG_FILE"
-        cp output/crawler.log $LOG_FILE
+        mv output/crawler.log $LOG_FILE
 
     # 提交日志文件到仓库
     - name: Commit and push logs
