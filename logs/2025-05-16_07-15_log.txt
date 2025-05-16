@@ -1,0 +1,25 @@
+2025-05-16 07:04:29,972 - INFO - === 开始执行爬虫任务 ===
+2025-05-16 07:04:49,513 - INFO - 发现 300 个相关仓库
+2025-05-16 07:04:49,513 - INFO - 开始收集节点文件...
+2025-05-16 07:07:17,025 - INFO - 已使用API次数: 1000/小时
+2025-05-16 07:09:55,615 - INFO - 已使用API次数: 2000/小时
+2025-05-16 07:12:33,139 - INFO - 已使用API次数: 3000/小时
+2025-05-16 07:14:24,661 - INFO - 总共发现 225 个节点文件
+2025-05-16 07:14:24,661 - INFO - 开始处理链接集合，共 225 个链接
+2025-05-16 07:15:19,254 - INFO - 链接处理完成。成功: 125, 失败: 100
+2025-05-16 07:15:33,664 - ERROR - 执行失败: 'data'
+Traceback (most recent call last):
+  File "/home/runner/work/getnode/getnode/main.py", line 48, in main
+    merged_nodes = HistoryManager.merge_nodes(new_nodes, history_nodes)
+  File "/home/runner/work/getnode/getnode/src/history_manager.py", line 30, in merge_nodes
+    fingerprint = HistoryManager._node_fingerprint(node['data'])
+KeyError: 'data'
+2025-05-16 07:15:33,666 - INFO - 
+=== 文件处理统计 ===
+• 扫描文件总数: 26049
+• 因大小跳过:   624 (2.4%)
+• 有效处理文件: 25425
+=== 节点处理统计 ===
+• 扫描节点总数: 53242
+• 节点去重数:   33035
+• 真实节点数:   20207
