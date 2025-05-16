@@ -31,7 +31,7 @@ jobs:
     - name: Commit and push logs
       uses: stefanzweifel/git-auto-commit-action@v5
       with:
-        commit_message: "Add logs for workflow run $GITHUB_RUN_ID"
+        commit_message: "Add logs for workflow run ${{ github.event.workflow_run.id }}"
         commit_user_name: "github-actions[bot]"
         commit_user_email: "github-actions[bot]@users.noreply.github.com"
         file_pattern: |
