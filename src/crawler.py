@@ -55,6 +55,9 @@ class APICounter:
             time.sleep(wait_time)
             cls.last_reset = current_time
             cls.count = 0
+        
+        if cls.count > 1000:
+            time.sleep(1)
 
         if cls.count % 1000 == 0:  # 新增监控日志
             logger.info(f"已使用API次数: {cls.count}/小时")
