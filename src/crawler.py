@@ -8,6 +8,9 @@ from datetime import datetime
 from tenacity import retry, wait_exponential, stop_after_attempt, retry_if_exception_type
 from urllib.parse import urlparse
 from typing import Dict
+from .repo_manager import RepoManager
+from .counters import FileCounter
+
 
 # 配置日志系统
 logging.basicConfig(
@@ -32,10 +35,6 @@ MAX_RECURSION_DEPTH = 3
 PER_PAGE = 100
 MAX_CONTENTS_TOTAL = 100  # 最大目录条目数
 # NODE_KEYWORDS = ['v2ray', 'subscribe', 'clash', 'sub', 'config', 'vless', 'vmess']  # 节点文件关键词
-
-class FileCounter:
-    total = 0
-    skipped = 0
 
 class APICounter:
     """API调用计数器"""
@@ -119,6 +118,14 @@ class GitHubCrawler:
 
                 if len(repos) >= MAX_RESULTS:
                     break
+             # 新增仓库过滤
+            repo_manager = RepoManager()
+            filtered_repos = []
+            for repo in repos:
+                if repo_manager.should_process(repo['html_url'], repo['updated_at']):
+                    filtered_repos.append(repo)
+            return filtered_repos
+        
         except Exception as e:
             logger.error(f"仓库搜索失败: {str(e)}", exc_info=True)
 

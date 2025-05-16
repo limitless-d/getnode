@@ -10,12 +10,9 @@ import logging
 from urllib.parse import urlparse, unquote, parse_qs, quote
 from collections import OrderedDict
 from typing import List, Dict
+from .counters import NodeCounter
 
 logger = logging.getLogger(__name__)
-
-class NodeCounter:
-    total_nodes = 0
-    dup_nodes = 0
 
 class NodeProcessor:
     @staticmethod

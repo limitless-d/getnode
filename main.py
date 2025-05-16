@@ -1,11 +1,23 @@
-from src.crawler import GitHubCrawler, FileCounter
-from src.nodesjob import NodeProcessor, FileGenerator, NodeCounter
+# from src.crawler import GitHubCrawler, FileCounter
+# from src.nodesjob import NodeProcessor, FileGenerator, NodeCounter
 # from src.cloudflare import CloudflareDeployer
+import asyncio
+from src import (
+    GitHubCrawler,
+    NodeProcessor,
+    FileGenerator,
+    RepoManager,
+    HistoryManager,
+    NodeTester,
+    FileCounter,
+    NodeCounter
+)
+
 import logging
 
 logger = logging.getLogger(__name__)
 
-def main():
+async def main():
     try:
         logger.info("=== 开始执行爬虫任务 ===")
         
@@ -25,16 +37,31 @@ def main():
         # 处理节点链接
         parsed = NodeProcessor.parse_node_links([link['download_url'] for link in node_links])
 
-        # 保存结果
-        save_result = FileGenerator.save_results(parsed)
-        if not save_result['success']:
-            raise RuntimeError("文件保存失败")
+        # # 保存结果
+        # save_result = FileGenerator.save_results(parsed)
+        # if not save_result['success']:
+        #     raise RuntimeError("文件保存失败")
 
-        # 部署到Cloudflare
-        # if CloudflareDeployer.deploy():
-        #     logger.info("=== 部署成功 ===")
-        # else:
-        #     logger.error("=== 部署失败 ===")
+        # 合并历史节点
+        history_nodes = HistoryManager.load_history_nodes()
+        new_nodes = [n['data'] for n in parsed['nodes']]
+        merged_nodes = HistoryManager.merge_nodes(new_nodes, history_nodes)
+        
+        # 节点测试
+        tester = NodeTester()
+        valid_nodes = await tester.batch_test(merged_nodes)
+        
+        # 保存最终结果
+        FileGenerator.save_results({'nodes': valid_nodes}, output_dir='output')
+        FileGenerator.save_results({'nodes': valid_nodes}, output_dir='speedtest')
+        
+        # 更新仓库状态
+        repo_manager = RepoManager()
+        for repo in repos:
+            repo_manager.update_status(repo['html_url'], {
+                'timestamp': repo['updated_at'],
+                'hash': repo['sha']
+            })
 
     except Exception as e:
         logger.error(f"执行失败: {str(e)}", exc_info=True)
@@ -55,5 +82,7 @@ def main():
         else:
             logger.warning("未扫描到任何文件")
 
+# if __name__ == "__main__":
+#     main()
 if __name__ == "__main__":
-    main()
+    asyncio.run(main())  # 使用 asyncio 运行异步主函数
