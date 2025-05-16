@@ -36,3 +36,5 @@ jobs:
         commit_user_email: "github-actions[bot]@users.noreply.github.com"
         file_pattern: |
             logs/* 
+            output/*
+            

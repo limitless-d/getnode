@@ -644,7 +644,7 @@ class FileGenerator:
 
             for index, node in enumerate(node_results.get('nodes', []), 1):
                 FileGenerator._process_node(node, clash_config, v2rayn_lines, node_counter)
-                if index % 50 == 0:  # 每50个节点记录进度
+                if index % 500 == 0:  # 每50个节点记录进度
                     logger.debug(f"节点处理进度: {index}/{total_nodes}")
 
             # 写入文件

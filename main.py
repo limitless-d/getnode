@@ -43,7 +43,7 @@ async def main():
         merged_nodes = HistoryManager.merge_nodes(new_nodes, history_nodes)
         
         # 保存去重后的节点结果
-        save_result = FileGenerator.save_results(merged_nodes)
+        save_result = FileGenerator.save_results({'nodes': merged_nodes})
         if not save_result['success']:
             raise RuntimeError("文件保存失败")
 
