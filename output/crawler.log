@@ -1,25 +1,32 @@
-2025-05-16 07:04:29,972 - INFO - === 开始执行爬虫任务 ===
-2025-05-16 07:04:49,513 - INFO - 发现 300 个相关仓库
-2025-05-16 07:04:49,513 - INFO - 开始收集节点文件...
-2025-05-16 07:07:17,025 - INFO - 已使用API次数: 1000/小时
-2025-05-16 07:09:55,615 - INFO - 已使用API次数: 2000/小时
-2025-05-16 07:12:33,139 - INFO - 已使用API次数: 3000/小时
-2025-05-16 07:14:24,661 - INFO - 总共发现 225 个节点文件
-2025-05-16 07:14:24,661 - INFO - 开始处理链接集合，共 225 个链接
-2025-05-16 07:15:19,254 - INFO - 链接处理完成。成功: 125, 失败: 100
-2025-05-16 07:15:33,664 - ERROR - 执行失败: 'data'
+2025-05-16 09:33:05,122 - INFO - === 开始执行爬虫任务 ===
+2025-05-16 09:33:23,874 - INFO - 跳过仓库：0个
+2025-05-16 09:33:23,874 - INFO - 发现 300 个相关仓库
+2025-05-16 09:33:23,874 - INFO - 开始收集节点文件...
+2025-05-16 09:35:03,662 - INFO - 已使用API次数: 1000/小时
+2025-05-16 09:36:50,262 - INFO - 已使用API次数: 2000/小时
+2025-05-16 09:38:51,145 - INFO - 已使用API次数: 3000/小时
+2025-05-16 09:40:15,703 - INFO - 总共发现 225 个节点文件
+2025-05-16 09:40:15,703 - INFO - 开始处理链接集合，共 225 个链接
+2025-05-16 09:40:48,987 - INFO - 链接处理完成。成功: 125, 失败: 100
+2025-05-16 09:41:03,121 - INFO - 成功加载历史节点数量: 31331
+2025-05-16 09:41:03,536 - INFO - 合并后总节点数: 50405
+2025-05-16 09:41:03,538 - INFO - 开始保存节点结果到目录: output
+2025-05-16 09:41:03,538 - ERROR - 保存结果时发生严重错误: 'list' object has no attribute 'get'
+Traceback (most recent call last):
+  File "/home/runner/work/getnode/getnode/src/nodesjob.py", line 642, in save_results
+    total_nodes = len(node_results.get('nodes', []))
+AttributeError: 'list' object has no attribute 'get'
+2025-05-16 09:41:03,538 - ERROR - 执行失败: 文件保存失败
 Traceback (most recent call last):
   File "/home/runner/work/getnode/getnode/main.py", line 48, in main
-    merged_nodes = HistoryManager.merge_nodes(new_nodes, history_nodes)
-  File "/home/runner/work/getnode/getnode/src/history_manager.py", line 30, in merge_nodes
-    fingerprint = HistoryManager._node_fingerprint(node['data'])
-KeyError: 'data'
-2025-05-16 07:15:33,666 - INFO - 
+    raise RuntimeError("文件保存失败")
+RuntimeError: 文件保存失败
+2025-05-16 09:41:03,539 - INFO - 
 === 文件处理统计 ===
-• 扫描文件总数: 26049
-• 因大小跳过:   624 (2.4%)
-• 有效处理文件: 25425
+• 扫描文件总数: 26053
+• 因大小跳过:   623 (2.4%)
+• 有效处理文件: 25430
 === 节点处理统计 ===
-• 扫描节点总数: 53242
-• 节点去重数:   33035
-• 真实节点数:   20207
+• 扫描节点总数: 53183
+• 节点去重数:   32892
+• 真实节点数:   20291
