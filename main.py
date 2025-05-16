@@ -35,25 +35,26 @@ async def main():
         logger.info(f"总共发现 {len(node_links)} 个节点文件")
 
         # 处理节点链接
-        parsed = NodeProcessor.parse_node_links([link['download_url'] for link in node_links])
-
-        # # 保存结果
-        # save_result = FileGenerator.save_results(parsed)
-        # if not save_result['success']:
-        #     raise RuntimeError("文件保存失败")
+        new_nodes = NodeProcessor.parse_node_links([link['download_url'] for link in node_links])
 
         # 合并历史节点
         history_nodes = HistoryManager.load_history_nodes()
-        new_nodes = [n['data'] for n in parsed['nodes']]
+        # new_nodes = [n['data'] for n in parsed['nodes']]
         merged_nodes = HistoryManager.merge_nodes(new_nodes, history_nodes)
         
+        # 保存去重后的节点结果
+        save_result = FileGenerator.save_results(merged_nodes)
+        if not save_result['success']:
+            raise RuntimeError("文件保存失败")
+
         # 节点测试
         tester = NodeTester()
         valid_nodes = await tester.batch_test(merged_nodes)
         
         # 保存最终结果
-        FileGenerator.save_results({'nodes': valid_nodes}, output_dir='output')
-        FileGenerator.save_results({'nodes': valid_nodes}, output_dir='speedtest')
+        save_result = FileGenerator.save_results({'nodes': valid_nodes}, output_dir='speedtest')
+        if not save_result['success']:
+            raise RuntimeError("文件保存失败")
         
         # 更新仓库状态
         repo_manager = RepoManager()

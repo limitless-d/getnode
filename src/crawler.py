@@ -122,10 +122,13 @@ class GitHubCrawler:
             repo_manager = RepoManager()
             filtered_repos = []
             for repo in repos:
+                FileCounter.repo_total += 1
                 if repo_manager.should_process(repo['html_url'], repo['updated_at']):
+                    FileCounter.repo_added += 1
                     filtered_repos.append(repo)
+            logger.info(f"跳过仓库：{FileCounter.repo_total - FileCounter.repo_added}个")
             return filtered_repos
-        
+
         except Exception as e:
             logger.error(f"仓库搜索失败: {str(e)}", exc_info=True)
 
