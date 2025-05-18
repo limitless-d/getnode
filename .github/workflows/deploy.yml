@@ -2,7 +2,7 @@ name: Node Crawler # 工作流名称
 
 on:
   schedule:
-    - cron: "0 20 * * 1" # 每周一 20:00 自动触发工作流
+    - cron: 0 20 * * 1
   workflow_dispatch: # 允许手动触发工作流
 
 jobs:
@@ -24,7 +24,7 @@ jobs:
     # 第三步：安装依赖
     - name: Install Dependencies
       run: |
-        pip install --upgrade requests pyyaml tenacity aiohttp # 安装 Python 依赖
+        pip install --upgrade requests pyyaml tenacity aiohttp python-dateutil # 安装 Python 依赖
         npm install -g wrangler@latest # 安装最新版本的 Wrangler
 
     # 第四步：运行爬虫脚本
