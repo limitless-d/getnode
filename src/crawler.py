@@ -12,21 +12,11 @@ from .repo_manager import RepoManager
 from .counters import FileCounter
 
 
-# 配置日志系统
-logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(message)s',
-    # filemode='output/crawler.log'
-    handlers=[
-        logging.FileHandler('output/crawler.log', mode='w'),
-        logging.StreamHandler()
-    ]
-)
-logger = logging.getLogger(__name__)
+logger = logging.getLogger("getnode")
 
 # 配置常量
 GITHUB_API_URL = "https://api.github.com/search/repositories"
-MAX_RESULTS = 400  # 最大搜索结果数
+MAX_RESULTS = 60  # 最大搜索结果数
 RESULTS_PER_PAGE = 30
 SLEEP_INTERVAL = 1.2
 MAX_RETRIES = 5
@@ -50,6 +40,7 @@ class APICounter:
         
         cls.count += 1
         if cls.count >= 4800:
+            logger.info(f"已使用API次数: {cls.count}/小时")
             wait_time = 3600 - (current_time - cls.last_reset).seconds
             logger.warning(f"接近API限制，等待{wait_time}秒")
             time.sleep(wait_time)
@@ -61,6 +52,8 @@ class APICounter:
         elif cls.count > 4000:
             if cls.count % 50 == 0:
                 logger.info(f"API调用次数: {cls.count}/小时")
+        elif cls.count % 100 == 0:
+            logger.info(f"已使用API次数: {cls.count}/小时")
                 
 class GitHubCrawler:
     def __init__(self):
@@ -93,46 +86,105 @@ class GitHubCrawler:
     def search_repos(self) -> list:
         repos = []
         params = {
-            "q": "v2ray free in:readme,description",  # 使用单一关键词
+            "q": "v2ray free in:readme,description",
             "sort": "updated",
             "order": "desc",
             "per_page": RESULTS_PER_PAGE
         }
+        repo_manager = RepoManager()  # 提前初始化管理器
+        page = 1
 
         try:
-            # 添加查询验证
+            # 查询验证
             if any(op in params["q"] for op in [" OR ", " AND ", " NOT "]):
                 raise ValueError("搜索查询包含非法逻辑操作符")
-            
-            for page in range(1, (MAX_RESULTS // RESULTS_PER_PAGE) + 1):
+
+            while len(repos) < MAX_RESULTS:
                 params["page"] = page
                 try:
                     data = self.safe_request(GITHUB_API_URL, params)
-                    repos.extend(data.get("items", []))
+                    raw_repos = data.get("items", [])
+                    
+                    # 无更多数据时终止循环
+                    if not raw_repos:
+                        logger.debug(f"第 {page} 页无数据，终止搜索")
+                        break
+
+                    # 实时过滤仓库
+                    for repo in raw_repos:
+                        FileCounter.repo_total += 1
+                        if repo_manager.should_process(repo['html_url'], repo['pushed_at']):
+                            FileCounter.repo_added += 1
+                            repos.append(repo)
+                            # 达到最大限制时立即终止
+                            if len(repos) >= MAX_RESULTS:
+                                break
+
+                    logger.debug(f"第 {page} 页处理完成，有效仓库数: {len(repos)}/{MAX_RESULTS}")
+                    page += 1
                     time.sleep(SLEEP_INTERVAL)
+
                 except requests.HTTPError as e:
                     if e.response.status_code == 422:
                         logger.error("GitHub API查询验证失败，请简化搜索条件")
                         break
                     raise
 
-                if len(repos) >= MAX_RESULTS:
-                    break
-             # 新增仓库过滤
-            repo_manager = RepoManager()
-            filtered_repos = []
-            for repo in repos:
-                FileCounter.repo_total += 1
-                if repo_manager.should_process(repo['html_url'], repo['updated_at']):
-                    FileCounter.repo_added += 1
-                    filtered_repos.append(repo)
-            logger.info(f"跳过仓库：{FileCounter.repo_total - FileCounter.repo_added}个")
-            return filtered_repos
+            logger.info(
+                f"仓库搜索完成 | 总扫描仓库: {FileCounter.repo_total} "
+                f"有效仓库: {FileCounter.repo_added} "
+                f"跳过: {FileCounter.repo_total - FileCounter.repo_added}"
+            )
+            return repos
 
         except Exception as e:
             logger.error(f"仓库搜索失败: {str(e)}", exc_info=True)
+            return []
 
-        return repos
+
+    # def search_repos(self) -> list:
+    #     repos = []
+    #     params = {
+    #         "q": "v2ray free in:readme,description",  # 使用单一关键词
+    #         "sort": "updated",
+    #         "order": "desc",
+    #         "per_page": RESULTS_PER_PAGE
+    #     }
+
+    #     try:
+    #         # 添加查询验证
+    #         if any(op in params["q"] for op in [" OR ", " AND ", " NOT "]):
+    #             raise ValueError("搜索查询包含非法逻辑操作符")
+            
+    #         for page in range(1, (MAX_RESULTS // RESULTS_PER_PAGE) + 1):
+    #             params["page"] = page
+    #             try:
+    #                 data = self.safe_request(GITHUB_API_URL, params)
+    #                 repos.extend(data.get("items", []))
+    #                 time.sleep(SLEEP_INTERVAL)
+    #             except requests.HTTPError as e:
+    #                 if e.response.status_code == 422:
+    #                     logger.error("GitHub API查询验证失败，请简化搜索条件")
+    #                     break
+    #                 raise
+
+    #             if len(repos) >= MAX_RESULTS:
+    #                 break
+    #          # 新增仓库过滤
+    #         repo_manager = RepoManager()
+    #         filtered_repos = []
+    #         for repo in repos:
+    #             FileCounter.repo_total += 1
+    #             if repo_manager.should_process(repo['html_url'], repo['pushed_at']):
+    #                 FileCounter.repo_added += 1
+    #                 filtered_repos.append(repo)
+    #         logger.info(f"跳过仓库：{FileCounter.repo_total - FileCounter.repo_added}个")
+    #         return filtered_repos
+
+    #     except Exception as e:
+    #         logger.error(f"仓库搜索失败: {str(e)}", exc_info=True)
+
+    #     return repos
 
     def find_node_files(self, repo_url: str) -> list:
         logger.debug(f"开始处理仓库: {repo_url}")  # 新增日志
@@ -148,7 +200,7 @@ class GitHubCrawler:
         page = 1
         while True:
             try:
-                logger.debug(f"扫描目录: {path} [第{page}页]")
+                logger.debug(f"扫描目录: {path} ")
                 params = {"page": page, "per_page": PER_PAGE}
                 contents = self.safe_request(path, params)
                 
@@ -183,7 +235,7 @@ class GitHubCrawler:
                 
                 logger.debug(f"目录中发现了{total_links}个节点文件")
 
-                if len(contents) < PER_PAGE:
+                if len(contents) <= PER_PAGE:
                     break
                 page += 1
                 time.sleep(SLEEP_INTERVAL)
@@ -220,6 +272,12 @@ class GitHubCrawler:
             
         # 目录递归
         if item["type"] == "dir":
+            dir_name = item["name"].strip()
+            # 匹配6-8位纯数字（示例：202501 或 20250101）
+            if re.fullmatch(r'\d{6,8}', dir_name):
+                logger.debug(f"跳过时间数字目录: {dir_name}")
+                return False
+            
             logger.debug(f"进入子目录: {name}")
             self._search_contents(item["url"], depth+1)
             return False
@@ -229,7 +287,7 @@ class GitHubCrawler:
             return False
             
         # 关键词匹配
-        keyword_pattern = re.compile(r'v2ray|clash|node|proxy|sub|ss|trojan|conf|tls|ws', re.IGNORECASE)
+        keyword_pattern = re.compile(r'v2ray|clash|node|proxy|sub|ss|trojan|conf|tls|ws|converted', re.IGNORECASE)
         if not keyword_pattern.search(name):
             return False
     

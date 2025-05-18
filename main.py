@@ -1,6 +1,4 @@
-# from src.crawler import GitHubCrawler, FileCounter
-# from src.nodesjob import NodeProcessor, FileGenerator, NodeCounter
-# from src.cloudflare import CloudflareDeployer
+
 import asyncio
 from src import (
     GitHubCrawler,
@@ -14,8 +12,13 @@ from src import (
 )
 
 import logging
+from src.logger import setup_logger
 
-logger = logging.getLogger(__name__)
+# 在程序最开始初始化日志
+logger = setup_logger(
+    log_level=logging.INFO,  # 开发时用DEBUG，生产环境改为INFO
+    log_file="logs/getnode.log"
+)
 
 async def main():
     try:
@@ -43,16 +46,16 @@ async def main():
         merged_nodes = HistoryManager.merge_nodes(new_nodes, history_nodes)
         
         # 保存去重后的节点结果
-        save_result = FileGenerator.save_results({'nodes': merged_nodes})
+        save_result = FileGenerator.save_results(merged_nodes)
         if not save_result['success']:
             raise RuntimeError("文件保存失败")
 
         # 节点测试
         tester = NodeTester()
-        valid_nodes = await tester.batch_test(merged_nodes)
+        results = await tester.batch_test(merged_nodes)
         
         # 保存最终结果
-        save_result = FileGenerator.save_results({'nodes': valid_nodes}, output_dir='speedtest')
+        save_result = FileGenerator.save_results(results, output_dir='speedtest')
         if not save_result['success']:
             raise RuntimeError("文件保存失败")
         
@@ -60,13 +63,16 @@ async def main():
         repo_manager = RepoManager()
         for repo in repos:
             repo_manager.update_status(repo['html_url'], {
-                'timestamp': repo['updated_at'],
-                'hash': repo['sha']
+                'timestamp': repo['pushed_at'],
+                'hash': repo['node_id']
             })
 
     except Exception as e:
         logger.error(f"执行失败: {str(e)}", exc_info=True)
-
+        # 新增文件系统错误检查
+        if isinstance(e, (PermissionError, FileNotFoundError)):
+            logger.error("文件系统权限或路径错误")
+            
     finally:
         # 添加统计输出
         if FileCounter.total > 0:

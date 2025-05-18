@@ -3,8 +3,9 @@ import os
 import logging
 from typing import List, Dict
 from .tools import NodeUtils
+from .nodesjob import NodeProcessor
 
-logger = logging.getLogger(__name__)
+logger = logging.getLogger("getnode")
 
 class HistoryManager:
     @staticmethod
@@ -16,41 +17,38 @@ class HistoryManager:
             return []
 
         try:
-            with open(yaml_path, 'r') as f:
+            with open(yaml_path, 'r', encoding='utf-8') as f:
                 config = yaml.safe_load(f)
                 nodes = config.get('proxies', [])
                 logger.info(f"成功加载历史节点数量: {len(nodes)}")
                 return nodes
-                # return [HistoryManager._format_node(n) for n in nodes]
+            
         except Exception as e:
             logger.error(f"加载历史节点失败: {str(e)}")
             return []
 
     @staticmethod
-    # def merge_nodes(new_nodes: List[Dict], history_nodes: List[Dict]) -> List[Dict]:
-    #     """合并新旧节点（以nodesjob格式为准）"""
     def merge_nodes(new_nodes, history_nodes):
-        """合并并去重节点"""
+        """合并新旧节点并去重节点"""
         logger.debug("开始合并节点数据")
+        logger.info(f"新节点：{len(new_nodes['nodes'])}, 历史节点：{len(history_nodes)}")
         seen = set()
-        merged = []
+        result = {'nodes':[]}
 
+        if not history_nodes:
+            return new_nodes
+        
+        # 添加新节点
+        nodes_to_merge = new_nodes.get('nodes', [])
+        for node in nodes_to_merge:
+            fingerprint = NodeUtils.generate_fingerprint(node['data'])
+            if fingerprint not in seen:
+                seen.add(fingerprint)
+                result['nodes'].append(node)
         # 处理历史节点
-        for node in history_nodes:
-            fingerprint = NodeUtils.generate_fingerprint(node)
-            if fingerprint not in seen:
-                seen.add(fingerprint)
-                merged.append(node)
-                logger.debug(f"保留历史节点: {node.get('name')}")
+        NodeProcessor._add_nodes(result, seen, history_nodes, None, 'clash')
+        
+        result['total_nodes'] = len(result['nodes'])  # 更新result统计信息
 
-        # 处理新节点
-        node_data = new_nodes.get('nodes', [])
-        for node in node_data:
-            fingerprint = NodeUtils.generate_fingerprint(node)
-            if fingerprint not in seen:
-                seen.add(fingerprint)
-                merged.append(node)
-                logger.debug(f"添加新节点: {node.get('name')}")
-
-        logger.info(f"合并后总节点数: {len(merged)}")
-        return merged
+        logger.info(f"合并后总节点数: {len(result['nodes'])}")
+        return result

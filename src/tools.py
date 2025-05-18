@@ -6,13 +6,15 @@ import re
 from collections import OrderedDict
 # from urllib.parse import urlparse, parse_qs, unquote, quote
 
-logger = logging.getLogger(__name__)
+logger = logging.getLogger("getnode")
 
 class NodeUtils:
     @staticmethod
     def generate_fingerprint(node_data: dict) -> str:
-        """生成节点唯一指纹（与nodesjob逻辑一致）"""
+        """生成节点唯一指纹"""
         node_type = node_data.get('type', 'unknown').lower()
+        logger.debug(f"开始生成指纹，节点类型: {node_type}")
+        
         core_fields = OrderedDict()
 
         # 通用字段
@@ -52,6 +54,7 @@ class NodeUtils:
         if depth > 2:
             return content
             
+        logger.debug(f"检测Base64有效性，内容长度: {len(content)}")
         try:
             if not NodeUtils.is_base64(content):
                 return content

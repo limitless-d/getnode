@@ -13,7 +13,7 @@ from typing import List, Dict
 from .counters import NodeCounter
 from .tools import NodeUtils
 
-logger = logging.getLogger(__name__)
+logger = logging.getLogger("getnode")
 
 class NodeProcessor:
     @staticmethod
@@ -561,10 +561,7 @@ class NodeProcessor:
         for node in nodes:
             # 新增：提取关键特征生成唯一指纹
             node_fingerprint = NodeUtils.generate_fingerprint(node)
-
             NodeCounter.total_nodes += 1
-            if node_fingerprint in seen:
-                NodeCounter.dup_nodes += 1
 
             if node_fingerprint not in seen:
                 seen.add(node_fingerprint)
@@ -574,47 +571,8 @@ class NodeProcessor:
                     'data': node
                 })
             else:
+                NodeCounter.dup_nodes += 1
                 logger.debug(f"发现重复节点: {NodeProcessor._get_node_identity(node)}")
-
-    # @staticmethod
-    # def _generate_fingerprint(node_data: dict) -> str:
-    #     """生成节点唯一指纹"""
-    #     # 按协议类型提取关键字段
-    #     node_type = node_data.get('type', 'unknown').lower()
-    #     core_fields = OrderedDict()
-
-    #     # 通用关键字段
-    #     core_fields['type'] = node_type
-    #     core_fields['server'] = node_data.get('server', '')
-    #     core_fields['port'] = str(node_data.get('port', ''))
-        
-    #     # 协议特定字段
-    #     if node_type == 'ss':
-    #         core_fields.update({
-    #             'cipher': node_data.get('cipher', ''),
-    #             'password': node_data.get('password', '')
-    #         })
-    #     elif node_type == 'vmess':
-    #         core_fields.update({
-    #             'uuid': node_data.get('uuid', ''),
-    #             'alterId': str(node_data.get('alterId', '0')),
-    #             'network': node_data.get('network', 'tcp')
-    #         })
-    #     elif node_type == 'trojan':
-    #         core_fields.update({
-    #             'password': node_data.get('password', ''),
-    #             'sni': node_data.get('sni', '')
-    #         })
-    #     else:
-    #         # 未知协议使用完整数据哈希
-    #         return hashlib.md5(
-    #             json.dumps(node_data, sort_keys=True).encode()
-    #         ).hexdigest()
-
-    #     # 生成标准化哈希
-    #     return hashlib.md5(
-    #         json.dumps(core_fields, sort_keys=True).encode()
-    #     ).hexdigest()
 
     @staticmethod
     def _get_node_identity(node_data: dict) -> str:

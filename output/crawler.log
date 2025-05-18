@@ -1,0 +1,51 @@
+2025-05-17 23:00:14,969 - INFO - === 开始执行爬虫任务 ===
+2025-05-17 23:00:38,678 - ERROR - 仓库搜索失败: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "d:\Learning\getnode\src\crawler.py", line 122, in search_repos
+    repo_manager = RepoManager()
+                   ^^^^^^^^^^^^^
+  File "d:\Learning\getnode\src\repo_manager.py", line 9, in __init__
+    self.repo_status = self._load_status()
+                       ^^^^^^^^^^^^^^^^^^^
+  File "d:\Learning\getnode\src\repo_manager.py", line 14, in _load_status
+    return json.load(f)
+           ^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2025-05-17 23:00:38,682 - INFO - 发现 300 个相关仓库
+2025-05-17 23:00:38,682 - INFO - 开始收集节点文件...
+2025-05-17 23:07:07,349 - INFO - 已使用API次数: 1000/小时
+2025-05-17 23:13:43,571 - INFO - 已使用API次数: 2000/小时
+2025-05-17 23:21:37,485 - INFO - 已使用API次数: 3000/小时
+2025-05-17 23:27:35,690 - INFO - 总共发现 223 个节点文件
+2025-05-17 23:27:35,690 - INFO - 开始处理链接集合，共 223 个链接
+2025-05-17 23:29:10,884 - ERROR - 处理链接时发生异常: 处理异常: 404 Client Error: Not Found for url: https://raw.githubusercontent.com/nyeinkokoaung404/V2ray-Configs/main/Sub18.txt
+Traceback (most recent call last):
+  File "d:\Learning\getnode\src\nodesjob.py", line 39, in parse_node_links
+    response.raise_for_status()
+  File "D:\Learning\getnode\.venv\Lib\site-packages\requests\models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://raw.githubusercontent.com/nyeinkokoaung404/V2ray-Configs/main/Sub18.txt
+2025-05-17 23:30:31,129 - INFO - 链接处理完成。成功: 123, 失败: 100
+2025-05-17 23:30:32,797 - ERROR - 加载历史节点失败: 'gbk' codec can't decode byte 0xa7 in position 7537: illegal multibyte sequence
+2025-05-17 23:30:32,979 - INFO - 合并后总节点数: 19541
+2025-05-17 23:30:32,980 - INFO - 开始保存节点结果到目录: output
+2025-05-17 23:30:33,130 - INFO - 开始写入输出文件...
+2025-05-17 23:30:41,206 - INFO - 成功生成订阅文件，总节点数: 19392
+2025-05-17 23:31:40,895 - INFO - 开始保存节点结果到目录: speedtest
+2025-05-17 23:31:40,896 - INFO - 开始写入输出文件...
+2025-05-17 23:31:40,899 - INFO - 成功生成订阅文件，总节点数: 0
+2025-05-17 23:31:40,899 - ERROR - 执行失败: 'sha'
+Traceback (most recent call last):
+  File "d:\Learning\getnode\main.py", line 64, in main
+KeyError: 'sha'
