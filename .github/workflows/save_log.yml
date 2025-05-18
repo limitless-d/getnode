@@ -8,7 +8,7 @@ name: Save GitHub Actions Logs
   #   types:
   #     - completed
 
-jobs:
+# jobs:
   save-logs:
     runs-on: ubuntu-latest
 
