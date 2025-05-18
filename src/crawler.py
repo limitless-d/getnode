@@ -46,13 +46,11 @@ class APICounter:
             cls.last_reset = current_time
             cls.count = 0
 
-        if cls.count % 1000 == 0:  # 新增监控日志
+        if cls.count % 100 == 0:  # 新增监控日志
             logger.info(f"已使用API次数: {cls.count}/小时")
         elif cls.count > 4000:
             if cls.count % 50 == 0:
                 logger.info(f"API调用次数: {cls.count}/小时")
-        elif cls.count % 100 == 0:
-            logger.info(f"已使用API次数: {cls.count}/小时")
                 
 class GitHubCrawler:
     def __init__(self):
