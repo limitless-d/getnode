@@ -7,7 +7,7 @@ from typing import Optional
 def setup_logger(
     name: str = "getnode",
     log_level: int = logging.INFO,
-    log_file: Optional[str] = "logs/getnode.log",
+    log_file: Optional[str] = "output/logs/getnode.log",
     max_bytes: int = 2 * 1024 * 1024,  # 2MB
     backup_count: int = 3
 ) -> logging.Logger:

@@ -17,7 +17,7 @@ from src.logger import setup_logger
 # 在程序最开始初始化日志
 logger = setup_logger(
     log_level=logging.INFO,  # 开发时用DEBUG，生产环境改为INFO
-    log_file="logs/getnode.log"
+    log_file="output/logs/getnode.log"
 )
 
 async def main():
@@ -55,7 +55,7 @@ async def main():
         results = await tester.batch_test(merged_nodes)
         
         # 保存最终结果
-        save_result = FileGenerator.save_results(results, output_dir='speedtest')
+        save_result = FileGenerator.save_results(results, output_dir='output/speedtest')
         if not save_result['success']:
             raise RuntimeError("文件保存失败")
         

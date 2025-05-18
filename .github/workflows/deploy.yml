@@ -42,4 +42,3 @@ jobs:
         commit_user_email: "github-actions[bot]@users.noreply.github.com" # 提交用户邮箱
         file_pattern: |
           output/* 
-          logs/*

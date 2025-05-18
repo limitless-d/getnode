@@ -8,7 +8,7 @@ logger = logging.getLogger("getnode")
 
 class HistoryManager:
     @staticmethod
-    def load_history_nodes(yaml_path='output/all_clash_config.yaml') -> List[Dict]:
+    def load_history_nodes(yaml_path='output/all_subs/all_clash_config.yaml') -> List[Dict]:
         """加载历史节点并与nodesjob格式对齐"""
         logger.debug(f"开始加载历史节点文件: {yaml_path}")
         if not os.path.exists(yaml_path):

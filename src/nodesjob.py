@@ -554,7 +554,7 @@ class NodeProcessor:
 class FileGenerator:
     
     @staticmethod
-    def save_results(node_results, output_dir='output'):
+    def save_results(node_results, output_dir='output/all_subs'):
         """保存结果到文件"""
         try:
             logger.info(f"开始保存节点结果到目录: {output_dir}")
