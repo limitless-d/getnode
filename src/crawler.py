@@ -24,7 +24,6 @@ MAX_FILE_SIZE = 1024 * 1024 * 1.2  # 1.2MB
 MAX_RECURSION_DEPTH = 3
 PER_PAGE = 100
 MAX_CONTENTS_TOTAL = 100  # 最大目录条目数
-# NODE_KEYWORDS = ['v2ray', 'subscribe', 'clash', 'sub', 'config', 'vless', 'vmess']  # 节点文件关键词
 
 class APICounter:
     """API调用计数器"""
@@ -141,50 +140,6 @@ class GitHubCrawler:
             logger.error(f"仓库搜索失败: {str(e)}", exc_info=True)
             return []
 
-
-    # def search_repos(self) -> list:
-    #     repos = []
-    #     params = {
-    #         "q": "v2ray free in:readme,description",  # 使用单一关键词
-    #         "sort": "updated",
-    #         "order": "desc",
-    #         "per_page": RESULTS_PER_PAGE
-    #     }
-
-    #     try:
-    #         # 添加查询验证
-    #         if any(op in params["q"] for op in [" OR ", " AND ", " NOT "]):
-    #             raise ValueError("搜索查询包含非法逻辑操作符")
-            
-    #         for page in range(1, (MAX_RESULTS // RESULTS_PER_PAGE) + 1):
-    #             params["page"] = page
-    #             try:
-    #                 data = self.safe_request(GITHUB_API_URL, params)
-    #                 repos.extend(data.get("items", []))
-    #                 time.sleep(SLEEP_INTERVAL)
-    #             except requests.HTTPError as e:
-    #                 if e.response.status_code == 422:
-    #                     logger.error("GitHub API查询验证失败，请简化搜索条件")
-    #                     break
-    #                 raise
-
-    #             if len(repos) >= MAX_RESULTS:
-    #                 break
-    #          # 新增仓库过滤
-    #         repo_manager = RepoManager()
-    #         filtered_repos = []
-    #         for repo in repos:
-    #             FileCounter.repo_total += 1
-    #             if repo_manager.should_process(repo['html_url'], repo['pushed_at']):
-    #                 FileCounter.repo_added += 1
-    #                 filtered_repos.append(repo)
-    #         logger.info(f"跳过仓库：{FileCounter.repo_total - FileCounter.repo_added}个")
-    #         return filtered_repos
-
-    #     except Exception as e:
-    #         logger.error(f"仓库搜索失败: {str(e)}", exc_info=True)
-
-    #     return repos
 
     def find_node_files(self, repo_url: str) -> list:
         logger.debug(f"开始处理仓库: {repo_url}")  # 新增日志

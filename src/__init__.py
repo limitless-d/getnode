@@ -34,7 +34,7 @@ def __getattr__(name):
 
 # 从子模块导入关键类
 from .crawler import GitHubCrawler, FileCounter
-from .nodesjob import NodeProcessor, FileGenerator, NodeCounter
+from .nodesjob import NodeProcessor, FileGenerator
 from .repo_manager import RepoManager
 from .history_manager import HistoryManager
 from .tester import NodeTester

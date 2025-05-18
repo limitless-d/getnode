@@ -5,12 +5,9 @@ import json
 import base64
 import binascii
 import yaml
-# import hashlib
 import logging
 from urllib.parse import urlparse, unquote, parse_qs, quote
-# from collections import OrderedDict
 from typing import List, Dict
-from .counters import NodeCounter
 from .tools import NodeUtils
 
 logger = logging.getLogger("getnode")
@@ -39,7 +36,6 @@ class NodeProcessor:
                 response.raise_for_status()
                 content = response.text
 
-
                 # 尝试解析为Base64编码内容
                 content = NodeProcessor._parse_base64_config(content)
                 
@@ -47,21 +43,21 @@ class NodeProcessor:
                 txt_result = NodeProcessor._parse_txt_content(content)
                 if txt_result['success']:
                     result['success_count'] += 1
-                    NodeProcessor._add_nodes(result, seen, txt_result['data'], url, 'text')
+                    NodeUtils.add_nodes(result, seen, txt_result['data'], url, 'text')
                     continue
 
                 # 尝试解析为Clash配置
                 clash_result = NodeProcessor._parse_clash_config_content(content)
                 if clash_result['success']:
                     result['success_count'] += 1
-                    NodeProcessor._add_nodes(result, seen, clash_result['data'], url, 'clash')
+                    NodeUtils.add_nodes(result, seen, clash_result['data'], url, 'clash')
                     continue
                 
                 # 尝试解析为Json配置
                 json_result = NodeProcessor._parse_clash_config_content(content)
                 if json_result['success']:
                     result['success_count'] += 1
-                    NodeProcessor._add_nodes(result, seen, json_result['data'], url, 'clash')
+                    NodeUtils.add_nodes(result, seen, json_result['data'], url, 'clash')
                     continue
                 
                 logger.debug(f"无法解析链接内容: {url}")
@@ -76,7 +72,6 @@ class NodeProcessor:
         
         result['total_nodes'] = len(result['nodes'])
         logger.info(f"链接处理完成。成功: {result['success_count']}, 失败: {result['failure_count']}")
-        logger.debug(f"去重统计: 总发现节点={NodeCounter.total_nodes} 重复节点={NodeCounter.dup_nodes}")
         return result
 
     @staticmethod
@@ -555,32 +550,6 @@ class NodeProcessor:
             }
         except ValueError as e:
             raise ValueError(f"HTTP Upgrade解析错误: {str(e)}")
-
-    @staticmethod
-    def _add_nodes(result, seen, nodes, url, source_type):
-        for node in nodes:
-            # 新增：提取关键特征生成唯一指纹
-            node_fingerprint = NodeUtils.generate_fingerprint(node)
-            NodeCounter.total_nodes += 1
-
-            if node_fingerprint not in seen:
-                seen.add(node_fingerprint)
-                result['nodes'].append({
-                    'source_type': source_type,
-                    'url': url,
-                    'data': node
-                })
-            else:
-                NodeCounter.dup_nodes += 1
-                logger.debug(f"发现重复节点: {NodeProcessor._get_node_identity(node)}")
-
-    @staticmethod
-    def _get_node_identity(node_data: dict) -> str:
-        """获取节点可读标识"""
-        base_info = f"{node_data.get('type', 'unknown')}://"
-        if 'server' in node_data:
-            base_info += f"{node_data['server']}:{node_data.get('port', '')}"
-        return base_info
     
 class FileGenerator:
     

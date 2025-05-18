@@ -3,7 +3,6 @@ import os
 import logging
 from typing import List, Dict
 from .tools import NodeUtils
-from .nodesjob import NodeProcessor
 
 logger = logging.getLogger("getnode")
 
@@ -46,7 +45,7 @@ class HistoryManager:
                 seen.add(fingerprint)
                 result['nodes'].append(node)
         # 处理历史节点
-        NodeProcessor._add_nodes(result, seen, history_nodes, None, 'clash')
+        NodeUtils.add_nodes(result, seen, history_nodes, None, 'clash')
         
         result['total_nodes'] = len(result['nodes'])  # 更新result统计信息
 

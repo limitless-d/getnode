@@ -85,6 +85,7 @@ async def main():
                 f"\n• 扫描节点总数: {NodeCounter.total_nodes}"
                 f"\n• 节点去重数:   {NodeCounter.dup_nodes}"
                 f"\n• 真实节点数:   {NodeCounter.total_nodes - NodeCounter.dup_nodes}"
+                f"\n"
             )
         else:
             logger.warning("未扫描到任何文件")

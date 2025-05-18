@@ -4,7 +4,7 @@ import json
 import logging
 import re
 from collections import OrderedDict
-# from urllib.parse import urlparse, parse_qs, unquote, quote
+from .counters import NodeCounter
 
 logger = logging.getLogger("getnode")
 
@@ -81,4 +81,30 @@ class NodeUtils:
                 base64.b64decode(content)
         except Exception:
             return False
-        
+
+    @staticmethod
+    def add_nodes(result, seen, nodes, url, source_type):
+        for node in nodes:
+            # 新增：提取关键特征生成唯一指纹
+            node_fingerprint = NodeUtils.generate_fingerprint(node)
+            NodeCounter.total_nodes += 1
+
+            if node_fingerprint not in seen:
+                seen.add(node_fingerprint)
+                result['nodes'].append({
+                    'source_type': source_type,
+                    'url': url,
+                    'data': node
+                })
+            else:
+                NodeCounter.dup_nodes += 1
+                logger.debug(f"发现重复节点: {NodeUtils._get_node_identity(node)}")    
+
+    @staticmethod
+    def _get_node_identity(node_data: dict) -> str:
+        """获取节点可读标识"""
+        base_info = f"{node_data.get('type', 'unknown')}://"
+        if 'server' in node_data:
+            base_info += f"{node_data['server']}:{node_data.get('port', '')}"
+        return base_info
+    

@@ -23,11 +23,6 @@ def setup_logger(
     logger = logging.getLogger(name)
     logger.setLevel(log_level)
 
-    # 清除已有处理器防止重复
-    # if logger.handlers:
-    #     for handler in logger.handlers[:]:
-    #         logger.removeHandler(handler)
-
     # 统一的日志格式
     formatter = logging.Formatter(
         '%(asctime)s - %(name)s - %(levelname)s - %(filename)s:%(lineno)d - %(message)s'
