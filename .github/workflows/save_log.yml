@@ -1,7 +1,9 @@
 name: Save GitHub Actions Logs
 
 on:
-  workflow_run:
+  schedule:
+    - cron: 0 20 * * *
+  # workflow_run:
   #   workflows: ["Node Crawler"]  # 替换为你想保存日志的工作流名称
   #   types:
   #     - completed
