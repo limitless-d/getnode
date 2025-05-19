@@ -170,3 +170,453 @@ requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: http
 • 节点去重数:   48684
 • 真实节点数:   34118
 
+2025-05-19 21:15:31,595 - getnode - INFO - main.py:25 - === 开始执行爬虫任务 ===
+2025-05-19 21:15:54,319 - getnode - INFO - crawler.py:130 - 仓库搜索完成 | 总扫描仓库: 318 有效仓库: 180 跳过: 138
+2025-05-19 21:15:54,319 - getnode - INFO - main.py:30 - 发现 180 个相关仓库
+2025-05-19 21:15:54,320 - getnode - INFO - main.py:34 - 开始收集节点文件...
+2025-05-19 21:16:06,949 - getnode - INFO - crawler.py:50 - 已使用API次数: 100/小时
+2025-05-19 21:16:23,055 - getnode - INFO - crawler.py:50 - 已使用API次数: 200/小时
+2025-05-19 21:16:35,960 - getnode - INFO - crawler.py:50 - 已使用API次数: 300/小时
+2025-05-19 21:16:48,383 - getnode - INFO - crawler.py:50 - 已使用API次数: 400/小时
+2025-05-19 21:17:01,931 - getnode - INFO - crawler.py:50 - 已使用API次数: 500/小时
+2025-05-19 21:17:15,529 - getnode - INFO - crawler.py:50 - 已使用API次数: 600/小时
+2025-05-19 21:17:30,579 - getnode - INFO - crawler.py:50 - 已使用API次数: 700/小时
+2025-05-19 21:17:48,894 - getnode - INFO - crawler.py:50 - 已使用API次数: 800/小时
+2025-05-19 21:18:02,658 - getnode - INFO - crawler.py:50 - 已使用API次数: 900/小时
+2025-05-19 21:18:16,086 - getnode - INFO - crawler.py:50 - 已使用API次数: 1000/小时
+2025-05-19 21:18:30,888 - getnode - INFO - crawler.py:50 - 已使用API次数: 1100/小时
+2025-05-19 21:18:47,247 - getnode - INFO - crawler.py:50 - 已使用API次数: 1200/小时
+2025-05-19 21:19:00,105 - getnode - INFO - crawler.py:50 - 已使用API次数: 1300/小时
+2025-05-19 21:19:13,020 - getnode - INFO - crawler.py:50 - 已使用API次数: 1400/小时
+2025-05-19 21:19:25,662 - getnode - INFO - crawler.py:50 - 已使用API次数: 1500/小时
+2025-05-19 21:19:38,788 - getnode - INFO - crawler.py:50 - 已使用API次数: 1600/小时
+2025-05-19 21:19:51,271 - getnode - INFO - crawler.py:50 - 已使用API次数: 1700/小时
+2025-05-19 21:20:04,294 - getnode - INFO - crawler.py:50 - 已使用API次数: 1800/小时
+2025-05-19 21:20:17,070 - getnode - INFO - crawler.py:50 - 已使用API次数: 1900/小时
+2025-05-19 21:20:29,144 - getnode - INFO - crawler.py:50 - 已使用API次数: 2000/小时
+2025-05-19 21:20:41,279 - getnode - INFO - crawler.py:50 - 已使用API次数: 2100/小时
+2025-05-19 21:20:53,652 - getnode - INFO - crawler.py:50 - 已使用API次数: 2200/小时
+2025-05-19 21:21:07,135 - getnode - INFO - crawler.py:50 - 已使用API次数: 2300/小时
+2025-05-19 21:21:10,221 - getnode - INFO - main.py:38 - 总共发现 196 个节点文件
+2025-05-19 21:21:10,221 - getnode - INFO - nodesjob.py:18 - 开始处理链接集合，共 196 个链接
+2025-05-19 21:21:10,328 - getnode - ERROR - nodesjob.py:69 - 处理链接时发生异常: 处理异常: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/xiaoji235/airport-free/main/v2ray.png
+Traceback (most recent call last):
+  File "/home/runner/work/getnode/getnode/src/nodesjob.py", line 36, in parse_node_links
+    response.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/xiaoji235/airport-free/main/v2ray.png
+2025-05-19 21:21:11,179 - getnode - ERROR - nodesjob.py:69 - 处理链接时发生异常: 处理异常: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY_BASE64.txt
+Traceback (most recent call last):
+  File "/home/runner/work/getnode/getnode/src/nodesjob.py", line 36, in parse_node_links
+    response.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY_BASE64.txt
+2025-05-19 21:21:11,365 - getnode - ERROR - nodesjob.py:69 - 处理链接时发生异常: 处理异常: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY_RAW.txt
+Traceback (most recent call last):
+  File "/home/runner/work/getnode/getnode/src/nodesjob.py", line 36, in parse_node_links
+    response.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY_RAW.txt
+2025-05-19 21:21:11,680 - getnode - ERROR - nodesjob.py:69 - 处理链接时发生异常: 处理异常: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/skywrt/v2ray-configs/main/Config%20list10.txt
+Traceback (most recent call last):
+  File "/home/runner/work/getnode/getnode/src/nodesjob.py", line 36, in parse_node_links
+    response.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/skywrt/v2ray-configs/main/Config%20list10.txt
+2025-05-19 21:21:11,761 - getnode - ERROR - nodesjob.py:69 - 处理链接时发生异常: 处理异常: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/skywrt/v2ray-configs/main/Config%20list11.txt
+Traceback (most recent call last):
+  File "/home/runner/work/getnode/getnode/src/nodesjob.py", line 36, in parse_node_links
+    response.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/skywrt/v2ray-configs/main/Config%20list11.txt
+2025-05-19 21:21:11,845 - getnode - ERROR - nodesjob.py:69 - 处理链接时发生异常: 处理异常: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/skywrt/v2ray-configs/main/Config%20list12.txt
+Traceback (most recent call last):
+  File "/home/runner/work/getnode/getnode/src/nodesjob.py", line 36, in parse_node_links
+    response.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/skywrt/v2ray-configs/main/Config%20list12.txt
+2025-05-19 21:21:12,129 - getnode - ERROR - nodesjob.py:69 - 处理链接时发生异常: 处理异常: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/skywrt/v2ray-configs/main/Config%20list14.txt
+Traceback (most recent call last):
+  File "/home/runner/work/getnode/getnode/src/nodesjob.py", line 36, in parse_node_links
+    response.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/skywrt/v2ray-configs/main/Config%20list14.txt
+2025-05-19 21:21:13,171 - getnode - ERROR - nodesjob.py:69 - 处理链接时发生异常: 处理异常: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/skywrt/v2ray-configs/main/Config%20list18.txt
+Traceback (most recent call last):
+  File "/home/runner/work/getnode/getnode/src/nodesjob.py", line 36, in parse_node_links
+    response.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/skywrt/v2ray-configs/main/Config%20list18.txt
+2025-05-19 21:21:14,334 - getnode - ERROR - nodesjob.py:69 - 处理链接时发生异常: 处理异常: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/skywrt/v2ray-configs/main/Config%20list21.txt
+Traceback (most recent call last):
+  File "/home/runner/work/getnode/getnode/src/nodesjob.py", line 36, in parse_node_links
+    response.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/skywrt/v2ray-configs/main/Config%20list21.txt
+2025-05-19 21:21:15,196 - getnode - ERROR - nodesjob.py:69 - 处理链接时发生异常: 处理异常: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/skywrt/v2ray-configs/main/Config%20list24.txt
+Traceback (most recent call last):
+  File "/home/runner/work/getnode/getnode/src/nodesjob.py", line 36, in parse_node_links
+    response.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/skywrt/v2ray-configs/main/Config%20list24.txt
+2025-05-19 21:21:15,269 - getnode - ERROR - nodesjob.py:69 - 处理链接时发生异常: 处理异常: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/skywrt/v2ray-configs/main/Config%20list25.txt
+Traceback (most recent call last):
+  File "/home/runner/work/getnode/getnode/src/nodesjob.py", line 36, in parse_node_links
+    response.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/skywrt/v2ray-configs/main/Config%20list25.txt
+2025-05-19 21:21:16,411 - getnode - ERROR - nodesjob.py:69 - 处理链接时发生异常: 处理异常: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/skywrt/v2ray-configs/main/Config%20list29.txt
+Traceback (most recent call last):
+  File "/home/runner/work/getnode/getnode/src/nodesjob.py", line 36, in parse_node_links
+    response.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/skywrt/v2ray-configs/main/Config%20list29.txt
+2025-05-19 21:21:16,590 - getnode - ERROR - nodesjob.py:69 - 处理链接时发生异常: 处理异常: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/skywrt/v2ray-configs/main/Config%20list3.txt
+Traceback (most recent call last):
+  File "/home/runner/work/getnode/getnode/src/nodesjob.py", line 36, in parse_node_links
+    response.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/skywrt/v2ray-configs/main/Config%20list3.txt
+2025-05-19 21:21:16,671 - getnode - ERROR - nodesjob.py:69 - 处理链接时发生异常: 处理异常: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/skywrt/v2ray-configs/main/Config%20list30.txt
+Traceback (most recent call last):
+  File "/home/runner/work/getnode/getnode/src/nodesjob.py", line 36, in parse_node_links
+    response.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/skywrt/v2ray-configs/main/Config%20list30.txt
+2025-05-19 21:21:17,010 - getnode - ERROR - nodesjob.py:69 - 处理链接时发生异常: 处理异常: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/skywrt/v2ray-configs/main/Config%20list32.txt
+Traceback (most recent call last):
+  File "/home/runner/work/getnode/getnode/src/nodesjob.py", line 36, in parse_node_links
+    response.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/skywrt/v2ray-configs/main/Config%20list32.txt
+2025-05-19 21:21:17,619 - getnode - ERROR - nodesjob.py:69 - 处理链接时发生异常: 处理异常: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/skywrt/v2ray-configs/main/Config%20list5.txt
+Traceback (most recent call last):
+  File "/home/runner/work/getnode/getnode/src/nodesjob.py", line 36, in parse_node_links
+    response.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/skywrt/v2ray-configs/main/Config%20list5.txt
+2025-05-19 21:21:17,698 - getnode - ERROR - nodesjob.py:69 - 处理链接时发生异常: 处理异常: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/skywrt/v2ray-configs/main/Config%20list6.txt
+Traceback (most recent call last):
+  File "/home/runner/work/getnode/getnode/src/nodesjob.py", line 36, in parse_node_links
+    response.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/skywrt/v2ray-configs/main/Config%20list6.txt
+2025-05-19 21:21:17,893 - getnode - ERROR - nodesjob.py:69 - 处理链接时发生异常: 处理异常: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/skywrt/v2ray-configs/main/Config%20list7.txt
+Traceback (most recent call last):
+  File "/home/runner/work/getnode/getnode/src/nodesjob.py", line 36, in parse_node_links
+    response.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/skywrt/v2ray-configs/main/Config%20list7.txt
+2025-05-19 21:21:17,969 - getnode - ERROR - nodesjob.py:69 - 处理链接时发生异常: 处理异常: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/skywrt/v2ray-configs/main/Config%20list8.txt
+Traceback (most recent call last):
+  File "/home/runner/work/getnode/getnode/src/nodesjob.py", line 36, in parse_node_links
+    response.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/skywrt/v2ray-configs/main/Config%20list8.txt
+2025-05-19 21:21:18,151 - getnode - ERROR - nodesjob.py:69 - 处理链接时发生异常: 处理异常: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/skywrt/v2ray-configs/main/Config%20list9.txt
+Traceback (most recent call last):
+  File "/home/runner/work/getnode/getnode/src/nodesjob.py", line 36, in parse_node_links
+    response.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/skywrt/v2ray-configs/main/Config%20list9.txt
+2025-05-19 21:21:18,381 - getnode - ERROR - nodesjob.py:69 - 处理链接时发生异常: 处理异常: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub.png
+Traceback (most recent call last):
+  File "/home/runner/work/getnode/getnode/src/nodesjob.py", line 36, in parse_node_links
+    response.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub.png
+2025-05-19 21:21:18,912 - getnode - ERROR - nodesjob.py:69 - 处理链接时发生异常: 处理异常: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/lagzian/SS-Collector/main/SS_B64.txt
+Traceback (most recent call last):
+  File "/home/runner/work/getnode/getnode/src/nodesjob.py", line 36, in parse_node_links
+    response.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/lagzian/SS-Collector/main/SS_B64.txt
+2025-05-19 21:21:19,093 - getnode - ERROR - nodesjob.py:69 - 处理链接时发生异常: 处理异常: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/lagzian/SS-Collector/main/backup_clash.yaml
+Traceback (most recent call last):
+  File "/home/runner/work/getnode/getnode/src/nodesjob.py", line 36, in parse_node_links
+    response.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/lagzian/SS-Collector/main/backup_clash.yaml
+2025-05-19 21:21:19,476 - getnode - ERROR - nodesjob.py:69 - 处理链接时发生异常: 处理异常: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/lagzian/SS-Collector/main/reality_clash.yaml
+Traceback (most recent call last):
+  File "/home/runner/work/getnode/getnode/src/nodesjob.py", line 36, in parse_node_links
+    response.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/lagzian/SS-Collector/main/reality_clash.yaml
+2025-05-19 21:21:20,294 - getnode - ERROR - nodesjob.py:69 - 处理链接时发生异常: 处理异常: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/lagzian/SS-Collector/main/ss_singbox.json
+Traceback (most recent call last):
+  File "/home/runner/work/getnode/getnode/src/nodesjob.py", line 36, in parse_node_links
+    response.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/lagzian/SS-Collector/main/ss_singbox.json
+2025-05-19 21:21:20,628 - getnode - ERROR - nodesjob.py:69 - 处理链接时发生异常: 处理异常: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/lagzian/SS-Collector/main/vmess_B64.txt
+Traceback (most recent call last):
+  File "/home/runner/work/getnode/getnode/src/nodesjob.py", line 36, in parse_node_links
+    response.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/lagzian/SS-Collector/main/vmess_B64.txt
+2025-05-19 21:21:20,809 - getnode - ERROR - nodesjob.py:69 - 处理链接时发生异常: 处理异常: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/lagzian/SS-Collector/main/vmess_B64_tvc.txt
+Traceback (most recent call last):
+  File "/home/runner/work/getnode/getnode/src/nodesjob.py", line 36, in parse_node_links
+    response.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/lagzian/SS-Collector/main/vmess_B64_tvc.txt
+2025-05-19 21:21:20,990 - getnode - ERROR - nodesjob.py:69 - 处理链接时发生异常: 处理异常: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/lagzian/SS-Collector/main/vmess_B64_ye.txt
+Traceback (most recent call last):
+  File "/home/runner/work/getnode/getnode/src/nodesjob.py", line 36, in parse_node_links
+    response.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/lagzian/SS-Collector/main/vmess_B64_ye.txt
+2025-05-19 21:21:21,368 - getnode - ERROR - nodesjob.py:69 - 处理链接时发生异常: 处理异常: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/lagzian/SS-Collector/main/vmess_singbox.json
+Traceback (most recent call last):
+  File "/home/runner/work/getnode/getnode/src/nodesjob.py", line 36, in parse_node_links
+    response.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/lagzian/SS-Collector/main/vmess_singbox.json
+2025-05-19 21:21:22,822 - getnode - ERROR - nodesjob.py:69 - 处理链接时发生异常: 处理异常: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/lagzian/SS-Collector/main/vmess_vless_singbox.json
+Traceback (most recent call last):
+  File "/home/runner/work/getnode/getnode/src/nodesjob.py", line 36, in parse_node_links
+    response.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/lagzian/SS-Collector/main/vmess_vless_singbox.json
+2025-05-19 21:21:22,903 - getnode - ERROR - nodesjob.py:69 - 处理链接时发生异常: 处理异常: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/lagzian/SS-Collector/main/vmess_ye.txt
+Traceback (most recent call last):
+  File "/home/runner/work/getnode/getnode/src/nodesjob.py", line 36, in parse_node_links
+    response.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/lagzian/SS-Collector/main/vmess_ye.txt
+2025-05-19 21:21:23,070 - getnode - ERROR - nodesjob.py:69 - 处理链接时发生异常: 处理异常: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/lagzian/SS-Collector/main/vmess_ye_clash.yaml
+Traceback (most recent call last):
+  File "/home/runner/work/getnode/getnode/src/nodesjob.py", line 36, in parse_node_links
+    response.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/lagzian/SS-Collector/main/vmess_ye_clash.yaml
+2025-05-19 21:21:23,355 - getnode - ERROR - nodesjob.py:69 - 处理链接时发生异常: 处理异常: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/nyeinkokoaung404/V2ray-Configs/main/Sub1.txt
+Traceback (most recent call last):
+  File "/home/runner/work/getnode/getnode/src/nodesjob.py", line 36, in parse_node_links
+    response.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/nyeinkokoaung404/V2ray-Configs/main/Sub1.txt
+2025-05-19 21:21:23,442 - getnode - ERROR - nodesjob.py:69 - 处理链接时发生异常: 处理异常: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/nyeinkokoaung404/V2ray-Configs/main/Sub10.txt
+Traceback (most recent call last):
+  File "/home/runner/work/getnode/getnode/src/nodesjob.py", line 36, in parse_node_links
+    response.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/nyeinkokoaung404/V2ray-Configs/main/Sub10.txt
+2025-05-19 21:21:24,021 - getnode - ERROR - nodesjob.py:69 - 处理链接时发生异常: 处理异常: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/nyeinkokoaung404/V2ray-Configs/main/Sub12.txt
+Traceback (most recent call last):
+  File "/home/runner/work/getnode/getnode/src/nodesjob.py", line 36, in parse_node_links
+    response.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/nyeinkokoaung404/V2ray-Configs/main/Sub12.txt
+2025-05-19 21:21:24,490 - getnode - ERROR - nodesjob.py:69 - 处理链接时发生异常: 处理异常: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/nyeinkokoaung404/V2ray-Configs/main/Sub14.txt
+Traceback (most recent call last):
+  File "/home/runner/work/getnode/getnode/src/nodesjob.py", line 36, in parse_node_links
+    response.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/nyeinkokoaung404/V2ray-Configs/main/Sub14.txt
+2025-05-19 21:21:24,829 - getnode - ERROR - nodesjob.py:69 - 处理链接时发生异常: 处理异常: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/nyeinkokoaung404/V2ray-Configs/main/Sub16.txt
+Traceback (most recent call last):
+  File "/home/runner/work/getnode/getnode/src/nodesjob.py", line 36, in parse_node_links
+    response.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/nyeinkokoaung404/V2ray-Configs/main/Sub16.txt
+2025-05-19 21:21:25,289 - getnode - ERROR - nodesjob.py:69 - 处理链接时发生异常: 处理异常: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/nyeinkokoaung404/V2ray-Configs/main/Sub18.txt
+Traceback (most recent call last):
+  File "/home/runner/work/getnode/getnode/src/nodesjob.py", line 36, in parse_node_links
+    response.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/nyeinkokoaung404/V2ray-Configs/main/Sub18.txt
+2025-05-19 21:21:25,769 - getnode - ERROR - nodesjob.py:69 - 处理链接时发生异常: 处理异常: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/nyeinkokoaung404/V2ray-Configs/main/Sub3.txt
+Traceback (most recent call last):
+  File "/home/runner/work/getnode/getnode/src/nodesjob.py", line 36, in parse_node_links
+    response.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/nyeinkokoaung404/V2ray-Configs/main/Sub3.txt
+2025-05-19 21:21:26,733 - getnode - ERROR - nodesjob.py:69 - 处理链接时发生异常: 处理异常: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/nyeinkokoaung404/V2ray-Configs/main/Sub7.txt
+Traceback (most recent call last):
+  File "/home/runner/work/getnode/getnode/src/nodesjob.py", line 36, in parse_node_links
+    response.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/nyeinkokoaung404/V2ray-Configs/main/Sub7.txt
+2025-05-19 21:21:26,909 - getnode - ERROR - nodesjob.py:69 - 处理链接时发生异常: 处理异常: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/nyeinkokoaung404/V2ray-Configs/main/Sub8.txt
+Traceback (most recent call last):
+  File "/home/runner/work/getnode/getnode/src/nodesjob.py", line 36, in parse_node_links
+    response.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/nyeinkokoaung404/V2ray-Configs/main/Sub8.txt
+2025-05-19 21:21:26,989 - getnode - ERROR - nodesjob.py:69 - 处理链接时发生异常: 处理异常: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/nyeinkokoaung404/V2ray-Configs/main/Sub9.txt
+Traceback (most recent call last):
+  File "/home/runner/work/getnode/getnode/src/nodesjob.py", line 36, in parse_node_links
+    response.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/nyeinkokoaung404/V2ray-Configs/main/Sub9.txt
+2025-05-19 21:21:27,070 - getnode - ERROR - nodesjob.py:69 - 处理链接时发生异常: 处理异常: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/nyeinkokoaung404/V2ray-Configs/main/Warp_sub.txt
+Traceback (most recent call last):
+  File "/home/runner/work/getnode/getnode/src/nodesjob.py", line 36, in parse_node_links
+    response.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/nyeinkokoaung404/V2ray-Configs/main/Warp_sub.txt
+2025-05-19 21:21:27,362 - getnode - ERROR - nodesjob.py:69 - 处理链接时发生异常: 处理异常: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/barry-far/V2ray-Configs/main/Sub10.txt
+Traceback (most recent call last):
+  File "/home/runner/work/getnode/getnode/src/nodesjob.py", line 36, in parse_node_links
+    response.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/barry-far/V2ray-Configs/main/Sub10.txt
+2025-05-19 21:21:27,438 - getnode - ERROR - nodesjob.py:69 - 处理链接时发生异常: 处理异常: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/barry-far/V2ray-Configs/main/Sub11.txt
+Traceback (most recent call last):
+  File "/home/runner/work/getnode/getnode/src/nodesjob.py", line 36, in parse_node_links
+    response.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/barry-far/V2ray-Configs/main/Sub11.txt
+2025-05-19 21:21:27,697 - getnode - ERROR - nodesjob.py:69 - 处理链接时发生异常: 处理异常: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/barry-far/V2ray-Configs/main/Sub13.txt
+Traceback (most recent call last):
+  File "/home/runner/work/getnode/getnode/src/nodesjob.py", line 36, in parse_node_links
+    response.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/barry-far/V2ray-Configs/main/Sub13.txt
+2025-05-19 21:21:28,100 - getnode - ERROR - nodesjob.py:69 - 处理链接时发生异常: 处理异常: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/barry-far/V2ray-Configs/main/Sub15.txt
+Traceback (most recent call last):
+  File "/home/runner/work/getnode/getnode/src/nodesjob.py", line 36, in parse_node_links
+    response.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/barry-far/V2ray-Configs/main/Sub15.txt
+2025-05-19 21:21:28,418 - getnode - ERROR - nodesjob.py:69 - 处理链接时发生异常: 处理异常: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/barry-far/V2ray-Configs/main/Sub17.txt
+Traceback (most recent call last):
+  File "/home/runner/work/getnode/getnode/src/nodesjob.py", line 36, in parse_node_links
+    response.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/barry-far/V2ray-Configs/main/Sub17.txt
+2025-05-19 21:21:28,589 - getnode - ERROR - nodesjob.py:69 - 处理链接时发生异常: 处理异常: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/barry-far/V2ray-Configs/main/Sub18.txt
+Traceback (most recent call last):
+  File "/home/runner/work/getnode/getnode/src/nodesjob.py", line 36, in parse_node_links
+    response.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/barry-far/V2ray-Configs/main/Sub18.txt
+2025-05-19 21:21:29,001 - getnode - ERROR - nodesjob.py:69 - 处理链接时发生异常: 处理异常: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/barry-far/V2ray-Configs/main/Sub3.txt
+Traceback (most recent call last):
+  File "/home/runner/work/getnode/getnode/src/nodesjob.py", line 36, in parse_node_links
+    response.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/barry-far/V2ray-Configs/main/Sub3.txt
+2025-05-19 21:21:29,074 - getnode - ERROR - nodesjob.py:69 - 处理链接时发生异常: 处理异常: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/barry-far/V2ray-Configs/main/Sub4.txt
+Traceback (most recent call last):
+  File "/home/runner/work/getnode/getnode/src/nodesjob.py", line 36, in parse_node_links
+    response.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/barry-far/V2ray-Configs/main/Sub4.txt
+2025-05-19 21:21:29,854 - getnode - ERROR - nodesjob.py:69 - 处理链接时发生异常: 处理异常: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/barry-far/V2ray-Configs/main/Sub8.txt
+Traceback (most recent call last):
+  File "/home/runner/work/getnode/getnode/src/nodesjob.py", line 36, in parse_node_links
+    response.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/barry-far/V2ray-Configs/main/Sub8.txt
+2025-05-19 21:21:30,411 - getnode - ERROR - nodesjob.py:69 - 处理链接时发生异常: 处理异常: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/barry-far/V2ray-Configs/main/Warp_sub.txt
+Traceback (most recent call last):
+  File "/home/runner/work/getnode/getnode/src/nodesjob.py", line 36, in parse_node_links
+    response.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/barry-far/V2ray-Configs/main/Warp_sub.txt
+2025-05-19 21:21:31,889 - getnode - ERROR - nodesjob.py:69 - 处理链接时发生异常: 处理异常: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Sub12.txt
+Traceback (most recent call last):
+  File "/home/runner/work/getnode/getnode/src/nodesjob.py", line 36, in parse_node_links
+    response.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Sub12.txt
+2025-05-19 21:21:34,375 - getnode - ERROR - nodesjob.py:69 - 处理链接时发生异常: 处理异常: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Sub20.txt
+Traceback (most recent call last):
+  File "/home/runner/work/getnode/getnode/src/nodesjob.py", line 36, in parse_node_links
+    response.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Sub20.txt
+2025-05-19 21:21:34,452 - getnode - ERROR - nodesjob.py:69 - 处理链接时发生异常: 处理异常: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Sub21.txt
+Traceback (most recent call last):
+  File "/home/runner/work/getnode/getnode/src/nodesjob.py", line 36, in parse_node_links
+    response.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Sub21.txt
+2025-05-19 21:21:35,327 - getnode - ERROR - nodesjob.py:69 - 处理链接时发生异常: 处理异常: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Sub5.txt
+Traceback (most recent call last):
+  File "/home/runner/work/getnode/getnode/src/nodesjob.py", line 36, in parse_node_links
+    response.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Sub5.txt
+2025-05-19 21:21:54,772 - getnode - INFO - nodesjob.py:74 - 链接处理完成。成功: 76, 失败: 120
+2025-05-19 21:22:10,116 - getnode - INFO - history_manager.py:22 - 成功加载历史节点数量: 34118
+2025-05-19 21:22:10,116 - getnode - INFO - history_manager.py:33 - 新节点：18661, 历史节点：34118
+2025-05-19 21:22:10,538 - getnode - INFO - history_manager.py:52 - 合并后总节点数: 37351
+2025-05-19 21:22:10,540 - getnode - INFO - nodesjob.py:560 - 开始保存节点结果到目录: output/all_subs
+2025-05-19 21:22:10,877 - getnode - INFO - nodesjob.py:578 - 开始写入输出文件...
+2025-05-19 21:22:29,608 - getnode - INFO - nodesjob.py:587 - 成功生成订阅文件，总节点数: 37026
+2025-05-19 21:22:29,619 - getnode - INFO - tester.py:74 - === 批量测试开始 | 总节点数: 37351 ===
+2025-05-19 21:39:21,709 - getnode - INFO - tester.py:103 - === 批量测试完成 | 有效节点: 12911 (成功率: 34.6%) ===
+2025-05-19 21:39:21,710 - getnode - INFO - nodesjob.py:560 - 开始保存节点结果到目录: output/speedtest
+2025-05-19 21:39:21,813 - getnode - INFO - nodesjob.py:578 - 开始写入输出文件...
+2025-05-19 21:39:27,529 - getnode - INFO - nodesjob.py:587 - 成功生成订阅文件，总节点数: 12586
+2025-05-19 21:39:27,762 - getnode - INFO - main.py:79 - 
+=== 文件处理统计 ===
+• 扫描文件总数: 16172
+• 因大小跳过:   542 (3.4%)
+• 有效处理文件: 15630
+=== 节点处理统计 ===
+• 扫描节点总数: 69561
+• 节点去重数:   32210
+• 真实节点数:   37351
+
