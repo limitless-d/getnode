@@ -8,7 +8,7 @@ on:
 jobs:
   crawl-deploy:
     runs-on: ubuntu-latest # 使用最新的 Ubuntu 运行器
-    timeout-minutes: 30 # 设置超时时间为 30 分钟
+    timeout-minutes: 100 # 设置超时时间为 100 分钟
     
     steps:
     # 第一步：检出代码仓库
