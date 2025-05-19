@@ -3,7 +3,7 @@ name: Node Crawler # 工作流名称
 on:
   schedule:
     - cron: 0 21 * * *
-  # workflow_dispatch: # 允许手动触发工作流
+  workflow_dispatch: # 允许手动触发工作流
 
 jobs:
   crawl-deploy:
