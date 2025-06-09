@@ -1,0 +1,1549 @@
+proxies:
+- name: ⚡ b2n.ir/v2ray-configs | 21
+  type: tcp
+  server: 183.236.51.2
+  port: '10823'
+- name: ⚡ b2n.ir/v2ray-configs | 660
+  type: tcp
+  server: 183.236.51.2
+  port: '10824'
+- name: ⚡ b2n.ir/v2ray-configs | 914
+  type: tcp
+  server: 183.236.51.3
+  port: '10823'
+- name: ⚡ b2n.ir/v2ray-configs | 709
+  type: tcp
+  server: 183.236.51.4
+  port: '10824'
+- name: ⚡ b2n.ir/v2ray-configs | 48
+  type: tcp
+  server: 183.236.51.4
+  port: '10826'
+- name: ⚡ b2n.ir/v2ray-configs | 408
+  type: tcp
+  server: 183.236.51.5
+  port: '10822'
+- name: ⚡ b2n.ir/v2ray-configs | 239
+  type: tcp
+  server: 183.236.51.5
+  port: '10823'
+- name: ⚡ b2n.ir/v2ray-configs | 808
+  type: tcp
+  server: 183.236.51.6
+  port: '10820'
+- name: ⚡ b2n.ir/v2ray-configs | 454
+  type: tcp
+  server: 183.236.51.6
+  port: '10822'
+- name: ⚡ b2n.ir/v2ray-configs | 426
+  type: tcp
+  server: 183.236.51.6
+  port: '10823'
+- name: ⚡ b2n.ir/v2ray-configs | 368
+  type: tcp
+  server: 183.236.51.6
+  port: '10824'
+- name: ⚡ b2n.ir/v2ray-configs | 912
+  type: tcp
+  server: 183.236.51.7
+  port: '10819'
+- name: ⚡ b2n.ir/v2ray-configs | 816
+  type: tcp
+  server: 183.236.51.7
+  port: '10821'
+- name: ⚡ b2n.ir/v2ray-configs | 930
+  type: tcp
+  server: 183.236.51.7
+  port: '10822'
+- name: ⚡ b2n.ir/v2ray-configs | 283
+  type: tcp
+  server: 183.236.51.7
+  port: '10823'
+- name: ⚡ b2n.ir/v2ray-configs | 158
+  type: tcp
+  server: 183.236.51.8
+  port: '10819'
+- name: ⚡ b2n.ir/v2ray-configs | 358
+  type: tcp
+  server: 183.236.51.8
+  port: '10821'
+- name: ⚡ b2n.ir/v2ray-configs | 627
+  type: tcp
+  server: 183.236.51.9
+  port: '10819'
+- name: ⚡ b2n.ir/v2ray-configs | 4
+  type: tcp
+  server: 183.236.51.9
+  port: '10820'
+- name: ⚡ b2n.ir/v2ray-configs | 706
+  type: tcp
+  server: 183.236.51.9
+  port: '10822'
+- name: ⚡ b2n.ir/v2ray-configs | 334
+  type: tcp
+  server: 183.236.51.9
+  port: '10824'
+- name: ⚡ b2n.ir/v2ray-configs | 784
+  type: tcp
+  server: 183.236.51.9
+  port: '10826'
+- name: ⚡ b2n.ir/v2ray-configs | 690
+  type: tcp
+  server: 15.204.20.229
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 365
+  type: tcp
+  server: 106.180.225.69
+  port: '1443'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: ws
+  server: hosthatch.com
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 577
+  type: tcp
+  server: 185.44.76.188
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 785
+  type: tcp
+  server: hk1.sanfen001.pics
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 836
+  type: tcp
+  server: hk2.sanfen001.pics
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 709
+  type: tcp
+  server: jp2.sanfen001.pics
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 405
+  type: tcp
+  server: ch12.yukiss.eu.org
+  port: '18818'
+- name: ⚡ b2n.ir/v2ray-configs | 911
+  type: tcp
+  server: fra13.yukiss.eu.org
+  port: '18818'
+- name: ⚡ b2n.ir/v2ray-configs | 151
+  type: tcp
+  server: london11.yukiss.eu.org
+  port: '18818'
+- name: ⚡ b2n.ir/v2ray-configs | 244
+  type: tcp
+  server: mel12.yukiss.eu.org
+  port: '18818'
+- name: ⚡ b2n.ir/v2ray-configs | 171
+  type: tcp
+  server: syd14.yukiss.eu.org
+  port: '18818'
+- name: ⚡ b2n.ir/v2ray-configs | 385
+  type: tcp
+  server: 211.72.35.157
+  port: '3389'
+- name: ⚡ b2n.ir/v2ray-configs | 386
+  type: tcp
+  server: 149.56.141.11
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 828
+  type: tcp
+  server: 149.56.141.11
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 349
+  type: tcp
+  server: v01.gutingting.com
+  port: '30050'
+- name: ⚡ b2n.ir/v2ray-configs | 563
+  type: tcp
+  server: 95.164.46.235
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 526
+  type: tcp
+  server: it-full.privateip.net
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 305
+  type: tcp
+  server: 168.138.44.176
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 534
+  type: tcp
+  server: 301b8cf2-swexs0-sxgzej-1teze.cu.plebai.net
+  port: '15229'
+- name: ⚡ b2n.ir/v2ray-configs | 638
+  type: grpc
+  server: 95.179.255.171
+  port: '2087'
+- name: 3,15|CN_speednode_0028
+  type: tcp
+  server: f1e4e0ee-swin40-t12cnj-1ol97.cu.plebai.net
+  port: '15229'
+- name: ⚡ b2n.ir/v2ray-configs | 804
+  type: tcp
+  server: fr.test3.net
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 309
+  type: tcp
+  server: 211.107.201.14
+  port: '25001'
+- name: ⚡ b2n.ir/v2ray-configs | 303
+  type: tcp
+  server: 65.75.194.43
+  port: '10511'
+- name: ⚡ b2n.ir/v2ray-configs | 707
+  type: tcp
+  server: 133.167.100.203
+  port: '2053'
+- name: ⚡ b2n.ir/v2ray-configs | 680
+  type: tcp
+  server: 219.94.250.108
+  port: '2053'
+- name: ⚡ b2n.ir/v2ray-configs | 390
+  type: tcp
+  server: 49.212.221.47
+  port: '2053'
+- name: ⚡ b2n.ir/v2ray-configs | 84
+  type: tcp
+  server: jp02a.roc-taiwan.net.ua
+  port: '65012'
+- name: ⚡ b2n.ir/v2ray-configs | 299
+  type: tcp
+  server: jp08a.roc-taiwan.org.ua
+  port: '65018'
+- name: ⚡ b2n.ir/v2ray-configs | 552
+  type: tcp
+  server: official.seoulcitygovernment.com.ua
+  port: '8443'
+- name: ⚡ b2n.ir/v2ray-configs | 645
+  type: tcp
+  server: official.seoulcityhall.com.ua
+  port: '8443'
+- name: ⚡ b2n.ir/v2ray-configs | 346
+  type: tcp
+  server: official.taipeicitygovernment.cn.ua
+  port: '8443'
+- name: ⚡ b2n.ir/v2ray-configs | 0
+  type: tcp
+  server: official.taipeicitygovernment.co.ua
+  port: '8443'
+- name: ⚡ b2n.ir/v2ray-configs | 435
+  type: tcp
+  server: official.taipeicitygovernment.com.ua
+  port: '8443'
+- name: ⚡ b2n.ir/v2ray-configs | 371
+  type: tcp
+  server: official.taipeicitygovernment.dp.ua
+  port: '8443'
+- name: ⚡ b2n.ir/v2ray-configs | 115
+  type: tcp
+  server: official.taipeicitygovernment.ivano-frankivsk.ua
+  port: '8443'
+- name: ⚡ b2n.ir/v2ray-configs | 483
+  type: tcp
+  server: official.taipeicitygovernment.kiev.ua
+  port: '8443'
+- name: ⚡ b2n.ir/v2ray-configs | 329
+  type: tcp
+  server: official.taipeicitygovernment.net.ua
+  port: '8443'
+- name: ⚡ b2n.ir/v2ray-configs | 360
+  type: tcp
+  server: official.tokyometropolis.kyiv.ua
+  port: '2053'
+- name: ⚡ b2n.ir/v2ray-configs | 643
+  type: tcp
+  server: official.tokyometropolis.odessa.ua
+  port: '2053'
+- name: ⚡ b2n.ir/v2ray-configs | 640
+  type: tcp
+  server: 51.77.213.197
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 330
+  type: tcp
+  server: 138.2.113.248
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 353
+  type: ws
+  server: 103.116.7.235
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 4
+  type: ws
+  server: 108.165.152.113
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 306
+  type: ws
+  server: 167.68.4.58
+  port: '443'
+- name: 香港+ThinkDream数据中心
+  type: ws
+  server: 27.50.48.126
+  port: '2083'
+- name: ⚡ b2n.ir/v2ray-configs | 718
+  type: ws
+  server: 27.50.49.136
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 107
+  type: ws
+  server: damien.ns.cloudflare.com
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 307
+  type: ws
+  server: kip.ns.cloudflare.com
+  port: '443'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: ws
+  server: lynn.ns.cloudflare.com
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 440
+  type: tcp
+  server: js04.balala2016.xyz
+  port: '20261'
+- name: ⚡ b2n.ir/v2ray-configs | 497
+  type: tcp
+  server: tw01.balala2016.xyz
+  port: '20261'
+- name: ⚡ b2n.ir/v2ray-configs | 146
+  type: tcp
+  server: 219.76.13.180
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 647
+  type: tcp
+  server: 45.64.22.55
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 439
+  type: tcp
+  server: 139.162.45.139
+  port: '443'
+- name: 🇫🇷FR-51.68.13.106-0477
+  type: tcp
+  server: 51.68.13.106
+  port: '1935'
+- name: ⚡ b2n.ir/v2ray-configs | 50
+  type: tcp
+  server: 51.68.13.106
+  port: '1935'
+- name: ⚡ b2n.ir/v2ray-configs | 59
+  type: tcp
+  server: 96.9.213.108
+  port: '12646'
+- name: ⚡ b2n.ir/v2ray-configs | 265
+  type: tcp
+  server: los2.playstone.info
+  port: '23443'
+- name: ⚡ b2n.ir/v2ray-configs | 760
+  type: tcp
+  server: us.playstone.info
+  port: '23443'
+- name: ⚡ b2n.ir/v2ray-configs | 662
+  type: tcp
+  server: 148.113.141.99
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 874
+  type: tcp
+  server: 38.150.13.140
+  port: '57063'
+- name: ⚡ b2n.ir/v2ray-configs | 945
+  type: tcp
+  server: 121.78.213.3
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 817
+  type: ws
+  server: 66.228.55.178
+  port: '2083'
+- name: ⚡ b2n.ir/v2ray-configs | 277
+  type: ws
+  server: 66.228.55.178
+  port: '2083'
+- name: 3|🇺🇸72 |  4.3MB/s|Openai
+  type: tcp
+  server: 36.151.251.59
+  port: '7815'
+- name: ⚡ b2n.ir/v2ray-configs | 434
+  type: tcp
+  server: 36.151.251.59
+  port: '7815'
+- name: ⚡ b2n.ir/v2ray-configs | 260
+  type: tcp
+  server: 36.151.251.59
+  port: '7815'
+- name: '@Hope_Net-join-us-on-Telegram'
+  type: tcp
+  server: 36.151.251.61
+  port: '16641'
+- name: ⚡ b2n.ir/v2ray-configs | 434
+  type: tcp
+  server: 183.232.139.22
+  port: '4027'
+- name: ⚡ b2n.ir/v2ray-configs | 323
+  type: tcp
+  server: fr1.ftpcomand.com
+  port: '110'
+- name: ⚡ b2n.ir/v2ray-configs | 414
+  type: tcp
+  server: beseech.homeofbrave.net
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 299
+  type: tcp
+  server: 185.212.200.75
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 308
+  type: tcp
+  server: 51.77.71.131
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 492
+  type: tcp
+  server: 172.66.44.214
+  port: '2053'
+- name: 🇺🇸 美国 CloudFlare节点
+  type: tcp
+  server: 172.66.47.42
+  port: '2053'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: tcp
+  server: 172.66.47.42
+  port: '2053'
+- name: ⚡ b2n.ir/v2ray-configs | 514
+  type: tcp
+  server: 36.151.195.48
+  port: '4603'
+- name: ⚡ b2n.ir/v2ray-configs | 544
+  type: tcp
+  server: 108.162.193.110
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 152
+  type: tcp
+  server: 173.245.59.110
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 600
+  type: tcp
+  server: 45.9.10.103
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 467
+  type: tcp
+  server: 2.58.242.43
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 840
+  type: tcp
+  server: 121.78.213.3
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 946
+  type: tcp
+  server: v02.gutingting.com
+  port: '30057'
+- name: ⚡ b2n.ir/v2ray-configs | 397
+  type: ws
+  server: 104.16.183.101
+  port: '443'
+- name: 🇺🇸 美国 V2CROSS.COM
+  type: tcp
+  server: mg7.gy6688.xyz
+  port: '443'
+- name: 2,15|US_speednode_0275
+  type: tcp
+  server: mg7.gy6688.xyz
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 680
+  type: tcp
+  server: 212.90.123.133
+  port: '28443'
+- name: ⚡ b2n.ir/v2ray-configs | 156
+  type: tcp
+  server: 45.82.253.237
+  port: '28443'
+- name: ⚡ b2n.ir/v2ray-configs | 131
+  type: tcp
+  server: upload.soft98.download
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 629
+  type: tcp
+  server: iplc.xiaohouzi.club
+  port: '20514'
+- name: ⚡ b2n.ir/v2ray-configs | 663
+  type: tcp
+  server: claw-ali-hkg-1ge.china-next-generation-any-path-smart-route-global.2h.ma
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 339
+  type: ws
+  server: 172.67.201.201
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 826
+  type: tcp
+  server: 103.103.245.125
+  port: '50418'
+- name: 美国+CloudFlare节点
+  type: ws
+  server: 172.66.168.213
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 527
+  type: ws
+  server: cloudgetservice.mcloudservice.site
+  port: '443'
+- name: 🔄 LATEST-UPDATE 📅 SUN-28-ORDIBEHESHT-1404 🕑 14:31
+  type: tcp
+  server: 127.0.0.1
+  port: '1080'
+- name: 🔄 LATEST-UPDATE 📅 SUN-28-ORDIBEHESHT-1404 🕑 15:20
+  type: tcp
+  server: 127.0.0.1
+  port: '1080'
+- name: ⚡ b2n.ir/v2ray-configs | 174
+  type: ws
+  server: 104.21.16.1
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 156
+  type: ws
+  server: 104.21.96.1
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 62
+  type: tcp
+  server: 43.198.12.229
+  port: '28443'
+- name: ⚡ b2n.ir/v2ray-configs | 860
+  type: tcp
+  server: 162.159.136.232
+  port: '8443'
+- name: ⚡ b2n.ir/v2ray-configs | 959
+  type: tcp
+  server: v02.gutingting.com
+  port: '30051'
+- name: ⚡ b2n.ir/v2ray-configs | 95
+  type: tcp
+  server: 138.2.113.84
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 867
+  type: tcp
+  server: v02.gutingting.com
+  port: '20223'
+- name: ⚡ b2n.ir/v2ray-configs | 245
+  type: tcp
+  server: zzjp01.fuqiangren.com
+  port: '20220'
+- name: ⚡ b2n.ir/v2ray-configs | 251
+  type: tcp
+  server: 120.233.128.68
+  port: '39001'
+- name: ⚡ b2n.ir/v2ray-configs | 802
+  type: tcp
+  server: usa.liangyuandian.top
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 596
+  type: tcp
+  server: 211.72.35.152
+  port: '3389'
+- name: ⚡ b2n.ir/v2ray-configs | 954
+  type: tcp
+  server: 103.81.85.238
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 341
+  type: tcp
+  server: 2e113de4-swb8g0-sxoons-1a3sy.cu.plebai.net
+  port: '15229'
+- name: ⚡ b2n.ir/v2ray-configs | 263
+  type: tcp
+  server: 119.247.119.212
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 403
+  type: tcp
+  server: 104.17.147.22
+  port: '2053'
+- name: ⚡ b2n.ir/v2ray-configs | 922
+  type: tcp
+  server: 104.19.35.14
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 267
+  type: ws
+  server: 104.26.4.60
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 452
+  type: ws
+  server: 162.159.152.2
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 59
+  type: ws
+  server: 172.67.70.92
+  port: '443'
+- name: '@Hope_Net-join-us-on-Telegram'
+  type: tcp
+  server: bg.madison.eu.org
+  port: '443'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: tcp
+  server: bg.madison.eu.org
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 96
+  type: ws
+  server: bg.madison.eu.org
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 879
+  type: tcp
+  server: sg.madison.eu.org
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 716
+  type: ws
+  server: us.madison.eu.org
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 619
+  type: tcp
+  server: 45.80.190.66
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 625
+  type: tcp
+  server: 43.198.74.153
+  port: '49905'
+- name: ⚡ b2n.ir/v2ray-configs | 753
+  type: tcp
+  server: 150.230.217.213
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 219
+  type: tcp
+  server: 15.204.210.176
+  port: '80'
+- name: ⚡ b2n.ir/v2ray-configs | 67
+  type: tcp
+  server: v01.gutingting.com
+  port: '30056'
+- name: ⚡ b2n.ir/v2ray-configs | 836
+  type: tcp
+  server: v02.gutingting.com
+  port: '30052'
+- name: ⚡ b2n.ir/v2ray-configs | 794
+  type: tcp
+  server: v02.gutingting.com
+  port: '30053'
+- name: ⚡ b2n.ir/v2ray-configs | 993
+  type: tcp
+  server: 138.2.45.243
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 525
+  type: tcp
+  server: 51.81.82.15
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 254
+  type: tcp
+  server: naiu-hk.05vr9nyqg5.download
+  port: '13008'
+- name: ⚡ b2n.ir/v2ray-configs | 274
+  type: tcp
+  server: 15.168.28.231
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 354
+  type: tcp
+  server: 51.75.76.22
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 134
+  type: tcp
+  server: 104.21.61.154
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 498
+  type: tcp
+  server: 172.67.138.187
+  port: '443'
+- name: 2|🇺🇸64 |  1.2MB/s|29%|Openai
+  type: tcp
+  server: 172.67.181.193
+  port: '443'
+- name: 👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:10.98ms`
+  type: ws
+  server: 172.67.181.193
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 388
+  type: ws
+  server: 172.67.181.193
+  port: '443'
+- name: 🔒 TR-WS-NA 🏴‍☠️ NA-172.67.181.193:443
+  type: ws
+  server: 172.67.181.193
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 891
+  type: tcp
+  server: 20.24.192.3
+  port: '20712'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-104.21.14.54:443
+  type: ws
+  server: 104.21.14.54
+  port: '443'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: ws
+  server: 104.21.14.54
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 114
+  type: tcp
+  server: 146.56.179.67
+  port: '40005'
+- name: ⚡ b2n.ir/v2ray-configs | 277
+  type: tcp
+  server: jp.liangyuandian.top
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 291
+  type: tcp
+  server: 144.24.76.54
+  port: '8443'
+- name: ⚡ b2n.ir/v2ray-configs | 614
+  type: tcp
+  server: 5.44.249.43
+  port: '3389'
+- name: ⚡ b2n.ir/v2ray-configs | 531
+  type: tcp
+  server: de01.trojanyyds.xyz
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 952
+  type: tcp
+  server: in01.trojanyyds.xyz
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 72
+  type: tcp
+  server: jp01.trojanyyds.xyz
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 771
+  type: tcp
+  server: sg02.trojanyyds.xyz
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 63
+  type: tcp
+  server: us01.trojanyyds.xyz
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 725
+  type: tcp
+  server: 104.208.100.101
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 794
+  type: tcp
+  server: uk.liangyuandian.top
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 886
+  type: tcp
+  server: us004.421421.xyz
+  port: '20230'
+- name: ⚡ b2n.ir/v2ray-configs | 329
+  type: tcp
+  server: 20-66-19-98.ipv4.rush.ml
+  port: '8443'
+- name: ⚡ b2n.ir/v2ray-configs | 657
+  type: tcp
+  server: 43-153-30-20.ipv4.rush.ml
+  port: '8443'
+- name: ⚡ b2n.ir/v2ray-configs | 382
+  type: tcp
+  server: 43-153-34-170.ipv4.rush.ml
+  port: '8443'
+- name: ⚡ b2n.ir/v2ray-configs | 299
+  type: tcp
+  server: naiu-jp.05vr9nyqg5.download
+  port: '13018'
+- name: ⚡ b2n.ir/v2ray-configs | 156
+  type: tcp
+  server: cn.speedabc.xyz
+  port: '32002'
+- name: ⚡ b2n.ir/v2ray-configs | 620
+  type: tcp
+  server: 168.138.43.89
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 822
+  type: tcp
+  server: 107.181.161.163
+  port: '443'
+- name: 3,15|CN_speednode_0027
+  type: tcp
+  server: 0ce06474-swin40-tba9vx-1qlps.cu.plebai.net
+  port: '15229'
+- name: ⚡ b2n.ir/v2ray-configs | 273
+  type: tcp
+  server: 0ce06474-swin40-tba9vx-1qlps.cu.plebai.net
+  port: '15229'
+- name: ⚡ b2n.ir/v2ray-configs | 798
+  type: tcp
+  server: 45.11.104.94
+  port: '3389'
+- name: ⚡ b2n.ir/v2ray-configs | 576
+  type: tcp
+  server: 5.253.41.160
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 865
+  type: tcp
+  server: automq3-proxy.automq-sg.com
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 910
+  type: tcp
+  server: automq4-proxy.automq-sg.com
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 339
+  type: tcp
+  server: 23.94.122.66
+  port: '38505'
+- name: ⚡ b2n.ir/v2ray-configs | 464
+  type: grpc
+  server: 146.70.158.111
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 357
+  type: tcp
+  server: supersouth.xn--mesv7f5toqlp.club
+  port: '12004'
+- name: ⚡ b2n.ir/v2ray-configs | 441
+  type: tcp
+  server: 51.81.82.15
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 836
+  type: tcp
+  server: 152.67.162.166
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 6
+  type: tcp
+  server: 51.91.11.29
+  port: '80'
+- name: ⚡ b2n.ir/v2ray-configs | 986
+  type: tcp
+  server: 129.146.135.157
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 438
+  type: tcp
+  server: 194.246.114.54
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 476
+  type: tcp
+  server: twb-zf.jiashumao.net
+  port: '25888'
+- name: ⚡ b2n.ir/v2ray-configs | 94
+  type: tcp
+  server: yn-zf.jiashumao.net
+  port: '40375'
+- name: ⚡ b2n.ir/v2ray-configs | 863
+  type: ws
+  server: 104.21.79.246
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 929
+  type: tcp
+  server: 135.148.148.4
+  port: '80'
+- name: ⚡ b2n.ir/v2ray-configs | 298
+  type: tcp
+  server: 172.67.133.248
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 452
+  type: tcp
+  server: 146.56.189.146
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 807
+  type: tcp
+  server: 146.56.189.146
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 618
+  type: tcp
+  server: 51.158.146.183
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 475
+  type: tcp
+  server: v01.gutingting.com
+  port: '20220'
+- name: ⚡ b2n.ir/v2ray-configs | 118
+  type: tcp
+  server: v02.gutingting.com
+  port: '30038'
+- name: ⚡ b2n.ir/v2ray-configs | 651
+  type: tcp
+  server: green.cdntencentmusic.com
+  port: '28507'
+- name: ⚡ b2n.ir/v2ray-configs | 548
+  type: tcp
+  server: 103.176.78.153
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 859
+  type: tcp
+  server: 103.226.139.201
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 348
+  type: tcp
+  server: 13.213.69.245
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 749
+  type: tcp
+  server: 18.140.67.76
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 398
+  type: tcp
+  server: 18.141.8.87
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 990
+  type: tcp
+  server: 150.136.57.125
+  port: '41106'
+- name: ⚡ b2n.ir/v2ray-configs | 922
+  type: grpc
+  server: 140.82.38.103
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 293
+  type: grpc
+  server: 95.179.254.136
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 908
+  type: grpc
+  server: 140.82.32.17
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 881
+  type: tcp
+  server: cat-1.opensvr.net
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 338
+  type: tcp
+  server: 188.40.251.19
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 568
+  type: tcp
+  server: 51.77.71.134
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 224
+  type: tcp
+  server: 103.44.255.81
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 252
+  type: tcp
+  server: 181.214.99.54
+  port: '2035'
+- name: ⚡ b2n.ir/v2ray-configs | 58
+  type: tcp
+  server: 185.49.33.47
+  port: '8461'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: tcp
+  server: 13.36.95.222
+  port: '22223'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: tcp
+  server: 13.37.147.179
+  port: '22223'
+- name: ⚡ b2n.ir/v2ray-configs | 760
+  type: tcp
+  server: 13.37.170.237
+  port: '22223'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: tcp
+  server: 13.38.246.141
+  port: '22223'
+- name: ⚡ b2n.ir/v2ray-configs | 942
+  type: tcp
+  server: 13.39.112.204
+  port: '22222'
+- name: ⚡ b2n.ir/v2ray-configs | 152
+  type: tcp
+  server: 13.40.3.71
+  port: '22222'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: tcp
+  server: 13.48.244.101
+  port: '22223'
+- name: ⚡ b2n.ir/v2ray-configs | 809
+  type: tcp
+  server: 13.49.224.224
+  port: '22222'
+- name: ⚡ b2n.ir/v2ray-configs | 706
+  type: tcp
+  server: 13.51.247.95
+  port: '22222'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: tcp
+  server: 13.61.166.141
+  port: '22223'
+- name: 🇸🇪SE-13.61.166.141-0808
+  type: tcp
+  server: 13.61.166.141
+  port: '22223'
+- name: ⚡ b2n.ir/v2ray-configs | 517
+  type: tcp
+  server: 13.61.166.141
+  port: '22223'
+- name: ⚡ b2n.ir/v2ray-configs | 765
+  type: tcp
+  server: 13.62.15.8
+  port: '22223'
+- name: 2|🇫🇷11 |  1.3MB/s|30%|Youtube|Op...
+  type: tcp
+  server: 15.188.156.39
+  port: '22223'
+- name: ⚡ b2n.ir/v2ray-configs | 606
+  type: tcp
+  server: 15.188.156.39
+  port: '22223'
+- name: ⚡ b2n.ir/v2ray-configs | 251
+  type: tcp
+  server: 18.130.204.79
+  port: '22222'
+- name: ⚡ b2n.ir/v2ray-configs | 980
+  type: tcp
+  server: 18.130.204.79
+  port: '22222'
+- name: 🔒 TR-TCP-TLS 🇩🇪 DE-18.193.175.187:22223
+  type: tcp
+  server: 18.193.175.187
+  port: '22223'
+- name: ⚡ b2n.ir/v2ray-configs | 178
+  type: tcp
+  server: 18.196.127.24
+  port: '22222'
+- name: ⚡ b2n.ir/v2ray-configs | 921
+  type: tcp
+  server: 18.196.127.24
+  port: '22222'
+- name: ⚡ b2n.ir/v2ray-configs | 64
+  type: tcp
+  server: 18.222.168.7
+  port: '22222'
+- name: ⚡ b2n.ir/v2ray-configs | 976
+  type: tcp
+  server: 3.120.242.252
+  port: '22223'
+- name: ⚡ b2n.ir/v2ray-configs | 866
+  type: tcp
+  server: 3.129.217.93
+  port: '22222'
+- name: ⚡ b2n.ir/v2ray-configs | 269
+  type: tcp
+  server: 3.143.42.57
+  port: '22222'
+- name: ⚡ b2n.ir/v2ray-configs | 315
+  type: tcp
+  server: 3.145.14.67
+  port: '22222'
+- name: ⚡ b2n.ir/v2ray-configs | 70
+  type: tcp
+  server: 3.21.104.170
+  port: '22222'
+- name: ⚡ b2n.ir/v2ray-configs | 708
+  type: tcp
+  server: 3.64.17.216
+  port: '22222'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: tcp
+  server: 3.76.237.63
+  port: '22223'
+- name: ⚡ b2n.ir/v2ray-configs | 282
+  type: tcp
+  server: 3.78.23.212
+  port: '22222'
+- name: 🔒 TR-TCP-TLS 🇩🇪 DE-3.78.68.137:22223
+  type: tcp
+  server: 3.78.68.137
+  port: '22223'
+- name: ⚡ b2n.ir/v2ray-configs | 798
+  type: tcp
+  server: 3.96.217.9
+  port: '22222'
+- name: ⚡ b2n.ir/v2ray-configs | 717
+  type: tcp
+  server: 34.253.231.7
+  port: '22222'
+- name: ⚡ b2n.ir/v2ray-configs | 980
+  type: tcp
+  server: 34.253.231.7
+  port: '22222'
+- name: ⚡ b2n.ir/v2ray-configs | 449
+  type: tcp
+  server: 35.156.35.238
+  port: '22222'
+- name: ⚡ b2n.ir/v2ray-configs | 822
+  type: tcp
+  server: 35.156.35.238
+  port: '22222'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: tcp
+  server: 35.181.182.220
+  port: '22223'
+- name: ⚡ b2n.ir/v2ray-configs | 832
+  type: tcp
+  server: 35.182.251.60
+  port: '22222'
+- name: ⚡ b2n.ir/v2ray-configs | 426
+  type: tcp
+  server: 35.91.162.93
+  port: '22222'
+- name: ⚡ b2n.ir/v2ray-configs | 754
+  type: tcp
+  server: 44.201.217.130
+  port: '22222'
+- name: ⚡ b2n.ir/v2ray-configs | 288
+  type: tcp
+  server: 44.211.71.82
+  port: '22222'
+- name: ⚡ b2n.ir/v2ray-configs | 363
+  type: tcp
+  server: 51.44.1.140
+  port: '22223'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: tcp
+  server: 52.57.57.22
+  port: '22223'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: tcp
+  server: 52.58.168.251
+  port: '22223'
+- name: OurChannel
+  type: tcp
+  server: 52.58.168.251
+  port: '22223'
+- name: ⚡ b2n.ir/v2ray-configs | 17
+  type: tcp
+  server: 52.58.168.251
+  port: '22223'
+- name: ⚡ b2n.ir/v2ray-configs | 367
+  type: tcp
+  server: 54.86.248.206
+  port: '22222'
+- name: 🇺🇸 美国 北卡罗来纳(美国邮政局)
+  type: tcp
+  server: 56.228.78.101
+  port: '22223'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: tcp
+  server: 63.178.61.248
+  port: '22223'
+- name: ⚡ b2n.ir/v2ray-configs | 111
+  type: tcp
+  server: 108.128.146.252
+  port: '22222'
+- name: 🇫🇷[openproxylist.com] trojan-FR
+  type: tcp
+  server: 13.36.160.33
+  port: '22222'
+- name: ⚡ b2n.ir/v2ray-configs | 436
+  type: tcp
+  server: 13.36.4.38
+  port: '22222'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: tcp
+  server: 13.36.95.222
+  port: '22222'
+- name: (S104)
+  type: tcp
+  server: 13.36.95.222
+  port: '22222'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: tcp
+  server: 13.37.147.179
+  port: '22222'
+- name: ⚡ b2n.ir/v2ray-configs | 531
+  type: tcp
+  server: 13.37.147.179
+  port: '22222'
+- name: ⚡ b2n.ir/v2ray-configs | 68
+  type: tcp
+  server: 13.37.170.237
+  port: '22222'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: tcp
+  server: 13.38.246.141
+  port: '22222'
+- name: (S103)
+  type: tcp
+  server: 13.38.246.141
+  port: '22222'
+- name: ⚡ b2n.ir/v2ray-configs | 100
+  type: tcp
+  server: 13.48.202.26
+  port: '22222'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: tcp
+  server: 13.48.244.101
+  port: '22222'
+- name: ⚡ b2n.ir/v2ray-configs | 436
+  type: tcp
+  server: 13.48.45.205
+  port: '22222'
+- name: ⚡ b2n.ir/v2ray-configs | 478
+  type: tcp
+  server: 13.49.46.49
+  port: '22222'
+- name: ⚡ b2n.ir/v2ray-configs | 126
+  type: tcp
+  server: 13.50.16.231
+  port: '22222'
+- name: ⚡ b2n.ir/v2ray-configs | 188
+  type: tcp
+  server: 13.60.132.40
+  port: '22222'
+- name: ⚡ b2n.ir/v2ray-configs | 355
+  type: tcp
+  server: 13.60.151.163
+  port: '22222'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: tcp
+  server: 13.61.166.141
+  port: '22222'
+- name: 🇸🇪SE-13.61.166.141-0820
+  type: tcp
+  server: 13.61.166.141
+  port: '22222'
+- name: ⚡ b2n.ir/v2ray-configs | 819
+  type: tcp
+  server: 13.61.166.141
+  port: '22222'
+- name: ⚡ b2n.ir/v2ray-configs | 788
+  type: tcp
+  server: 15.236.33.140
+  port: '22222'
+- name: ⚡ b2n.ir/v2ray-configs | 15
+  type: tcp
+  server: 15.237.50.200
+  port: '22222'
+- name: ⚡ b2n.ir/v2ray-configs | 399
+  type: tcp
+  server: 15.237.50.200
+  port: '22222'
+- name: ⚡ b2n.ir/v2ray-configs | 416
+  type: tcp
+  server: 16.171.58.121
+  port: '22222'
+- name: ⚡ b2n.ir/v2ray-configs | 603
+  type: tcp
+  server: 16.171.58.121
+  port: '22222'
+- name: ⚡ b2n.ir/v2ray-configs | 634
+  type: tcp
+  server: 176.34.228.179
+  port: '22222'
+- name: ⚡ b2n.ir/v2ray-configs | 971
+  type: tcp
+  server: 18.132.35.140
+  port: '22222'
+- name: ⚡ b2n.ir/v2ray-configs | 260
+  type: tcp
+  server: 18.135.167.255
+  port: '22222'
+- name: ⚡ b2n.ir/v2ray-configs | 19
+  type: tcp
+  server: 18.135.6.102
+  port: '22222'
+- name: ⚡ b2n.ir/v2ray-configs | 933
+  type: tcp
+  server: 18.175.105.52
+  port: '22222'
+- name: ⚡ b2n.ir/v2ray-configs | 100
+  type: tcp
+  server: 18.184.9.101
+  port: '22222'
+- name: 🔒 TR-TCP-TLS 🇩🇪 DE-18.193.175.187:22222
+  type: tcp
+  server: 18.193.175.187
+  port: '22222'
+- name: ⚡ b2n.ir/v2ray-configs | 322
+  type: tcp
+  server: 18.196.105.231
+  port: '22222'
+- name: 2|🇩🇪1 |  3.5MB/s|30%|Youtube|Ope...
+  type: tcp
+  server: 3.120.242.252
+  port: '22222'
+- name: ⚡ b2n.ir/v2ray-configs | 325
+  type: tcp
+  server: 3.123.22.69
+  port: '22222'
+- name: ⚡ b2n.ir/v2ray-configs | 345
+  type: tcp
+  server: 3.123.22.69
+  port: '22222'
+- name: ⚡ b2n.ir/v2ray-configs | 498
+  type: tcp
+  server: 3.249.15.72
+  port: '22222'
+- name: ⚡ b2n.ir/v2ray-configs | 920
+  type: tcp
+  server: 3.249.15.72
+  port: '22222'
+- name: ⚡ b2n.ir/v2ray-configs | 251
+  type: tcp
+  server: 3.252.69.131
+  port: '22222'
+- name: ⚡ b2n.ir/v2ray-configs | 569
+  type: tcp
+  server: 3.253.67.209
+  port: '22222'
+- name: ⚡ b2n.ir/v2ray-configs | 246
+  type: tcp
+  server: 3.64.191.45
+  port: '22222'
+- name: ⚡ b2n.ir/v2ray-configs | 887
+  type: tcp
+  server: 3.67.211.46
+  port: '22222'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: tcp
+  server: 3.76.237.63
+  port: '22222'
+- name: ⚡ b2n.ir/v2ray-configs | 740
+  type: tcp
+  server: 3.8.123.26
+  port: '22222'
+- name: ⚡ b2n.ir/v2ray-configs | 884
+  type: tcp
+  server: 3.8.123.26
+  port: '22222'
+- name: ⚡ b2n.ir/v2ray-configs | 976
+  type: tcp
+  server: 35.177.137.88
+  port: '22222'
+- name: ⚡ b2n.ir/v2ray-configs | 486
+  type: tcp
+  server: 35.180.202.29
+  port: '22222'
+- name: ⚡ b2n.ir/v2ray-configs | 706
+  type: tcp
+  server: 35.180.202.29
+  port: '22222'
+- name: ⚡ b2n.ir/v2ray-configs | 539
+  type: tcp
+  server: 35.180.36.215
+  port: '22222'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: tcp
+  server: 35.181.182.220
+  port: '22222'
+- name: ⚡ b2n.ir/v2ray-configs | 636
+  type: tcp
+  server: 51.21.146.243
+  port: '22222'
+- name: ⚡ b2n.ir/v2ray-configs | 86
+  type: tcp
+  server: 51.21.88.148
+  port: '22222'
+- name: ⚡ b2n.ir/v2ray-configs | 220
+  type: tcp
+  server: 51.44.1.140
+  port: '22222'
+- name: ⚡ b2n.ir/v2ray-configs | 955
+  type: tcp
+  server: 51.44.26.172
+  port: '22222'
+- name: ⚡ b2n.ir/v2ray-configs | 745
+  type: tcp
+  server: 52.18.111.240
+  port: '22222'
+- name: ⚡ b2n.ir/v2ray-configs | 98
+  type: tcp
+  server: 52.28.176.69
+  port: '22222'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: tcp
+  server: 52.57.57.22
+  port: '22222'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: tcp
+  server: 52.58.168.251
+  port: '22222'
+- name: ⚡ b2n.ir/v2ray-configs | 829
+  type: tcp
+  server: 54.93.240.151
+  port: '22222'
+- name: ⚡ b2n.ir/v2ray-configs | 582
+  type: tcp
+  server: 56.228.53.24
+  port: '22222'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: tcp
+  server: 63.178.61.248
+  port: '22222'
+- name: ⚡ b2n.ir/v2ray-configs | 986
+  type: tcp
+  server: 99.80.179.36
+  port: '22222'
+- name: ⚡ b2n.ir/v2ray-configs | 517
+  type: tcp
+  server: 162.159.153.8
+  port: '443'
+- name: 🇺🇸 美国 CloudFlare节点
+  type: tcp
+  server: 104.18.2.150
+  port: '443'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: tcp
+  server: 104.18.2.150
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 256
+  type: tcp
+  server: 172.67.130.66
+  port: '443'
+- name: 2|🇫🇮1 |  2.8MB/s|20%|Netflix|Dis...
+  type: tcp
+  server: 38.207.133.204
+  port: '10002'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: tcp
+  server: 38.207.133.204
+  port: '10002'
+- name: ⚡ b2n.ir/v2ray-configs | 422
+  type: tcp
+  server: id3tr.jagoan.vip
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 399
+  type: tcp
+  server: 45.64.22.55
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 485
+  type: tcp
+  server: cdn-gr-3.goldaccess.xyz
+  port: '1935'
+- name: ⚡ b2n.ir/v2ray-configs | 743
+  type: tcp
+  server: 138.124.183.216
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 213
+  type: tcp
+  server: 138.124.183.222
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 645
+  type: tcp
+  server: 138.124.183.226
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 210
+  type: tcp
+  server: 138.197.5.103
+  port: '443'
+- name: 🇺🇸US-138.197.5.103-0272
+  type: tcp
+  server: 138.197.5.103
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 844
+  type: tcp
+  server: 138.197.5.103
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 338
+  type: tcp
+  server: 146.19.230.241
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 674
+  type: tcp
+  server: 194.156.99.39
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 181
+  type: tcp
+  server: 3.34.6.217
+  port: '443'
+- name: 🇺🇸US-138.197.5.103-5853
+  type: tcp
+  server: us.blazeppn.info
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 318
+  type: tcp
+  server: us.blazeppn.info
+  port: '443'
+- name: 美国+伊利诺伊州芝加哥CDN77节点
+  type: tcp
+  server: 89.187.181.179
+  port: '43118'
+- name: ⚡ b2n.ir/v2ray-configs | 925
+  type: tcp
+  server: 89.187.181.179
+  port: '43118'
+- name: 美国+CloudFlare节点
+  type: ws
+  server: 172.67.212.82
+  port: '443'
+- name: 美国+CloudFlare节点
+  type: ws
+  server: 104.21.83.113
+  port: '443'
+- name: 美国+Amazon+EC2服务器
+  type: tcp
+  server: 3.78.68.137
+  port: '22222'
+- name: 美国+CloudFlare节点
+  type: ws
+  server: 172.67.220.93
+  port: '443'
+- name: 美国+CloudFlare节点
+  type: ws
+  server: 172.67.204.120
+  port: '443'
+- name: 美国+CloudFlare节点
+  type: ws
+  server: 172.67.144.126
+  port: '443'
+- name: 美国+Amazon数据中心
+  type: tcp
+  server: 18.193.175.187
+  port: '22223'
+- name: 🇨🇦CA-45.154.204.13-0554
+  type: ssr
+  server: ssca.irundns.net
+  port: '443'
+- name: 🇺🇸[openproxylist.com] trojan-US
+  type: ws
+  server: 104.21.14.54
+  port: '443'
+- name: 英国+Level3通信股份有限公司
+  type: ws
+  server: 217.163.76.237
+  port: '443'
+- name: 广东省+联通
+  type: tcp
+  server: 0ce06474-swin40-tba9vx-1qlps.cu.plebai.net
+  port: '15229'
+- name: 美国+Amazon数据中心
+  type: tcp
+  server: 13.36.160.33
+  port: '22222'
+- name: 🔄 LATEST-UPDATE 📅 SUN-28-ORDIBEHESHT-1404 🕑 12:28
+  type: tcp
+  server: 127.0.0.1
+  port: '1080'
+- name: 🔒 TR-TCP-TLS 🇫🇷 FR-13.36.160.33:22222
+  type: tcp
+  server: 13.36.160.33
+  port: '22222'
+- name: 🔒 TR-TCP-TLS 🇸🇪 SE-56.228.78.101:22223
+  type: tcp
+  server: 56.228.78.101
+  port: '22223'
+- name: 🔒 TR-TCP-TLS 🇫🇷 FR-13.36.160.33:22223
+  type: tcp
+  server: 13.36.160.33
+  port: '22223'
+- name: 🔒 TR-TCP-TLS 🇸🇪 SE-56.228.78.101:22222
+  type: tcp
+  server: 56.228.78.101
+  port: '22222'
+- name: 🟠_🇷🇺_💻_github.com/Ruk1ng001_6637373230393264
+  type: hysteria2
+  server: 46.29.163.171
+  port: 10011
+- name: github.com/Ruk1ng001_37626534666462
+  type: ssr
+  server: 1.link-hub.blog
+  port: 40202
+- name: 🟠_🇷🇺_💻_github.com/Ruk1ng001_6233306562306337
+  type: hysteria2
+  server: 45.147.201.231
+  port: 31005
+- name: 🟠_🇷🇺_💻_github.com/Ruk1ng001_6639333237613332
+  type: hysteria2
+  server: 46.17.41.217
+  port: 10011
+- name: 🟠_🇷🇺_💻_github.com/Ruk1ng001_6164623734353331
+  type: hysteria2
+  server: 45.147.201.231
+  port: 33073
+- name: github.com/Ruk1ng001_3366383131313630
+  type: hysteria2
+  server: edc4287b-suz340-sw30na-2vfx.hy2.gotochinatown.net
+  port: 8443
+- name: 🟠_🇷🇺_💻_github.com/Ruk1ng001_3134333064633132
+  type: hysteria2
+  server: 45.147.201.231
+  port: 33073
+- name: github.com/Ruk1ng001_6634363763316531
+  type: http
+  server: bb4ebe47-swexs0-t1bnjq-1krtb.sv.plebai.net
+  port: 443
+- name: github.com/Ruk1ng001_6262386238313630
+  type: http
+  server: e21747ae-swexs0-swy6li-tni2.sv.plebai.net
+  port: 443
+- name: 🟠_🇷🇺_💻_github.com/Ruk1ng001_6538356362336163
+  type: hysteria2
+  server: 45.147.201.231
+  port: 31005
+- name: github.com/Ruk1ng001_3565343138313732
+  type: http
+  server: 87a47763-swexs0-swy6li-tni2.sj.gotochinatown.net
+  port: 443
+- name: github.com/Ruk1ng001_6163393461396662
+  type: http
+  server: fade97e9-swexs0-t1bnjq-1krtb.sj.gotochinatown.net
+  port: 443
+- name: github.com/Ruk1ng001_3163666161363864
+  type: hysteria2
+  server: hy2.694463.xyz
+  port: 10011
