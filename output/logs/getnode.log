@@ -1684,3 +1684,42 @@ requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: http
 • 节点去重数:   55586
 • 真实节点数:   109252
 
+2025-06-12 21:16:27,918 - getnode - INFO - main.py:25 - === 开始执行爬虫任务 ===
+2025-06-12 21:17:18,140 - getnode - INFO - crawler.py:130 - 仓库搜索完成 | 总扫描仓库: 711 有效仓库: 180 跳过: 531
+2025-06-12 21:17:18,140 - getnode - INFO - main.py:30 - 发现 180 个相关仓库
+2025-06-12 21:17:18,140 - getnode - INFO - main.py:34 - 开始收集节点文件...
+2025-06-12 21:17:31,453 - getnode - INFO - crawler.py:50 - 已使用API次数: 100/小时
+2025-06-12 21:17:49,029 - getnode - INFO - crawler.py:50 - 已使用API次数: 200/小时
+2025-06-12 21:18:08,628 - getnode - INFO - crawler.py:50 - 已使用API次数: 300/小时
+2025-06-12 21:18:26,278 - getnode - INFO - crawler.py:50 - 已使用API次数: 400/小时
+2025-06-12 21:18:44,220 - getnode - INFO - crawler.py:50 - 已使用API次数: 500/小时
+2025-06-12 21:19:02,117 - getnode - INFO - crawler.py:50 - 已使用API次数: 600/小时
+2025-06-12 21:19:20,211 - getnode - INFO - crawler.py:50 - 已使用API次数: 700/小时
+2025-06-12 21:19:38,858 - getnode - INFO - crawler.py:50 - 已使用API次数: 800/小时
+2025-06-12 21:19:56,581 - getnode - INFO - crawler.py:50 - 已使用API次数: 900/小时
+2025-06-12 21:20:14,587 - getnode - INFO - crawler.py:50 - 已使用API次数: 1000/小时
+2025-06-12 21:20:31,689 - getnode - INFO - crawler.py:50 - 已使用API次数: 1100/小时
+2025-06-12 21:20:46,305 - getnode - INFO - main.py:38 - 总共发现 211 个节点文件
+2025-06-12 21:20:46,306 - getnode - INFO - nodesjob.py:18 - 开始处理链接集合，共 211 个链接
+2025-06-12 21:21:34,928 - getnode - INFO - nodesjob.py:74 - 链接处理完成。成功: 145, 失败: 66
+2025-06-12 21:22:23,287 - getnode - INFO - history_manager.py:22 - 成功加载历史节点数量: 109252
+2025-06-12 21:22:23,287 - getnode - INFO - history_manager.py:33 - 新节点：18011, 历史节点：109252
+2025-06-12 21:22:24,300 - getnode - INFO - history_manager.py:52 - 合并后总节点数: 110534
+2025-06-12 21:22:24,306 - getnode - INFO - nodesjob.py:560 - 开始保存节点结果到目录: output/all_subs
+2025-06-12 21:22:25,292 - getnode - INFO - nodesjob.py:578 - 开始写入输出文件...
+2025-06-12 21:23:19,453 - getnode - INFO - nodesjob.py:587 - 成功生成订阅文件，总节点数: 110173
+2025-06-12 21:23:19,484 - getnode - INFO - tester.py:74 - === 批量测试开始 | 总节点数: 110534 ===
+2025-06-12 22:31:42,412 - getnode - INFO - tester.py:103 - === 批量测试完成 | 有效节点: 31437 (成功率: 28.4%) ===
+2025-06-12 22:31:42,413 - getnode - INFO - nodesjob.py:560 - 开始保存节点结果到目录: output/speedtest
+2025-06-12 22:31:42,659 - getnode - INFO - nodesjob.py:578 - 开始写入输出文件...
+2025-06-12 22:31:56,087 - getnode - INFO - nodesjob.py:587 - 成功生成订阅文件，总节点数: 31076
+2025-06-12 22:31:56,649 - getnode - INFO - main.py:79 - 
+=== 文件处理统计 ===
+• 扫描文件总数: 9042
+• 因大小跳过:   197 (2.2%)
+• 有效处理文件: 8845
+=== 节点处理统计 ===
+• 扫描节点总数: 166680
+• 节点去重数:   56146
+• 真实节点数:   110534
+
