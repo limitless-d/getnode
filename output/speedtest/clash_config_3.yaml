@@ -1,4 +1,2620 @@
 proxies:
+- name: ⚡ b2n.ir/v2ray-configs | 772
+  type: tcp
+  server: 6a98e275-sx8kg0-tcum62-se45.cm5.cnkuaishou.com
+  port: '27231'
+- name: ⚡ b2n.ir/v2ray-configs | 118
+  type: tcp
+  server: uk-full.privateip.net
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 390
+  type: tcp
+  server: sg-full.privateip.net
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 175
+  type: tcp
+  server: v02.gutingting.com
+  port: '30049'
+- name: ⚡ b2n.ir/v2ray-configs | 655
+  type: tcp
+  server: twb-zf.jiashumao.net
+  port: '25888'
+- name: ⚡ b2n.ir/v2ray-configs | 40
+  type: tcp
+  server: yn-zf.jiashumao.net
+  port: '40375'
+- name: ⚡ b2n.ir/v2ray-configs | 572
+  type: tcp
+  server: gz-43e866.kaiqsz.com
+  port: '21489'
+- name: ⚡ b2n.ir/v2ray-configs | 182
+  type: tcp
+  server: gz-43e866.kaiqsz.com
+  port: '28713'
+- name: ⚡ b2n.ir/v2ray-configs | 811
+  type: tcp
+  server: gz-43e866.kaiqsz.com
+  port: '42765'
+- name: ⚡ b2n.ir/v2ray-configs | 315
+  type: tcp
+  server: js-12f83a8c.kaiqsz.com
+  port: '12221'
+- name: ⚡ b2n.ir/v2ray-configs | 772
+  type: tcp
+  server: js-12f83a8c.kaiqsz.com
+  port: '18489'
+- name: ⚡ b2n.ir/v2ray-configs | 159
+  type: tcp
+  server: js-12f83a8c.kaiqsz.com
+  port: '21489'
+- name: ⚡ b2n.ir/v2ray-configs | 877
+  type: tcp
+  server: js-12f83a8c.kaiqsz.com
+  port: '28713'
+- name: ⚡ b2n.ir/v2ray-configs | 419
+  type: tcp
+  server: js-12f83a8c.kaiqsz.com
+  port: '42765'
+- name: ⚡ b2n.ir/v2ray-configs | 200
+  type: tcp
+  server: lm.kaiqsz.com
+  port: '14651'
+- name: ⚡ b2n.ir/v2ray-configs | 256
+  type: tcp
+  server: lm.kaiqsz.com
+  port: '16783'
+- name: ⚡ b2n.ir/v2ray-configs | 858
+  type: tcp
+  server: lm.kaiqsz.com
+  port: '21463'
+- name: ⚡ b2n.ir/v2ray-configs | 112
+  type: tcp
+  server: lm.kaiqsz.com
+  port: '28499'
+- name: ⚡ b2n.ir/v2ray-configs | 674
+  type: tcp
+  server: lm.kaiqsz.com
+  port: '30383'
+- name: ⚡ b2n.ir/v2ray-configs | 527
+  type: tcp
+  server: lm.kaiqsz.com
+  port: '33243'
+- name: ⚡ b2n.ir/v2ray-configs | 339
+  type: tcp
+  server: lm.kaiqsz.com
+  port: '34183'
+- name: ⚡ b2n.ir/v2ray-configs | 435
+  type: tcp
+  server: lm.kaiqsz.com
+  port: '34249'
+- name: ⚡ b2n.ir/v2ray-configs | 550
+  type: tcp
+  server: lm.kaiqsz.com
+  port: '39851'
+- name: ⚡ b2n.ir/v2ray-configs | 969
+  type: tcp
+  server: lm.kaiqsz.com
+  port: '40391'
+- name: ⚡ b2n.ir/v2ray-configs | 602
+  type: tcp
+  server: lm.kaiqsz.com
+  port: '43855'
+- name: ⚡ b2n.ir/v2ray-configs | 957
+  type: tcp
+  server: lm.kaiqsz.com
+  port: '47621'
+- name: ⚡ b2n.ir/v2ray-configs | 254
+  type: tcp
+  server: lm.kaiqsz.com
+  port: '49569'
+- name: ⚡ b2n.ir/v2ray-configs | 370
+  type: tcp
+  server: lm.kaiqsz.com
+  port: '50121'
+- name: ⚡ b2n.ir/v2ray-configs | 950
+  type: tcp
+  server: lm.kaiqsz.com
+  port: '50757'
+- name: ⚡ b2n.ir/v2ray-configs | 164
+  type: tcp
+  server: lm.kaiqsz.com
+  port: '51075'
+- name: ⚡ b2n.ir/v2ray-configs | 863
+  type: tcp
+  server: lm.kaiqsz.com
+  port: '54031'
+- name: ⚡ b2n.ir/v2ray-configs | 474
+  type: tcp
+  server: lm.kaiqsz.com
+  port: '58947'
+- name: ⚡ b2n.ir/v2ray-configs | 183
+  type: tcp
+  server: lm.kaiqsz.com
+  port: '59137'
+- name: ⚡ b2n.ir/v2ray-configs | 301
+  type: tcp
+  server: lm.kaiqsz.com
+  port: '59225'
+- name: ⚡ b2n.ir/v2ray-configs | 714
+  type: tcp
+  server: lm.kaiqsz.com
+  port: '59358'
+- name: ⚡ b2n.ir/v2ray-configs | 2
+  type: tcp
+  server: nbae7a7.kaiqsz.com
+  port: '53547'
+- name: ⚡ b2n.ir/v2ray-configs | 305
+  type: tcp
+  server: wb.kaiqsz.com
+  port: '12221'
+- name: ⚡ b2n.ir/v2ray-configs | 609
+  type: tcp
+  server: wb.kaiqsz.com
+  port: '12221'
+- name: ⚡ b2n.ir/v2ray-configs | 193
+  type: tcp
+  server: wb.kaiqsz.com
+  port: '21489'
+- name: ⚡ b2n.ir/v2ray-configs | 62
+  type: tcp
+  server: wb.kaiqsz.com
+  port: '28713'
+- name: ⚡ b2n.ir/v2ray-configs | 562
+  type: tcp
+  server: wb.kaiqsz.com
+  port: '42765'
+- name: ⚡ b2n.ir/v2ray-configs | 204
+  type: tcp
+  server: wb.kaiqsz.com
+  port: '48291'
+- name: ⚡ b2n.ir/v2ray-configs | 746
+  type: tcp
+  server: wb.kaiqsz.com
+  port: '49921'
+- name: ⚡ b2n.ir/v2ray-configs | 536
+  type: tcp
+  server: ahgjs-4-tr-0.hkg-01.o-two.xyz
+  port: '889'
+- name: ⚡ b2n.ir/v2ray-configs | 943
+  type: tcp
+  server: cat-1.opensvr.net
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 322
+  type: tcp
+  server: ukt-2.opensvr.net
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 409
+  type: tcp
+  server: ground.wireshop.net
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 848
+  type: tcp
+  server: id3tr.jagoan.vip
+  port: '443'
+- name: ⚡ b2n.ir/v2ray-configs | 144
+  type: tcp
+  server: cdn-gr-3.goldaccess.xyz
+  port: '1935'
+- name: 🟠_🇷🇺_💻_github.com/Ruk1ng001_64316435383939
+  type: hysteria2
+  server: 45.147.201.231
+  port: 30073
+- name: github.com/Ruk1ng001_6566313265626164
+  type: hysteria2
+  server: f0cd03ae-sxaf40-tb016b-1m7l4.hy2.gotochinatown.net
+  port: 8443
+- name: github.com/Ruk1ng001_3364653639396362
+  type: hysteria2
+  server: 45.147.201.231
+  port: 30073
+- name: 🟠_🇷🇺_💻_github.com/Ruk1ng001_6138353363373961
+  type: hysteria2
+  server: 45.147.201.231
+  port: 30073
+- name: 🟠_🇬🇧_💻_github.com/Ruk1ng001_6535663962383839
+  type: hysteria2
+  server: 185.184.70.120
+  port: 42353
+- name: 🟠_🇷🇺_💻_github.com/Ruk1ng001_3536363635343236
+  type: hysteria2
+  server: 45.147.201.231
+  port: 30073
+- name: github.com/Ruk1ng001_6636306665646537
+  type: hysteria2
+  server: 4b009f5b-sx4v40-szt6ky-1bonh.hy2.gotochinatown.net
+  port: 8443
+- name: 🟠_🇷🇺_💻_github.com/Ruk1ng001_3839643165396265
+  type: hysteria2
+  server: 45.147.201.231
+  port: 30073
+- name: github.com/Ruk1ng001_3838653936323736
+  type: hysteria2
+  server: 45.147.201.231
+  port: 30073
+- name: github.com/Ruk1ng001_3533313163383937
+  type: hysteria2
+  server: 45.147.201.231
+  port: 30073
+- name: 🟠_🇷🇺_💻_github.com/Ruk1ng001_3965613065613133
+  type: hysteria2
+  server: 45.147.201.231
+  port: 30073
+- name: 🟠_🇷🇺_💻_github.com/Ruk1ng001_3839616264323836
+  type: hysteria2
+  server: 45.147.201.231
+  port: 30073
+- name: 🟠_🇷🇺_💻_github.com/Ruk1ng001_3932626538663933
+  type: hysteria2
+  server: 45.147.201.231
+  port: 30073
+- name: ❓_🇹🇷_💻_github.com/Ruk1ng001_3263376531306435
+  type: http
+  server: 103.215.218.174
+  port: 8300
+- name: github.com/Ruk1ng001_6431656332386233
+  type: hysteria2
+  server: 45.147.201.231
+  port: 30073
+- name: github.com/Ruk1ng001_6339393263383634
+  type: hysteria2
+  server: 45.147.201.231
+  port: 31005
+- name: 🟠_🇷🇺_💻_github.com/Ruk1ng001_3330336431353135
+  type: hysteria2
+  server: 45.129.2.108
+  port: 30033
+- name: github.com/Ruk1ng001_3535323763633131
+  type: hysteria2
+  server: 45.147.201.231
+  port: 30073
+- name: github.com/Ruk1ng001_3531356662613639
+  type: hysteria2
+  server: 7963c538-swq1s0-ta5nd4-e06r.hy2.gotochinatown.net
+  port: 8443
+- name: 🟠_🇷🇺_💻_github.com/Ruk1ng001_3535376565313838
+  type: hysteria2
+  server: 45.147.201.231
+  port: 30073
+- name: 🟠_🇷🇺_💻_github.com/Ruk1ng001_3237636465373565
+  type: hysteria2
+  server: 45.147.201.231
+  port: 31005
+- name: github.com/Ruk1ng001_6433663534373664
+  type: hysteria2
+  server: jiangzhixjp.54264944.xyz
+  port: 43999
+- name: github.com/Ruk1ng001_6265383361363766
+  type: hysteria2
+  server: 45.147.201.231
+  port: 30073
+- name: 🟠_🇷🇺_💻_github.com/Ruk1ng001_6435393165363633
+  type: hysteria2
+  server: 45.147.201.231
+  port: 30073
+- name: 🟠_🇷🇺_💻_github.com/Ruk1ng001_3364633362383536
+  type: hysteria2
+  server: 45.147.201.231
+  port: 30073
+- name: github.com/Ruk1ng001_6139366235653437
+  type: hysteria2
+  server: 45.147.201.231
+  port: 30073
+- name: 🟠_🇷🇺_💻_github.com/Ruk1ng001_3531633931636262
+  type: hysteria2
+  server: 45.147.201.231
+  port: 31005
+- name: 🟠_🇷🇺_💻_github.com/Ruk1ng001_3932633939653664
+  type: hysteria2
+  server: 45.147.201.231
+  port: 30073
+- name: WiFi-@V2ray_Alpha-8
+  type: ws
+  server: 23.227.60.8
+  port: '443'
+- name: WiFi-@V2ray_Alpha-9
+  type: tcp
+  server: 185.156.108.40
+  port: '13784'
+- name: WiFi-@V2ray_Alpha-10
+  type: tcp
+  server: 91.107.151.209
+  port: '58298'
+- name: WiFi-@V2ray_Alpha-11
+  type: ws
+  server: 104.19.209.229
+  port: '8880'
+- name: WiFi-@V2ray_Alpha-12
+  type: ws
+  server: www.speedtest.net
+  port: '2052'
+- name: WiFi-@V2ray_Alpha-13
+  type: ws
+  server: www.speedtest.net
+  port: '2052'
+- name: WiFi-@V2ray_Alpha-14
+  type: ws
+  server: www.speedtest.net
+  port: '2052'
+- name: WiFi-@V2ray_Alpha-15
+  type: ws
+  server: www.speedtest.net
+  port: '2052'
+- name: WiFi-@V2ray_Alpha-16
+  type: tcp
+  server: 91.107.240.100
+  port: '2095'
+- name: WiFi-@V2ray_Alpha-17
+  type: ws
+  server: 104.16.190.131
+  port: '8443'
+- name: WiFi-@V2ray_Alpha-18
+  type: ws
+  server: 185.146.173.115
+  port: '443'
+- name: MCI-@V2ray_Alpha-2
+  type: ws
+  server: 104.18.13.229
+  port: '2053'
+- name: MCI-@V2ray_Alpha-3
+  type: ws
+  server: 185.238.228.6
+  port: '443'
+- name: MCI-@V2ray_Alpha-4
+  type: ws
+  server: 104.20.71.132
+  port: '8880'
+- name: MCI--@V2ray_Alpha-5
+  type: httpupgrade
+  server: 185.146.173.52
+  port: '8880'
+- name: WiFi-@V2ray_Alpha-6
+  type: ws
+  server: www.speedtest.net
+  port: '2052'
+- name: MCI--@V2ray_Alpha-7
+  type: ws
+  server: www.speedtest.net
+  port: '2052'
+- name: MCI--@V2ray_Alpha-8
+  type: ws
+  server: www.speedtest.net
+  port: '2052'
+- name: MCI-@V2ray_Alpha-9
+  type: ws
+  server: 185.18.250.117
+  port: '443'
+- name: MCI-@V2ray_Alpha-10
+  type: ws
+  server: 172.66.47.130
+  port: '443'
+- name: WiFi-@V2ray_Alpha-11
+  type: ws
+  server: 172.66.46.249
+  port: '443'
+- name: MCI-@V2ray_Alpha-12
+  type: ws
+  server: 172.66.44.233
+  port: '443'
+- name: WiFi-@V2ray_Alpha-13
+  type: ws
+  server: 104.17.148.22
+  port: '443'
+- name: MCI-@V2ray_Alpha-14
+  type: ws
+  server: 104.18.218.118
+  port: '443'
+- name: MCI-@V2ray_Alpha-15
+  type: ws
+  server: 172.66.46.249
+  port: '443'
+- name: MCI-@V2ray_Alpha-16♾نامحدود
+  type: ws
+  server: 172.66.47.100
+  port: '443'
+- name: IR-@V2ray_Alpha-3
+  type: tcp
+  server: enfuego.missionsec.io
+  port: '443'
+- name: IR-@V2ray_Alpha-4
+  type: tcp
+  server: starfish.missionsec.io
+  port: '28331'
+- name: IR-@V2ray_Alpha-5
+  type: tcp
+  server: penguin.missionsec.io
+  port: '28332'
+- name: IR-@V2ray_Alpha-6
+  type: tcp
+  server: training.freetrade.link
+  port: '18333'
+- name: IR-@V2ray_Alpha-7
+  type: tcp
+  server: tobster.freetrade.link
+  port: '28343'
+- name: IR-@V2ray_Alpha-8
+  type: httpupgrade
+  server: 104.19.209.229
+  port: '2052'
+- name: IR-@V2ray_Alpha-9
+  type: httpupgrade
+  server: www.speedtest.net
+  port: '2052'
+- name: IR-@V2ray_Alpha-10
+  type: ws
+  server: 190.93.247.152
+  port: '80'
+- name: IR-@V2ray_Alpha-11
+  type: httpupgrade
+  server: 185.146.173.52
+  port: '8880'
+- name: IR-@V2ray_Alpha-12
+  type: ws
+  server: 185.146.173.115
+  port: '443'
+- name: MCI-@V2ray_Alpha-04
+  type: ws
+  server: 185.238.228.6
+  port: '443'
+- name: MCI-@V2ray_Alpha-05
+  type: ws
+  server: 199.232.95.123
+  port: '80'
+- name: MCI-@V2ray_Alpha-06
+  type: ws
+  server: 104.21.3.233
+  port: '8880'
+- name: MCI-@V2ray_Alpha-07
+  type: ws
+  server: 104.17.147.22
+  port: '2052'
+- name: MCI-@V2ray_Alpha-08
+  type: ws
+  server: 104.18.39.232
+  port: '2083'
+- name: MCI-@V2ray_Alpha-09
+  type: ws
+  server: 206.238.236.187
+  port: '2096'
+- name: MCI-@V2ray_Alpha-10
+  type: tcp
+  server: re.iranfastfod.ir
+  port: '8443'
+- name: MCI-@V2ray_Alpha-11
+  type: ws
+  server: 172.66.44.101
+  port: '443'
+- name: MCI-@V2ray_Alpha-12
+  type: ws
+  server: 172.66.44.58
+  port: '443'
+- name: MCI-@V2ray_Alpha-13
+  type: ws
+  server: 172.66.47.151
+  port: '443'
+- name: MCI-@V2ray_Alpha-14♾نامحدود
+  type: ws
+  server: 172.66.47.151
+  port: '443'
+- name: MCI-@V2ray_Alpha-06
+  type: ws
+  server: 162.159.128.233
+  port: '8443'
+- name: MCI-@V2ray_Alpha-07
+  type: ws
+  server: zula.ir
+  port: '2096'
+- name: MCI-@V2ray_Alpha-09
+  type: ws
+  server: 172.66.47.151
+  port: '443'
+- name: MCI-@V2ray_Alpha-10
+  type: ws
+  server: 172.66.47.200
+  port: '443'
+- name: MCI-@V2ray_Alpha-11
+  type: ws
+  server: www.visa.com
+  port: '443'
+- name: MCI-@V2ray_Alpha-12
+  type: ws
+  server: 172.66.47.130
+  port: '443'
+- name: MCI-@V2ray_Alpha-13
+  type: ws
+  server: 188.114.99.91
+  port: '443'
+- name: MCI-@V2ray_Alpha-14♾نامحدود
+  type: ws
+  server: 185.18.250.117
+  port: '443'
+- name: All-@V2ray_Alpha-5
+  type: ws
+  server: 104.21.36.165
+  port: '443'
+- name: All-@V2ray_Alpha-6
+  type: ws
+  server: 185.146.173.158
+  port: '443'
+- name: All-@V2ray_Alpha-7
+  type: ws
+  server: 104.25.254.4
+  port: '2087'
+- name: All-@V2ray_Alpha-8
+  type: ws
+  server: 172.67.198.177
+  port: '443'
+- name: All-@V2ray_Alpha-9
+  type: ws
+  server: 104.21.69.44
+  port: '2096'
+- name: All-@V2ray_Alpha-10
+  type: ws
+  server: 104.21.50.5
+  port: '443'
+- name: All-@V2ray_Alpha-11
+  type: ws
+  server: 172.64.150.145
+  port: '443'
+- name: All-@V2ray_Alpha-12
+  type: ws
+  server: 172.67.213.48
+  port: '443'
+- name: All-@V2ray_Alpha-13
+  type: ws
+  server: 172.66.44.141
+  port: '2083'
+- name: All-@V2ray_Alpha-14
+  type: ws
+  server: 104.21.3.52
+  port: '443'
+- name: All-@V2ray_Alpha-15
+  type: ws
+  server: 185.176.24.2
+  port: '443'
+- name: All-@V2ray_Alpha-16
+  type: ws
+  server: 104.18.37.111
+  port: '443'
+- name: All-@V2ray_Alpha-17
+  type: ws
+  server: 172.67.180.238
+  port: '443'
+- name: All--@V2ray_Alpha-13
+  type: ws
+  server: bpb-worker-panel1-e4p.pages.dev
+  port: '2053'
+- name: All--@V2ray_Alpha-14
+  type: tcp
+  server: 217.60.187.84
+  port: '47465'
+- name: All--@V2ray_Alpha-16
+  type: ws
+  server: 23spt.pages.dev
+  port: '443'
+- name: All--@V2ray_Alpha-17
+  type: ws
+  server: pardazeshvpn-tg18.pages.dev
+  port: '443'
+- name: All--@V2ray_Alpha-18
+  type: ws
+  server: cfpage-39t.pages.dev
+  port: '443'
+- name: All--@V2ray_Alpha-19
+  type: ws
+  server: aksnmaioas.pages.dev
+  port: '443'
+- name: All--@V2ray_Alpha-20
+  type: ws
+  server: pardazeshvpn-tg7.pages.dev
+  port: '443'
+- name: All--@V2ray_Alpha-21
+  type: ws
+  server: bpb-worker-panel1-e4p.pages.dev
+  port: '443'
+- name: All--@V2ray_Alpha-22
+  type: ws
+  server: meti-u9d.pages.dev
+  port: '443'
+- name: 👉🆔
+  type: tcp
+  server: 172.64.35.188
+  port: '443'
+- name: '[🏁]t.me/ConfigsHub`'
+  type: tcp
+  server: 13.48.220.142
+  port: '22222'
+- name: 👉🆔
+  type: ws
+  server: 104.25.254.4
+  port: '2087'
+- name: 🇯🇵JP-43.206.232.118-0659
+  type: ssr
+  server: jp-am48-6.eqnode.net
+  port: '8081'
+- name: 🇰🇷KR-144.24.88.133-1155
+  type: tcp
+  server: a.522226.xyz
+  port: '45101'
+- name: 🇭🇰 13,14|香港7|@ripaojiedian
+  type: tcp
+  server: ak2.firewoodzz.com
+  port: '35002'
+- name: 🇨🇳 13,14|台湾2|@ripaojiedian
+  type: tcp
+  server: ak2.firewoodzz.com
+  port: '35005'
+- name: 15|US_speednode_0145
+  type: tcp
+  server: 172.64.150.145
+  port: '443'
+- name: 15|US_speednode_0153
+  type: tcp
+  server: 104.18.37.111
+  port: '443'
+- name: 15|US_speednode_0211
+  type: tcp
+  server: 103.170.72.120
+  port: '27061'
+- name: 15|US_speednode_0221
+  type: tcp
+  server: 172.64.150.145
+  port: '443'
+- name: '3'
+  type: tcp
+  server: 42.236.73.72
+  port: '443'
+- name: 日期：11-05
+  type: tcp
+  server: 190.93.245.96
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 104.18.205.4
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 104.16.142.43
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 190.93.246.0
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 104.18.63.120
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 190.93.245.10
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 104.16.151.253
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 188.114.97.152
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 190.93.245.186
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 104.16.199.201
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 104.17.58.219
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 188.114.97.186
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 173.245.59.185
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 172.66.159.193
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 103.21.244.202
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 103.21.244.108
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 104.24.147.17
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 190.93.246.234
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 104.27.40.62
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 104.18.221.133
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 198.41.193.231
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 104.16.135.45
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 104.18.196.85
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 104.24.22.118
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 103.21.244.33
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 103.21.244.15
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 103.21.244.10
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 198.41.194.151
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 173.245.49.201
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 198.41.216.57
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 104.17.74.127
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 190.93.246.23
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 141.101.114.172
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 104.19.87.14
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 172.66.155.79
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 198.41.199.40
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 172.64.163.77
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 188.114.99.0
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 104.19.71.183
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 198.41.216.79
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 104.25.144.60
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 104.17.75.22
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 104.16.40.237
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 104.17.180.81
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 104.19.4.96
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 172.67.110.39
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 190.93.247.68
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 104.25.166.217
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 104.17.246.91
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 104.17.164.118
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 108.162.195.137
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 103.21.244.3
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 172.67.235.21
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 104.25.172.210
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 104.25.171.225
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 190.93.244.125
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 188.114.97.17
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 172.67.120.114
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 141.101.123.129
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 108.162.194.203
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 190.93.246.161
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 104.17.166.120
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 104.19.246.209
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 190.93.244.69
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 172.67.86.91
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 188.114.99.66
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 104.18.63.198
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 173.245.58.144
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 173.245.49.133
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 103.21.244.172
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 188.114.99.33
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 172.67.230.179
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 162.159.26.126
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 104.25.206.92
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 104.22.2.252
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 172.67.180.8
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 172.67.1.153
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 173.245.49.67
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 173.245.59.253
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 104.25.219.178
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 172.67.207.210
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 173.245.59.6
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 104.20.109.102
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 104.24.203.128
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 198.41.223.86
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 103.21.244.151
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 104.24.181.249
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 198.41.215.216
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 104.19.22.240
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 198.41.194.243
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 104.21.205.28
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 104.20.58.2
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 104.22.70.16
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 108.162.193.67
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 162.159.4.143
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 104.24.247.219
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 104.21.76.86
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 188.114.98.176
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 162.159.15.194
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 104.18.180.71
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 104.22.27.200
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 162.159.5.129
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 173.245.58.97
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 104.27.27.214
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 190.93.246.93
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 162.159.1.27
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 104.25.203.49
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 104.24.177.45
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 104.25.60.186
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 104.23.136.48
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 162.159.252.9
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 104.24.46.138
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 104.27.74.20
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 188.114.96.213
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 162.159.19.17
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 104.24.32.58
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 162.159.45.133
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 172.67.60.216
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 190.93.245.44
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 104.19.59.10
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 188.114.98.76
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 103.21.244.91
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 104.19.111.45
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 104.22.74.57
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 162.159.250.211
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 103.21.244.140
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 104.27.207.110
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 104.25.22.200
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 104.22.74.194
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 104.17.37.97
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 104.27.117.212
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 104.21.227.93
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 103.21.244.106
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 104.19.83.34
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 104.19.251.163
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 173.245.49.110
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 190.93.247.146
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 198.41.223.165
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 104.25.154.52
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 141.101.120.208
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 104.25.194.188
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 190.93.245.210
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 104.25.3.104
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 104.21.25.209
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 104.22.17.58
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 104.19.104.49
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 103.21.244.149
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 104.19.11.50
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 162.159.83.5
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 172.67.145.226
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 198.41.203.131
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 104.25.115.245
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 198.41.218.116
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 104.20.25.69
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 104.20.26.162
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 104.27.78.125
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 162.159.133.206
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 190.93.246.185
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 190.93.244.163
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 104.24.254.99
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 103.21.244.148
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 104.20.16.49
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 172.67.71.225
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 188.114.96.11
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 162.159.34.125
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 104.18.97.15
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 190.93.244.104
+  port: '443'
+- name: 🇺🇸 美国
+  type: tcp
+  server: 104.19.225.155
+  port: '443'
+- name: 🔄 LATEST-UPDATE 📅 TUE-15-ABAN-1403 🕑 19:14
+  type: tcp
+  server: 127.0.0.1
+  port: '1080'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-162.159.152.191:443
+  type: ws
+  server: 162.159.152.191
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-104.20.22.25:443
+  type: ws
+  server: 104.20.22.25
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-104.20.22.92:443
+  type: ws
+  server: 104.20.22.92
+  port: '443'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-190.93.246.156:443
+  type: tcp
+  server: 190.93.246.156
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-104.26.8.160:443
+  type: ws
+  server: 104.26.8.160
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-172.66.47.200:443
+  type: ws
+  server: 172.66.47.200
+  port: '443'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-172.67.225.193:443
+  type: tcp
+  server: 172.67.225.193
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-162.159.153.67:443
+  type: ws
+  server: 162.159.153.67
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-162.159.44.209:443
+  type: ws
+  server: 162.159.44.209
+  port: '443'
+- name: 🔒 TR-WS-TLS 🇨🇭 CH-185.18.250.117:443
+  type: ws
+  server: 185.18.250.117
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-104.20.17.212:443
+  type: ws
+  server: 104.20.17.212
+  port: '443'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-104.25.239.1:443
+  type: tcp
+  server: 104.25.239.1
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-172.66.44.58:443
+  type: ws
+  server: 172.66.44.58
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-172.66.47.130:443
+  type: ws
+  server: 172.66.47.130
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-104.21.69.44:2096
+  type: ws
+  server: 104.21.69.44
+  port: '2096'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-162.159.152.228:443
+  type: ws
+  server: 162.159.152.228
+  port: '443'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-104.25.242.254:443
+  type: tcp
+  server: 104.25.242.254
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-172.67.75.208:443
+  type: ws
+  server: 172.67.75.208
+  port: '443'
+- name: 🔒 TR-WS-NONE 🏴‍☠️ NA-104.17.147.22:2095
+  type: ws
+  server: 104.17.147.22
+  port: '2095'
+- name: 🔒 TR-TCP-TLS 🇸🇪 SE-13.51.187.95:22222
+  type: tcp
+  server: 13.51.187.95
+  port: '22222'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-104.17.164.118:443
+  type: tcp
+  server: 104.17.164.118
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-104.20.21.190:443
+  type: ws
+  server: 104.20.21.190
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-104.18.218.118:443
+  type: ws
+  server: 104.18.218.118
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-162.159.152.143:443
+  type: ws
+  server: 162.159.152.143
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-162.159.153.90:443
+  type: ws
+  server: 162.159.153.90
+  port: '443'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-141.101.123.129:443
+  type: tcp
+  server: 141.101.123.129
+  port: '443'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-141.101.114.105:443
+  type: tcp
+  server: 141.101.114.105
+  port: '443'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-108.162.195.187:443
+  type: tcp
+  server: 108.162.195.187
+  port: '443'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-198.41.220.8:443
+  type: tcp
+  server: 198.41.220.8
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-172.64.35.205:443
+  type: ws
+  server: 172.64.35.205
+  port: '443'
+- name: 🔒 TR-WS-TLS 🇺🇸 US-151.101.130.219:443
+  type: ws
+  server: 151.101.130.219
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-108.162.195.148:443
+  type: ws
+  server: 108.162.195.148
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-162.159.44.168:443
+  type: ws
+  server: 162.159.44.168
+  port: '443'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-104.25.115.245:443
+  type: tcp
+  server: 104.25.115.245
+  port: '443'
+- name: 🔒 TR-TCP-TLS 🇮🇪 IE-34.252.77.130:22222
+  type: tcp
+  server: 34.252.77.130
+  port: '22222'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-108.162.195.176:443
+  type: ws
+  server: 108.162.195.176
+  port: '443'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-190.93.246.161:443
+  type: tcp
+  server: 190.93.246.161
+  port: '443'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-162.159.242.97:443
+  type: tcp
+  server: 162.159.242.97
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-104.20.18.145:443
+  type: ws
+  server: 104.20.18.145
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-104.20.17.109:443
+  type: ws
+  server: 104.20.17.109
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-172.66.47.106:443
+  type: ws
+  server: 172.66.47.106
+  port: '443'
+- name: 🔒 TR-TCP-NA 🇺🇸 US-43.153.80.208:443
+  type: tcp
+  server: 43.153.80.208
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-104.18.4.46:2083
+  type: ws
+  server: 104.18.4.46
+  port: '2083'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-172.64.153.235:2053
+  type: ws
+  server: 172.64.153.235
+  port: '2053'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-104.20.30.57:443
+  type: tcp
+  server: 104.20.30.57
+  port: '443'
+- name: 🔒 TR-HTTP-TLS 🇷🇺 RU-195.133.52.153:2087
+  type: http
+  server: 195.133.52.153
+  port: '2087'
+- name: 🔒 TR-TCP-TLS 🇸🇪 SE-13.48.60.35:22222
+  type: tcp
+  server: 13.48.60.35
+  port: '22222'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-162.159.1.27:443
+  type: tcp
+  server: 162.159.1.27
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-162.159.153.183:443
+  type: ws
+  server: 162.159.153.183
+  port: '443'
+- name: 🔒 TR-TCP-TLS 🇬🇧 GB-51.24.25.66:22222
+  type: tcp
+  server: 51.24.25.66
+  port: '22222'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-104.25.179.113:443
+  type: tcp
+  server: 104.25.179.113
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-172.67.68.157:443
+  type: ws
+  server: 172.67.68.157
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-104.20.20.148:443
+  type: ws
+  server: 104.20.20.148
+  port: '443'
+- name: 🔒 TR-TCP-NA 🇫🇷 FR-158.178.192.221:443
+  type: tcp
+  server: 158.178.192.221
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-104.20.19.103:443
+  type: ws
+  server: 104.20.19.103
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-162.159.152.85:443
+  type: ws
+  server: 162.159.152.85
+  port: '443'
+- name: 🔒 TR-WS-TLS 🇪🇸 ES-185.238.228.6:443
+  type: ws
+  server: 185.238.228.6
+  port: '443'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-104.27.27.214:443
+  type: tcp
+  server: 104.27.27.214
+  port: '443'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-172.67.87.79:443
+  type: tcp
+  server: 172.67.87.79
+  port: '443'
+- name: 🔒 TR-TCP-TLS 🇭🇰 HK-103.100.177.32:35005
+  type: tcp
+  server: 103.100.177.32
+  port: '35005'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-162.159.152.27:443
+  type: ws
+  server: 162.159.152.27
+  port: '443'
+- name: 🔒 TR-TCP-TLS 🇨🇦 CA-3.98.134.59:22222
+  type: tcp
+  server: 3.98.134.59
+  port: '22222'
+- name: 🔒 TR-TCP-NA 🇵🇱 PL-91.206.179.250:443
+  type: tcp
+  server: 91.206.179.250
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-104.20.18.112:443
+  type: ws
+  server: 104.20.18.112
+  port: '443'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-162.159.252.9:443
+  type: tcp
+  server: 162.159.252.9
+  port: '443'
+- name: 🔒 TR-TCP-NA 🇨🇾 CY-195.85.59.161:443
+  type: tcp
+  server: 195.85.59.161
+  port: '443'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-162.159.38.94:443
+  type: tcp
+  server: 162.159.38.94
+  port: '443'
+- name: 🔒 TR-TCP-TLS 🇻🇳 VN-103.77.247.225:443
+  type: tcp
+  server: 103.77.247.225
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-104.20.18.121:443
+  type: ws
+  server: 104.20.18.121
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-172.66.47.100:443
+  type: ws
+  server: 172.66.47.100
+  port: '443'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-188.114.97.126:443
+  type: tcp
+  server: 188.114.97.126
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-172.66.44.156:2053
+  type: ws
+  server: 172.66.44.156
+  port: '2053'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-104.20.17.146:443
+  type: ws
+  server: 104.20.17.146
+  port: '443'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-104.19.159.144:443
+  type: tcp
+  server: 104.19.159.144
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-104.18.14.8:443
+  type: ws
+  server: 104.18.14.8
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-104.20.19.238:443
+  type: ws
+  server: 104.20.19.238
+  port: '443'
+- name: 🔒 TR-WS-TLS 🇺🇸 US-159.112.235.48:2083
+  type: ws
+  server: 159.112.235.48
+  port: '2083'
+- name: 🔒 TR-TCP-TLS 🇮🇪 IE-52.211.123.167:22222
+  type: tcp
+  server: 52.211.123.167
+  port: '22222'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-104.16.190.131:8443
+  type: ws
+  server: 104.16.190.131
+  port: '8443'
+- name: 🔒 TR-WS-TLS 🇸🇪 SE-185.146.173.115:443
+  type: ws
+  server: 185.146.173.115
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-104.20.17.128:443
+  type: ws
+  server: 104.20.17.128
+  port: '443'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-190.93.245.10:443
+  type: tcp
+  server: 190.93.245.10
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-104.20.19.11:443
+  type: ws
+  server: 104.20.19.11
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-104.20.17.178:443
+  type: ws
+  server: 104.20.17.178
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-104.18.15.8:443
+  type: ws
+  server: 104.18.15.8
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-172.66.44.233:443
+  type: ws
+  server: 172.66.44.233
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-162.159.153.149:443
+  type: ws
+  server: 162.159.153.149
+  port: '443'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-108.162.194.203:443
+  type: tcp
+  server: 108.162.194.203
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-104.18.218.118:8443
+  type: ws
+  server: 104.18.218.118
+  port: '8443'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-104.27.110.202:443
+  type: tcp
+  server: 104.27.110.202
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-162.159.153.3:443
+  type: ws
+  server: 162.159.153.3
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-104.26.12.31:2053
+  type: ws
+  server: 104.26.12.31
+  port: '2053'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-172.67.198.177:443
+  type: ws
+  server: 172.67.198.177
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-104.20.21.89:443
+  type: ws
+  server: 104.20.21.89
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-104.20.18.8:443
+  type: ws
+  server: 104.20.18.8
+  port: '443'
+- name: 🔒 TR-TCP-NA 🇰🇷 KR-146.56.151.232:20990
+  type: tcp
+  server: 146.56.151.232
+  port: '20990'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-104.24.149.225:443
+  type: tcp
+  server: 104.24.149.225
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-172.64.149.134:8443
+  type: ws
+  server: 172.64.149.134
+  port: '8443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-172.67.72.18:443
+  type: ws
+  server: 172.67.72.18
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-104.18.38.122:8443
+  type: ws
+  server: 104.18.38.122
+  port: '8443'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-104.25.206.92:443
+  type: tcp
+  server: 104.25.206.92
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-104.20.18.35:443
+  type: ws
+  server: 104.20.18.35
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-104.20.19.167:443
+  type: ws
+  server: 104.20.19.167
+  port: '443'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-172.64.35.188:443
+  type: tcp
+  server: 172.64.35.188
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-198.41.220.83:443
+  type: ws
+  server: 198.41.220.83
+  port: '443'
+- name: 🔒 TR-TCP-TLS 🇨🇦 CA-15.157.251.43:22222
+  type: tcp
+  server: 15.157.251.43
+  port: '22222'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-104.18.27.217:443
+  type: tcp
+  server: 104.18.27.217
+  port: '443'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-104.27.207.110:443
+  type: tcp
+  server: 104.27.207.110
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-172.67.70.31:443
+  type: ws
+  server: 172.67.70.31
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-104.20.20.84:443
+  type: ws
+  server: 104.20.20.84
+  port: '443'
+- name: 🔒 TR-WS-NONE 🏴‍☠️ NA-104.20.71.132:8880
+  type: ws
+  server: 104.20.71.132
+  port: '8880'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-104.18.41.190:443
+  type: ws
+  server: 104.18.41.190
+  port: '443'
+- name: 🔒 TR-WS-NONE 🏴‍☠️ NA-172.67.171.39:80
+  type: ws
+  server: 172.67.171.39
+  port: '80'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-104.16.27.135:443
+  type: tcp
+  server: 104.16.27.135
+  port: '443'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-173.245.58.4:443
+  type: tcp
+  server: 173.245.58.4
+  port: '443'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-141.101.113.237:443
+  type: tcp
+  server: 141.101.113.237
+  port: '443'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-104.17.30.82:443
+  type: tcp
+  server: 104.17.30.82
+  port: '443'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-172.64.35.194:443
+  type: tcp
+  server: 172.64.35.194
+  port: '443'
+- name: 🔒 TR-WS-NONE 🏴‍☠️ NA-104.19.209.229:8880
+  type: ws
+  server: 104.19.209.229
+  port: '8880'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-104.26.1.19:443
+  type: tcp
+  server: 104.26.1.19
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-104.20.18.34:443
+  type: ws
+  server: 104.20.18.34
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-104.20.18.212:443
+  type: ws
+  server: 104.20.18.212
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-172.67.68.157:8443
+  type: ws
+  server: 172.67.68.157
+  port: '8443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-188.114.99.208:2053
+  type: ws
+  server: 188.114.99.208
+  port: '2053'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-172.64.155.209:2087
+  type: ws
+  server: 172.64.155.209
+  port: '2087'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-104.20.22.95:443
+  type: ws
+  server: 104.20.22.95
+  port: '443'
+- name: 🔒 TR-WS-TLS 🇺🇸 US-151.101.66.228:443
+  type: ws
+  server: 151.101.66.228
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-162.159.44.148:443
+  type: ws
+  server: 162.159.44.148
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-172.67.165.101:443
+  type: ws
+  server: 172.67.165.101
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-104.20.22.16:443
+  type: ws
+  server: 104.20.22.16
+  port: '443'
+- name: 🔒 TR-TCP-NA 🇰🇷 KR-146.56.151.232:20991
+  type: tcp
+  server: 146.56.151.232
+  port: '20991'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-173.245.59.185:443
+  type: tcp
+  server: 173.245.59.185
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-162.159.152.47:443
+  type: ws
+  server: 162.159.152.47
+  port: '443'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-104.20.19.100:443
+  type: tcp
+  server: 104.20.19.100
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-104.20.20.27:443
+  type: ws
+  server: 104.20.20.27
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-104.18.2.11:2096
+  type: ws
+  server: 104.18.2.11
+  port: '2096'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-104.25.193.251:443
+  type: tcp
+  server: 104.25.193.251
+  port: '443'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-104.21.29.133:443
+  type: tcp
+  server: 104.21.29.133
+  port: '443'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-104.16.239.254:443
+  type: tcp
+  server: 104.16.239.254
+  port: '443'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-172.66.155.79:443
+  type: tcp
+  server: 172.66.155.79
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-104.20.17.191:443
+  type: ws
+  server: 104.20.17.191
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-162.159.153.17:443
+  type: ws
+  server: 162.159.153.17
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-104.18.39.232:2083
+  type: ws
+  server: 104.18.39.232
+  port: '2083'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-104.20.20.123:443
+  type: ws
+  server: 104.20.20.123
+  port: '443'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-104.24.46.138:443
+  type: tcp
+  server: 104.24.46.138
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-108.162.195.202:443
+  type: ws
+  server: 108.162.195.202
+  port: '443'
+- name: 🔒 TR-WS-TLS 🇨🇦 CA-23.227.60.8:443
+  type: ws
+  server: 23.227.60.8
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-172.66.44.203:443
+  type: ws
+  server: 172.66.44.203
+  port: '443'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-172.64.35.135:443
+  type: tcp
+  server: 172.64.35.135
+  port: '443'
+- name: 🔒 TR-TCP-NA 🇯🇵 JP-74.226.136.204:443
+  type: tcp
+  server: 74.226.136.204
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-172.64.33.110:443
+  type: ws
+  server: 172.64.33.110
+  port: '443'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-198.41.215.216:443
+  type: tcp
+  server: 198.41.215.216
+  port: '443'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-198.41.223.165:443
+  type: tcp
+  server: 198.41.223.165
+  port: '443'
+- name: 🔒 TR-TCP-TLS 🇬🇧 GB-3.10.244.196:22222
+  type: tcp
+  server: 3.10.244.196
+  port: '22222'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-172.66.47.100:2053
+  type: ws
+  server: 172.66.47.100
+  port: '2053'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-104.20.20.50:443
+  type: ws
+  server: 104.20.20.50
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-104.20.20.160:443
+  type: ws
+  server: 104.20.20.160
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-162.159.44.176:443
+  type: ws
+  server: 162.159.44.176
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-104.20.18.192:443
+  type: ws
+  server: 104.20.18.192
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-104.20.17.1:443
+  type: ws
+  server: 104.20.17.1
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-172.67.66.177:2096
+  type: ws
+  server: 172.67.66.177
+  port: '2096'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-172.67.198.203:443
+  type: ws
+  server: 172.67.198.203
+  port: '443'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-173.245.59.253:443
+  type: tcp
+  server: 173.245.59.253
+  port: '443'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-104.18.73.172:443
+  type: tcp
+  server: 104.18.73.172
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-104.20.17.204:443
+  type: ws
+  server: 104.20.17.204
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-104.20.21.231:443
+  type: ws
+  server: 104.20.21.231
+  port: '443'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-198.41.199.40:443
+  type: tcp
+  server: 198.41.199.40
+  port: '443'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-104.19.155.27:443
+  type: tcp
+  server: 104.19.155.27
+  port: '443'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-162.159.44.188:443
+  type: tcp
+  server: 162.159.44.188
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-104.26.12.54:443
+  type: ws
+  server: 104.26.12.54
+  port: '443'
+- name: 🔒 TR-WS-TLS 🇸🇬 SG-206.238.236.187:2096
+  type: ws
+  server: 206.238.236.187
+  port: '2096'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-172.64.35.148:443
+  type: ws
+  server: 172.64.35.148
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-198.41.220.18:443
+  type: ws
+  server: 198.41.220.18
+  port: '443'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-173.245.49.201:443
+  type: tcp
+  server: 173.245.49.201
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-104.20.17.209:443
+  type: ws
+  server: 104.20.17.209
+  port: '443'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-104.25.229.250:443
+  type: tcp
+  server: 104.25.229.250
+  port: '443'
+- name: 🔒 TR-WS-TLS 🇷🇺 RU-45.142.120.4:2096
+  type: ws
+  server: 45.142.120.4
+  port: '2096'
+- name: 🔒 TR-TCP-TLS 🇭🇰 HK-45.146.232.171:22271
+  type: tcp
+  server: 45.146.232.171
+  port: '22271'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-172.64.35.176:443
+  type: ws
+  server: 172.64.35.176
+  port: '443'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-104.20.109.102:443
+  type: tcp
+  server: 104.20.109.102
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-162.159.44.192:443
+  type: ws
+  server: 162.159.44.192
+  port: '443'
+- name: 🔒 TR-TCP-TLS 🇩🇪 DE-3.71.163.73:22222
+  type: tcp
+  server: 3.71.163.73
+  port: '22222'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-190.93.244.163:443
+  type: tcp
+  server: 190.93.244.163
+  port: '443'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-104.16.151.253:443
+  type: tcp
+  server: 104.16.151.253
+  port: '443'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-188.114.98.176:443
+  type: tcp
+  server: 188.114.98.176
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-172.66.44.109:443
+  type: ws
+  server: 172.66.44.109
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-172.66.47.147:443
+  type: ws
+  server: 172.66.47.147
+  port: '443'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-104.25.245.193:443
+  type: tcp
+  server: 104.25.245.193
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-108.162.195.217:443
+  type: ws
+  server: 108.162.195.217
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-172.64.35.154:443
+  type: ws
+  server: 172.64.35.154
+  port: '443'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-104.20.169.147:443
+  type: tcp
+  server: 104.20.169.147
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-104.20.18.209:443
+  type: ws
+  server: 104.20.18.209
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-104.17.142.12:443
+  type: ws
+  server: 104.17.142.12
+  port: '443'
+- name: 🔒 TR-TCP-TLS 🇫🇷 FR-45.32.148.182:443
+  type: tcp
+  server: 45.32.148.182
+  port: '443'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-104.21.221.56:443
+  type: tcp
+  server: 104.21.221.56
+  port: '443'
+- name: 🔒 TR-TCP-NA 🇬🇧 GB-34.147.231.33:443
+  type: tcp
+  server: 34.147.231.33
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-172.64.35.159:443
+  type: ws
+  server: 172.64.35.159
+  port: '443'
+- name: 🔒 TR-TCP-NA 🇺🇸 US-34.199.116.49:443
+  type: tcp
+  server: 34.199.116.49
+  port: '443'
+- name: 🔒 TR-TCP-TLS 🇮🇪 IE-54.78.58.93:22222
+  type: tcp
+  server: 54.78.58.93
+  port: '22222'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-104.25.194.188:443
+  type: tcp
+  server: 104.25.194.188
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-104.20.18.183:443
+  type: ws
+  server: 104.20.18.183
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-104.20.20.74:443
+  type: ws
+  server: 104.20.20.74
+  port: '443'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-172.67.230.179:443
+  type: tcp
+  server: 172.67.230.179
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-162.159.152.88:443
+  type: ws
+  server: 162.159.152.88
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-172.66.44.86:443
+  type: ws
+  server: 172.66.44.86
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-104.19.47.53:443
+  type: ws
+  server: 104.19.47.53
+  port: '443'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-104.24.159.236:443
+  type: tcp
+  server: 104.24.159.236
+  port: '443'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-172.67.200.209:443
+  type: tcp
+  server: 172.67.200.209
+  port: '443'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-198.41.212.127:443
+  type: tcp
+  server: 198.41.212.127
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-162.159.152.66:443
+  type: ws
+  server: 162.159.152.66
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-172.66.44.87:443
+  type: ws
+  server: 172.66.44.87
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-104.20.20.168:443
+  type: ws
+  server: 104.20.20.168
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-104.18.3.11:2096
+  type: ws
+  server: 104.18.3.11
+  port: '2096'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-104.22.38.144:443
+  type: tcp
+  server: 104.22.38.144
+  port: '443'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-108.162.192.89:443
+  type: tcp
+  server: 108.162.192.89
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-104.20.19.157:443
+  type: ws
+  server: 104.20.19.157
+  port: '443'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-190.93.244.125:443
+  type: tcp
+  server: 190.93.244.125
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-104.20.22.57:443
+  type: ws
+  server: 104.20.22.57
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-104.17.215.2:443
+  type: ws
+  server: 104.17.215.2
+  port: '443'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-104.24.60.84:443
+  type: tcp
+  server: 104.24.60.84
+  port: '443'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-162.159.44.187:443
+  type: tcp
+  server: 162.159.44.187
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-104.20.17.138:443
+  type: ws
+  server: 104.20.17.138
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-162.159.152.231:443
+  type: ws
+  server: 162.159.152.231
+  port: '443'
+- name: 🔒 TR-TCP-TLS 🇩🇪 DE-3.79.200.24:22222
+  type: tcp
+  server: 3.79.200.24
+  port: '22222'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-104.19.87.14:443
+  type: tcp
+  server: 104.19.87.14
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-104.20.19.127:443
+  type: ws
+  server: 104.20.19.127
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-104.18.24.92:443
+  type: ws
+  server: 104.18.24.92
+  port: '443'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-172.67.68.101:443
+  type: tcp
+  server: 172.67.68.101
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-162.159.44.217:443
+  type: ws
+  server: 162.159.44.217
+  port: '443'
+- name: 🔒 TR-TCP-TLS 🇩🇪 DE-3.121.176.59:22222
+  type: tcp
+  server: 3.121.176.59
+  port: '22222'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-188.114.96.113:443
+  type: tcp
+  server: 188.114.96.113
+  port: '443'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-173.245.49.162:443
+  type: tcp
+  server: 173.245.49.162
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-162.159.44.154:443
+  type: ws
+  server: 162.159.44.154
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-104.20.19.172:443
+  type: ws
+  server: 104.20.19.172
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-172.66.47.151:443
+  type: ws
+  server: 172.66.47.151
+  port: '443'
+- name: 🔒 TR-TCP-TLS 🇮🇪 IE-52.19.223.203:22222
+  type: tcp
+  server: 52.19.223.203
+  port: '22222'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-172.67.130.66:443
+  type: ws
+  server: 172.67.130.66
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-104.20.22.166:443
+  type: ws
+  server: 104.20.22.166
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-104.20.18.158:443
+  type: ws
+  server: 104.20.18.158
+  port: '443'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-173.245.59.107:443
+  type: tcp
+  server: 173.245.59.107
+  port: '443'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-104.19.71.183:443
+  type: tcp
+  server: 104.19.71.183
+  port: '443'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-198.41.208.75:443
+  type: tcp
+  server: 198.41.208.75
+  port: '443'
+- name: 🔒 TR-TCP-TLS 🇮🇪 IE-52.213.11.162:22222
+  type: tcp
+  server: 52.213.11.162
+  port: '22222'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-104.20.17.180:443
+  type: ws
+  server: 104.20.17.180
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-104.20.20.58:443
+  type: ws
+  server: 104.20.20.58
+  port: '443'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-173.245.59.133:443
+  type: tcp
+  server: 173.245.59.133
+  port: '443'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-198.41.209.227:443
+  type: tcp
+  server: 198.41.209.227
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-172.64.35.202:443
+  type: ws
+  server: 172.64.35.202
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-104.16.192.145:443
+  type: ws
+  server: 104.16.192.145
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-104.18.41.190:8443
+  type: ws
+  server: 104.18.41.190
+  port: '8443'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-104.21.205.28:443
+  type: tcp
+  server: 104.21.205.28
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-172.67.70.84:443
+  type: ws
+  server: 172.67.70.84
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-104.20.22.145:443
+  type: ws
+  server: 104.20.22.145
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-172.64.35.209:443
+  type: ws
+  server: 172.64.35.209
+  port: '443'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-104.16.200.98:443
+  type: tcp
+  server: 104.16.200.98
+  port: '443'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-172.66.159.193:443
+  type: tcp
+  server: 172.66.159.193
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-104.20.20.166:443
+  type: ws
+  server: 104.20.20.166
+  port: '443'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-190.93.246.56:443
+  type: tcp
+  server: 190.93.246.56
+  port: '443'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-104.18.21.127:443
+  type: tcp
+  server: 104.18.21.127
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-104.20.18.213:443
+  type: ws
+  server: 104.20.18.213
+  port: '443'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-188.114.97.166:443
+  type: tcp
+  server: 188.114.97.166
+  port: '443'
+- name: 🔒 TR-WS-NONE 🇺🇸 US-199.232.95.123:80
+  type: ws
+  server: 199.232.95.123
+  port: '80'
+- name: 🔒 TR-WS-TLS 🇳🇱 NL-45.131.208.81:443
+  type: ws
+  server: 45.131.208.81
+  port: '443'
+- name: 🔒 TR-TCP-NA 🇰🇷 KR-152.70.249.67:443
+  type: tcp
+  server: 152.70.249.67
+  port: '443'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-172.67.1.153:443
+  type: tcp
+  server: 172.67.1.153
+  port: '443'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-104.19.225.155:443
+  type: tcp
+  server: 104.19.225.155
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-104.20.21.97:443
+  type: ws
+  server: 104.20.21.97
+  port: '443'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-104.21.227.93:443
+  type: tcp
+  server: 104.21.227.93
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-104.20.20.57:443
+  type: ws
+  server: 104.20.20.57
+  port: '443'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-104.18.149.10:443
+  type: tcp
+  server: 104.18.149.10
+  port: '443'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-108.162.194.186:443
+  type: tcp
+  server: 108.162.194.186
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-162.159.152.42:443
+  type: ws
+  server: 162.159.152.42
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-104.17.97.5:2053
+  type: ws
+  server: 104.17.97.5
+  port: '2053'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-188.114.97.159:2053
+  type: ws
+  server: 188.114.97.159
+  port: '2053'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-104.18.160.63:443
+  type: tcp
+  server: 104.18.160.63
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-162.159.153.178:443
+  type: ws
+  server: 162.159.153.178
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-172.64.146.66:8443
+  type: ws
+  server: 172.64.146.66
+  port: '8443'
+- name: 🔒 TR-WS-NONE 🏴‍☠️ NA-104.17.147.22:8880
+  type: ws
+  server: 104.17.147.22
+  port: '8880'
+- name: 🔒 TR-TCP-TLS 🇭🇰 HK-103.100.177.32:35001
+  type: tcp
+  server: 103.100.177.32
+  port: '35001'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-188.114.99.91:443
+  type: ws
+  server: 188.114.99.91
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-104.20.17.176:443
+  type: ws
+  server: 104.20.17.176
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-104.18.34.21:2053
+  type: ws
+  server: 104.18.34.21
+  port: '2053'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-188.114.96.96:443
+  type: tcp
+  server: 188.114.96.96
+  port: '443'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-172.67.109.123:443
+  type: tcp
+  server: 172.67.109.123
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-162.159.152.11:443
+  type: ws
+  server: 162.159.152.11
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-172.66.44.223:443
+  type: ws
+  server: 172.66.44.223
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-172.64.35.217:443
+  type: ws
+  server: 172.64.35.217
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-104.20.19.185:443
+  type: ws
+  server: 104.20.19.185
+  port: '443'
+- name: 🔒 TR-TCP-NA 🇺🇸 US-198.62.62.156:443
+  type: tcp
+  server: 198.62.62.156
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-104.21.77.150:443
+  type: ws
+  server: 104.21.77.150
+  port: '443'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-104.16.199.201:443
+  type: tcp
+  server: 104.16.199.201
+  port: '443'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-104.16.91.200:443
+  type: tcp
+  server: 104.16.91.200
+  port: '443'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-104.22.27.200:443
+  type: tcp
+  server: 104.22.27.200
+  port: '443'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-104.27.121.68:443
+  type: tcp
+  server: 104.27.121.68
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-198.41.220.10:443
+  type: ws
+  server: 198.41.220.10
+  port: '443'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-104.25.0.104:443
+  type: tcp
+  server: 104.25.0.104
+  port: '443'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-173.245.59.6:443
+  type: tcp
+  server: 173.245.59.6
+  port: '443'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-104.27.117.212:443
+  type: tcp
+  server: 104.27.117.212
+  port: '443'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-172.67.79.211:443
+  type: tcp
+  server: 172.67.79.211
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-104.20.17.232:443
+  type: ws
+  server: 104.20.17.232
+  port: '443'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-104.27.59.40:443
+  type: tcp
+  server: 104.27.59.40
+  port: '443'
+- name: 🔒 TR-TCP-NA 🇰🇷 KR-144.24.88.133:45101
+  type: tcp
+  server: 144.24.88.133
+  port: '45101'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-104.21.108.193:443
+  type: tcp
+  server: 104.21.108.193
+  port: '443'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-188.114.97.167:443
+  type: tcp
+  server: 188.114.97.167
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-104.17.215.8:443
+  type: ws
+  server: 104.17.215.8
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-162.159.128.233:8443
+  type: ws
+  server: 162.159.128.233
+  port: '8443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-172.66.47.128:443
+  type: ws
+  server: 172.66.47.128
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-104.20.21.186:443
+  type: ws
+  server: 104.20.21.186
+  port: '443'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-104.22.70.16:443
+  type: tcp
+  server: 104.22.70.16
+  port: '443'
+- name: 🔒 TR-WS-TLS 🇷🇺 RU-185.176.24.2:443
+  type: ws
+  server: 185.176.24.2
+  port: '443'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-173.245.49.133:443
+  type: tcp
+  server: 173.245.49.133
+  port: '443'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-172.66.47.117:8443
+  type: tcp
+  server: 172.66.47.117
+  port: '8443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-104.20.18.122:443
+  type: ws
+  server: 104.20.18.122
+  port: '443'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-104.16.229.2:443
+  type: tcp
+  server: 104.16.229.2
+  port: '443'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-172.67.180.8:443
+  type: tcp
+  server: 172.67.180.8
+  port: '443'
+- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-104.16.223.254:443
+  type: tcp
+  server: 104.16.223.254
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-104.20.20.38:443
+  type: ws
+  server: 104.20.20.38
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-108.162.195.209:443
+  type: ws
+  server: 108.162.195.209
+  port: '443'
+- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-108.162.195.168:443
+  type: ws
+  server: 108.162.195.168
+  port: '443'
 - name: 🔒 TR-WS-TLS 🏴‍☠️ NA-104.20.21.207:443
   type: ws
   server: 104.20.21.207
@@ -4243,10 +6859,6 @@ proxies:
   type: hysteria2
   server: 45.147.201.231
   port: 31005
-- name: github.com/Ruk1ng001_6461626331616536
-  type: hysteria2
-  server: e4e48842-swexs0-sxgw5w-1j0a4.hy2.gotochinatown.net
-  port: 8443
 - name: github.com/Ruk1ng001_6535393533396139
   type: hysteria2
   server: 45.147.201.231
@@ -6151,10 +8763,6 @@ proxies:
   type: hysteria2
   server: 45.147.201.231
   port: 30073
-- name: github.com/Ruk1ng001_3465386532303937
-  type: hysteria2
-  server: diwu94.di5ji.lat
-  port: 26900
 - name: github.com/Ruk1ng001_3831653731326233
   type: hysteria2
   server: 45.147.201.231
@@ -12639,13 +15247,6 @@ proxies:
   type: tcp
   server: 45.67.229.222
   port: '443'
-- name: US5
-  type: trojan
-  server: 67.226.221.102
-  port: 80
-  password: Aimer
-  sni: ngepx.ambercc.filegear-sg.me
-  udp: true
 - name: github.com/Ruk1ng001_6465636331323733
   type: hysteria2
   server: 45.147.201.231
@@ -13869,10 +16470,6 @@ proxies:
 - name: 🔒 TR-TCP-NA 🏴‍☠️ NA-104.25.101.27:443
   type: tcp
   server: 104.25.101.27
-  port: '443'
-- name: 🔒 TR-TCP-NA 🇫🇷 FR-51.210.182.170:443
-  type: tcp
-  server: 51.210.182.170
   port: '443'
 - name: 🔒 TR-TCP-NA 🏴‍☠️ NA-104.22.72.111:443
   type: tcp
@@ -17401,2604 +19998,4 @@ proxies:
 - name: 未知45
   type: tcp
   server: 172.64.35.169
-  port: '443'
-- name: 未知47
-  type: ws
-  server: 45.131.208.126
-  port: '443'
-- name: US15
-  type: ws
-  server: 108.165.216.88
-  port: '443'
-- name: 未知50
-  type: tcp
-  server: 172.67.67.15
-  port: '443'
-- name: 未知51
-  type: tcp
-  server: 172.67.49.68
-  port: '443'
-- name: 未知52
-  type: tcp
-  server: 144.21.56.16
-  port: '443'
-- name: 未知53
-  type: tcp
-  server: 185.193.29.193
-  port: '443'
-- name: 未知54
-  type: tcp
-  server: 172.64.33.52
-  port: '443'
-- name: 未知55
-  type: ws
-  server: 104.18.4.250
-  port: '2053'
-- name: 未知56
-  type: tcp
-  server: 162.159.152.227
-  port: '443'
-- name: 未知57
-  type: tcp
-  server: 104.24.48.31
-  port: '443'
-- name: 未知58
-  type: ws
-  server: 185.18.250.117
-  port: '443'
-- name: HK3
-  type: tcp
-  server: 218.190.230.207
-  port: '41288'
-- name: 未知60
-  type: tcp
-  server: 95.164.38.151
-  port: '443'
-- name: 未知61
-  type: ws
-  server: 173.245.59.61
-  port: '443'
-- name: 未知64
-  type: tcp
-  server: 152.70.101.24
-  port: '16800'
-- name: 未知65
-  type: tcp
-  server: 104.21.16.1
-  port: '443'
-- name: 未知66
-  type: tcp
-  server: 104.20.84.240
-  port: '443'
-- name: 未知67
-  type: tcp
-  server: 190.93.244.198
-  port: '443'
-- name: 未知68
-  type: tcp
-  server: 198.41.214.39
-  port: '443'
-- name: 未知70
-  type: ws
-  server: 162.159.135.98
-  port: '443'
-- name: 未知71
-  type: tcp
-  server: 190.93.245.80
-  port: '443'
-- name: 未知72
-  type: tcp
-  server: 172.64.94.244
-  port: '443'
-- name: US28
-  type: ws
-  server: 151.101.130.228
-  port: '80'
-- name: 未知73
-  type: tcp
-  server: 188.245.114.237
-  port: '1001'
-- name: 未知74
-  type: tcp
-  server: 198.41.212.250
-  port: '443'
-- name: 未知75
-  type: tcp
-  server: 104.24.14.219
-  port: '443'
-- name: 未知76
-  type: tcp
-  server: 104.27.116.34
-  port: '443'
-- name: 未知77
-  type: ws
-  server: 104.17.236.240
-  port: '443'
-- name: 未知78
-  type: tcp
-  server: 104.16.218.64
-  port: '443'
-- name: 🇭🇰HK香港
-  type: tcp
-  server: naiu-hk.05vr9nyqg5.download
-  port: '13007'
-- name: 未知79
-  type: ws
-  server: 190.93.244.136
-  port: '443'
-- name: 未知80
-  type: tcp
-  server: 141.11.202.133
-  port: '443'
-- name: 未知81
-  type: ws
-  server: 45.85.118.20
-  port: '443'
-- name: 未知82
-  type: tcp
-  server: 104.17.31.182
-  port: '443'
-- name: 未知83
-  type: tcp
-  server: 198.41.207.166
-  port: '443'
-- name: 未知84
-  type: tcp
-  server: 190.93.244.77
-  port: '443'
-- name: 未知85
-  type: tcp
-  server: 162.159.152.2
-  port: '443'
-- name: 未知86
-  type: ws
-  server: 104.19.211.18
-  port: '443'
-- name: 未知87
-  type: tcp
-  server: 185.135.9.137
-  port: '443'
-- name: 未知88
-  type: tcp
-  server: 104.25.31.240
-  port: '443'
-- name: 未知89
-  type: ws
-  server: 172.64.233.44
-  port: '443'
-- name: US37
-  type: ws
-  server: 167.68.11.173
-  port: '443'
-- name: 未知90
-  type: tcp
-  server: 108.162.195.161
-  port: '443'
-- name: 未知91
-  type: tcp
-  server: 104.25.124.93
-  port: '443'
-- name: 未知92
-  type: httpupgrade
-  server: 104.21.84.3
-  port: '443'
-- name: 未知93
-  type: tcp
-  server: 172.67.41.12
-  port: '443'
-- name: 未知95
-  type: tcp
-  server: 104.27.198.65
-  port: '443'
-- name: 未知96
-  type: ws
-  server: 172.67.68.240
-  port: '443'
-- name: 未知97
-  type: ws
-  server: 141.101.114.199
-  port: '443'
-- name: US40
-  type: tcp
-  server: 159.246.55.142
-  port: '443'
-- name: 🇭🇰HK香港2
-  type: tcp
-  server: 218.190.230.207
-  port: '45970'
-- name: 未知98
-  type: tcp
-  server: 104.24.71.245
-  port: '443'
-- name: 未知99
-  type: tcp
-  server: 104.20.8.252
-  port: '443'
-- name: 未知100
-  type: ws
-  server: 104.21.14.176
-  port: '443'
-- name: 未知101
-  type: tcp
-  server: 104.16.193.133
-  port: '443'
-- name: 未知102
-  type: ws
-  server: 172.64.35.209
-  port: '443'
-- name: 未知103
-  type: ws
-  server: 104.17.152.243
-  port: '443'
-- name: 未知104
-  type: tcp
-  server: 195.85.23.232
-  port: '443'
-- name: 未知105
-  type: tcp
-  server: 104.16.94.226
-  port: '443'
-- name: US42
-  type: ws
-  server: 168.100.6.237
-  port: '443'
-- name: 未知107
-  type: ws
-  server: 156.229.48.169
-  port: '443'
-- name: 未知108
-  type: tcp
-  server: 173.245.58.34
-  port: '443'
-- name: 未知110
-  type: tcp
-  server: 104.19.143.99
-  port: '443'
-- name: 🇺🇸US美国2
-  type: tcp
-  server: krcc.ssr.ee
-  port: '55562'
-- name: 未知112
-  type: tcp
-  server: 104.21.97.119
-  port: '443'
-- name: 未知114
-  type: tcp
-  server: 172.66.45.29
-  port: '443'
-- name: 未知115
-  type: tcp
-  server: 104.16.76.240
-  port: '443'
-- name: 未知116
-  type: tcp
-  server: 172.67.243.254
-  port: '443'
-- name: 未知118
-  type: tcp
-  server: 104.19.126.235
-  port: '443'
-- name: 未知119
-  type: tcp
-  server: 162.159.44.203
-  port: '443'
-- name: 未知120
-  type: ws
-  server: 104.21.88.153
-  port: '443'
-- name: 未知121
-  type: ws
-  server: 172.67.160.28
-  port: '443'
-- name: 未知122
-  type: tcp
-  server: 104.21.32.1
-  port: '443'
-- name: 未知124
-  type: ws
-  server: 172.64.157.183
-  port: '443'
-- name: 未知125
-  type: tcp
-  server: 104.23.121.87
-  port: '443'
-- name: 未知126
-  type: tcp
-  server: 135.181.155.147
-  port: '40240'
-- name: 未知127
-  type: ws
-  server: 172.66.44.171
-  port: '443'
-- name: 未知128
-  type: tcp
-  server: 45.131.211.23
-  port: '443'
-- name: 未知129
-  type: tcp
-  server: 104.27.61.81
-  port: '443'
-- name: 未知130
-  type: ws
-  server: 104.21.29.75
-  port: '443'
-- name: 未知132
-  type: ws
-  server: 188.244.122.205
-  port: '443'
-- name: 未知133
-  type: tcp
-  server: 104.26.10.222
-  port: '443'
-- name: 未知135
-  type: tcp
-  server: 103.77.247.224
-  port: '443'
-- name: 未知136
-  type: tcp
-  server: 104.24.40.237
-  port: '443'
-- name: 未知137
-  type: tcp
-  server: 104.20.18.41
-  port: '443'
-- name: 未知140
-  type: ws
-  server: 104.20.20.162
-  port: '443'
-- name: 13,14|香港|@ripaojiedian
-  type: tcp
-  server: 36.151.192.239
-  port: '42395'
-- name: 13,14|香港2|@ripaojiedian
-  type: tcp
-  server: 36.151.192.203
-  port: '25241'
-- name: 13,14|香港4|@ripaojiedian
-  type: tcp
-  server: naiu-hk.05vr9nyqg5.download
-  port: '13007'
-- name: 13|🇭🇰 香港5|@ripaojiedian
-  type: ws
-  server: 18.162.246.4
-  port: '18443'
-- name: 13|🇹🇼 台湾|@ripaojiedian
-  type: ws
-  server: 210.61.97.241
-  port: '81'
-- name: 13,14|台湾2|@ripaojiedian
-  type: tcp
-  server: naiu-other.05vr9nyqg5.download
-  port: '13035'
-- name: 13,14|日本|@ripaojiedian
-  type: tcp
-  server: 36.151.192.198
-  port: '38698'
-- name: 13,14|美国|@ripaojiedian
-  type: tcp
-  server: usla.mjt000.com
-  port: '443'
-- name: 13|🇺🇸 美国2|@ripaojiedian
-  type: ws
-  server: 65.75.193.154
-  port: '14491'
-- name: 13,14|越南|@ripaojiedian
-  type: tcp
-  server: vn.mjt000.com
-  port: '443'
-- name: 14|香港5|@ripaojiedian
-  type: ws
-  server: 18.162.246.4
-  port: '18443'
-- name: 14|台湾|@ripaojiedian
-  type: ws
-  server: 210.61.97.241
-  port: '81'
-- name: 14|美国2|@ripaojiedian
-  type: ws
-  server: 65.75.193.154
-  port: '14491'
-- name: 15|HK_speednode_0010
-  type: tcp
-  server: 43.198.96.173
-  port: '45181'
-- name: 🇺🇸US-138.2.237.121-0704
-  type: tcp
-  server: 138.2.237.121
-  port: '443'
-- name: 🇺🇸US-152.70.115.209-0375
-  type: tcp
-  server: h.522226.xyz
-  port: '45800'
-- name: 🇺🇸US-23.150.248.107-0350
-  type: tcp
-  server: 23.150.248.107
-  port: '443'
-- name: 🇺🇸US-23.150.248.50-0351
-  type: tcp
-  server: jobscareerfortoday.com
-  port: '443'
-- name: 🇺🇸US-23.150.248.107-0349
-  type: tcp
-  server: jobscareertoday.com
-  port: '443'
-- name: 🇺🇸US-23.150.248.54-0357
-  type: tcp
-  server: jobscareerforlawyers.com
-  port: '443'
-- name: 🇺🇸US-3.14.50.80-0976
-  type: tcp
-  server: 3.14.50.80
-  port: '22222'
-- name: 🇨🇦CA-134.195.196.138-0354
-  type: tcp
-  server: avianrecruit.com
-  port: '443'
-- name: 🇺🇸US-142.202.48.220-0348
-  type: tcp
-  server: 142.202.48.220
-  port: '443'
-- name: 🇺🇸US-142.202.48.220-0346
-  type: tcp
-  server: sherasheba.com
-  port: '443'
-- name: 🇺🇸US-44.198.219.9-6342
-  type: tcp
-  server: 44.198.219.9
-  port: '22222'
-- name: 🇯🇵JP-13.113.103.59-2067
-  type: ssr
-  server: jp-am48-6.eqnode.net
-  port: '8081'
-- name: 🇰🇷KR-144.24.88.133-6591
-  type: tcp
-  server: a.522226.xyz
-  port: '45101'
-- name: 🇬🇧GB-18.169.222.200-6289
-  type: tcp
-  server: 18.169.222.200
-  port: '22222'
-- name: 🇩🇪DE-3.125.66.143-6284
-  type: tcp
-  server: 3.125.66.143
-  port: '22222'
-- name: 🇨🇳_CN_中国->🇺🇸_US_美国
-  type: tcp
-  server: 5f9d335d-swexs0-t5juhn-4tue.cu.plebai.net
-  port: '15229'
-- name: 🇺🇸_US_美国
-  type: tcp
-  server: kz.mjt000.com
-  port: '443'
-- name: 🇨🇳_CN_中国->🇺🇸_US_美国
-  type: tcp
-  server: f5ada702-swb8g0-t5fh9u-1uni.cu.plebai.net
-  port: '15229'
-- name: 🇨🇳_CN_中国->🇺🇸_US_美国
-  type: tcp
-  server: 7d09e919-swq1s0-tcvn0z-1tlyg.cu.plebai.net
-  port: '15229'
-- name: 🇺🇸_US_美国
-  type: ws
-  server: 172.67.133.248
-  port: '443'
-- name: 🇨🇳_CN_中国->🇺🇸_US_美国
-  type: tcp
-  server: bd8e9b7d-swzb40-t5vrf3-716s.cu.plebai.net
-  port: '15229'
-- name: HK香港(mibei77.com 米贝节点分享)
-  type: tcp
-  server: 158fbba2-sx4v40-t8dih2-9kd8.cm5.cnkuaishou.com
-  port: '27231'
-- name: KR韩国(mibei77.com 米贝节点分享)
-  type: ws
-  server: 221.158.163.251
-  port: '10081'
-- name: KR韩国(mibei77.com 米贝节点分享)
-  type: ws
-  server: 121.151.132.168
-  port: '18058'
-- name: KR韩国(mibei77.com 米贝节点分享)
-  type: ws
-  server: 112.184.209.63
-  port: '12088'
-- name: KR韩国(mibei77.com 米贝节点分享)
-  type: ws
-  server: 59.29.143.247
-  port: '12225'
-- name: 🇺🇸_US_美国->🇩🇪_DE_德国_1
-  type: tcp
-  server: 3.73.241.125
-  port: '22222'
-- name: 🇨🇳_CN_中国->🇺🇸_US_美国_2
-  type: tcp
-  server: 36.151.251.61
-  port: '33097'
-- name: 🇺🇸_US_美国->🇩🇪_DE_德国_2
-  type: tcp
-  server: 63.178.168.205
-  port: '22222'
-- name: 🇨🇳_CN_中国->🇺🇸_US_美国_4
-  type: tcp
-  server: 36.151.251.62
-  port: '3330'
-- name: 🇫🇷_FR_法国
-  type: tcp
-  server: 52.47.169.236
-  port: '22222'
-- name: 🇨🇳_CN_中国->🇺🇸_US_美国_5
-  type: tcp
-  server: 76b15373-swd340-tcudgo-1sa5k.cu.plebai.net
-  port: '15229'
-- name: 🇺🇸_US_美国_3
-  type: ws
-  server: 172.67.149.202
-  port: '443'
-- name: 美国(yudou77.top 玉豆免费节点)
-  type: tcp
-  server: 5f9d335d-swexs0-t5juhn-4tue.cu.plebai.net
-  port: '15229'
-- name: 日本(yudou77.top 玉豆免费节点)
-  type: ws
-  server: 221.158.163.251
-  port: '10081'
-- name: 日本(yudou77.top 玉豆免费节点)
-  type: ws
-  server: 121.151.132.168
-  port: '18058'
-- name: 美国(yudou77.top 玉豆免费节点)
-  type: ws
-  server: 162.159.153.212
-  port: '443'
-- name: 日本(yudou77.top 玉豆免费节点)
-  type: ws
-  server: 59.29.143.247
-  port: '12225'
-- name: 美国(yudou77.top 玉豆免费节点)
-  type: ws
-  server: 45.67.214.3
-  port: '2096'
-- name: 美国(yudou77.top 玉豆免费节点)
-  type: tcp
-  server: f5ada702-swb8g0-t5fh9u-1uni.cu.plebai.net
-  port: '15229'
-- name: 🔒 TR-TCP-TLS 🇩🇪 DE-3.71.147.172:22222
-  type: tcp
-  server: 3.71.147.172
-  port: '22222'
-- name: 未知
-  type: ws
-  server: 104.21.77.44
-  port: '443'
-- name: 未知2
-  type: tcp
-  server: 5.35.68.249
-  port: '2053'
-- name: 未知4
-  type: tcp
-  server: 104.19.55.89
-  port: '443'
-- name: 未知5
-  type: ws
-  server: 162.159.153.2
-  port: '443'
-- name: US2
-  type: tcp
-  server: 15.204.234.166
-  port: '443'
-- name: 未知6
-  type: ws
-  server: 172.67.68.240
-  port: '443'
-- name: 未知7
-  type: ws
-  server: 172.67.191.251
-  port: '443'
-- name: 未知8
-  type: tcp
-  server: 104.17.229.63
-  port: '443'
-- name: US3
-  type: tcp
-  server: 199.34.228.190
-  port: '2083'
-- name: 未知11
-  type: tcp
-  server: 104.16.198.210
-  port: '443'
-- name: 未知13
-  type: ws
-  server: 104.21.48.6
-  port: '2053'
-- name: 未知14
-  type: tcp
-  server: 190.93.245.62
-  port: '443'
-- name: 未知15
-  type: tcp
-  server: 104.16.254.251
-  port: '443'
-- name: US4
-  type: tcp
-  server: 108.165.152.67
-  port: '2053'
-- name: 未知16
-  type: ws
-  server: 104.18.79.171
-  port: '443'
-- name: 未知17
-  type: tcp
-  server: 162.159.44.82
-  port: '443'
-- name: 未知18
-  type: ws
-  server: 104.21.44.185
-  port: '2087'
-- name: 未知19
-  type: tcp
-  server: ssloa1.100896.xyz
-  port: '443'
-- name: 未知20
-  type: tcp
-  server: 162.159.140.164
-  port: '443'
-- name: 未知21
-  type: tcp
-  server: 104.16.204.10
-  port: '443'
-- name: 未知22
-  type: ws
-  server: 141.101.121.176
-  port: '443'
-- name: US5
-  type: tcp
-  server: 69.16.230.165
-  port: '443'
-- name: US6
-  type: tcp
-  server: 74.63.241.26
-  port: '443'
-- name: US7
-  type: tcp
-  server: 52.89.138.13
-  port: '443'
-- name: 未知23
-  type: ws
-  server: 104.18.165.203
-  port: '443'
-- name: 未知25
-  type: tcp
-  server: 27.50.49.242
-  port: '8443'
-- name: 未知26
-  type: ws
-  server: 172.66.47.30
-  port: '2087'
-- name: US9
-  type: tcp
-  server: 160.79.105.133
-  port: '8443'
-- name: 未知27
-  type: tcp
-  server: 104.16.149.162
-  port: '443'
-- name: 未知28
-  type: ws
-  server: 172.66.44.182
-  port: '443'
-- name: 🇺🇸US美国
-  type: tcp
-  server: 198.12.121.169
-  port: '24863'
-- name: 未知29
-  type: tcp
-  server: 154.83.2.88
-  port: '2083'
-- name: 未知30
-  type: ws
-  server: 104.16.143.237
-  port: '443'
-- name: 未知31
-  type: tcp
-  server: 104.25.22.6
-  port: '443'
-- name: 未知32
-  type: ws
-  server: 172.66.168.213
-  port: '443'
-- name: 未知33
-  type: tcp
-  server: 108.162.194.221
-  port: '2096'
-- name: 🇰🇷KR韩国
-  type: tcp
-  server: 125.133.178.233
-  port: '10013'
-- name: US10
-  type: ws
-  server: 15.204.175.111
-  port: '2083'
-- name: US12
-  type: tcp
-  server: 108.165.152.225
-  port: '2083'
-- name: 未知35
-  type: ws
-  server: 104.17.21.144
-  port: '443'
-- name: 未知36
-  type: ws
-  server: 104.26.13.140
-  port: '443'
-- name: 未知37
-  type: httpupgrade
-  server: 104.21.96.1
-  port: '2087'
-- name: 未知38
-  type: tcp
-  server: 220.118.166.81
-  port: '50003'
-- name: 未知39
-  type: tcp
-  server: 104.16.53.186
-  port: '443'
-- name: 未知40
-  type: ws
-  server: 172.67.153.253
-  port: '443'
-- name: 未知41
-  type: tcp
-  server: 139.162.158.172
-  port: '443'
-- name: 🇺🇸US美国2
-  type: tcp
-  server: 108.162.196.130
-  port: '443'
-- name: 未知43
-  type: tcp
-  server: 91.195.240.94
-  port: '443'
-- name: 未知44
-  type: ws
-  server: 172.67.71.122
-  port: '443'
-- name: 未知45
-  type: tcp
-  server: 198.41.208.69
-  port: '8443'
-- name: 未知46
-  type: ws
-  server: 108.162.195.155
-  port: '443'
-- name: 未知48
-  type: tcp
-  server: 104.17.150.137
-  port: '443'
-- name: 未知49
-  type: tcp
-  server: 172.67.68.56
-  port: '2096'
-- name: 未知51
-  type: tcp
-  server: 27.50.48.239
-  port: '8443'
-- name: 未知52
-  type: tcp
-  server: 104.16.52.67
-  port: '443'
-- name: 未知53
-  type: ws
-  server: 104.21.32.1
-  port: '2096'
-- name: 未知54
-  type: tcp
-  server: 162.159.128.160
-  port: '443'
-- name: 未知55
-  type: grpc
-  server: 45.95.241.101
-  port: '8443'
-- name: US15
-  type: tcp
-  server: 108.165.152.131
-  port: '443'
-- name: 未知58
-  type: tcp
-  server: 162.159.42.37
-  port: '443'
-- name: 未知59
-  type: tcp
-  server: 172.64.33.73
-  port: '2096'
-- name: 未知60
-  type: tcp
-  server: 118.45.113.48
-  port: '12238'
-- name: 未知61
-  type: tcp
-  server: 210.104.255.234
-  port: '50000'
-- name: US16
-  type: tcp
-  server: 129.146.226.222
-  port: '587'
-- name: 未知62
-  type: tcp
-  server: 104.26.12.208
-  port: '443'
-- name: 未知64
-  type: ws
-  server: 104.21.34.159
-  port: '443'
-- name: 未知65 2.7MB/s
-  type: tcp
-  server: 51.195.254.75
-  port: '8443'
-- name: 未知66
-  type: tcp
-  server: 172.64.33.201
-  port: '443'
-- name: 未知67
-  type: tcp
-  server: 92.63.192.110
-  port: '444'
-- name: 未知68
-  type: ws
-  server: 104.17.147.77
-  port: '443'
-- name: 未知69
-  type: tcp
-  server: 92.243.75.49
-  port: '2087'
-- name: 未知70
-  type: grpc
-  server: 141.101.121.115
-  port: '2053'
-- name: 未知71
-  type: tcp
-  server: 104.16.149.244
-  port: '2053'
-- name: US17
-  type: tcp
-  server: 108.165.152.130
-  port: '2083'
-- name: 未知72
-  type: ws
-  server: 104.21.20.80
-  port: '443'
-- name: 未知73
-  type: tcp
-  server: 172.67.148.225
-  port: '443'
-- name: 未知74
-  type: grpc
-  server: 141.101.121.190
-  port: '2053'
-- name: 未知75
-  type: tcp
-  server: 162.159.135.47
-  port: '443'
-- name: US18
-  type: tcp
-  server: 199.59.243.228
-  port: '443'
-- name: 未知76
-  type: tcp
-  server: 162.159.137.182
-  port: '443'
-- name: 未知77
-  type: ws
-  server: 172.67.161.104
-  port: '443'
-- name: 未知78
-  type: ws
-  server: 172.67.161.74
-  port: '2083'
-- name: 未知79
-  type: tcp
-  server: 104.17.30.254
-  port: '443'
-- name: 未知80
-  type: tcp
-  server: 3c80a135-swb8g0-t6ouc9-13xtu.cu.plebai.net
-  port: '15229'
-- name: 未知81
-  type: tcp
-  server: 5.182.84.52
-  port: '2083'
-- name: US19
-  type: tcp
-  server: 103.116.7.67
-  port: '2083'
-- name: 未知82
-  type: tcp
-  server: 104.18.37.33
-  port: '443'
-- name: 未知84
-  type: tcp
-  server: 104.16.46.133
-  port: '443'
-- name: 未知86
-  type: tcp
-  server: 172.66.207.17
-  port: '2083'
-- name: US20
-  type: tcp
-  server: 154.211.8.90
-  port: '443'
-- name: 未知87
-  type: tcp
-  server: 104.19.39.38
-  port: '443'
-- name: 未知88
-  type: grpc
-  server: 141.101.121.88
-  port: '2053'
-- name: 未知89
-  type: ws
-  server: 103.116.7.103
-  port: '2083'
-- name: 未知91
-  type: grpc
-  server: 141.101.120.96
-  port: '2053'
-- name: 未知92
-  type: ws
-  server: 87.120.237.36
-  port: '81'
-- name: 未知93
-  type: ws
-  server: 104.21.35.43
-  port: '443'
-- name: 未知94
-  type: tcp
-  server: 104.17.242.34
-  port: '443'
-- name: 未知95
-  type: tcp
-  server: 104.19.49.199
-  port: '443'
-- name: 未知96
-  type: tcp
-  server: 172.67.69.163
-  port: '443'
-- name: 未知97
-  type: tcp
-  server: 198.41.209.66
-  port: '443'
-- name: 未知98
-  type: ws
-  server: 104.21.84.58
-  port: '443'
-- name: 未知99
-  type: ws
-  server: 172.66.44.86
-  port: '2053'
-- name: 未知100
-  type: tcp
-  server: 104.19.145.75
-  port: '443'
-- name: 未知101
-  type: ws
-  server: 104.20.18.168
-  port: '2087'
-- name: 未知102
-  type: httpupgrade
-  server: 104.21.64.1
-  port: '2087'
-- name: 未知103
-  type: ws
-  server: 104.16.83.43
-  port: '443'
-- name: US21
-  type: tcp
-  server: 161.145.150.14
-  port: '443'
-- name: 未知104
-  type: ws
-  server: 104.21.15.33
-  port: '2083'
-- name: 未知105
-  type: tcp
-  server: 104.21.75.121
-  port: '443'
-- name: 未知106
-  type: ws
-  server: 104.21.112.1
-  port: '2083'
-- name: 未知107
-  type: ws
-  server: 149.129.8.215
-  port: '443'
-- name: 未知108
-  type: tcp
-  server: 47.79.90.82
-  port: '8843'
-- name: 未知111
-  type: ws
-  server: 104.21.84.200
-  port: '443'
-- name: 未知112
-  type: tcp
-  server: 104.16.159.28
-  port: '443'
-- name: 未知113
-  type: tcp
-  server: 45.67.215.217
-  port: '2087'
-- name: 未知114
-  type: tcp
-  server: 104.16.54.107
-  port: '443'
-- name: 未知116
-  type: ws
-  server: 162.159.143.23
-  port: '443'
-- name: 未知117
-  type: tcp
-  server: 104.19.47.76
-  port: '443'
-- name: 未知118
-  type: tcp
-  server: 104.19.51.103
-  port: '443'
-- name: 未知119
-  type: ws
-  server: 104.19.159.12
-  port: '443'
-- name: 未知124
-  type: tcp
-  server: 104.16.204.203
-  port: '443'
-- name: 未知125
-  type: tcp
-  server: 162.159.134.143
-  port: '2096'
-- name: 未知126
-  type: ws
-  server: 206.238.237.81
-  port: '2087'
-- name: 未知127
-  type: ws
-  server: 104.17.64.70
-  port: '443'
-- name: 未知128
-  type: grpc
-  server: 104.21.15.33
-  port: '2087'
-- name: 未知129
-  type: ws
-  server: 104.18.173.160
-  port: '2083'
-- name: 未知130
-  type: ws
-  server: 104.21.112.1
-  port: '2053'
-- name: 未知131
-  type: tcp
-  server: 104.18.12.229
-  port: '8443'
-- name: 未知134
-  type: tcp
-  server: 8e9c3ff5-sx4v40-t6oecc-1slpn.cu.plebai.net
-  port: '15229'
-- name: 未知135
-  type: ws
-  server: 172.66.42.228
-  port: '443'
-- name: 未知136
-  type: ws
-  server: 172.67.152.170
-  port: '443'
-- name: 未知137
-  type: ws
-  server: 162.159.143.47
-  port: '443'
-- name: 未知138
-  type: ws
-  server: 119.188.204.76
-  port: '443'
-- name: 未知139
-  type: tcp
-  server: 104.21.229.169
-  port: '443'
-- name: 未知140
-  type: tcp
-  server: 104.16.38.173
-  port: '443'
-- name: 未知141
-  type: ws
-  server: 104.21.48.6
-  port: '2087'
-- name: 未知142
-  type: tcp
-  server: 18.135.188.86
-  port: '443'
-- name: US24
-  type: ws
-  server: 141.193.213.21
-  port: '443'
-- name: 未知143
-  type: ws
-  server: 104.18.165.147
-  port: '443'
-- name: 未知144
-  type: tcp
-  server: 104.16.158.11
-  port: '443'
-- name: 未知145
-  type: tcp
-  server: 104.22.60.175
-  port: '443'
-- name: 未知146
-  type: tcp
-  server: 104.16.155.191
-  port: '443'
-- name: 未知147
-  type: ws
-  server: 172.67.71.187
-  port: '443'
-- name: 未知149
-  type: ws
-  server: 172.67.155.140
-  port: '443'
-- name: 未知150
-  type: tcp
-  server: 104.19.33.4
-  port: '443'
-- name: 未知151
-  type: ws
-  server: 154.197.64.196
-  port: '2087'
-- name: 未知152
-  type: tcp
-  server: 104.26.0.227
-  port: '443'
-- name: 未知153
-  type: tcp
-  server: 70.34.206.32
-  port: '443'
-- name: 未知154
-  type: tcp
-  server: 104.22.54.192
-  port: '443'
-- name: US27
-  type: tcp
-  server: 65.75.192.14
-  port: '58846'
-- name: TW4
-  type: tcp
-  server: 1.162.136.98
-  port: '443'
-- name: 未知156
-  type: grpc
-  server: 141.101.120.62
-  port: '2053'
-- name: 未知157
-  type: ws
-  server: 104.21.22.11
-  port: '8443'
-- name: 未知159
-  type: tcp
-  server: 391907cc-swgsg0-t1bnjq-1krtb.cu.plebai.net
-  port: '15229'
-- name: 未知161
-  type: tcp
-  server: 104.21.235.194
-  port: '443'
-- name: 亚太地区+V2CROSS.COM
-  type: ws
-  server: 103.116.7.103
-  port: '2083'
-- name: 乌克兰+V2CROSS.COM
-  type: tcp
-  server: chop-wrist-bud.stark-industries.solutions
-  port: '443'
-- name: 英国+社会保险安全部
-  type: tcp
-  server: 51.210.182.170
-  port: '443'
-- name: 乌克兰+V2CROSS.COM
-  type: tcp
-  server: bring-glove-shine.stark-industries.solutions
-  port: '443'
-- name: 亚太地区+V2CROSS.COM
-  type: ws
-  server: 103.116.7.248
-  port: '443'
-- name: 江苏省+移动
-  type: tcp
-  server: 36.151.251.62
-  port: '3330'
-- name: 🇯🇵JP-13.113.17.136-1711
-  type: ssr
-  server: jp-am48-6.eqnode.net
-  port: '8081'
-- name: 🇫🇷FR-51.68.13.106-0331
-  type: tcp
-  server: 51.68.13.106
-  port: '1935'
-- name: 🇳🇴NO-95.164.38.151-0321
-  type: tcp
-  server: 95.164.38.151
-  port: '443'
-- name: 🇬🇧GB-62.100.205.48-5345
-  type: ssr
-  server: 62.100.205.48
-  port: '989'
-- name: 👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:59.43ms`
-  type: ws
-  server: 172.67.181.193
-  port: '443'
-- name: '[🇨🇦]t.me/ConfigsHub`'
-  type: ws
-  server: 172.67.207.27
-  port: '443'
-- name: 🌼19@oneclickvpnkeys
-  type: ws
-  server: 141.193.213.156
-  port: '443'
-- name: 🌼21@oneclickvpnkeys
-  type: ws
-  server: 141.193.213.17
-  port: '443'
-- name: 🌼35@oneclickvpnkeys
-  type: ws
-  server: 141.193.213.232
-  port: '443'
-- name: 🌼28@oneclickvpnkeys
-  type: ws
-  server: 141.193.213.163
-  port: '443'
-- name: 🌼34@oneclickvpnkeys
-  type: ws
-  server: 141.193.213.8
-  port: '443'
-- name: 🌼43@oneclickvpnkeys
-  type: ws
-  server: 141.193.213.94
-  port: '443'
-- name: 🌼41@oneclickvpnkeys
-  type: ws
-  server: 141.193.213.106
-  port: '443'
-- name: 🌼42@oneclickvpnkeys
-  type: ws
-  server: 141.193.213.198
-  port: '443'
-- name: 🌼40@oneclickvpnkeys`
-  type: ws
-  server: 141.193.213.21
-  port: '443'
-- name: 👉🆔@v2ray_configs_pool📡🇰🇿®️Kazakhstan©️Almaty🅿️ping:11.17ms`
-  type: ws
-  server: 194.76.18.122
-  port: '443'
-- name: 'OurChannel : @DirectVPN'
-  type: tcp
-  server: 13.39.166.196
-  port: '22223'
-- name: (S103)🇨🇵t.me/PrivateVPNs
-  type: tcp
-  server: 13.39.166.196
-  port: '22222'
-- name: 👉🆔@v2ray_configs_pool📡🇺🇸®️United States©️Queens🅿️ping:30.47ms`
-  type: tcp
-  server: 94.131.20.3
-  port: '443'
-- name: 👉🆔@v2ray_configs_pool📡🇲🇩®️Moldova©️Chisinau🅿️ping:61.87ms`
-  type: tcp
-  server: 45.67.229.222
-  port: '443'
-- name: 👉🆔@v2ray_configs_pool📡🇺🇸®️United States©️Queens🅿️ping:31.53ms`
-  type: tcp
-  server: cache-giver-wife.stark-industries.solutions
-  port: '443'
-- name: 👉🆔@v2ray_configs_pool📡🇫🇷®️France©️Paris🅿️ping:34.08ms`
-  type: tcp
-  server: 13.39.166.196
-  port: '22223'
-- name: 👉🆔@v2ray_configs_pool📡🇫🇷®️France©️Paris🅿️ping:34.33ms`
-  type: tcp
-  server: 13.39.166.196
-  port: '22222'
-- name: 👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:51.17ms`
-  type: ws
-  server: 172.67.138.187
-  port: '443'
-- name: 👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:63.73ms`
-  type: ws
-  server: 104.21.82.39
-  port: '443'
-- name: 👉🆔@v2ray_configs_pool📡🇺🇸®️United States©️Queens🅿️ping:30.99ms`
-  type: tcp
-  server: bring-glove-shine.stark-industries.solutions
-  port: '443'
-- name: 👉🆔@v2ray_configs_pool📡🇺🇸®️United States©️Queens🅿️ping:31.03ms`
-  type: tcp
-  server: nacho-rerun-crepe.stark-industries.solutions
-  port: '443'
-- name: 👉🆔@v2ray_configs_pool📡🇺🇸®️United States©️Queens🅿️ping:32.14ms`
-  type: tcp
-  server: bats-paper-chump.stark-industries.solutions
-  port: '443'
-- name: 👉🆔@v2ray_configs_pool📡🇺🇸®️United States©️Queens🅿️ping:31.74ms`
-  type: tcp
-  server: chop-wrist-bud.stark-industries.solutions
-  port: '443'
-- name: 👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:51.72ms`
-  type: ws
-  server: 104.21.32.242
-  port: '443'
-- name: 👉🆔@v2ray_configs_pool📡🇫🇷®️France©️Paris🅿️ping:34.99ms`
-  type: tcp
-  server: 13.39.166.196
-  port: '22223'
-- name: 👉🆔@v2ray_configs_pool📡🇺🇸®️United States©️Queens🅿️ping:29.0ms`
-  type: tcp
-  server: 94.131.20.3
-  port: '443'
-- name: 'OurChannel : @DirectVPN'
-  type: tcp
-  server: 35.180.143.120
-  port: '22223'
-- name: (S104)🇨🇵t.me/PrivateVPNs
-  type: tcp
-  server: 35.180.143.120
-  port: '22222'
-- name: 👉🆔@v2ray_configs_pool📡🇺🇸®️United States©️Queens🅿️ping:29.14ms`
-  type: tcp
-  server: 94.131.20.3
-  port: '443'
-- name: 👉🆔@v2ray_configs_pool📡🇫🇷®️France©️Paris🅿️ping:76.63ms`
-  type: tcp
-  server: 35.180.143.120
-  port: '22222'
-- name: 👉🆔@v2ray_configs_pool📡🇺🇸®️United States©️Queens🅿️ping:32.07ms`
-  type: tcp
-  server: nacho-rerun-crepe.stark-industries.solutions
-  port: '443'
-- name: 🔄 LATEST-UPDATE 📅 TUE-13-KHORDAD-1404 🕑 00:26
-  type: tcp
-  server: 127.0.0.1
-  port: '1080'
-- name: 🔒 TR-TCP-TLS 🇺🇸 US-132.226.29.72:443
-  type: tcp
-  server: 132.226.29.72
-  port: '443'
-- name: 🔒 TR-TCP-TLS 🇩🇪 DE-3.71.147.172:22223
-  type: tcp
-  server: 3.71.147.172
-  port: '22223'
-- name: 🔒 TR-WS-TLS 🇺🇸 US-130.250.137.63:2083
-  type: ws
-  server: 130.250.137.63
-  port: '2083'
-- name: 🔒 TR-TCP-TLS 🇩🇪 DE-3.124.79.62:22222
-  type: tcp
-  server: 3.124.79.62
-  port: '22222'
-- name: 🔒 TR-TCP-TLS 🇸🇬 SG-168.138.174.229:443
-  type: tcp
-  server: 168.138.174.229
-  port: '443'
-- name: 🔒 TR-TCP-NA 🇺🇸 US-204.110.220.206:80
-  type: tcp
-  server: 204.110.220.206
-  port: '80'
-- name: 🔒 TR-TCP-TLS 🇫🇷 FR-35.180.143.120:22223
-  type: tcp
-  server: 35.180.143.120
-  port: '22223'
-- name: 🔒 TR-TCP-TLS 🇩🇪 DE-3.124.79.62:22223
-  type: tcp
-  server: 3.124.79.62
-  port: '22223'
-- name: 🔒 TR-TCP-TLS 🇫🇷 FR-13.39.166.196:22222
-  type: tcp
-  server: 13.39.166.196
-  port: '22222'
-- name: 🔒 TR-TCP-TLS 🇫🇷 FR-13.39.166.196:22223
-  type: tcp
-  server: 13.39.166.196
-  port: '22223'
-- name: 🔒 TR-TCP-NA 🇸🇬 SG-45.76.152.235:12443
-  type: tcp
-  server: 45.76.152.235
-  port: '12443'
-- name: 🔒 TR-WS-TLS 🇺🇸 US-192.3.127.231:443
-  type: ws
-  server: 192.3.127.231
-  port: '443'
-- name: 🔒 TR-TCP-NA 🇺🇸 US-37.123.193.154:444
-  type: tcp
-  server: 37.123.193.154
-  port: '444'
-- name: 🔒 TR-TCP-TLS 🇫🇷 FR-35.180.143.120:22222
-  type: tcp
-  server: 35.180.143.120
-  port: '22222'
-- name: 🇺🇸 美国 惠普公司
-  type: tcp
-  server: 15.237.11.137
-  port: '22222'
-- name: 14|AM_speednode_0002
-  type: tcp
-  server: 188.164.159.241
-  port: '2096'
-- name: 14|CN_speednode_0029
-  type: tcp
-  server: f1e4e0ee-swin40-t12cnj-1ol97.cu.plebai.net
-  port: '15229'
-- name: 14|CN_speednode_0030
-  type: tcp
-  server: 6f772034-sx6ps0-taklwz-12bd.cu.plebai.net
-  port: '15229'
-- name: 14|CN_speednode_0031
-  type: tcp
-  server: 8e9c3ff5-sx4v40-t6oecc-1slpn.cu.plebai.net
-  port: '15229'
-- name: 14|CN_speednode_0032
-  type: tcp
-  server: 415a547f-sx8kg0-t1msbw-1nn0k.cu.plebai.net
-  port: '15229'
-- name: 14|CN_speednode_0033
-  type: tcp
-  server: 2252b964-sx4v40-tee612-2r82.cu.plebai.net
-  port: '15229'
-- name: 14|CN_speednode_0034
-  type: tcp
-  server: 67636d50-sx6ps0-sxpbuh-1ndin.cu.plebai.net
-  port: '15229'
-- name: 14|CN_speednode_0036
-  type: tcp
-  server: a4b963da-sx6ps0-t0j7ql-1t7gn.cu.plebai.net
-  port: '15229'
-- name: 14|CN_speednode_0037
-  type: tcp
-  server: 3c80a135-swb8g0-t6ouc9-13xtu.cu.plebai.net
-  port: '15229'
-- name: 14|CN_speednode_0039
-  type: tcp
-  server: 2e051986-sx4v40-t2ghw9-1pf7n.cu.plebai.net
-  port: '15229'
-- name: 14|CN_speednode_0040
-  type: tcp
-  server: c5d812aa-sx4v40-sx7hbg-1mmbp.cu.plebai.net
-  port: '15229'
-- name: 14|CN_speednode_0041
-  type: tcp
-  server: f8263ad9-sx8kg0-t7qex7-1supq.cu.plebai.net
-  port: '15229'
-- name: 14|CN_speednode_0042
-  type: tcp
-  server: 493d7185-sx4v40-t30eih-jm0w.cu.plebai.net
-  port: '15229'
-- name: 14|CN_speednode_0043
-  type: tcp
-  server: eb4fe914-sx6ps0-t234dm-eso8.cu.plebai.net
-  port: '15229'
-- name: 14|CN_speednode_0044
-  type: tcp
-  server: e3ca594f-sx8kg0-t9azkv-17xn0.cu.plebai.net
-  port: '15229'
-- name: 14|CN_speednode_0045
-  type: tcp
-  server: 0a107103-sx8kg0-syxs94-1jbj0.cu.plebai.net
-  port: '15229'
-- name: 14|CN_speednode_0046
-  type: tcp
-  server: d6cafd53-sx4v40-tbcla6-194tt.cu.plebai.net
-  port: '15229'
-- name: 14|JP_speednode_0096
-  type: tcp
-  server: 103.116.7.103
-  port: '2083'
-- name: 14|KR_speednode_0103
-  type: tcp
-  server: 112.184.209.63
-  port: '12088'
-- name: 14|NO_speednode_0121
-  type: tcp
-  server: 95.164.38.151
-  port: '443'
-- name: 14|RU_speednode_0137
-  type: tcp
-  server: 5.182.84.244
-  port: '443'
-- name: 14|SI_speednode_0149
-  type: tcp
-  server: 92.53.190.161
-  port: '2087'
-- name: 电报群：https://t.me/vvkj11
-  type: tcp
-  server: ssp1.100896.xyz
-  port: '443'
-- name: 🇸🇬 每天更新，请加电报群防止失联
-  type: tcp
-  server: 198.41.220.125
-  port: '443'
-- name: 日期：06-02
-  type: tcp
-  server: ssloa1.100896.xyz
-  port: '443'
-- name: 免费VPN：https://tt.vg/gwaAy
-  type: tcp
-  server: ssloa1.100896.xyz
-  port: '443'
-- name: 🇺🇸 _美国
-  type: tcp
-  server: ssanj01.100896.xyz
-  port: '443'
-- name: 🇺🇸 _美国
-  type: tcp
-  server: ssp1.100896.xyz
-  port: '443'
-- name: 🇺🇸 _美国
-  type: tcp
-  server: 190.93.244.105
-  port: '443'
-- name: 🇺🇸 _美国
-  type: tcp
-  server: 108.162.196.69
-  port: '443'
-- name: 🇺🇸 _美国
-  type: tcp
-  server: 141.101.114.154
-  port: '443'
-- name: 🇺🇸 _美国
-  type: tcp
-  server: 162.159.128.101
-  port: '443'
-- name: 🇺🇸 _美国
-  type: tcp
-  server: 172.67.156.239
-  port: '443'
-- name: 🇧🇷 _巴西
-  type: tcp
-  server: 188.114.97.58
-  port: '443'
-- name: 🇺🇸 _美国
-  type: tcp
-  server: 172.67.152.188
-  port: '443'
-- name: 🇺🇸 _美国
-  type: tcp
-  server: 141.101.120.10
-  port: '443'
-- name: 🇺🇸 _美国
-  type: tcp
-  server: 108.162.198.165
-  port: '443'
-- name: 🇺🇸 _美国
-  type: tcp
-  server: 198.41.220.125
-  port: '443'
-- name: 🇺🇸 _美国
-  type: tcp
-  server: 104.22.5.205
-  port: '443'
-- name: 🇺🇸 _美国
-  type: tcp
-  server: 108.162.196.130
-  port: '443'
-- name: 🇺🇸 _美国
-  type: tcp
-  server: cdn3.100896.xyz
-  port: '443'
-- name: _中国
-  type: tcp
-  server: 36.156.102.123
-  port: '50723'
-- name: 🇺🇸 _美国
-  type: tcp
-  server: 38.147.187.99
-  port: '18181'
-- name: 🇦🇺 _澳大利亚
-  type: tcp
-  server: 43.134.167.135
-  port: '9950'
-- name: 🇺🇸 _美国
-  type: tcp
-  server: 162.159.153.212
-  port: '443'
-- name: 🇺🇸 _美国
-  type: tcp
-  server: 108.165.152.59
-  port: '2087'
-- name: 🇺🇸 _美国
-  type: tcp
-  server: 108.165.152.36
-  port: '2096'
-- name: 🇺🇸 _美国
-  type: tcp
-  server: 198.12.121.169
-  port: '24863'
-- name: _中国
-  type: tcp
-  server: 27.50.48.189
-  port: '2083'
-- name: 🇺🇸 _美国
-  type: tcp
-  server: 108.165.152.241
-  port: '2053'
-- name: _中国
-  type: tcp
-  server: 27.50.48.154
-  port: '8443'
-- name: 🇰🇷 _韩国
-  type: tcp
-  server: 14.42.89.42
-  port: '50004'
-- name: 🇺🇸 _美国
-  type: tcp
-  server: 162.159.44.235
-  port: '2053'
-- name: 🇺🇸 _美国
-  type: tcp
-  server: 45.67.214.41
-  port: '2083'
-- name: 🇺🇸 _亚美尼亚
-  type: tcp
-  server: 188.164.159.214
-  port: '2083'
-- name: 🇰🇷 _韩国
-  type: tcp
-  server: 121.145.126.10
-  port: '12578'
-- name: 🇰🇷 _韩国
-  type: tcp
-  server: 210.100.138.35
-  port: '17779'
-- name: 🇯🇵 _日本
-  type: tcp
-  server: 103.116.7.248
-  port: '443'
-- name: _中国
-  type: tcp
-  server: 27.50.49.41
-  port: '2096'
-- name: 🇺🇸 _亚美尼亚
-  type: tcp
-  server: 188.164.159.171
-  port: '443'
-- name: _中国
-  type: tcp
-  server: 45.194.53.81
-  port: '2087'
-- name: 🇺🇸 _美国
-  type: tcp
-  server: 198.62.62.61
-  port: '2083'
-- name: _中国
-  type: tcp
-  server: 154.197.64.252
-  port: '443'
-- name: _中国
-  type: tcp
-  server: 5b224751-swzb40-t2c3sq-1spnr.cu.plebai.net
-  port: '15229'
-- name: 🇫🇷 _法国
-  type: tcp
-  server: 15.188.131.37
-  port: '22222'
-- name: '10,12|@drakvpn🐉 #2'
-  type: hysteria2
-  server: dongtaiwang.com@46.17.41.5
-  port: '12904'
-- name: '11,12|Channel id: @ShadowProxy66🇫🇷'
-  type: hysteria2
-  server: dongtaiwang.com@51.159.111.32
-  port: '31180'
-- name: '11,12|⚡️ @vpnserverrr (Hysteria) #3'
-  type: hysteria2
-  server: nfsn666@ld-arm.nfsn666.gq
-  port: '8888'
-- name: 15|JP_speednode_0036
-  type: ws
-  server: 103.116.7.103
-  port: '2083'
-- name: 15|RU_speednode_0064
-  type: ws
-  server: 5.182.84.244
-  port: '443'
-- name: 15|SI_speednode_0067
-  type: ws
-  server: 92.53.190.161
-  port: '2087'
-- name: 🔄 LATEST-UPDATE 📅 MON-12-KHORDAD-1404 🕑 23:22
-  type: tcp
-  server: 127.0.0.1
-  port: '1080'
-- name: 🔥Join+Telegram:@Farah_VPN🟣
-  type: ws
-  server: 172.66.47.83
-  port: '443'
-- name: 🔥Join+Telegram:@Farah_VPN🟣
-  type: tcp
-  server: 172.66.44.173
-  port: '443'
-- name: 🔥Join+Telegram:@Farah_VPN🟣
-  type: tcp
-  server: 104.21.69.44
-  port: '443'
-- name: 🔥Join+Telegram:@Farah_VPN🟣
-  type: tcp
-  server: 172.67.204.84
-  port: '443'
-- name: 🔥Join+Telegram:@Farah_VPN🟣
-  type: tcp
-  server: 18.238.109.41
-  port: '443'
-- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-104.26.13.54:443
-  type: tcp
-  server: 104.26.13.54
-  port: '443'
-- name: 🔒 TR-TCP-NA 🇭🇰 HK-45.146.232.171:43590
-  type: tcp
-  server: 45.146.232.171
-  port: '43590'
-- name: 🔒 TR-TCP-NA 🇭🇰 HK-45.146.232.171:43397
-  type: tcp
-  server: 45.146.232.171
-  port: '43397'
-- name: 🔥Join+Telegram:@Farah_VPN🟣
-  type: ws
-  server: 104.21.49.59
-  port: '443'
-- name: 🔥Join+Telegram:@Farah_VPN🟣
-  type: ws
-  server: 172.67.159.56
-  port: '443'
-- name: 🔥Join+Telegram:@Farah_VPN🟣
-  type: ws
-  server: 144.22.250.122
-  port: '443'
-- name: 🔒 TR-WS-TLS 🇹🇼 TW-166.0.198.68:443
-  type: ws
-  server: 166.0.198.68
-  port: '443'
-- name: ⚡ b2n.ir/v2ray-configs | 22
-  type: tcp
-  server: 132.145.51.172
-  port: '443'
-- name: 🔒 TR-TCP-TLS 🇭🇰 HK-192.142.4.64:40387
-  type: tcp
-  server: 192.142.4.64
-  port: '40387'
-- name: 🔥Join+Telegram:@Farah_VPN🟣
-  type: tcp
-  server: 2252b964-sx4v40-tee612-2r82.cu.plebai.net
-  port: '15229'
-- name: ⚡ b2n.ir/v2ray-configs | 133
-  type: tcp
-  server: 2252b964-sx4v40-tee612-2r82.cu.plebai.net
-  port: '15229'
-- name: 🔒 TR-TCP-NA 🇭🇰 HK-45.146.232.171:27301
-  type: tcp
-  server: 45.146.232.171
-  port: '27301'
-- name: 🔥Join+Telegram:@Farah_VPN🟣
-  type: ws
-  server: 104.21.71.83
-  port: '443'
-- name: 🔒 TR-TCP-NA 🇭🇰 HK-45.146.232.171:43583
-  type: tcp
-  server: 45.146.232.171
-  port: '43583'
-- name: 🔒 TR-TCP-NA 🇭🇰 HK-45.146.232.171:43592
-  type: tcp
-  server: 45.146.232.171
-  port: '43592'
-- name: ⚡ b2n.ir/v2ray-configs | 454
-  type: tcp
-  server: 129.146.242.130
-  port: '443'
-- name: 🔥Join+Telegram:@Farah_VPN🟣
-  type: ws
-  server: 175.203.30.93
-  port: '50000'
-- name: 🔥Join+Telegram:@Farah_VPN🟣
-  type: ws
-  server: 104.21.22.211
-  port: '443'
-- name: 🔥Join+Telegram:@Farah_VPN🟣
-  type: ws
-  server: 104.21.57.88
-  port: '443'
-- name: 🔥Join+Telegram:@Farah_VPN🟣
-  type: ws
-  server: 172.67.162.74
-  port: '443'
-- name: ⚡ b2n.ir/v2ray-configs | 939
-  type: ws
-  server: 172.67.207.27
-  port: '443'
-- name: 🔥Join+Telegram:@Farah_VPN🟣
-  type: ws
-  server: 172.67.207.27
-  port: '443'
-- name: ⚡ b2n.ir/v2ray-configs | 245
-  type: tcp
-  server: 104.21.57.88
-  port: '443'
-- name: 🔥Join+Telegram:@Farah_VPN🟣
-  type: ws
-  server: 104.21.86.44
-  port: '443'
-- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-172.67.162.74:443
-  type: tcp
-  server: 172.67.162.74
-  port: '443'
-- name: 🔥Join+Telegram:@Farah_VPN🟣
-  type: tcp
-  server: 172.67.215.15
-  port: '443'
-- name: 🔥Join+Telegram:@Farah_VPN🟣
-  type: ws
-  server: 104.21.69.50
-  port: '443'
-- name: 🔥Join+Telegram:@Farah_VPN🟣
-  type: ws
-  server: 172.67.204.177
-  port: '443'
-- name: ⚡ b2n.ir/v2ray-configs | 365
-  type: tcp
-  server: bd8e9b7d-swzb40-t5vrf3-716s.cu.plebai.net
-  port: '15229'
-- name: 🔒 TR-TCP-NA 🇯🇵 JP-43.207.112.226:443
-  type: tcp
-  server: 43.207.112.226
-  port: '443'
-- name: 🔥Join+Telegram:@Farah_VPN🟣
-  type: ws
-  server: 104.17.147.11
-  port: '443'
-- name: 🔥Join+Telegram:@Farah_VPN🟣
-  type: tcp
-  server: 139.59.119.143
-  port: '443'
-- name: ⚡ b2n.ir/v2ray-configs | 965
-  type: ws
-  server: cnamemt.cdncisco.org
-  port: '443'
-- name: ⚡ b2n.ir/v2ray-configs | 92
-  type: tcp
-  server: 120.226.39.25
-  port: '19225'
-- name: ⚡ b2n.ir/v2ray-configs | 358
-  type: tcp
-  server: 120.226.39.25
-  port: '19232'
-- name: ⚡ b2n.ir/v2ray-configs | 976
-  type: tcp
-  server: 120.226.39.25
-  port: '19233'
-- name: ⚡ b2n.ir/v2ray-configs | 181
-  type: tcp
-  server: 120.226.39.25
-  port: '19240'
-- name: ⚡ b2n.ir/v2ray-configs | 527
-  type: tcp
-  server: 120.226.39.25
-  port: '19243'
-- name: ⚡ b2n.ir/v2ray-configs | 456
-  type: tcp
-  server: 120.226.39.25
-  port: '19245'
-- name: ⚡ b2n.ir/v2ray-configs | 840
-  type: tcp
-  server: 120.226.39.25
-  port: '19248'
-- name: 🔥Join+Telegram:@Farah_VPN🟣
-  type: ws
-  server: 104.21.12.87
-  port: '443'
-- name: ⚡ b2n.ir/v2ray-configs | 201
-  type: ws
-  server: 104.21.12.87
-  port: '443'
-- name: 🔥Join+Telegram:@Farah_VPN🟣
-  type: ws
-  server: 172.67.131.245
-  port: '443'
-- name: 🔒 TR-TCP-NA 🇭🇰 HK-45.146.232.171:42882
-  type: tcp
-  server: 45.146.232.171
-  port: '42882'
-- name: 🔥Join+Telegram:@Farah_VPN🟣
-  type: tcp
-  server: 45.76.152.235
-  port: '12443'
-- name: ⚡ b2n.ir/v2ray-configs | 427
-  type: tcp
-  server: 45.76.152.235
-  port: '12443'
-- name: 🔥Join+Telegram:@Farah_VPN🟣
-  type: ws
-  server: 104.21.75.75
-  port: '443'
-- name: 🔥Join+Telegram:@Farah_VPN🟣
-  type: ws
-  server: 104.21.77.44
-  port: '443'
-- name: ⚡ b2n.ir/v2ray-configs | 5
-  type: tcp
-  server: 60.249.3.231
-  port: '3389'
-- name: 🔥Join+Telegram:@Farah_VPN🟣
-  type: ws
-  server: 104.21.21.190
-  port: '443'
-- name: 🔥Join+Telegram:@Farah_VPN🟣
-  type: ws
-  server: 104.21.6.179
-  port: '443'
-- name: 🔥Join+Telegram:@Farah_VPN🟣
-  type: ws
-  server: 172.67.135.23
-  port: '443'
-- name: 🔥Join+Telegram:@Farah_VPN🟣
-  type: ws
-  server: 172.67.200.11
-  port: '443'
-- name: 🔒 TR-TCP-NA 🏴‍☠️ NA-172.67.204.120:443
-  type: tcp
-  server: 172.67.204.120
-  port: '443'
-- name: 🔒 TR-TCP-NA 🇭🇰 HK-45.146.232.171:46927
-  type: tcp
-  server: 45.146.232.171
-  port: '46927'
-- name: ⚡ b2n.ir/v2ray-configs | 276
-  type: tcp
-  server: gz01.xiaohouzi.club
-  port: '14705'
-- name: ⚡ b2n.ir/v2ray-configs | 48
-  type: tcp
-  server: hn.xiaohouzi.club
-  port: '16015'
-- name: ⚡ b2n.ir/v2ray-configs | 264
-  type: tcp
-  server: hn.xiaohouzi.club
-  port: '18432'
-- name: ⚡ b2n.ir/v2ray-configs | 239
-  type: tcp
-  server: hn.xiaohouzi.club
-  port: '18433'
-- name: ⚡ b2n.ir/v2ray-configs | 488
-  type: tcp
-  server: hn.xiaohouzi.club
-  port: '18459'
-- name: ⚡ b2n.ir/v2ray-configs | 654
-  type: tcp
-  server: hn.xiaohouzi.club
-  port: '46014'
-- name: ⚡ b2n.ir/v2ray-configs | 727
-  type: tcp
-  server: hnm.xiaohouzi.club
-  port: '17106'
-- name: ⚡ b2n.ir/v2ray-configs | 256
-  type: tcp
-  server: hnm.xiaohouzi.club
-  port: '17109'
-- name: ⚡ b2n.ir/v2ray-configs | 770
-  type: tcp
-  server: hnm.xiaohouzi.club
-  port: '19362'
-- name: ⚡ b2n.ir/v2ray-configs | 799
-  type: tcp
-  server: hnm.xiaohouzi.club
-  port: '49361'
-- name: ⚡ b2n.ir/v2ray-configs | 182
-  type: tcp
-  server: iplc.xiaohouzi.club
-  port: '20015'
-- name: ⚡ b2n.ir/v2ray-configs | 301
-  type: tcp
-  server: iplc.xiaohouzi.club
-  port: '20032'
-- name: 🔥Join+Telegram:@Farah_VPN🟣
-  type: tcp
-  server: 192.142.4.64
-  port: '42405'
-- name: '@G0Dv2ray'
-  type: tcp
-  server: 45.159.251.33
-  port: '443'
-- name: 'Channel id: @ShadowProxy66🇵🇹'
-  type: tcp
-  server: 45.159.251.33
-  port: '443'
-- name: 🔥Join+Telegram:@Farah_VPN🟣
-  type: tcp
-  server: 45.159.251.33
-  port: '443'
-- name: 'Channel id: @ShadowProxy66🇲🇩```'
-  type: tcp
-  server: 45.67.229.222
-  port: '443'
-- name: '[🏁]t.me/ConfigsHub`'
-  type: tcp
-  server: 45.67.229.222
-  port: '443'
-- name: 🔥Join+Telegram:@Farah_VPN🟣
-  type: tcp
-  server: 45.67.229.222
-  port: '443'
-- name: 🔥Join+Telegram:@Farah_VPN🟣
-  type: tcp
-  server: 95.164.38.151
-  port: '443'
-- name: 🔥Join+Telegram:@Farah_VPN🟣
-  type: ws
-  server: 172.66.44.226
-  port: '2087'
-- name: 🔥Join+Telegram:@Farah_VPN🟣
-  type: ws
-  server: 172.66.47.30
-  port: '2087'
-- name: 🔥Join+Telegram:@Farah_VPN🟣
-  type: ws
-  server: 104.21.71.8
-  port: '2083'
-- name: 🔥Join+Telegram:@Farah_VPN🟣
-  type: ws
-  server: 172.67.141.68
-  port: '2083'
-- name: 🔥Join+Telegram:@Farah_VPN🟣
-  type: ws
-  server: 172.67.211.136
-  port: '443'
-- name: ⚡ b2n.ir/v2ray-configs | 707
-  type: ws
-  server: 146.70.158.111
-  port: '443'
-- name: 🔥Join+Telegram:@Farah_VPN🟣
-  type: ws
-  server: 198.62.62.4
-  port: '443'
-- name: 🔥Join+Telegram:@Farah_VPN🟣
-  type: ws
-  server: 104.25.165.81
-  port: '8443'
-- name: 🔥Join+Telegram:@Farah_VPN🟣
-  type: ws
-  server: 104.25.165.83
-  port: '8443'
-- name: 🔥Join+Telegram:@Farah_VPN🟣
-  type: ws
-  server: 104.25.97.27
-  port: '8443'
-- name: 🔥Join+Telegram:@Farah_VPN🟣
-  type: ws
-  server: 192.65.217.53
-  port: '8443'
-- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-198.41.208.69:8443
-  type: ws
-  server: 198.41.208.69
-  port: '8443'
-- name: 🔥Join+Telegram:@Farah_VPN🟣
-  type: tcp
-  server: 198.41.208.69
-  port: '8443'
-- name: 🔥Join+Telegram:@Farah_VPN🟣
-  type: ws
-  server: 104.24.92.207
-  port: '2053'
-- name: 🔥Join+Telegram:@Farah_VPN🟣
-  type: tcp
-  server: 5b224751-swzb40-t2c3sq-1spnr.cu.plebai.net
-  port: '15229'
-- name: ⚡ b2n.ir/v2ray-configs | 489
-  type: tcp
-  server: trs12.bolab.net
-  port: '443'
-- name: 🔥Join+Telegram:@Farah_VPN🟣
-  type: ws
-  server: 104.21.26.17
-  port: '443'
-- name: 🔥Join+Telegram:@Farah_VPN🟣
-  type: ws
-  server: 104.21.32.242
-  port: '443'
-- name: 🔥Join+Telegram:@Farah_VPN🟣
-  type: ws
-  server: 172.67.188.77
-  port: '443'
-- name: 🔥Join+Telegram:@Farah_VPN🟣
-  type: ws
-  server: 104.21.7.147
-  port: '443'
-- name: 🔥Join+Telegram:@Farah_VPN🟣
-  type: ws
-  server: 172.67.155.140
-  port: '443'
-- name: 🔥Join+Telegram:@Farah_VPN🟣
-  type: ws
-  server: 104.21.15.232
-  port: '443'
-- name: 🔥Join+Telegram:@Farah_VPN🟣
-  type: grpc
-  server: 104.21.22.133
-  port: '443'
-- name: 🔥Join+Telegram:@Farah_VPN🟣
-  type: ws
-  server: 104.21.34.159
-  port: '443'
-- name: ⚡ b2n.ir/v2ray-configs | 978
-  type: ws
-  server: 104.21.34.159
-  port: '443'
-- name: 🔥Join+Telegram:@Farah_VPN🟣
-  type: ws
-  server: 172.67.173.64
-  port: '443'
-- name: ⚡ b2n.ir/v2ray-configs | 206
-  type: tcp
-  server: 15.235.197.4
-  port: '80'
-- name: ⚡ b2n.ir/v2ray-configs | 297
-  type: tcp
-  server: 15.235.197.4
-  port: '80'
-- name: 🔥Join+Telegram:@Farah_VPN🟣
-  type: tcp
-  server: 15.235.197.4
-  port: '80'
-- name: ⚡ b2n.ir/v2ray-configs | 992
-  type: tcp
-  server: de.liangyuandian.top
-  port: '443'
-- name: ⚡ b2n.ir/v2ray-configs | 608
-  type: tcp
-  server: 60.249.3.229
-  port: '3389'
-- name: ⚡ b2n.ir/v2ray-configs | 616
-  type: tcp
-  server: ap.liangyuandian.top
-  port: '443'
-- name: ⚡ b2n.ir/v2ray-configs | 657
-  type: tcp
-  server: v01.gutingting.com
-  port: '30002'
-- name: ⚡ b2n.ir/v2ray-configs | 405
-  type: tcp
-  server: v02.gutingting.com
-  port: '30055'
-- name: 🔥Join+Telegram:@Farah_VPN🟣
-  type: ws
-  server: 104.21.29.205
-  port: '443'
-- name: 🔥Join+Telegram:@Farah_VPN🟣
-  type: ws
-  server: 104.21.32.1
-  port: '443'
-- name: 🔥Join+Telegram:@Farah_VPN🟣
-  type: grpc
-  server: 104.21.94.69
-  port: '443'
-- name: ⚡ b2n.ir/v2ray-configs | 98
-  type: tcp
-  server: 172.67.149.202
-  port: '443'
-- name: 🔥Join+Telegram:@Farah_VPN🟣
-  type: ws
-  server: 172.67.149.202
-  port: '443'
-- name: 🔥Join+Telegram:@Farah_VPN🟣
-  type: grpc
-  server: 172.67.220.140
-  port: '443'
-- name: 🔒 TR-TCP-TLS 🇭🇰 HK-45.146.232.171:43383
-  type: tcp
-  server: 45.146.232.171
-  port: '43383'
-- name: 🔥Join+Telegram:@Farah_VPN🟣
-  type: ws
-  server: 104.21.48.6
-  port: '2083'
-- name: 🔥Join+Telegram:@Farah_VPN🟣
-  type: tcp
-  server: 67636d50-sx6ps0-sxpbuh-1ndin.cu.plebai.net
-  port: '15229'
-- name: ⚡ b2n.ir/v2ray-configs | 630
-  type: tcp
-  server: 67636d50-sx6ps0-sxpbuh-1ndin.cu.plebai.net
-  port: '15229'
-- name: ⚡ b2n.ir/v2ray-configs | 861
-  type: tcp
-  server: 43.206.67.76
-  port: '36306'
-- name: ⚡ b2n.ir/v2ray-configs | 570
-  type: tcp
-  server: ap.stablize.top
-  port: '443'
-- name: ⚡ b2n.ir/v2ray-configs | 894
-  type: tcp
-  server: ca.stablize.top
-  port: '443'
-- name: ⚡ b2n.ir/v2ray-configs | 624
-  type: tcp
-  server: de.stablize.top
-  port: '443'
-- name: ⚡ b2n.ir/v2ray-configs | 94
-  type: tcp
-  server: sg.stablize.top
-  port: '443'
-- name: 🔥Join+Telegram:@Farah_VPN🟣
-  type: tcp
-  server: 104.251.227.182
-  port: '443'
-- name: 🔒 TR-TCP-TLS 🇺🇸 US-129.153.92.169:52803
-  type: tcp
-  server: 129.153.92.169
-  port: '52803'
-- name: ⚡ b2n.ir/v2ray-configs | 229
-  type: tcp
-  server: 206.189.34.134
-  port: '443'
-- name: 🔥Join+Telegram:@Farah_VPN🟣
-  type: tcp
-  server: 206.189.34.134
-  port: '443'
-- name: 🔒 TR-TCP-NA 🇭🇰 HK-45.146.232.171:43393
-  type: tcp
-  server: 45.146.232.171
-  port: '43393'
-- name: ⚡ b2n.ir/v2ray-configs | 591
-  type: tcp
-  server: hn.xiaohouzi.club
-  port: '18581'
-- name: ⚡ b2n.ir/v2ray-configs | 212
-  type: tcp
-  server: hn.xiaohouzi.club
-  port: '18733'
-- name: ⚡ b2n.ir/v2ray-configs | 108
-  type: tcp
-  server: hn.xiaohouzi.club
-  port: '18835'
-- name: ⚡ b2n.ir/v2ray-configs | 140
-  type: tcp
-  server: hnm.xiaohouzi.club
-  port: '18831'
-- name: ⚡ b2n.ir/v2ray-configs | 410
-  type: tcp
-  server: hnm.xiaohouzi.club
-  port: '47651'
-- name: 🔥Join+Telegram:@Farah_VPN🟣
-  type: ws
-  server: 104.21.28.26
-  port: '443'
-- name: 🔥Join+Telegram:@Farah_VPN🟣
-  type: tcp
-  server: 172.67.170.51
-  port: '443'
-- name: 🔒 TR-TCP-NA 🇭🇰 HK-45.146.232.171:34016
-  type: tcp
-  server: 45.146.232.171
-  port: '34016'
-- name: 🔥Join+Telegram:@Farah_VPN🟣
-  type: ws
-  server: 104.19.159.12
-  port: '443'
-- name: 🔥Join+Telegram:@Farah_VPN🟣
-  type: ws
-  server: 198.41.220.12
-  port: '443'
-- name: 🔥Join+Telegram:@Farah_VPN🟣
-  type: ws
-  server: 198.41.220.2
-  port: '443'
-- name: ⚡ b2n.ir/v2ray-configs | 788
-  type: tcp
-  server: 51.38.65.155
-  port: '443'
-- name: ⚡ b2n.ir/v2ray-configs | 449
-  type: tcp
-  server: v02.gutingting.com
-  port: '30054'
-- name: 🔥Join+Telegram:@Farah_VPN🟣
-  type: tcp
-  server: 144.202.22.147
-  port: '443'
-- name: ⚡ b2n.ir/v2ray-configs | 660
-  type: tcp
-  server: supsig.xiaohouzi.club
-  port: '10102'
-- name: ⚡ b2n.ir/v2ray-configs | 436
-  type: tcp
-  server: 20.163.90.12
-  port: '443'
-- name: ⚡ b2n.ir/v2ray-configs | 231
-  type: tcp
-  server: 104.21.84.58
-  port: '443'
-- name: 🔥Join+Telegram:@Farah_VPN🟣
-  type: ws
-  server: 104.21.84.58
-  port: '443'
-- name: 🔥Join+Telegram:@Farah_VPN🟣
-  type: grpc
-  server: 104.21.88.226
-  port: '443'
-- name: 🔥Join+Telegram:@Farah_VPN🟣
-  type: grpc
-  server: 172.67.153.179
-  port: '443'
-- name: 🔥Join+Telegram:@Farah_VPN🟣
-  type: grpc
-  server: 172.67.187.28
-  port: '443'
-- name: ⚡ b2n.ir/v2ray-configs | 166
-  type: tcp
-  server: 23.142.200.175
-  port: '443'
-- name: 🔒 TR-TCP-TLS 🇭🇰 HK-45.146.232.170:43394
-  type: tcp
-  server: 45.146.232.170
-  port: '43394'
-- name: 🔒 TR-TCP-TLS 🇭🇰 HK-45.146.232.170:43590
-  type: tcp
-  server: 45.146.232.170
-  port: '43590'
-- name: 🔒 TR-TCP-TLS 🇭🇰 HK-45.146.232.170:46927
-  type: tcp
-  server: 45.146.232.170
-  port: '46927'
-- name: ⚡ b2n.ir/v2ray-configs | 846
-  type: tcp
-  server: 45.66.134.219
-  port: '443'
-- name: 🔒 TR-TCP-NA 🇭🇰 HK-45.146.232.171:27408
-  type: tcp
-  server: 45.146.232.171
-  port: '27408'
-- name: 🔥Join+Telegram:@Farah_VPN🟣
-  type: tcp
-  server: 51.83.186.142
-  port: '80'
-- name: 🔥Join+Telegram:@Farah_VPN🟣
-  type: ws
-  server: 151.101.2.133
-  port: '443'
-- name: 🔥Join+Telegram:@Farah_VPN🟣
-  type: ws
-  server: 104.21.15.33
-  port: '8443'
-- name: 🔥Join+Telegram:@Farah_VPN🟣
-  type: ws
-  server: 172.67.161.74
-  port: '443'
-- name: 🔥Join+Telegram:@Farah_VPN🟣
-  type: ws
-  server: 172.67.161.74
-  port: '8443'
-- name: ⚡ b2n.ir/v2ray-configs | 917
-  type: tcp
-  server: 3.85.62.200
-  port: '54527'
-- name: 🔥Join+Telegram:@Farah_VPN🟣
-  type: tcp
-  server: 120.233.44.201
-  port: '21102'
-- name: ⚡ b2n.ir/v2ray-configs | 456
-  type: tcp
-  server: 120.233.44.201
-  port: '21102'
-- name: 🔒 TR-TCP-NA 🇭🇰 HK-45.146.232.172:27103
-  type: tcp
-  server: 45.146.232.172
-  port: '27103'
-- name: 🔒 TR-TCP-NA 🇭🇰 HK-45.146.232.171:33506
-  type: tcp
-  server: 45.146.232.171
-  port: '33506'
-- name: 🔥Join+Telegram:@Farah_VPN🟣
-  type: ws
-  server: 5.254.17.52
-  port: '443'
-- name: 🔥Join+Telegram:@Farah_VPN🟣
-  type: tcp
-  server: 183.232.235.2
-  port: '8313'
-- name: 🔥Join+Telegram:@Farah_VPN🟣
-  type: tcp
-  server: 161.35.34.48
-  port: '443'
-- name: ⚡ b2n.ir/v2ray-configs | 307
-  type: tcp
-  server: 51.81.211.171
-  port: '443'
-- name: 🔥Join+Telegram:@Farah_VPN🟣
-  type: ws
-  server: 104.17.147.5
-  port: '443'
-- name: 🔥Join+Telegram:@Farah_VPN🟣
-  type: ws
-  server: 104.26.12.31
-  port: '443'
-- name: 🔥Join+Telegram:@Farah_VPN🟣
-  type: ws
-  server: 104.26.13.31
-  port: '443'
-- name: 🔥Join+Telegram:@Farah_VPN🟣
-  type: ws
-  server: 172.67.75.172
-  port: '443'
-- name: 🔒 TR-WS-TLS 🏴‍☠️ NA-104.21.15.232:443
-  type: ws
-  server: 104.21.15.232
-  port: '443'
-- name: ⚡ b2n.ir/v2ray-configs | 749
-  type: tcp
-  server: 104.21.30.167
-  port: '443'
-- name: 🔥Join+Telegram:@Farah_VPN🟣
-  type: ws
-  server: 104.21.30.167
-  port: '443'
-- name: 👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:50.98ms`
-  type: ws
-  server: 172.67.200.238
-  port: '443'
-- name: 🔥Join+Telegram:@Farah_VPN🟣
-  type: ws
-  server: 172.67.200.238
-  port: '443'
-- name: 🔥Join+Telegram:@Farah_VPN🟣
-  type: ws
-  server: 172.67.208.155
-  port: '443'
-- name: 🔒 TR-TCP-TLS 🇭🇰 HK-45.146.232.171:27101
-  type: tcp
-  server: 45.146.232.171
-  port: '27101'
-- name: 🔥Join+Telegram:@Farah_VPN🟣
-  type: ws
-  server: 15.204.237.31
-  port: '2083'
-- name: 🔒 TR-TCP-TLS 🇭🇰 HK-45.146.232.171:10465
-  type: tcp
-  server: 45.146.232.171
-  port: '10465'
-- name: 🔥Join+Telegram:@Farah_VPN🟣
-  type: tcp
-  server: 94.131.20.3
-  port: '443'
-- name: ⚡ b2n.ir/v2ray-configs | 796
-  type: tcp
-  server: 94.131.20.3
-  port: '443'
-- name: ⚡ b2n.ir/v2ray-configs | 0
-  type: tcp
-  server: chop-wrist-bud.stark-industries.solutions
-  port: '443'
-- name: ⚡ b2n.ir/v2ray-configs | 50
-  type: tcp
-  server: guy-trace-lyric.stark-industries.solutions
-  port: '443'
-- name: 🔒 TR-TCP-TLS 🇱🇹 LT-88.119.175.241:443
-  type: tcp
-  server: 88.119.175.241
-  port: '443'
-- name: 🔥Join+Telegram:@Farah_VPN🟣
-  type: tcp
-  server: 185.14.47.199
-  port: '12052'
-- name: 🔒 TR-TCP-TLS 🇬🇧 GB-185.67.127.69:443
-  type: tcp
-  server: 185.67.127.69
-  port: '443'
-- name: 🔒 TR-TCP-NA 🇺🇸 US-3.216.105.141:443
-  type: tcp
-  server: 3.216.105.141
-  port: '443'
-- name: 🔒 TR-TCP-TLS 🇬🇧 GB-62.112.221.57:443
-  type: tcp
-  server: 62.112.221.57
-  port: '443'
-- name: 🔒 TR-TCP-TLS 🇩🇪 DE-85.90.194.160:443
-  type: tcp
-  server: 85.90.194.160
-  port: '443'
-- name: 🔒 TR-TCP-NA 🇺🇸 US-95.85.93.45:443
-  type: tcp
-  server: 95.85.93.45
-  port: '443'
-- name: 🔒 TR-TCP-TLS 🇮🇹 IT-95.110.142.205:443
-  type: tcp
-  server: 95.110.142.205
-  port: '443'
-- name: 🔒 TR-TCP-TLS 🇸🇬 SG-103.106.229.111:443
-  type: tcp
-  server: 103.106.229.111
-  port: '443'
-- name: 🔒 TR-TCP-NA 🇸🇬 SG-103.106.229.195:443
-  type: tcp
-  server: 103.106.229.195
-  port: '443'
-- name: 🔒 TR-TCP-NA 🇸🇬 SG-103.106.229.240:443
-  type: tcp
-  server: 103.106.229.240
-  port: '443'
-- name: 🔒 TR-TCP-NA 🇦🇺 AU-103.106.231.55:443
-  type: tcp
-  server: 103.106.231.55
-  port: '443'
-- name: 🔒 TR-TCP-NA 🇳🇱 NL-109.104.153.229:443
-  type: tcp
-  server: 109.104.153.229
-  port: '443'
-- name: 🔒 TR-TCP-NA 🇳🇱 NL-109.104.154.201:443
-  type: tcp
-  server: 109.104.154.201
-  port: '443'
-- name: 🔒 TR-TCP-NA 🇬🇧 GB-109.107.159.202:443
-  type: tcp
-  server: 109.107.159.202
-  port: '443'
-- name: 🔒 TR-TCP-TLS 🇸🇦 SA-156.244.11.62:443
-  type: tcp
-  server: 156.244.11.62
-  port: '443'
-- name: 🔒 TR-TCP-NA 🇺🇸 US-162.216.231.86:443
-  type: tcp
-  server: 162.216.231.86
-  port: '443'
-- name: 🔒 TR-TCP-NA 🇺🇸 US-166.1.227.235:443
-  type: tcp
-  server: 166.1.227.235
-  port: '443'
-- name: 🔒 TR-TCP-TLS 🇺🇸 US-172.245.232.170:443
-  type: tcp
-  server: 172.245.232.170
-  port: '443'
-- name: 🔒 TR-TCP-NA 🇺🇸 US-172.245.232.52:443
-  type: tcp
-  server: 172.245.232.52
-  port: '443'
-- name: 🔒 TR-TCP-TLS 🇮🇳 IN-185.67.125.203:443
-  type: tcp
-  server: 185.67.125.203
-  port: '443'
-- name: 🔒 TR-TCP-NA 🇦🇪 AE-188.208.110.153:443
-  type: tcp
-  server: 188.208.110.153
-  port: '443'
-- name: 🔥Join+Telegram:@Farah_VPN🟣
-  type: tcp
-  server: 194.62.99.56
-  port: '443'
-- name: 🔒 TR-TCP-NA 🇺🇸 US-195.123.240.26:443
-  type: tcp
-  server: 195.123.240.26
-  port: '443'
-- name: 🔒 TR-TCP-NA 🇨🇿 CZ-195.133.93.118:443
-  type: tcp
-  server: 195.133.93.118
-  port: '443'
-- name: 🔒 TR-TCP-NA 🇩🇪 DE-202.78.163.141:443
-  type: tcp
-  server: 202.78.163.141
-  port: '443'
-- name: 🔒 TR-TCP-NA 🇩🇪 DE-202.78.163.146:443
-  type: tcp
-  server: 202.78.163.146
-  port: '443'
-- name: 🔒 TR-TCP-NA 🇭🇰 HK-203.23.128.48:443
-  type: tcp
-  server: 203.23.128.48
-  port: '443'
-- name: 🔒 TR-TCP-NA 🇦🇪 AE-212.192.2.202:443
-  type: tcp
-  server: 212.192.2.202
-  port: '443'
-- name: 🔒 TR-TCP-NA 🇦🇪 AE-212.192.2.253:443
-  type: tcp
-  server: 212.192.2.253
-  port: '443'
-- name: 🔒 TR-TCP-NA 🇺🇸 US-23.95.79.152:443
-  type: tcp
-  server: 23.95.79.152
   port: '443'
