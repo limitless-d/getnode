@@ -51,13 +51,13 @@ async def main():
             raise RuntimeError("文件保存失败")
 
         # 节点测试
-        tester = NodeTester()
-        results = await tester.batch_test(merged_nodes)
+        # tester = NodeTester()
+        # results = await tester.batch_test(merged_nodes)
         
         # 保存最终结果
-        save_result = FileGenerator.save_results(results, output_dir='output/speedtest')
-        if not save_result['success']:
-            raise RuntimeError("文件保存失败")
+        # save_result = FileGenerator.save_results(results, output_dir='output/speedtest')
+        # if not save_result['success']:
+        #     raise RuntimeError("文件保存失败")
         
         # 更新仓库状态
         repo_manager = RepoManager()
