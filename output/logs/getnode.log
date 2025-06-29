@@ -2144,3 +2144,43 @@ requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: http
 • 节点去重数:   62737
 • 真实节点数:   142438
 
+2025-06-29 21:15:22,730 - getnode - INFO - main.py:25 - === 开始执行爬虫任务 ===
+2025-06-29 21:15:35,538 - getnode - INFO - crawler.py:130 - 仓库搜索完成 | 总扫描仓库: 210 有效仓库: 180 跳过: 30
+2025-06-29 21:15:35,539 - getnode - INFO - main.py:30 - 发现 180 个相关仓库
+2025-06-29 21:15:35,539 - getnode - INFO - main.py:34 - 开始收集节点文件...
+2025-06-29 21:15:45,069 - getnode - INFO - crawler.py:50 - 已使用API次数: 100/小时
+2025-06-29 21:15:55,813 - getnode - INFO - crawler.py:50 - 已使用API次数: 200/小时
+2025-06-29 21:16:07,314 - getnode - INFO - crawler.py:50 - 已使用API次数: 300/小时
+2025-06-29 21:16:20,489 - getnode - INFO - crawler.py:50 - 已使用API次数: 400/小时
+2025-06-29 21:16:31,352 - getnode - INFO - crawler.py:50 - 已使用API次数: 500/小时
+2025-06-29 21:16:43,123 - getnode - INFO - crawler.py:50 - 已使用API次数: 600/小时
+2025-06-29 21:16:54,852 - getnode - INFO - crawler.py:50 - 已使用API次数: 700/小时
+2025-06-29 21:17:05,507 - getnode - INFO - crawler.py:50 - 已使用API次数: 800/小时
+2025-06-29 21:17:16,460 - getnode - INFO - crawler.py:50 - 已使用API次数: 900/小时
+2025-06-29 21:17:28,800 - getnode - INFO - crawler.py:50 - 已使用API次数: 1000/小时
+2025-06-29 21:17:40,447 - getnode - INFO - crawler.py:50 - 已使用API次数: 1100/小时
+2025-06-29 21:17:51,989 - getnode - INFO - crawler.py:50 - 已使用API次数: 1200/小时
+2025-06-29 21:18:04,527 - getnode - INFO - crawler.py:50 - 已使用API次数: 1300/小时
+2025-06-29 21:18:17,293 - getnode - INFO - crawler.py:50 - 已使用API次数: 1400/小时
+2025-06-29 21:18:27,689 - getnode - INFO - crawler.py:50 - 已使用API次数: 1500/小时
+2025-06-29 21:18:38,573 - getnode - INFO - crawler.py:50 - 已使用API次数: 1600/小时
+2025-06-29 21:18:49,076 - getnode - INFO - crawler.py:50 - 已使用API次数: 1700/小时
+2025-06-29 21:18:49,193 - getnode - INFO - main.py:38 - 总共发现 261 个节点文件
+2025-06-29 21:18:49,193 - getnode - INFO - nodesjob.py:18 - 开始处理链接集合，共 261 个链接
+2025-06-29 21:19:27,067 - getnode - INFO - nodesjob.py:74 - 链接处理完成。成功: 200, 失败: 61
+2025-06-29 21:20:29,247 - getnode - INFO - history_manager.py:22 - 成功加载历史节点数量: 142438
+2025-06-29 21:20:29,248 - getnode - INFO - history_manager.py:33 - 新节点：24604, 历史节点：142438
+2025-06-29 21:20:30,528 - getnode - INFO - history_manager.py:52 - 合并后总节点数: 144951
+2025-06-29 21:20:30,533 - getnode - INFO - nodesjob.py:560 - 开始保存节点结果到目录: output/all_subs
+2025-06-29 21:20:31,819 - getnode - INFO - nodesjob.py:578 - 开始写入输出文件...
+2025-06-29 21:21:39,278 - getnode - INFO - nodesjob.py:587 - 成功生成订阅文件，总节点数: 144577
+2025-06-29 21:21:39,956 - getnode - INFO - main.py:79 - 
+=== 文件处理统计 ===
+• 扫描文件总数: 11749
+• 因大小跳过:   187 (1.6%)
+• 有效处理文件: 11562
+=== 节点处理统计 ===
+• 扫描节点总数: 225672
+• 节点去重数:   80721
+• 真实节点数:   144951
+
