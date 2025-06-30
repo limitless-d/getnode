@@ -2184,3 +2184,38 @@ requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: http
 • 节点去重数:   80721
 • 真实节点数:   144951
 
+2025-06-30 21:16:02,928 - getnode - INFO - main.py:25 - === 开始执行爬虫任务 ===
+2025-06-30 21:16:14,989 - getnode - INFO - crawler.py:130 - 仓库搜索完成 | 总扫描仓库: 180 有效仓库: 180 跳过: 0
+2025-06-30 21:16:14,989 - getnode - INFO - main.py:30 - 发现 180 个相关仓库
+2025-06-30 21:16:14,989 - getnode - INFO - main.py:34 - 开始收集节点文件...
+2025-06-30 21:16:31,067 - getnode - INFO - crawler.py:50 - 已使用API次数: 100/小时
+2025-06-30 21:16:48,186 - getnode - INFO - crawler.py:50 - 已使用API次数: 200/小时
+2025-06-30 21:17:08,594 - getnode - INFO - crawler.py:50 - 已使用API次数: 300/小时
+2025-06-30 21:17:27,343 - getnode - INFO - crawler.py:50 - 已使用API次数: 400/小时
+2025-06-30 21:17:45,447 - getnode - INFO - crawler.py:50 - 已使用API次数: 500/小时
+2025-06-30 21:18:03,383 - getnode - INFO - crawler.py:50 - 已使用API次数: 600/小时
+2025-06-30 21:18:20,808 - getnode - INFO - crawler.py:50 - 已使用API次数: 700/小时
+2025-06-30 21:18:39,045 - getnode - INFO - crawler.py:50 - 已使用API次数: 800/小时
+2025-06-30 21:18:56,818 - getnode - INFO - crawler.py:50 - 已使用API次数: 900/小时
+2025-06-30 21:19:15,353 - getnode - INFO - crawler.py:50 - 已使用API次数: 1000/小时
+2025-06-30 21:19:35,937 - getnode - INFO - crawler.py:50 - 已使用API次数: 1100/小时
+2025-06-30 21:19:55,835 - getnode - INFO - crawler.py:50 - 已使用API次数: 1200/小时
+2025-06-30 21:20:12,268 - getnode - INFO - main.py:38 - 总共发现 266 个节点文件
+2025-06-30 21:20:12,268 - getnode - INFO - nodesjob.py:18 - 开始处理链接集合，共 266 个链接
+2025-06-30 21:21:07,601 - getnode - INFO - nodesjob.py:74 - 链接处理完成。成功: 198, 失败: 68
+2025-06-30 21:22:12,307 - getnode - INFO - history_manager.py:22 - 成功加载历史节点数量: 144951
+2025-06-30 21:22:12,307 - getnode - INFO - history_manager.py:33 - 新节点：24159, 历史节点：144951
+2025-06-30 21:22:13,612 - getnode - INFO - history_manager.py:52 - 合并后总节点数: 146450
+2025-06-30 21:22:13,619 - getnode - INFO - nodesjob.py:560 - 开始保存节点结果到目录: output/all_subs
+2025-06-30 21:22:14,921 - getnode - INFO - nodesjob.py:578 - 开始写入输出文件...
+2025-06-30 21:23:23,730 - getnode - INFO - nodesjob.py:587 - 成功生成订阅文件，总节点数: 146069
+2025-06-30 21:23:24,408 - getnode - INFO - main.py:79 - 
+=== 文件处理统计 ===
+• 扫描文件总数: 9376
+• 因大小跳过:   165 (1.8%)
+• 有效处理文件: 9211
+=== 节点处理统计 ===
+• 扫描节点总数: 227678
+• 节点去重数:   81228
+• 真实节点数:   146450
+
