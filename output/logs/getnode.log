@@ -45,3 +45,36 @@ RuntimeError: 文件保存失败
 • 节点去重数:   46073
 • 真实节点数:   52126
 
+2025-09-06 15:42:57,646 - getnode - INFO - main.py:25 - === 开始执行爬虫任务 ===
+2025-09-06 15:43:09,002 - getnode - INFO - crawler.py:130 - 仓库搜索完成 | 总扫描仓库: 180 有效仓库: 180 跳过: 0
+2025-09-06 15:43:09,002 - getnode - INFO - main.py:30 - 发现 180 个相关仓库
+2025-09-06 15:43:09,002 - getnode - INFO - main.py:34 - 开始收集节点文件...
+2025-09-06 15:43:21,743 - getnode - INFO - crawler.py:50 - 已使用API次数: 100/小时
+2025-09-06 15:43:33,648 - getnode - INFO - crawler.py:50 - 已使用API次数: 200/小时
+2025-09-06 15:43:45,222 - getnode - INFO - crawler.py:50 - 已使用API次数: 300/小时
+2025-09-06 15:43:56,458 - getnode - INFO - crawler.py:50 - 已使用API次数: 400/小时
+2025-09-06 15:44:08,036 - getnode - INFO - crawler.py:50 - 已使用API次数: 500/小时
+2025-09-06 15:44:19,368 - getnode - INFO - crawler.py:50 - 已使用API次数: 600/小时
+2025-09-06 15:44:31,401 - getnode - INFO - crawler.py:50 - 已使用API次数: 700/小时
+2025-09-06 15:44:43,540 - getnode - INFO - crawler.py:50 - 已使用API次数: 800/小时
+2025-09-06 15:44:56,622 - getnode - INFO - crawler.py:50 - 已使用API次数: 900/小时
+2025-09-06 15:45:09,655 - getnode - INFO - crawler.py:50 - 已使用API次数: 1000/小时
+2025-09-06 15:45:22,172 - getnode - INFO - crawler.py:50 - 已使用API次数: 1100/小时
+2025-09-06 15:45:31,824 - getnode - INFO - main.py:38 - 总共发现 319 个节点文件
+2025-09-06 15:45:31,825 - getnode - INFO - nodesjob.py:18 - 开始处理链接集合，共 319 个链接
+2025-09-06 15:46:19,753 - getnode - INFO - nodesjob.py:74 - 链接处理完成。成功: 255, 失败: 64
+2025-09-06 15:46:19,756 - getnode - WARNING - history_manager.py:15 - 历史配置文件不存在
+2025-09-06 15:46:19,756 - getnode - INFO - history_manager.py:33 - 新节点：46282, 历史节点：0
+2025-09-06 15:46:19,756 - getnode - INFO - nodesjob.py:560 - 开始保存节点结果到目录: output/all_subs
+2025-09-06 15:46:20,152 - getnode - INFO - nodesjob.py:578 - 开始写入输出文件...
+2025-09-06 15:46:40,889 - getnode - INFO - nodesjob.py:587 - 成功生成订阅文件，总节点数: 45836
+2025-09-06 15:46:41,015 - getnode - INFO - main.py:79 - 
+=== 文件处理统计 ===
+• 扫描文件总数: 8910
+• 因大小跳过:   213 (2.4%)
+• 有效处理文件: 8697
+=== 节点处理统计 ===
+• 扫描节点总数: 87000
+• 节点去重数:   40718
+• 真实节点数:   46282
+
