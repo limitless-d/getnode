@@ -151,3 +151,36 @@ RuntimeError: 文件保存失败
 • 节点去重数:   111727
 • 真实节点数:   134412
 
+2025-09-28 19:10:57,512 - getnode - INFO - main.py:25 - === 开始执行爬虫任务 ===
+2025-09-28 19:11:09,364 - getnode - INFO - crawler.py:130 - 仓库搜索完成 | 总扫描仓库: 180 有效仓库: 180 跳过: 0
+2025-09-28 19:11:09,365 - getnode - INFO - main.py:30 - 发现 180 个相关仓库
+2025-09-28 19:11:09,365 - getnode - INFO - main.py:34 - 开始收集节点文件...
+2025-09-28 19:11:18,865 - getnode - INFO - crawler.py:50 - 已使用API次数: 100/小时
+2025-09-28 19:11:29,042 - getnode - INFO - crawler.py:50 - 已使用API次数: 200/小时
+2025-09-28 19:11:39,137 - getnode - INFO - crawler.py:50 - 已使用API次数: 300/小时
+2025-09-28 19:11:50,399 - getnode - INFO - crawler.py:50 - 已使用API次数: 400/小时
+2025-09-28 19:12:00,943 - getnode - INFO - crawler.py:50 - 已使用API次数: 500/小时
+2025-09-28 19:12:11,330 - getnode - INFO - crawler.py:50 - 已使用API次数: 600/小时
+2025-09-28 19:12:21,724 - getnode - INFO - crawler.py:50 - 已使用API次数: 700/小时
+2025-09-28 19:12:33,519 - getnode - INFO - crawler.py:50 - 已使用API次数: 800/小时
+2025-09-28 19:12:44,211 - getnode - INFO - crawler.py:50 - 已使用API次数: 900/小时
+2025-09-28 19:12:54,833 - getnode - INFO - crawler.py:50 - 已使用API次数: 1000/小时
+2025-09-28 19:13:02,390 - getnode - INFO - main.py:38 - 总共发现 445 个节点文件
+2025-09-28 19:13:02,391 - getnode - INFO - nodesjob.py:18 - 开始处理链接集合，共 445 个链接
+2025-09-28 19:13:58,905 - getnode - INFO - nodesjob.py:74 - 链接处理完成。成功: 382, 失败: 63
+2025-09-28 19:14:53,652 - getnode - INFO - history_manager.py:22 - 成功加载历史节点数量: 134412
+2025-09-28 19:14:53,652 - getnode - INFO - history_manager.py:33 - 新节点：64846, 历史节点：134412
+2025-09-28 19:14:55,200 - getnode - INFO - history_manager.py:52 - 合并后总节点数: 143610
+2025-09-28 19:14:55,206 - getnode - INFO - nodesjob.py:560 - 开始保存节点结果到目录: output/all_subs
+2025-09-28 19:14:56,443 - getnode - INFO - nodesjob.py:578 - 开始写入输出文件...
+2025-09-28 19:16:01,372 - getnode - INFO - nodesjob.py:587 - 成功生成订阅文件，总节点数: 142542
+2025-09-28 19:16:01,623 - getnode - INFO - main.py:79 - 
+=== 文件处理统计 ===
+• 扫描文件总数: 9554
+• 因大小跳过:   205 (2.1%)
+• 有效处理文件: 9349
+=== 节点处理统计 ===
+• 扫描节点总数: 266638
+• 节点去重数:   123028
+• 真实节点数:   143610
+
