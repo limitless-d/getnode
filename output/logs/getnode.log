@@ -184,3 +184,37 @@ RuntimeError: 文件保存失败
 • 节点去重数:   123028
 • 真实节点数:   143610
 
+2025-10-05 19:11:03,467 - getnode - INFO - main.py:25 - === 开始执行爬虫任务 ===
+2025-10-05 19:11:14,487 - getnode - INFO - crawler.py:130 - 仓库搜索完成 | 总扫描仓库: 180 有效仓库: 180 跳过: 0
+2025-10-05 19:11:14,487 - getnode - INFO - main.py:30 - 发现 180 个相关仓库
+2025-10-05 19:11:14,487 - getnode - INFO - main.py:34 - 开始收集节点文件...
+2025-10-05 19:11:24,793 - getnode - INFO - crawler.py:50 - 已使用API次数: 100/小时
+2025-10-05 19:11:35,976 - getnode - INFO - crawler.py:50 - 已使用API次数: 200/小时
+2025-10-05 19:11:46,505 - getnode - INFO - crawler.py:50 - 已使用API次数: 300/小时
+2025-10-05 19:11:56,700 - getnode - INFO - crawler.py:50 - 已使用API次数: 400/小时
+2025-10-05 19:12:08,359 - getnode - INFO - crawler.py:50 - 已使用API次数: 500/小时
+2025-10-05 19:12:18,934 - getnode - INFO - crawler.py:50 - 已使用API次数: 600/小时
+2025-10-05 19:12:29,516 - getnode - INFO - crawler.py:50 - 已使用API次数: 700/小时
+2025-10-05 19:12:40,773 - getnode - INFO - crawler.py:50 - 已使用API次数: 800/小时
+2025-10-05 19:12:52,409 - getnode - INFO - crawler.py:50 - 已使用API次数: 900/小时
+2025-10-05 19:13:04,672 - getnode - INFO - crawler.py:50 - 已使用API次数: 1000/小时
+2025-10-05 19:13:16,969 - getnode - INFO - crawler.py:50 - 已使用API次数: 1100/小时
+2025-10-05 19:13:27,074 - getnode - INFO - main.py:38 - 总共发现 352 个节点文件
+2025-10-05 19:13:27,074 - getnode - INFO - nodesjob.py:18 - 开始处理链接集合，共 352 个链接
+2025-10-05 19:14:18,715 - getnode - INFO - nodesjob.py:74 - 链接处理完成。成功: 286, 失败: 66
+2025-10-05 19:15:17,245 - getnode - INFO - history_manager.py:22 - 成功加载历史节点数量: 143610
+2025-10-05 19:15:17,245 - getnode - INFO - history_manager.py:33 - 新节点：38357, 历史节点：143610
+2025-10-05 19:15:18,707 - getnode - INFO - history_manager.py:52 - 合并后总节点数: 129551
+2025-10-05 19:15:18,713 - getnode - INFO - nodesjob.py:560 - 开始保存节点结果到目录: output/all_subs
+2025-10-05 19:15:19,850 - getnode - INFO - nodesjob.py:578 - 开始写入输出文件...
+2025-10-05 19:16:18,929 - getnode - INFO - nodesjob.py:587 - 成功生成订阅文件，总节点数: 128522
+2025-10-05 19:16:19,193 - getnode - INFO - main.py:79 - 
+=== 文件处理统计 ===
+• 扫描文件总数: 9555
+• 因大小跳过:   165 (1.7%)
+• 有效处理文件: 9390
+=== 节点处理统计 ===
+• 扫描节点总数: 239313
+• 节点去重数:   109762
+• 真实节点数:   129551
+
