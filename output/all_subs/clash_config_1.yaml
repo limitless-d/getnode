@@ -1,168 +1,88 @@
 proxies:
+- name: 🇮🇱[By EbraSha] vless-IL 🔒
+  type: vless
+  server: ilta-wzxrxkdhbjpnprhkkpplsjwawhssvollvxzdhqshiqckwdgrdm.orbnet.xyz
+  port: '443'
+- name: 🇫🇷[By EbraSha] vless-FR 🔒
+  type: vless
+  server: 195.42.233.146
+  port: '8880'
+- name: 🇯🇵[By EbraSha] vless-JP 🔒
+  type: vless
+  server: 155.133.7.123
+  port: '8443'
+- name: 🇹🇷[By EbraSha] vless-TR 🔒
+  type: vless
+  server: 185.234.66.97
+  port: '8880'
+- name: 🇫🇮[By EbraSha] vless-FI 🔒
+  type: vless
+  server: 46.62.220.103
+  port: '27802'
+- name: 🇯🇵[By EbraSha] vless-JP 🔒
+  type: vless
+  server: 109.123.229.205
+  port: '443'
+- name: 🇨🇭[By EbraSha] vless-CH 🔒
+  type: vless
+  server: 23.166.88.109
+  port: '443'
 - name: 🇺🇸[By EbraSha] vless-US 🔒
   type: vless
-  server: pqh30v5.ipforvetra.shop
-  port: '80'
-- name: 🇭🇰[By EbraSha] trojan-HK 🔒
-  type: tcp
-  server: 221.128.195.221
-  port: '4419'
-- name: 🇬🇧[By EbraSha] vless-GB 🔒
+  server: 147.79.20.47
+  port: '443'
+- name: 🇺🇸[By EbraSha] vless-US 🔒
   type: vless
-  server: 638955452903725333.malayer-drc-tusaas.info
+  server: all.tellmethetrue.shop
+  port: '443'
+- name: 🇳🇱[By EbraSha] vless-NL 🔒
+  type: vless
+  server: 45.12.142.55
   port: '8880'
-- name: 🇱🇹[By EbraSha] vless-LT 🔒
+- name: 🇩🇪[By EbraSha] vless-DE 🔒
   type: vless
-  server: 94.131.14.200
+  server: join-raiv2mmr-telegram.koyeb.app
+  port: '443'
+- name: 🇺🇸[By EbraSha] vless-US 🔒
+  type: vless
+  server: 103.35.189.146
   port: '8880'
 - name: 🇧🇷[By EbraSha] vless-BR 🔒
   type: vless
   server: 45.82.245.173
   port: '80'
-- name: 🇳🇱[By EbraSha] vless-NL 🔒
-  type: vless
-  server: 638930316257411243.neyshabur-drc-tusabt.info
-  port: '8880'
-- name: 🇳🇱[By EbraSha] vless-NL 🔒
-  type: vless
-  server: 85.208.110.217
-  port: '8880'
-- name: 🇳🇴[By EbraSha] vless-NO 🔒
-  type: vless
-  server: 141.227.166.55
-  port: '20421'
 - name: 🇫🇷[By EbraSha] vless-FR 🔒
   type: vless
   server: 195.42.233.92
   port: '8880'
 - name: 🇫🇮[By EbraSha] vless-FI 🔒
   type: vless
-  server: 46.62.206.155
-  port: '31000'
-- name: 🇹🇷[By EbraSha] vless-TR 🔒
+  server: 178.20.215.2
+  port: '443'
+- name: 🇫🇷[By EbraSha] vless-FR 🔒
   type: vless
-  server: 95.134.130.138
-  port: '3477'
-- name: 🇫🇮[By EbraSha] vless-FI 🔒
+  server: 95.164.45.122
+  port: '50268'
+- name: 🇳🇱[By EbraSha] vless-NL 🔒
   type: vless
-  server: 141.227.170.178
-  port: '21232'
-- name: 🇩🇪[By EbraSha] vless-DE 🔒
+  server: 638937520064872286.london-prx-dnraacl.info
+  port: '8880'
+- name: 🇳🇱[By EbraSha] vless-NL 🔒
   type: vless
-  server: 155.254.35.78
-  port: '33811'
-- name: 🇩🇰[By EbraSha] vless-DK 🔒
+  server: 45.12.142.89
+  port: '8880'
+- name: 🇲🇾[By EbraSha] vless-MY 🔒
   type: vless
-  server: 141.227.172.59
-  port: '14078'
-- name: 🇱🇹[By EbraSha] vless-LT 🔒
-  type: vless
-  server: 638935457407159576.birjand-drc-tusacae.info
+  server: 45.89.107.232
   port: '8880'
 - name: 🇹🇷[By EbraSha] vless-TR 🔒
   type: vless
-  server: 103.231.75.74
-  port: '8880'
-- name: 🇫🇷[By EbraSha] vless-FR 🔒
-  type: vless
-  server: 638944337658439808.dezful-prx-dnraacp.info
-  port: '8880'
-- name: 🇫🇷[By EbraSha] vless-FR 🔒
-  type: vless
-  server: 638946986851076125.hamedan-drc-tusabl.info
-  port: '8880'
-- name: 🇫🇷[By EbraSha] vless-FR 🔒
-  type: vless
-  server: 638944900760751746.hamedan-prx-dnraacp.info
-  port: '8880'
-- name: 🇫🇮[By EbraSha] vless-FI 🔒
-  type: vless
-  server: 185.75.135.224
+  server: 185.234.66.81
   port: '443'
-- name: 🏳[By EbraSha] vless- 🔒
-  type: vless
-  server: 638942912656604786.malayer-prx-dnraacm.info
-  port: '8880'
-- name: 🇫🇷[By EbraSha] vless-FR 🔒
-  type: vless
-  server: 185.242.87.247
-  port: '8880'
 - name: 🇳🇱[By EbraSha] vless-NL 🔒
   type: vless
-  server: 638928668169310838.rasht-drc-tusabp.info
+  server: 45.140.147.74
   port: '8880'
-- name: 🇫🇷[By EbraSha] vless-FR 🔒
-  type: vless
-  server: 86.104.74.155
-  port: '8880'
-- name: 🇫🇷[By EbraSha] vless-FR 🔒
-  type: vless
-  server: 185.234.64.155
-  port: '8880'
-- name: 🇩🇪[By EbraSha] vless-DE 🔒
-  type: vless
-  server: 104.21.36.57
-  port: '443'
-- name: 🇺🇸[By EbraSha] vless-US 🔒
-  type: vless
-  server: 85.209.153.82
-  port: '8880'
-- name: 🇫🇷[By EbraSha] vless-FR 🔒
-  type: vless
-  server: 195.42.233.47
-  port: '8880'
-- name: 🇭🇰[By EbraSha] trojan-HK 🔒
-  type: tcp
-  server: 221.128.195.220
-  port: '4400'
-- name: 🇳🇱[By EbraSha] vless-NL 🔒
-  type: vless
-  server: 638936661878829611.ahvaz-drc-tusacae.info
-  port: '8880'
-- name: 🇱🇹[By EbraSha] vless-LT 🔒
-  type: vless
-  server: 94.131.14.195
-  port: '8880'
-- name: 🏳[By EbraSha] vless- 🔒
-  type: vless
-  server: 185.242.87.154
-  port: '8880'
-- name: 🇳🇱[By EbraSha] vless-NL 🔒
-  type: vless
-  server: 85.208.110.205
-  port: '8880'
-- name: 🇧🇬[By EbraSha] vless-BG 🔒
-  type: vless
-  server: 141.227.178.223
-  port: '34935'
-- name: 🇭🇰[By EbraSha] trojan-HK 🔒
-  type: tcp
-  server: 165.154.112.107
-  port: '12000'
-- name: 🇮🇷[By EbraSha] vless-IR 🔒
-  type: vless
-  server: 89.44.242.222
-  port: '29500'
-- name: 🇳🇱[By EbraSha] vless-NL 🔒
-  type: vless
-  server: 638929396024910159.lisbon-drc-dcrabj.info
-  port: '8880'
-- name: 🇫🇷[By EbraSha] vless-FR 🔒
-  type: vless
-  server: m36a.vip784.com
-  port: '33801'
-- name: 🇫🇷[By EbraSha] vless-FR 🔒
-  type: vless
-  server: 194.4.49.217
-  port: '443'
-- name: 🇱🇻[By EbraSha] vless-LV 🔒
-  type: vless
-  server: 45.130.214.192
-  port: '20992'
-- name: 🇫🇷[By EbraSha] vless-FR 🔒
-  type: vless
-  server: 95.164.6.214
-  port: '443'
 - name: 🇳🇱[By EbraSha] vless-NL 🔒
   type: vless
   server: 195.93.253.49
@@ -171,46 +91,30 @@ proxies:
   type: vless
   server: 45.88.183.158
   port: '44629'
-- name: 🇹🇷[By EbraSha] vless-TR 🔒
-  type: vless
-  server: 185.234.66.94
-  port: '443'
 - name: 🇩🇪[By EbraSha] vless-DE 🔒
   type: vless
   server: 212.192.31.146
   port: '443'
-- name: 🇫🇷[By EbraSha] vless-FR 🔒
+- name: 🇮🇳[By EbraSha] vless-IN 🔒
   type: vless
-  server: 185.231.205.181
-  port: '8880'
+  server: 45.88.183.164
+  port: '49355'
 - name: 🇹🇷[By EbraSha] vless-TR 🔒
   type: vless
-  server: 185.234.66.82
+  server: 185.234.66.101
   port: '443'
-- name: 🇫🇷[By EbraSha] vless-FR 🔒
-  type: vless
-  server: 185.231.205.246
-  port: '8880'
 - name: 🏳[By EbraSha] vless- 🔒
   type: vless
   server: 104.167.199.95
   port: '80'
-- name: 🇮🇳[By EbraSha] vless-IN 🔒
+- name: 🇫🇷[By EbraSha] vless-FR 🔒
   type: vless
-  server: 45.88.183.156
-  port: '12794'
+  server: 104.21.36.57
+  port: '443'
 - name: 🇨🇦[By EbraSha] vless-CA 🔒
   type: vless
   server: 51.222.158.206
   port: '80'
-- name: 🇫🇷[By EbraSha] vless-FR 🔒
-  type: vless
-  server: 185.231.205.253
-  port: '8880'
-- name: 🇺🇸[By EbraSha] vless-US 🔒
-  type: vless
-  server: 5.181.171.2
-  port: '443'
 - name: 🇲🇾[By EbraSha] vless-MY 🔒
   type: vless
   server: 45.89.107.227
@@ -223,54 +127,30 @@ proxies:
   type: vless
   server: 5.181.21.152
   port: '24170'
-- name: 🏳[By EbraSha] vless- 🔒
+- name: 🇨🇭[By EbraSha] vless-CH 🔒
   type: vless
   server: 5.182.36.251
   port: '16331'
-- name: 🇸🇪[By EbraSha] vless-SE 🔒
+- name: 🇷🇺[By EbraSha] vless-RU 🔒
   type: vless
-  server: nkang2replace.airlineshoma.com
-  port: '443'
+  server: 92.53.107.193
+  port: '27129'
+- name: 🇰🇿[By EbraSha] vless-KZ 🔒
+  type: vless
+  server: 83.222.23.81
+  port: '38065'
 - name: 🇮🇸[By EbraSha] vless-IS 🔒
   type: vless
   server: 45.83.21.107
   port: '59997'
 - name: 🇬🇧[By EbraSha] vless-GB 🔒
   type: vless
-  server: 638950280342832628.esfahan-drc-tusaas.info
+  server: 146.19.230.248
   port: '8880'
-- name: 🇳🇱[By EbraSha] vless-NL 🔒
-  type: vless
-  server: narrow-passenger.oneeat.co
-  port: '80'
-- name: 🇩🇪[By EbraSha] vless-DE 🔒
-  type: vless
-  server: sweet-combination.seotoolsforyou.co.uk
-  port: '80'
-- name: 🇳🇱[By EbraSha] vless-NL 🔒
-  type: vless
-  server: famous-danger.oneeat.co
-  port: '80'
-- name: 🇳🇱[By EbraSha] vless-NL 🔒
-  type: vless
-  server: fearless-change.oneeat.co
-  port: '80'
-- name: 🇳🇱[By EbraSha] vless-NL 🔒
-  type: vless
-  server: 104.20.43.81
-  port: '80'
-- name: 🇯🇵[By EbraSha] vless-JP 🔒
-  type: vless
-  server: 5.253.41.223
-  port: '80'
 - name: 🇯🇵[By EbraSha] vless-JP 🔒
   type: vless
   server: 45.12.134.217
   port: '80'
-- name: 🇰🇿[By EbraSha] trojan-KZ 🔒
-  type: ws
-  server: 45.82.14.144
-  port: '2025'
 - name: 🇫🇷[By EbraSha] vless-FR 🔒
   type: vless
   server: 51.38.232.101
@@ -293,31 +173,83 @@ proxies:
   port: '443'
 - name: 🇺🇸[By EbraSha] vless-US 🔒
   type: vless
-  server: 5.181.171.10
+  server: ef7c2383-03bb-fec2-327b-34f6b2ace7cb.freevpnatm2025.dpdns.org
   port: '443'
-- name: 🏳[By EbraSha] vless- 🔒
+- name: 🇺🇸[By EbraSha] vless-US 🔒
   type: vless
-  server: 109.120.132.142
-  port: '40617'
-- name: 🏳[By EbraSha] vless- 🔒
+  server: 43.156.107.236
+  port: '12131'
+- name: 🇺🇸[By EbraSha] vless-US 🔒
   type: vless
-  server: 188.114.97.202
-  port: '8443'
+  server: wwwopensignalcom-goodspeed-8xx.pages.dev.
+  port: '443'
 - name: 🇺🇸[By EbraSha] vless-US 🔒
   type: vless
   server: 188.42.145.253
   port: '2096'
-- name: 🇳🇱[By EbraSha] vless-NL 🔒
+- name: 🇺🇸[By EbraSha] vless-US 🔒
   type: vless
-  server: 109.107.167.104
+  server: 172.67.160.44
   port: '443'
-- name: 🇳🇱[By EbraSha] vless-NL 🔒
+- name: 🇩🇪[By EbraSha] vless-DE 🔒
   type: vless
-  server: 146.103.33.57
+  server: 104.21.36.57
+  port: '443'
+- name: 🇫🇷[By EbraSha] vless-FR 🔒
+  type: vless
+  server: 104.21.36.57
+  port: '443'
+- name: 🇫🇷[By EbraSha] vless-FR 🔒
+  type: vless
+  server: 104.21.36.57
+  port: '443'
+- name: 🇺🇸[By EbraSha] vless-US 🔒
+  type: vless
+  server: time.is
   port: '443'
 - name: 🏳[By EbraSha] vless- 🔒
   type: vless
-  server: 146.103.33.57
+  server: 139.180.154.158
+  port: '443'
+- name: 🇺🇸[By EbraSha] vless-US 🔒
+  type: vless
+  server: cloudflare-ip.mofashi.ltd
+  port: '443'
+- name: 🇺🇸[By EbraSha] vless-US 🔒
+  type: vless
+  server: 129.154.204.196
+  port: '443'
+- name: 🇺🇸[By EbraSha] vless-US 🔒
+  type: vless
+  server: 104.17.210.171
+  port: '443'
+- name: 🇺🇸[By EbraSha] vless-US 🔒
+  type: vless
+  server: www.speedtest.net
+  port: '2096'
+- name: 🏳[By EbraSha] vless- 🔒
+  type: vless
+  server: 43.156.107.236
+  port: '12131'
+- name: 🇺🇸[By EbraSha] vless-US 🔒
+  type: vless
+  server: 43.128.95.110
+  port: '40029'
+- name: 🇺🇸[By EbraSha] vless-US 🔒
+  type: vless
+  server: 220.118.109.204
+  port: '12236'
+- name: 🇺🇸[By EbraSha] vless-US 🔒
+  type: vless
+  server: 222.113.18.214
+  port: '12533'
+- name: 🇯🇵[By EbraSha] vless-JP 🔒
+  type: vless
+  server: 153.121.45.101
+  port: '443'
+- name: 🇯🇵[By EbraSha] vless-JP 🔒
+  type: vless
+  server: 141.147.188.120
   port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: ss
@@ -405,17 +337,17 @@ proxies:
   udp: true
 - name: ' 🔒 [By EbraSha]'
   type: ss
-  server: 178.208.91.118
-  port: '19805'
-  cipher: chacha20-ietf-poly1305
-  password: x0jth8z56Dd4ghs1Dh7twU
-  udp: true
-- name: ' 🔒 [By EbraSha]'
-  type: ss
   server: 138.197.174.245
   port: '56443'
   cipher: chacha20-ietf-poly1305
   password: yuMqkGIx6Ia0
+  udp: true
+- name: ' 🔒 [By EbraSha]'
+  type: ss
+  server: 109.61.39.28
+  port: '990'
+  cipher: chacha20-ietf-poly1305
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   udp: true
 - name: ' 🔒 [By EbraSha]'
   type: ss
@@ -503,13 +435,6 @@ proxies:
   udp: true
 - name: ' 🔒 [By EbraSha]'
   type: ss
-  server: 142.4.216.225
-  port: '80'
-  cipher: chacha20-ietf-poly1305
-  password: JIhN6rBKkaEboLNXVSv5rq
-  udp: true
-- name: ' 🔒 [By EbraSha]'
-  type: ss
   server: 154.17.2.112
   port: '18335'
   cipher: chacha20-ietf-poly1305
@@ -580,13 +505,6 @@ proxies:
   udp: true
 - name: ' 🔒 [By EbraSha]'
   type: ss
-  server: 103.163.218.2
-  port: '990'
-  cipher: chacha20-ietf-poly1305
-  password: f8f7aCzcPKbsF8p3
-  udp: true
-- name: ' 🔒 [By EbraSha]'
-  type: ss
   server: 164.90.234.85
   port: '18492'
   cipher: chacha20-ietf-poly1305
@@ -601,13 +519,6 @@ proxies:
   udp: true
 - name: ' 🔒 [By EbraSha]'
   type: ss
-  server: 193.29.139.251
-  port: '8080'
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: ' 🔒 [By EbraSha]'
-  type: ss
   server: 37.48.81.6
   port: '22'
   cipher: chacha20-ietf-poly1305
@@ -619,13 +530,6 @@ proxies:
   port: '57824'
   cipher: chacha20-ietf-poly1305
   password: pryhyxya
-  udp: true
-- name: ' 🔒 [By EbraSha]'
-  type: ss
-  server: 153.121.51.214
-  port: '10087'
-  cipher: aes-128-gcm
-  password: '10086'
   udp: true
 - name: ' 🔒 [By EbraSha]'
   type: ss
@@ -699,21 +603,7 @@ proxies:
   udp: true
 - name: ' 🔒 [By EbraSha]'
   type: ss
-  server: 51.15.17.169
-  port: '989'
-  cipher: aes-256-cfb
-  password: f8f7aCzcPKbsF8p3
-  udp: true
-- name: ' 🔒 [By EbraSha]'
-  type: ss
-  server: 51.15.23.63
-  port: '989'
-  cipher: aes-256-cfb
-  password: f8f7aCzcPKbsF8p3
-  udp: true
-- name: ' 🔒 [By EbraSha]'
-  type: ss
-  server: 156.146.40.194
+  server: 185.153.197.5
   port: '989'
   cipher: aes-256-cfb
   password: f8f7aCzcPKbsF8p3
@@ -1581,10 +1471,6 @@ proxies:
   server: www.speedtest.net
   port: '80'
 - name: ' 🔒 [By EbraSha]'
-  type: 'tcp '
-  server: mashti.isvcloud2.ir
-  port: '1010'
-- name: ' 🔒 [By EbraSha]'
   type: tcp
   server: s.isvspeedtest.ir
   port: '1010'
@@ -2062,8 +1948,8 @@ proxies:
   port: '20091'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
-  server: hn.xiaohouzi.club
-  port: '14185'
+  server: gz01.xiaohouzi.club
+  port: '20091'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: hn.xiaohouzi.club
@@ -2130,10 +2016,6 @@ proxies:
   port: '61003'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
-  server: hn.xiaohouzi.club
-  port: '61003'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
   server: hnm.xiaohouzi.club
   port: '17106'
 - name: ' 🔒 [By EbraSha]'
@@ -2179,7 +2061,15 @@ proxies:
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: hnm.xiaohouzi.club
+  port: '36305'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: hnm.xiaohouzi.club
   port: '49361'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: hnm.xiaohouzi.club
+  port: '49363'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: hnm.xiaohouzi.club
@@ -2216,6 +2106,10 @@ proxies:
   type: tcp
   server: iplc.xiaohouzi.club
   port: '20037'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 51.195.219.173
+  port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 51.195.219.173
@@ -2378,8 +2272,8 @@ proxies:
   port: '12000'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
-  server: 165.154.112.107
-  port: '12000'
+  server: 15.235.197.4
+  port: '80'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 15.235.197.4
@@ -2474,10 +2368,6 @@ proxies:
   port: '1935'
 - name: ' 🔒 [By EbraSha]'
   type: ws
-  server: sg006.421421.xyz
-  port: '20230'
-- name: ' 🔒 [By EbraSha]'
-  type: ws
   server: 104.18.32.69
   port: '443'
 - name: ' 🔒 [By EbraSha]'
@@ -2488,6 +2378,10 @@ proxies:
   type: tcp
   server: 172.64.155.187
   port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 43.206.67.76
+  port: '36306'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 43.206.67.76
@@ -2603,6 +2497,14 @@ proxies:
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: hn.xiaohouzi.club
+  port: '18581'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: hn.xiaohouzi.club
+  port: '18733'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: hn.xiaohouzi.club
   port: '18733'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
@@ -2611,11 +2513,11 @@ proxies:
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: hn.xiaohouzi.club
-  port: '19023'
+  port: '18835'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
-  server: hnm.xiaohouzi.club
-  port: '16082'
+  server: hn.xiaohouzi.club
+  port: '19023'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: hnm.xiaohouzi.club
@@ -2702,18 +2604,6 @@ proxies:
   port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
-  server: 126.47.92.160
-  port: '443'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 126.47.92.160
-  port: '443'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 126.47.92.160
-  port: '443'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
   server: 153.121.39.240
   port: '1085'
 - name: ' 🔒 [By EbraSha]'
@@ -2739,15 +2629,15 @@ proxies:
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 153.121.70.134
+  port: '4451'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 153.121.70.134
   port: '5041'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 153.121.73.102
   port: '3294'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 153.121.73.102
-  port: '3296'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 157.120.32.122
@@ -2756,18 +2646,6 @@ proxies:
   type: tcp
   server: 160.16.116.227
   port: '1331'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 160.16.116.227
-  port: '2283'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 160.16.116.227
-  port: '2283'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 160.16.116.227
-  port: '5041'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 160.16.117.182
@@ -2780,6 +2658,10 @@ proxies:
   type: tcp
   server: 160.16.124.55
   port: '1331'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 160.16.124.55
+  port: '1572'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 160.16.124.55
@@ -2806,10 +2688,6 @@ proxies:
   port: '2283'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
-  server: 160.16.144.208
-  port: '1331'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
   server: 160.16.196.59
   port: '1572'
 - name: ' 🔒 [By EbraSha]'
@@ -2828,6 +2706,10 @@ proxies:
   type: tcp
   server: 160.16.236.32
   port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 160.16.236.32
+  port: '449'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 160.16.57.238
@@ -2851,15 +2733,15 @@ proxies:
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 160.16.72.33
+  port: '1924'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 160.16.72.33
   port: '2173'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 160.16.81.84
   port: '1536'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 160.16.87.174
-  port: '1700'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 160.16.87.174
@@ -2874,52 +2756,16 @@ proxies:
   port: '2200'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
-  server: 203.198.123.174
+  server: 202.181.103.246
   port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
-  server: 221.128.195.220
-  port: '4400'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 221.128.195.221
-  port: '4419'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 221.128.195.221
-  port: '4419'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 221.128.195.221
-  port: '4419'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 221.128.195.221
-  port: '4419'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 221.128.195.221
-  port: '4419'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 221.128.195.221
-  port: '4419'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 221.128.195.221
-  port: '4419'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 23.227.194.234
+  server: 203.198.123.190
   port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 36.150.215.188
   port: '1546'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 36.150.215.203
-  port: '3043'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 36.150.215.203
@@ -3011,135 +2857,7 @@ proxies:
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 36.156.102.84
-  port: '1806'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 36.156.102.84
-  port: '1806'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 36.156.102.84
-  port: '1806'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 36.156.102.84
-  port: '2173'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 36.156.102.84
-  port: '2173'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 36.156.102.84
-  port: '2173'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 36.156.102.84
-  port: '2173'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 36.156.102.84
-  port: '2173'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 36.156.102.84
-  port: '2381'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 36.156.102.84
-  port: '2381'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 36.156.102.84
-  port: '2381'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 36.156.102.84
-  port: '2381'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 36.156.102.84
-  port: '2381'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 36.156.102.84
-  port: '2381'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 36.156.102.84
-  port: '24673'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 36.156.102.84
-  port: '24673'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 36.156.102.84
-  port: '24673'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 36.156.102.84
-  port: '24673'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 36.156.102.84
-  port: '24673'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 36.156.102.84
   port: '3160'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 36.156.102.84
-  port: '3160'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 36.156.102.84
-  port: '3160'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 36.156.102.84
-  port: '3160'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 36.156.102.84
-  port: '3271'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 36.156.102.84
-  port: '5321'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 36.156.102.84
-  port: '5321'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 36.156.102.84
-  port: '5321'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 36.156.102.84
-  port: '5321'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 36.156.102.84
-  port: '5321'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 36.156.102.84
-  port: '6752'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 36.156.102.84
-  port: '6752'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 36.156.102.84
-  port: '6752'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 36.156.102.84
-  port: '6752'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 36.156.102.86
@@ -3155,22 +2873,14 @@ proxies:
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 36.156.102.88
-  port: '1806'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 36.156.102.88
-  port: '1924'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 36.156.102.88
-  port: '3271'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 36.156.102.88
   port: '3296'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 58.152.25.156
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 58.152.25.205
   port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
@@ -3230,6 +2940,10 @@ proxies:
   port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
+  server: kaizen-hk-8.mielink-dns2.com
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
   server: kaizen-jp-11.mielink-dns2.com
   port: '443'
 - name: ' 🔒 [By EbraSha]'
@@ -3267,6 +2981,10 @@ proxies:
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: kaizen-tw-3.mielink-dns2.com
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: kaizen-tw-4.mielink-dns2.com
   port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
@@ -3402,10 +3120,6 @@ proxies:
   port: '54527'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
-  server: hgc.iamnotagoodman.com
-  port: '443'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
   server: 209.209.10.231
   port: '44445'
 - name: ' 🔒 [By EbraSha]'
@@ -3451,6 +3165,10 @@ proxies:
 - name: ' 🔒 [By EbraSha]'
   type: 'tcp '
   server: 202.64.1.234
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: ws
+  server: 104.21.33.216
   port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
@@ -3638,10 +3356,6 @@ proxies:
   port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
-  server: 104.21.30.167
-  port: '443'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
   server: uk2-full.privateip.net
   port: '443'
 - name: ' 🔒 [By EbraSha]'
@@ -3789,6 +3503,10 @@ proxies:
   server: 170.64.130.150
   port: '443'
 - name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 170.64.130.150
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
   type: 'tcp '
   server: uk1.test3.net
   port: '443'
@@ -3819,10 +3537,6 @@ proxies:
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 160.16.65.99
-  port: '443'
-- name: ' 🔒 [By EbraSha]'
-  type: ws
-  server: 104.21.10.181
   port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: ws
@@ -4525,10 +4239,6 @@ proxies:
   server: 132.226.5.246
   port: '443'
 - name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 132.226.5.246
-  port: '443'
-- name: ' 🔒 [By EbraSha]'
   type: ws
   server: 188.114.99.91
   port: '443'
@@ -4571,11 +4281,11 @@ proxies:
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: sdv2-hk.04z3susick.download
-  port: '5601'
+  port: '5602'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: sdv2-hk.04z3susick.download
-  port: '5602'
+  port: '5603'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: sdv2-hk.04z3susick.download
@@ -4591,15 +4301,11 @@ proxies:
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: sdv2-sg.04z3susick.download
-  port: '5609'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: sdv2-sg.04z3susick.download
   port: '5610'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: sdv2-sg.04z3susick.download
-  port: '5611'
+  port: '5612'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: sdv2-sg.04z3susick.download
@@ -4608,10 +4314,6 @@ proxies:
   type: tcp
   server: sdv2-tw.04z3susick.download
   port: '5623'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: sdv2-tw.04z3susick.download
-  port: '5624'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: sdv2-us.04z3susick.download
@@ -4710,11 +4412,19 @@ proxies:
   port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: ws
+  server: 172.67.192.215
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: ws
   server: 172.67.204.22
   port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: ws
   server: 172.67.210.210
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 625us.ok365.cyou
   port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
@@ -4746,7 +4456,7 @@ proxies:
   port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
-  server: 103.173.255.21
+  server: 103.173.255.127
   port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
@@ -4820,10 +4530,6 @@ proxies:
   type: tcp
   server: 172.66.47.95
   port: '443'
-- name: ' 🔒 [By EbraSha]'
-  type: ws
-  server: www.speedtest.net
-  port: '80'
 - name: ' 🔒 [By EbraSha]'
   type: ws
   server: 79.137.195.203
@@ -4933,6 +4639,10 @@ proxies:
   server: cc44a92e67c3a06550903ab1a79cd258.v1.cac.node-is.green
   port: '42728'
 - name: ' 🔒 [By EbraSha]'
+  type: ws
+  server: 172.67.168.193
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 103.224.212.211
   port: '443'
@@ -4951,6 +4661,10 @@ proxies:
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 103.173.255.234
+  port: '28443'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 103.195.236.24
   port: '28443'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
@@ -5035,15 +4749,15 @@ proxies:
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: hn.xiaohouzi.club
-  port: '16012'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: hn.xiaohouzi.club
   port: '17112'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: hn.xiaohouzi.club
   port: '17115'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: hn.xiaohouzi.club
+  port: '18436'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: hn.xiaohouzi.club
@@ -5079,10 +4793,6 @@ proxies:
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: hn.xiaohouzi.club
-  port: '19365'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: hn.xiaohouzi.club
   port: '42541'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
@@ -5095,7 +4805,7 @@ proxies:
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: hn.xiaohouzi.club
-  port: '48461'
+  port: '48431'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: hn.xiaohouzi.club
@@ -5103,7 +4813,7 @@ proxies:
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: hn.xiaohouzi.club
-  port: '48462'
+  port: '48461'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: hn.xiaohouzi.club
@@ -5140,6 +4850,10 @@ proxies:
   type: tcp
   server: hn.xiaohouzi.club
   port: '61005'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: hn01.xiaohouzi.club
+  port: '16081'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: hn01.xiaohouzi.club
@@ -5186,6 +4900,10 @@ proxies:
   port: '60047'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
+  server: hnm.xiaohouzi.club
+  port: '60047'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
   server: iplc.xiaohouzi.club
   port: '20011'
 - name: ' 🔒 [By EbraSha]'
@@ -5202,6 +4920,10 @@ proxies:
   port: '12468'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
+  server: sh.xiaohouzi.club
+  port: '12468'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
   server: sub.xiaohouzi.club
   port: '16011'
 - name: ' 🔒 [By EbraSha]'
@@ -5212,6 +4934,10 @@ proxies:
   type: tcp
   server: szf02.xiaohouzi.club
   port: '36304'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: uns.xiaohouzi.club
+  port: '13328'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: uns.xiaohouzi.club
@@ -5248,6 +4974,10 @@ proxies:
   type: tcp
   server: naiu-us.05vr9nyqg5.download
   port: '13019'
+- name: ' 🔒 [By EbraSha]'
+  type: ws
+  server: 104.21.33.216
+  port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: ws
   server: 104.21.66.157
@@ -5674,6 +5404,10 @@ proxies:
   port: '44301'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
+  server: 138.2.45.89
+  port: '44301'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
   server: 173.82.240.199
   port: '44301'
 - name: ' 🔒 [By EbraSha]'
@@ -5917,6 +5651,10 @@ proxies:
   server: trotro.ml
   port: '443 '
 - name: ' 🔒 [By EbraSha]'
+  type: ws
+  server: 104.21.33.216
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 15.197.162.184
   port: '443'
@@ -5951,10 +5689,6 @@ proxies:
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: trs09.bolab.net
-  port: '443'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: trs11.bolab.net
   port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: 'tcp '
@@ -6382,6 +6116,10 @@ proxies:
   port: '80'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
+  server: 135.148.148.4
+  port: '80'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
   server: 103.195.236.24
   port: '443'
 - name: ' 🔒 [By EbraSha]'
@@ -6392,18 +6130,6 @@ proxies:
   type: tcp
   server: milkgogo.ga
   port: '443 '
-- name: ' 🔒 [By EbraSha]'
-  type: ws
-  server: 104.18.20.69
-  port: '8443'
-- name: ' 🔒 [By EbraSha]'
-  type: ws
-  server: fastcup.net
-  port: '8443'
-- name: ' 🔒 [By EbraSha]'
-  type: ws
-  server: pubg.ac
-  port: '8443'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: okanc.iepl.cac.cab
@@ -6581,6 +6307,10 @@ proxies:
   server: polo01.kctr2038.icu
   port: '443'
 - name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: polo01.kctr2038.icu
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
   type: ws
   server: 104.21.29.75
   port: '443'
@@ -6741,18 +6471,6 @@ proxies:
   server: 104.21.69.44
   port: '443'
 - name: ' 🔒 [By EbraSha]'
-  type: ws
-  server: 104.18.20.69
-  port: '8443'
-- name: ' 🔒 [By EbraSha]'
-  type: ws
-  server: fastcup.net
-  port: '8443'
-- name: ' 🔒 [By EbraSha]'
-  type: ws
-  server: pubg.ac
-  port: '8443'
-- name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 211.72.35.157
   port: '3389'
@@ -6782,11 +6500,23 @@ proxies:
   port: '30050'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
+  server: it-full.privateip.net
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
   server: 168.138.44.176
   port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: ws
+  server: 172.67.192.215
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: ws
   server: 104.31.16.14
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: ws
+  server: 104.21.33.216
   port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: 'tcp '
@@ -6900,18 +6630,6 @@ proxies:
   type: ws
   server: 104.26.15.85
   port: '443'
-- name: ' 🔒 [By EbraSha]'
-  type: ws
-  server: 104.18.20.69
-  port: '8443'
-- name: ' 🔒 [By EbraSha]'
-  type: ws
-  server: fastcup.net
-  port: '8443'
-- name: ' 🔒 [By EbraSha]'
-  type: ws
-  server: pubg.ac
-  port: '8443'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: fr.test3.net
@@ -7106,6 +6824,10 @@ proxies:
   port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
+  server: 51.77.213.197
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
   server: trojan2.udpgw.com
   port: '443'
 - name: ' 🔒 [By EbraSha]'
@@ -7207,6 +6929,10 @@ proxies:
 - name: ' 🔒 [By EbraSha]'
   type: 'tcp '
   server: sk01.trojanyyds.xyz
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: ws
+  server: 104.21.33.216
   port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
@@ -9417,6 +9143,10 @@ proxies:
   server: 95.179.245.249
   port: '443'
 - name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 36.151.195.112
+  port: '4556'
+- name: ' 🔒 [By EbraSha]'
   type: ws
   server: muddy-frost-4e2d.vpnetwork3567.workers.dev
   port: '443'
@@ -9506,6 +9236,10 @@ proxies:
   port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
+  server: 219.76.13.180
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
   server: 45.64.22.55
   port: '443'
 - name: ' 🔒 [By EbraSha]'
@@ -9540,6 +9274,10 @@ proxies:
   type: 'tcp '
   server: 148.113.141.99
   port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 38.150.13.140
+  port: '57063'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 38.150.13.140
@@ -9640,6 +9378,14 @@ proxies:
   type: tcp
   server: 120.232.132.120
   port: '25682'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 154.93.37.169
+  port: '16526'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 154.93.37.169
+  port: '16526'
 - name: ' 🔒 [By EbraSha]'
   type: ws
   server: 103.169.142.224
@@ -11193,10 +10939,6 @@ proxies:
   server: 188.114.98.152
   port: '443'
 - name: ' 🔒 [By EbraSha]'
-  type: 'tcp '
-  server: flopr.isvcloud2.ir
-  port: '36022'
-- name: ' 🔒 [By EbraSha]'
   type: ws
   server: 104.16.83.176
   port: '443'
@@ -11207,6 +10949,10 @@ proxies:
 - name: ' 🔒 [By EbraSha]'
   type: ws
   server: 104.16.83.8
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: metallic.isquirrel.net
   port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: 'ws '
@@ -11626,7 +11372,7 @@ proxies:
   port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
-  server: 45.64.22.23
+  server: 45.64.22.55
   port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
@@ -11640,6 +11386,10 @@ proxies:
   type: grpc
   server: 104.21.15.33
   port: '2087'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 121.78.213.3
+  port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 121.78.213.3
@@ -11660,6 +11410,10 @@ proxies:
   type: tcp
   server: 172.67.176.206
   port: '2053'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 47.52.101.237
+  port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 47.52.101.237
@@ -11758,6 +11512,10 @@ proxies:
   port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
+  server: upload.soft98.download
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
   server: hnm.xiaohouzi.club
   port: '17113'
 - name: ' 🔒 [By EbraSha]'
@@ -11791,6 +11549,10 @@ proxies:
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 72.167.45.6
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: ws
+  server: 172.67.192.215
   port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
@@ -11865,10 +11627,6 @@ proxies:
   server: 104.21.13.36
   port: '443'
 - name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: nl-full.privateip.net
-  port: '443'
-- name: ' 🔒 [By EbraSha]'
   type: ws
   server: 104.21.42.93
   port: '443'
@@ -11915,6 +11673,18 @@ proxies:
 - name: ' 🔒 [By EbraSha]'
   type: ws
   server: 104.21.70.241
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: bestcdn1.868863.xyz
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: bestcdn1.868863.xyz
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: bestcdn1.868863.xyz
   port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
@@ -12365,6 +12135,10 @@ proxies:
   server: 104.21.72.108
   port: '443'
 - name: ' 🔒 [By EbraSha]'
+  type: ws
+  server: 104.25.254.4
+  port: '2087'
+- name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 104.26.9.160
   port: '443'
@@ -12537,6 +12311,10 @@ proxies:
   server: '[2a06'
   port: 98c1:3121::3]:443
 - name: ' 🔒 [By EbraSha]'
+  type: ws
+  server: dcf741e8.epeius-2gy.pages.dev
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 104.21.36.165
   port: '443'
@@ -12559,6 +12337,10 @@ proxies:
 - name: ' 🔒 [By EbraSha]'
   type: 'tcp '
   server: 118.142.17.238
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 20.187.85.198
   port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
@@ -12622,10 +12404,6 @@ proxies:
   port: '80'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
-  server: 51.38.71.175
-  port: '80'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
   server: uk1.trojanvh.xyz
   port: '80 '
 - name: ' 🔒 [By EbraSha]'
@@ -12677,6 +12455,10 @@ proxies:
   server: de1.test3.net
   port: '443'
 - name: ' 🔒 [By EbraSha]'
+  type: ws
+  server: 172.67.192.215
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
   type: tcp
   server: scloud56.jafiyun.world
   port: '22056'
@@ -12707,6 +12489,10 @@ proxies:
 - name: ' 🔒 [By EbraSha]'
   type: 'tcp '
   server: usa8.wujie8.xyz
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: ws
+  server: bestcdn1.868863.xyz
   port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: ws
@@ -12776,6 +12562,18 @@ proxies:
   type: tcp
   server: 8.148.194.255
   port: '25010'
+- name: ' 🔒 [By EbraSha]'
+  type: ws
+  server: 104.21.33.216
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: ws
+  server: 104.21.33.216
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: ws
+  server: 104.21.33.216
+  port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: ws
   server: 172.66.47.106
@@ -14721,14 +14519,6 @@ proxies:
   server: 15.204.210.176
   port: '80'
 - name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 15.204.210.176
-  port: '80'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 15.204.210.176
-  port: '80'
-- name: ' 🔒 [By EbraSha]'
   type: 'tcp '
   server: 89.221.224.50
   port: '38860'
@@ -14809,6 +14599,10 @@ proxies:
   server: sg2.pptv-tv.store
   port: '17712'
 - name: ' 🔒 [By EbraSha]'
+  type: ws
+  server: 104.21.33.216
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
   type: 'tcp '
   server: guolicheng.cc
   port: '443'
@@ -14827,6 +14621,234 @@ proxies:
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 15.168.28.231
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 15.168.28.231
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 153.121.41.97
+  port: '2381'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 153.121.56.122
+  port: '5041'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 153.121.56.122
+  port: '5321'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 160.16.106.144
+  port: '1331'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 160.16.106.144
+  port: '2467'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 160.16.106.144
+  port: '316'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 160.16.124.55
+  port: '24673'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 160.16.131.243
+  port: '1331'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 160.16.131.243
+  port: '316'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 160.16.131.243
+  port: '5321'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 160.16.132.158
+  port: '2283'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 160.16.132.158
+  port: '2283'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 160.16.132.158
+  port: '2283'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 160.16.132.158
+  port: '2283'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 160.16.132.158
+  port: '2381'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 160.16.132.158
+  port: '2381'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 160.16.132.158
+  port: '2381'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 160.16.132.158
+  port: '2381'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 160.16.132.158
+  port: '2381'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 160.16.132.158
+  port: '2467'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 160.16.132.158
+  port: '2467'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 160.16.132.158
+  port: '2467'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 160.16.132.158
+  port: '2467'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 160.16.132.158
+  port: '2467'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 160.16.138.24
+  port: '5041'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 160.16.144.208
+  port: '1331'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 160.16.144.208
+  port: '2283'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 160.16.144.208
+  port: '316'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 160.16.240.91
+  port: '1331'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 160.16.240.91
+  port: '1331'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 160.16.240.91
+  port: '1331'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 160.16.240.91
+  port: '1331'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 160.16.240.91
+  port: '1331'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 160.16.240.91
+  port: '316'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 160.16.240.91
+  port: '316'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 160.16.240.91
+  port: '316'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 160.16.240.91
+  port: '316'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 160.16.240.91
+  port: '316'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 160.16.240.91
+  port: '316'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 160.16.240.91
+  port: '5041'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 160.16.240.91
+  port: '5041'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 160.16.240.91
+  port: '5041'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 160.16.240.91
+  port: '5041'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 160.16.240.91
+  port: '5041'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 203.198.122.28
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 203.198.122.28
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 203.198.122.28
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 203.198.122.28
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 203.198.123.249
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 36.156.102.84
+  port: '1806'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 36.156.102.84
+  port: '2381'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 36.156.102.84
+  port: '3272'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 36.156.102.84
+  port: '6752'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 58.152.30.87
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 58.152.30.92
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 58.152.53.214
   port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
@@ -15114,15 +15136,19 @@ proxies:
   port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
-  server: 104.208.100.101
-  port: '443'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
   server: uk.liangyuandian.top
   port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
+  server: 20-66-19-98.ipv4.rush.ml
+  port: '8443'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
   server: 43-153-30-20.ipv4.rush.ml
+  port: '8443'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 43-153-34-170.ipv4.rush.ml
   port: '8443'
 - name: ' 🔒 [By EbraSha]'
   type: 'tcp '
@@ -15143,6 +15169,22 @@ proxies:
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: jgwdb4.gaox.ml
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: ws
+  server: 172.67.192.215
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: ws
+  server: 172.67.192.215
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: ws
+  server: 172.67.192.215
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: ws
+  server: 172.67.192.215
   port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
@@ -15302,6 +15344,10 @@ proxies:
   port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
+  server: jp-full.privateip.net
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
   server: fr1.test3.net
   port: '443'
 - name: ' 🔒 [By EbraSha]'
@@ -15405,6 +15451,10 @@ proxies:
   server: 104.21.21.147
   port: '443'
 - name: ' 🔒 [By EbraSha]'
+  type: ws
+  server: 104.21.33.216
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 129.146.190.42
   port: '443'
@@ -15428,6 +15478,10 @@ proxies:
   type: tcp
   server: v02.gutingting.com
   port: '30049'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: naiu-hk.05vr9nyqg5.download
+  port: '13007'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: supersouth.xn--mesv7f5toqlp.club
@@ -15458,16 +15512,12 @@ proxies:
   port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: ws
-  server: 104.18.20.69
-  port: '8443'
+  server: 104.21.33.216
+  port: '443'
 - name: ' 🔒 [By EbraSha]'
-  type: ws
-  server: fastcup.net
-  port: '8443'
-- name: ' 🔒 [By EbraSha]'
-  type: ws
-  server: pubg.ac
-  port: '8443'
+  type: tcp
+  server: 51.81.82.15
+  port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 51.81.82.15
@@ -15538,6 +15588,10 @@ proxies:
   port: '2053'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
+  server: 104.21.44.185
+  port: '2053'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
   server: 178.239.171.103
   port: '443'
 - name: ' 🔒 [By EbraSha]'
@@ -15553,13 +15607,9 @@ proxies:
   server: 51.91.11.29
   port: '80'
 - name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 51.91.11.29
-  port: '80'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 51.91.11.29
-  port: '80'
+  type: ws
+  server: 104.21.33.216
+  port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: grpc
   server: cf.dalazhi.eu.org
@@ -15580,6 +15630,10 @@ proxies:
   type: tcp
   server: fuckxiaofenhong.ga
   port: '443 '
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: hk-full.privateip.net
+  port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: twb-zf.jiashumao.net
@@ -15677,6 +15731,10 @@ proxies:
   server: strut-brisk-scope.stark-industries.solutions
   port: '443'
 - name: ' 🔒 [By EbraSha]'
+  type: ws
+  server: 172.67.192.215
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 172.66.47.130
   port: '443'
@@ -15692,6 +15750,18 @@ proxies:
   type: 'tcp '
   server: 20.239.94.136
   port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 36.156.102.84
+  port: '24673'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 36.156.102.84
+  port: '3271'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 36.156.102.84
+  port: '5321'
 - name: ' 🔒 [By EbraSha]'
   type: 'tcp '
   server: fr1.test3.net
@@ -15758,6 +15828,22 @@ proxies:
   port: '54860'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
+  server: tuntro001.instconn.com
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: tuntro001.instconn.com
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: tuntro001.instconn.com
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: tuntro001.instconn.com
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
   server: 104.21.32.1
   port: '443'
 - name: ' 🔒 [By EbraSha]'
@@ -15803,6 +15889,10 @@ proxies:
 - name: ' 🔒 [By EbraSha]'
   type: ws
   server: 104.21.72.109
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: ws
+  server: 172.67.156.25
   port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: ws
@@ -16115,7 +16205,15 @@ proxies:
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: sdv2-jp.04z3susick.download
+  port: '5616'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: sdv2-jp.04z3susick.download
   port: '5618'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: sdv2-jp.04z3susick.download
+  port: '5619'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: sdv2-tw.04z3susick.download
@@ -16123,11 +16221,11 @@ proxies:
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: sdv2-tw.04z3susick.download
-  port: '5622'
+  port: '5623'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: sdv2-tw.04z3susick.download
-  port: '5623'
+  port: '5626'
 - name: ' 🔒 [By EbraSha]'
   type: 'tcp '
   server: 134.195.101.32
@@ -16147,6 +16245,10 @@ proxies:
 - name: ' 🔒 [By EbraSha]'
   type: 'tcp '
   server: 217.79.181.82
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: ws
+  server: 104.21.33.216
   port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: 'tcp '
@@ -16280,6 +16382,58 @@ proxies:
   type: 'tcp '
   server: 38.180.249.177
   port: '8443'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 38.180.249.177
+  port: '8443'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 135.125.232.253
+  port: '2053'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 135.125.232.253
+  port: '2053'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 138.124.118.34
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 138.124.118.34
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 138.124.118.34
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 141.94.68.216
+  port: '2053'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 141.94.68.216
+  port: '2053'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 141.94.68.216
+  port: '2053'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 83.147.254.185
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: ws
+  server: 83.147.254.185
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 83.147.254.185
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 83.147.254.185
+  port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 13.213.69.245
@@ -16565,6 +16719,10 @@ proxies:
   server: 181.214.99.54
   port: '2035'
 - name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 181.214.99.54
+  port: '2035'
+- name: ' 🔒 [By EbraSha]'
   type: ws
   server: 172.66.44.194
   port: '2053'
@@ -16698,16 +16856,8 @@ proxies:
   port: '22223'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
-  server: 13.37.175.182
-  port: '22223'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
   server: 13.38.147.171
   port: '22223'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 13.39.112.204
-  port: '22222'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 13.39.112.204
@@ -16727,10 +16877,6 @@ proxies:
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 13.40.3.71
-  port: '22222'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 13.48.105.114
   port: '22222'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
@@ -16805,10 +16951,6 @@ proxies:
   server: 18.130.204.79
   port: '22222'
 - name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 18.130.204.79
-  port: '22222'
-- name: ' 🔒 [By EbraSha]'
   type: 'tcp '
   server: 18.153.223.103
   port: '22222'
@@ -16834,15 +16976,11 @@ proxies:
   port: '22222'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
-  server: 18.196.127.24
-  port: '22222'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
   server: 18.198.111.78
   port: '22223'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
-  server: 18.222.168.7
+  server: 18.220.22.172
   port: '22222'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
@@ -16850,8 +16988,8 @@ proxies:
   port: '22222'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
-  server: 3.124.147.46
-  port: '22223'
+  server: 18.222.168.7
+  port: '22222'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 3.124.16.18
@@ -16882,6 +17020,10 @@ proxies:
   port: '22222'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
+  server: 3.21.104.170
+  port: '22222'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
   server: 3.210.241.124
   port: '22222'
 - name: ' 🔒 [By EbraSha]'
@@ -16898,6 +17040,10 @@ proxies:
   port: '22222'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
+  server: 3.71.198.171
+  port: '22223'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
   server: 3.77.162.60
   port: '22223'
 - name: ' 🔒 [By EbraSha]'
@@ -16911,10 +17057,6 @@ proxies:
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 3.96.217.9
-  port: '22222'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 3.97.130.28
   port: '22222'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
@@ -16966,10 +17108,6 @@ proxies:
   port: '22222'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
-  server: 34.253.231.7
-  port: '22222'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
   server: 35.156.35.238
   port: '22222'
 - name: ' 🔒 [By EbraSha]'
@@ -17010,11 +17148,15 @@ proxies:
   port: '22222'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
+  server: 35.182.28.167
+  port: '22222'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
   server: 35.91.162.93
   port: '22222'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
-  server: 44.201.217.130
+  server: 35.91.162.93
   port: '22222'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
@@ -17026,8 +17168,16 @@ proxies:
   port: '22222'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
+  server: 44.211.71.82
+  port: '22222'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
   server: 46.137.144.18
   port: '22222'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 51.44.54.3
+  port: '22223'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 51.44.56.77
@@ -17062,6 +17212,10 @@ proxies:
   port: '22223'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
+  server: 63.177.201.129
+  port: '22223'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
   server: 63.178.100.140
   port: '22223'
 - name: ' 🔒 [By EbraSha]'
@@ -17075,6 +17229,10 @@ proxies:
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 63.179.173.227
+  port: '22223'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 63.179.194.196
   port: '22223'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
@@ -17102,6 +17260,10 @@ proxies:
   port: '22222'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
+  server: 13.37.119.88
+  port: '22222'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
   server: 13.37.160.116
   port: '22222'
 - name: ' 🔒 [By EbraSha]'
@@ -17115,6 +17277,10 @@ proxies:
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 13.37.161.123
+  port: '22222'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 13.37.162.182
   port: '22222'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
@@ -17162,6 +17328,10 @@ proxies:
   port: '22222'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
+  server: 13.48.202.26
+  port: '22222'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
   server: 13.48.45.205
   port: '22222'
 - name: ' 🔒 [By EbraSha]'
@@ -17193,16 +17363,12 @@ proxies:
   server: 13.50.16.231
   port: '22222'
 - name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 13.50.16.231
-  port: '22222'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 13.50.203.34
-  port: '22222'
-- name: ' 🔒 [By EbraSha]'
   type: 'tcp '
   server: 13.53.179.45
+  port: '22222'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 13.61.44.121
   port: '22222'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
@@ -17219,10 +17385,6 @@ proxies:
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 15.188.45.174
-  port: '22222'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 15.236.122.160
   port: '22222'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
@@ -17266,10 +17428,6 @@ proxies:
   port: '22222'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
-  server: 15.237.12.5
-  port: '22222'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
   server: 15.237.50.200
   port: '22222'
 - name: ' 🔒 [By EbraSha]'
@@ -17298,7 +17456,7 @@ proxies:
   port: '22222'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
-  server: 18.132.35.140
+  server: 16.171.58.121
   port: '22222'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
@@ -17306,7 +17464,11 @@ proxies:
   port: '22222'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
-  server: 18.135.6.102
+  server: 18.132.35.140
+  port: '22222'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 18.132.35.140
   port: '22222'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
@@ -17354,6 +17516,10 @@ proxies:
   port: '22222'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
+  server: 18.184.9.101
+  port: '22222'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
   server: 18.193.13.65
   port: '22222'
 - name: ' 🔒 [By EbraSha]'
@@ -17382,6 +17548,10 @@ proxies:
   port: '22222'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
+  server: 18.200.47.109
+  port: '22222'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
   server: 3.11.92.247
   port: '22222'
 - name: ' 🔒 [By EbraSha]'
@@ -17390,19 +17560,7 @@ proxies:
   port: '22222'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
-  server: 3.120.187.229
-  port: '22222'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
   server: 3.121.145.31
-  port: '22222'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 3.123.128.240
-  port: '22222'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 3.123.128.240
   port: '22222'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
@@ -17423,10 +17581,6 @@ proxies:
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 3.123.67.61
-  port: '22222'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 3.124.147.46
   port: '22222'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
@@ -17502,6 +17656,10 @@ proxies:
   port: '22222'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
+  server: 3.72.144.81
+  port: '22222'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
   server: 3.74.185.110
   port: '22222'
 - name: ' 🔒 [By EbraSha]'
@@ -17527,10 +17685,6 @@ proxies:
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 3.79.132.34
-  port: '22222'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 3.8.123.26
   port: '22222'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
@@ -17646,6 +17800,10 @@ proxies:
   port: '22222'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
+  server: 51.44.54.3
+  port: '22222'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
   server: 51.44.56.77
   port: '22222'
 - name: ' 🔒 [By EbraSha]'
@@ -17671,10 +17829,6 @@ proxies:
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 52.47.183.143
-  port: '22222'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 52.47.214.14
   port: '22222'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
@@ -17719,14 +17873,6 @@ proxies:
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 54.78.157.126
-  port: '22222'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 54.78.157.126
-  port: '22222'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 54.93.240.151
   port: '22222'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
@@ -17810,7 +17956,7 @@ proxies:
   port: '22222'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
-  server: 63.180.91.167
+  server: 63.180.33.188
   port: '22222'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
@@ -17822,7 +17968,7 @@ proxies:
   port: '22223'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
-  server: 3.124.147.46
+  server: 3.72.144.81
   port: '22223'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
@@ -17830,7 +17976,7 @@ proxies:
   port: '22223'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
-  server: 52.47.214.14
+  server: 51.44.54.3
   port: '22223'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
@@ -17838,7 +17984,7 @@ proxies:
   port: '22223'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
-  server: 63.180.91.167
+  server: 63.180.33.188
   port: '22223'
 - name: ' 🔒 [By EbraSha]'
   type: 'tcp '
@@ -17867,6 +18013,10 @@ proxies:
 - name: ' 🔒 [By EbraSha]'
   type: ws
   server: 162.159.152.42
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: ws
+  server: 162.159.153.68
   port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
@@ -17952,10 +18102,6 @@ proxies:
   type: tcp
   server: 185.133.35.46
   port: '443'
-- name: ' 🔒 [By EbraSha]'
-  type: ws
-  server: 38.207.133.204
-  port: '10002'
 - name: ' 🔒 [By EbraSha]'
   type: ws
   server: 45.192.222.112
@@ -18282,6 +18428,10 @@ proxies:
   port: '8441'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
+  server: 193.124.46.134
+  port: '8441'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
   server: 213.108.198.158
   port: '8441'
 - name: ' 🔒 [By EbraSha]'
@@ -18295,6 +18445,14 @@ proxies:
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 188.208.110.58
+  port: '8441'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 92.112.126.22
+  port: '8441'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 213.108.198.158
   port: '8441'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
@@ -18314,7 +18472,19 @@ proxies:
   port: '8441'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
+  server: 5.188.200.224
+  port: '8441'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 195.133.92.56
+  port: '8441'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
   server: 193.29.181.38
+  port: '8441'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 188.208.110.58
   port: '8441'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
@@ -18566,10 +18736,6 @@ proxies:
   port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: ws
-  server: iplocation.io
-  port: '443'
-- name: ' 🔒 [By EbraSha]'
-  type: ws
   server: japan.com
   port: '443'
 - name: ' 🔒 [By EbraSha]'
@@ -18591,6 +18757,18 @@ proxies:
 - name: ' 🔒 [By EbraSha]'
   type: ws
   server: whatismyipaddress.com
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: ws
+  server: whatismyipaddress.com
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: ws
+  server: www.csgo.com
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: ws
+  server: www.gco.gov.qa
   port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: ws
@@ -18618,15 +18796,11 @@ proxies:
   port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: ws
+  server: www.ipaddress.my
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: ws
   server: www.ipget.net
-  port: '443'
-- name: ' 🔒 [By EbraSha]'
-  type: ws
-  server: www.iplocation.net
-  port: '443'
-- name: ' 🔒 [By EbraSha]'
-  type: ws
-  server: www.pcmag.com
   port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: ws
@@ -18646,7 +18820,19 @@ proxies:
   port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: ws
+  server: www.visa.com.hk
+  port: '8443'
+- name: ' 🔒 [By EbraSha]'
+  type: ws
   server: www.visa.com.tw
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: ws
+  server: www.wto.org
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: ws
+  server: www.zsu.gov.ua
   port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: ws
@@ -18658,7 +18844,7 @@ proxies:
   port: '8443'
 - name: ' 🔒 [By EbraSha]'
   type: ws
-  server: 45.82.14.144
+  server: 109.120.132.80
   port: '2025'
 - name: ' 🔒 [By EbraSha]'
   type: ws
@@ -18685,15 +18871,15 @@ proxies:
   server: 92.243.75.49
   port: '2087'
 - name: ' 🔒 [By EbraSha]'
-  type: tcp
+  type: ws
   server: 92.243.75.49
   port: '2087'
 - name: ' 🔒 [By EbraSha]'
-  type: tcp
+  type: ws
   server: 92.243.75.49
   port: '2087'
 - name: ' 🔒 [By EbraSha]'
-  type: tcp
+  type: ws
   server: 92.243.75.49
   port: '2087'
 - name: ' 🔒 [By EbraSha]'
@@ -18716,6 +18902,10 @@ proxies:
   type: tcp
   server: 91.107.252.182
   port: '26805'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 154.17.24.29
+  port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 45.64.22.55
@@ -18774,7 +18964,11 @@ proxies:
   port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
-  server: 138.197.5.103
+  server: 146.19.230.241
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 146.19.230.241
   port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
@@ -18791,6 +18985,10 @@ proxies:
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 3.34.6.217
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: us.blazeppn.info
   port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
@@ -19076,14 +19274,14 @@ proxies:
   network: ws
 - name: end-gfw.com11@jp89
   type: trojan
-  server: 52.195.210.246
+  server: 43.206.242.42
   port: 6688
   password: 1a17b19d-4896-4531-af79-6e91d8ef8228
   sni: baidu.com
   udp: true
 - name: end-gfw.com12@jp89
   type: vmess
-  server: 52.195.210.246
+  server: 43.206.242.42
   port: 8686
   uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228
   alterId: 0
@@ -19092,1655 +19290,1389 @@ proxies:
   network: ws
 - name: end-gfw.com21@kr64
   type: trojan
-  server: 54.180.127.78
+  server: 43.201.83.56
   port: 6688
   password: 1a17b19d-4896-4531-af79-6e91d8ef8228
   sni: baidu.com
   udp: true
 - name: end-gfw.com22@kr64
   type: vmess
-  server: 54.180.127.78
+  server: 43.201.83.56
   port: 8686
   uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228
   alterId: 0
   cipher: auto
   tls: false
   network: ws
-- name: end-gfw.com31@sg19
-  type: trojan
-  server: 3.1.201.253
-  port: 6688
-  password: 1a17b19d-4896-4531-af79-6e91d8ef8228
-  sni: baidu.com
-  udp: true
-- name: end-gfw.com32@sg19
-  type: vmess
-  server: 3.1.201.253
-  port: 8686
-  uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-- name: '@Hope_Net'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 160.153.0.32
+  port: '443'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
   type: ss
-  server: Hope_Net-join-us-on-Telegram", "tls"
-  port: ' "tls", "type": "auto", "security": "auto", "skip-cert-verify": false, "sni":
-    "d.seribus.org"}'
-  cipher: '{"add"'
-  password: ' "d.seribus.org", "aid": 1, "host": "d.seribus.org", "id": "03fcc618-b93d-6796-6aed-8a38c975d581",
-    "net": "ws", "path": "linkvws", "port": 443, "ps": "'
-  udp: true
-- name: 🇹🇷telegram ➠ @v2rayNG_Matsuri
-  type: ss
-  server: v2rayNG_Matsuri","scy"
-  port: '"auto","sni":"","tls":"tls","type":"---","v":"2"}'
-  cipher: '{"add"'
-  password: '"57.129.28.215","aid":"0","alpn":"","fp":"","host":"serkat.org","id":"03fcc618-b93d-6796-6aed-8a38c975d581","net":"ws","path":"linkvws","port":"443","ps":"🇨🇦telegram
-    ➠ '
-  udp: true
-- name: '@Vpn_Tehran+✅️+کانفیگ+ویژه+در+تلگرام'
-  type: ss
-  server: Vpn_Tehran ✅️ کانفیگ ویژه در تلگرام","scy"
-  port: '"auto","sni":"pelang.org","tls":"tls","type":"","v":"2"}'
-  cipher: '{"add"'
-  password: '"pelang.org","aid":"1","alpn":"","fp":"","host":"pelang.org","id":"03fcc618-b93d-6796-6aed-8a38c975d581","net":"ws","path":"linkvws","port":"443","ps":"'
-  udp: true
-- name: 🇮🇹@FreakConfig
-  type: ss
-  server: FreakConfig","scy"
-  port: '"auto","sni":"yichueng.org","tls":"tls","type":"---","v":"2"}'
-  cipher: '{"add"'
-  password: '"91.134.8.92","aid":"0","alpn":"","fp":"","host":"yichueng.org","id":"03fcc618-b93d-6796-6aed-8a38c975d581","net":"ws","path":"linkvws","port":"443","ps":"🇨🇵'
-  udp: true
-- name: '@rxv2ray'
-  type: ss
-  server: rxv2ray","scy"
-  port: '"auto","sni":"kampong.org","tls":"tls","type":"---","v":"2"}'
-  cipher: '{"add"'
-  password: '"57.129.24.131","aid":"0","alpn":"","fp":"","host":"kampong.org","id":"03fcc618-b93d-6796-6aed-8a38c975d581","net":"ws","path":"linkvws","port":"443","ps":"'
-  udp: true
-- name: 🇸🇪@FreakConfig
-  type: ss
-  server: FreakConfig","scy"
-  port: '"auto","sni":"fapeng.org","tls":"tls","type":"---","v":"2"}'
-  cipher: '{"add"'
-  password: '"91.134.8.101","aid":"0","alpn":"","fp":"","host":"fapeng.org","id":"03fcc618-b93d-6796-6aed-8a38c975d581","net":"ws","path":"linkvws","port":"443","ps":"🇨🇵'
-  udp: true
-- name: '@Vpn_Tehran+✅️+کانفیگ+ویژه+در+تلگرام'
-  type: ss
-  server: Vpn_Tehran ✅️ کانفیگ ویژه در تلگرام","scy"
-  port: '"auto","sni":"jamekk.org","tls":"tls","type":"","v":"2"}'
-  cipher: '{"add"'
-  password: '"jamekk.org","aid":"1","alpn":"","fp":"","host":"jamekk.org","id":"03fcc618-b93d-6796-6aed-8a38c975d581","net":"ws","path":"linkvws","port":"443","ps":"'
-  udp: true
-- name: '@Hope_Net-join-us-on-Telegram'
-  type: ss
-  server: Hope_Net-join-us-on-Telegram", "tls"
-  port: ' "", "type": "auto", "security": "auto", "skip-cert-verify": false, "sni":
-    "ip10.6016725.xyz"}'
-  cipher: '{"add"'
-  password: ' "japan.com", "aid": 0, "host": "ip10.6016725.xyz", "id": "18d96190-c10f-448f-a82a-2d36df5c3cde",
-    "net": "ws", "path": "/github.com/Alvin9999", "port": 2095, "ps": "'
-  udp: true
-- name: 🇩🇪@FreakConfig
-  type: ss
-  server: FreakConfig","scy"
-  port: '"auto","sni":"jamekk.org","tls":"tls","type":"---","v":"2"}'
-  cipher: '{"add"'
-  password: '"jamekk.org","aid":"0","alpn":"","fp":"","host":"jamekk.org","id":"03fcc618-b93d-6796-6aed-8a38c975d581","net":"ws","path":"/linkvws","port":"443","ps":"🇺🇲'
-  udp: true
-- name: (@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪
-  type: ss
-  server: VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪","scy"
-  port: '"auto","sni":"","tls":"tls","type":"---","v":"2"}'
-  cipher: '{"add"'
-  password: '"serkat.org","aid":"0","alpn":"","fp":"","host":"","id":"03fcc618-b93d-6796-6aed-8a38c975d581","net":"ws","path":"linkvws","port":"443","ps":"('
-  udp: true
-- name: '@Hope_Net'
-  type: ss
-  server: Hope_Net-join-us-on-Telegram", "tls"
-  port: ' "tls", "type": "auto", "security": "auto", "skip-cert-verify": true, "sni":
-    ""}'
-  cipher: '{"add"'
-  password: ' "23.162.200.141", "aid": 1, "host": "23.162.200.141", "id": "03fcc618-b93d-6796-6aed-8a38c975d581",
-    "net": "ws", "path": "linkvws", "port": 443, "ps": "'
-  udp: true
-- name: 🇳🇱@FreakConfig
-  type: ss
-  server: FreakConfig","scy"
-  port: '"auto","sni":"lammaland.org","tls":"tls","type":"---","v":"2"}'
-  cipher: '{"add"'
-  password: '"15.204.103.7","aid":"0","alpn":"","fp":"","host":"lammaland.org","id":"03fcc618-b93d-6796-6aed-8a38c975d581","net":"ws","path":"linkvws","port":"443","ps":"🇺🇲'
-  udp: true
-- name: '@Hope_Net'
-  type: ss
-  server: Hope_Net-join-us-on-Telegram", "add"
-  port: ' "108.181.200.220", "port": "17163", "id": "d54814a1-7a93-45f8-9117-db317a25d100",
-    "aid": "0", "scy": "auto", "net": "tcp", "type": "", "host": "", "path": "", "tls":
-    "", "sni": "", "test_name": "74"}'
-  cipher: '{"v"'
-  password: ' "2", "ps": "'
-  udp: true
-- name: (@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪
-  type: ss
-  server: VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪(@VmessProtocol)برای خرید
-    و اتصال دائمی جوین شو🇩🇪","scy"
-  port: '"auto","sni":"foxpol.fovi.tk","tls":"tls","type":"---","v":"2"}'
-  cipher: '{"add"'
-  password: '"cf.fovi.tk","aid":"0","alpn":"","fp":"","host":"foxpol.fovi.tk","id":"bf67437e-6c90-45ca-abc2-c7240a5ce2aa","net":"ws","path":"/eisasqa","port":"443","ps":"('
-  udp: true
-- name: 🇨🇵@FreakConfig
-  type: ss
-  server: FreakConfig","scy"
-  port: '"auto","sni":"fapeng.org","tls":"tls","type":"---","v":"2"}'
-  cipher: '{"add"'
-  password: '"fapeng.org","aid":"0","alpn":"","fp":"","host":"fapeng.org","id":"03fcc618-b93d-6796-6aed-8a38c975d581","net":"ws","path":"linkvws","port":"443","ps":"🏴‍☠️'
-  udp: true
-- name: '@Hope_Net'
-  type: ss
-  server: Hope_Net-join-us-on-Telegram", "tls"
-  port: ' "tls", "type": "auto", "security": "auto", "skip-cert-verify": true, "sni":
-    ""}'
-  cipher: '{"add"'
-  password: ' "104.21.77.29", "aid": 0, "host": "beyonddbc.sbs", "id": "8d90c129-4156-4d6c-9115-24df25f26a02",
-    "net": "ws", "path": "/linkws", "port": 443, "ps": "'
-  udp: true
-- name: '@MARAMBASHI 💔'
-  type: ss
-  server: MARAMBASHI 💔","scy"
-  port: '"auto","sni":"","tls":"","type":"---","v":"2"}'
-  cipher: '{"add"'
-  password: '"45.192.98.205","aid":"0","alpn":"","fp":"","host":"","id":"2c39625a-78e1-4fb9-9e88-f2c47511d385","net":"ws","path":"/arki?ed\u003d2048","port":"38792","ps":"'
-  udp: true
-- name: (@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪
-  type: ss
-  server: VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪","scy"
-  port: '"auto","sni":"jamekk.org","tls":"tls","type":"---","v":"2"}'
-  cipher: '{"add"'
-  password: '"jamekk.org","aid":"0","alpn":"","fp":"","host":"jamekk.org","id":"03fcc618-b93d-6796-6aed-8a38c975d581","net":"ws","path":"/linkvws","port":"443","ps":"('
-  udp: true
-- name: '@MARAMBASHI 💛'
-  type: ss
-  server: MARAMBASHI 💛","scy"
+  server: V2rayNG3","scy"
   port: '"auto","sni":"","tls":"","type":"none","v":"2"}'
   cipher: '{"add"'
-  password: '"65.109.218.238","aid":"0","alpn":"","fp":"","host":"","id":"f21c11fc-0762-4b56-ab98-79d0b8460e7b","net":"tcp","path":"","port":"21639","ps":"'
+  password: '"15.204.234.200","aid":"0","alpn":"","fp":"","host":"","id":"c7f169a3-2e9a-4894-ba53-7b2fa6fd08b4","net":"tcp","path":"","port":"41100","ps":"'
   udp: true
-- name: 🏴‍☠️@FreakConfig
-  type: ss
-  server: FreakConfig","scy"
-  port: '"auto","sni":"lammaland.org","tls":"tls","type":"---","v":"2"}'
-  cipher: '{"add"'
-  password: '"146.59.118.250","aid":"0","alpn":"","fp":"","host":"lammaland.org","id":"03fcc618-b93d-6796-6aed-8a38c975d581","net":"ws","path":"linkvws","port":"443","ps":"🇵🇱'
-  udp: true
-- name: '@VMESSIR4N جهت خرید کانفیگ'
-  type: ss
-  server: VMESSIR4N جهت خرید کانفیگ","scy"
-  port: '"auto","sni":"","tls":"","type":"---","v":"2"}'
-  cipher: '{"add"'
-  password: '"144.229.20.12","aid":"0","alpn":"","fp":"","host":"","id":"cc66c5af-1ffe-46ab-a69c-28a98487302c","net":"ws","path":"/","port":"20086","ps":"'
-  udp: true
-- name: 🇳🇱@FreakConfig
-  type: ss
-  server: FreakConfig","scy"
-  port: '"auto","sni":"serkat.org","tls":"tls","type":"---","v":"2"}'
-  cipher: '{"add"'
-  password: '"57.129.28.64","aid":"0","alpn":"","fp":"","host":"serkat.org","id":"03fcc618-b93d-6796-6aed-8a38c975d581","net":"ws","path":"linkvws","port":"443","ps":"🇩🇪'
-  udp: true
-- name: 🇩🇪@FreakConfig
-  type: ss
-  server: FreakConfig","scy"
-  port: '"auto","sni":"jamekk.org","tls":"tls","type":"---","v":"2"}'
-  cipher: '{"add"'
-  password: '"jamekk.org","aid":"0","alpn":"","fp":"","host":"jamekk.org","id":"03fcc618-b93d-6796-6aed-8a38c975d581","net":"ws","path":"/linkvws","port":"443","ps":"🇩🇪'
-  udp: true
-- name: '@Vpn_Tehran+🔥+کانفیگ+ویژه+در+تلگرام'
-  type: ss
-  server: Vpn_Tehran 🔥 کانفیگ ویژه در تلگرام","scy"
-  port: '"auto","sni":"","tls":"","type":"none","v":"2"}'
-  cipher: '{"add"'
-  password: '"panel3.ipyar.org","aid":"0","alpn":"","fp":"","host":"","id":"c0ccdeb9-784c-4d67-b904-20dcaac9902a","net":"tcp","path":"","port":"32017","ps":"'
-  udp: true
-- name: 🏴‍☠️@FreakConfig
-  type: ss
-  server: FreakConfig","scy"
-  port: '"auto","sni":"yichueng.org","tls":"tls","type":"---","v":"2"}'
-  cipher: '{"add"'
-  password: '"146.59.70.146","aid":"0","alpn":"","fp":"","host":"yichueng.org","id":"03fcc618-b93d-6796-6aed-8a38c975d581","net":"ws","path":"linkvws","port":"443","ps":"🇵🇱'
-  udp: true
-- name: 🇵🇾telegram ➠ @v2rayNG_Matsuri
-  type: ss
-  server: v2rayNG_Matsuri","scy"
-  port: '"auto","sni":"","tls":"tls","type":"---","v":"2"}'
-  cipher: '{"add"'
-  password: '"57.129.59.201","aid":"0","alpn":"","fp":"","host":"kampong.org","id":"03fcc618-b93d-6796-6aed-8a38c975d581","net":"ws","path":"linkvws","port":"443","ps":"🇩🇪telegram
-    ➠ '
-  udp: true
-- name: telegram 🎯 DailyV2ry
-  type: vmess
-  server: ulta-tvm.danims.sbs
-  port: '8080'
-  uuid: 4cd063a7-1b15-46a9-b8f0-0aa225d43e55
-  alterId: '0'
-  cipher: auto
-  tls: ''
-  network: tcp
-- name: '@VPNOD'
-  type: vmess
-  server: movaghat20.funfil.link
-  port: '48913'
-  uuid: 08a3bdd2-2167-4761-b547-e8bd1b4a44ec
-  alterId: '0'
-  cipher: auto
-  tls: ''
-  network: tcp
-- name: '@Hope_Net-join-us-on-Telegram'
-  type: vmess
-  server: d.seribus.org
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 1
-  cipher: auto
-  tls: tls
-  network: ws
-- name: telegram 🚀 DailyV2ry
-  type: vmess
-  server: 64.81.24.115
-  port: '20521'
-  uuid: c70f3fde-d792-4f1c-8559-c2308f97ffbe
-  alterId: '0'
-  cipher: auto
-  tls: ''
-  network: ws
-- name: telegram 🎪 DailyV2ry
-  type: vmess
-  server: 209.126.84.189
-  port: '443'
-  uuid: 2c981164-9b93-4bca-94ff-b78d3f8498d7
-  alterId: '0'
-  cipher: auto
-  tls: ''
-  network: ws
-- name: '@Hope_Net-join-us-on-Telegram'
-  type: vmess
-  server: 23.162.200.141
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 1
-  cipher: auto
-  tls: tls
-  network: ws
-- name: '@rxv2ray'
-  type: vmess
-  server: 57.129.24.131
-  port: '443'
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: '0'
-  cipher: auto
-  tls: tls
-  network: ws
-- name: telegram 🎯 DailyV2ry
-  type: vmess
-  server: 188.34.179.15
-  port: '8080'
-  uuid: d29186cd-d5dc-4e57-9de4-7f9df2a45000
-  alterId: '0'
-  cipher: auto
-  tls: ''
-  network: tcp
-- name: '@Hope_Net-join-us-on-Telegram'
-  type: vmess
-  server: 104.21.77.29
-  port: 443
-  uuid: 8d90c129-4156-4d6c-9115-24df25f26a02
-  alterId: 0
-  cipher: auto
-  tls: tls
-  network: ws
-- name: telegram 🌈 DailyV2ry
-  type: vmess
-  server: serkat.org
-  port: '443'
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: '0'
-  cipher: auto
-  tls: tls
-  network: ws
-- name: '@Hope_Net-join-us-on-Telegram'
-  type: vmess
-  server: japan.com
-  port: 2095
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  alterId: 0
-  cipher: auto
-  tls: ''
-  network: ws
-- name: telegram 🍊 DailyV2ry
-  type: vmess
-  server: 148.113.153.109
-  port: '443'
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: '0'
-  cipher: auto
-  tls: tls
-  network: ws
-- name: '@Hope_Net-join-us-on-Telegram'
-  type: vmess
-  server: 108.181.200.220
-  port: '17163'
-  uuid: d54814a1-7a93-45f8-9117-db317a25d100
-  alterId: '0'
-  cipher: auto
-  tls: ''
-  network: tcp
-- name: telegram 🍊 DailyV2ry
-  type: vmess
-  server: 51.161.130.101
-  port: '550'
-  uuid: b592cf1a-d92f-4dbd-9c1d-b76936a1609e
-  alterId: '0'
-  cipher: auto
-  tls: ''
-  network: tcp
-- name: telegram 🚀 DailyV2ry
-  type: vmess
-  server: 185.250.38.63
-  port: '550'
-  uuid: 0c6abb66-660e-4db9-9e64-3a2625639278
-  alterId: '0'
-  cipher: auto
-  tls: ''
-  network: tcp
-- name: '@NpvV2rayFilTer'
-  type: vless
-  server: 172.66.40.99
-  port: '2096'
-- name: telegram
-  type: vless
-  server: 91.99.104.102
-  port: '443'
-- name: telegram
-  type: vless
-  server: m32a.vip784.com
-  port: '33801'
-- name: ✅سرورهایبیشتردرکانال:prrofile_purple@✅
-  type: vless
-  server: wa.sfasti.ru
-  port: '443'
-- name: '@V2rayNGVPN <= کانفیگ رایگان'
-  type: vless
-  server: 185.197.182.18
-  port: '23590'
-- name: telegram
-  type: vless
-  server: 638950280434430524.neyshabur-drc-tusacaf.info
-  port: '8880'
-- name: 🇨🇦telegram ➠ @v2rayNG_Matsuri
-  type: vless
-  server: mci.dl101movis.ir
-  port: '80'
-- name: ✅سرورهایبیشتردرکانال:prrofile_purple@✅
-  type: vless
-  server: pqh37v6.avoipok.shop
-  port: '8880'
-- name: '@WomanLifeFreedomVPN'
-  type: vless
-  server: situnes.wlftest.xyz
-  port: '443'
-- name: '@Capoit'
-  type: vless
-  server: 84.201.4.247
-  port: '15349'
-- name: '@V2range'
-  type: vless
-  server: 104.21.112.1
-  port: '80'
-- name: 🇩🇪@vpn_ioss ♻️ عضو شو
-  type: vless
-  server: 91.206.71.54
-  port: '2096'
-- name: tm⚡|@lightning6
-  type: vless
-  server: 151.101.3.8
-  port: '80'
-- name: '@flyv2ray'
-  type: vless
-  server: 192.0.54.32
-  port: '2096'
-- name: telegram
-  type: vless
-  server: 80.74.29.212
-  port: '8443'
-- name: ✅سرورهایبیشتردرکانال:prrofile_purple@✅
-  type: vless
-  server: 91.99.175.87
-  port: '443'
-- name: '@V2rayNGVPN <= کانفیگ رایگان'
-  type: vless
-  server: '[2a03'
-  port: b0c0:3:f0:0:1:4139:b000]:9696
-- name: (@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪
-  type: vless
-  server: xn--ktff-jt6hr36l.tencentapp.cn
-  port: '443'
-- name: '@configfree2025🚀کانال تلگرام ما🔴'
-  type: vless
-  server: 172.67.164.1
-  port: '443'
-- name: '@NIM_VPN_ir'
-  type: vless
-  server: pqh23v4.vetmainconf.shop
-  port: '8880'
-- name: Watashi-Little1
-  type: vless
-  server: v2test.bing-net.com
-  port: '9820'
-- name: '@vpn_go67'
-  type: vless
-  server: public.alpanel.top
-  port: '1403'
-- name: '@WebShecan-27Mordad-Night'
-  type: vless
-  server: webshecan.webredirect.org
-  port: '2087'
-- name: telegram
-  type: vless
-  server: 638941610438943596.copenhagen-prx-dnraacm.info
-  port: '8880'
-- name: TLS4-ALL|@v2ray_swhil
-  type: vless
-  server: Zmaoz.Faculty.Ucdavis.Edu
-  port: '443'
-- name: '@mehrosaboran'
-  type: vless
-  server: 141.94.213.115
-  port: '25365'
-- name: '@CUSTOMVPNSERVER'
-  type: vless
-  server: 51.38.64.196
-  port: '443'
-- name: '@NIM_VPN_ir'
-  type: vless
-  server: star-cdn.soft98speedtest.ir
-  port: '2053'
-- name: '@kingofilter 5  [🇫🇮] ⚡️'
-  type: vless
-  server: 46.62.152.219
-  port: '8443'
-- name: ✅سرورهایبیشتردرکانال:prrofile_purple@✅
-  type: vless
-  server: 188.114.98.112
-  port: '80'
-- name: telegram
-  type: vless
-  server: zula.ir
-  port: '2053'
-- name: '@V2range'
-  type: vless
-  server: 198.89.125.185
-  port: '53591'
-- name: '@V2fetch'
-  type: vless
-  server: client.bluwave.ir
-  port: '80'
-- name: '@configforVPN'
-  type: vless
-  server: cdn.melodyshopone2.ir
-  port: '8080'
-- name: 𝗝𝗼𝗶𝗻 ➠ @V2ray1_Ng
-  type: vless
-  server: 184.174.80.250
-  port: '443'
-- name: (@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪
-  type: vless
-  server: 45.120.178.9
-  port: '8880'
-- name: '@V2ray1_Ng'
-  type: vless
-  server: 185.236.232.116
-  port: '8880'
-- name: telegram
-  type: vless
-  server: 64.225.107.178
-  port: '443'
-- name: '@configfree20255'
-  type: vless
-  server: 104.18.36.24
-  port: '443'
-- name: telegram
-  type: vless
-  server: 161.35.218.17
-  port: '443'
-- name: '@Vpn_Tehran+✅️+کانفیگ+ویژه+در+تلگرام'
-  type: vless
-  server: 45.88.183.164
-  port: '49355'
-- name: 🏴‍☠️@FreakConfig
-  type: vless
-  server: lva-0001-xr.packet-drop-society.net
-  port: '443'
-- name: SVNTEAM
-  type: vless
-  server: public.misvn.ir
-  port: '443'
-- name: '@hopev2ray❤️‍🔥'
-  type: vless
-  server: 82.148.21.174
-  port: '443'
-- name: telegram
-  type: vless
-  server: 68.183.208.133
-  port: '443'
-- name: ✅سرورهایبیشتردرکانال:prrofile_purple@✅
-  type: vless
-  server: 194.156.65.28
-  port: '443'
-- name: '@WomanLifeFreedomVPN'
-  type: vless
-  server: icloud.wlftest.xyz
-  port: '443'
-- name: telegram
-  type: vless
-  server: www.speedtest.net
-  port: '2053'
-- name: telegram
-  type: vless
-  server: 54.64.28.201
-  port: '27775'
-- name: '@Hope_Net-join-us-on-Telegram'
-  type: vless
-  server: 37.114.33.108
-  port: '15296'
-- name: '@MARAMBASHI 🩵'
-  type: vless
-  server: 91.103.140.118
-  port: '34080'
-- name: WS5-Irancell+|+@v2ray_swhil
-  type: vless
-  server: www.speedtest.net
-  port: '2052'
-- name: 𝗝𝗼𝗶𝗻 ➠ @V2ray1_Ng
-  type: vless
-  server: pqh38v1.avoipok.shop
-  port: '8880'
-- name: '@hopev2ray💝'
-  type: vless
-  server: 94.26.228.68
-  port: '443'
-- name: ✅سرورهایبیشتردرکانال:prrofile_purple@✅
-  type: vless
-  server: 188.166.227.1
-  port: '81'
-- name: hopev2ray🩶
-  type: vless
-  server: de1.vlspeed.xyz
-  port: '8443'
-- name: tm⚡|@lightning6
-  type: vless
-  server: 151.101.3.8
-  port: '80'
-- name: '@mehrosaboran'
-  type: vless
-  server: 142.132.161.197
-  port: '443'
-- name: 🇩🇪 @GozargahVPN -7
-  type: vless
-  server: GozargahVPN-GozargahVPN-GozargahVPN.mymtn.sbs
-  port: '443'
-- name: ✅سرورهایبیشتردرکانال:prrofile_purple@✅
-  type: vless
-  server: 217.198.12.224
-  port: '443'
-- name: 🇬🇧telegram%2…
-  type: vless
-  server: 638930975314214829.dublin-drc-tusabu.info
-  port: '8880'
-- name: 𝗝𝗼𝗶𝗻 ➠ @configfree2025 | کانال ما 🇮🇷
-  type: vless
-  server: 172.64.151.232
-  port: '443'
-- name: 🇨🇦@FreakConfig
-  type: vless
-  server: 15.235.45.229
-  port: '40853'
-- name: '@Hope_Net-join-us-on-Telegram'
-  type: vless
-  server: 104.21.90.170
-  port: '443'
-- name: '@V2rayNGVPN <= کانفیگ رایگان'
-  type: vless
-  server: panelaf.dnsline.top
-  port: '55522'
-- name: 'Channel id: @ShadowProxy66 🇫🇷'
-  type: vless
-  server: 638944337658439808.dezful-prx-dnraacp.info
-  port: '8880'
-- name: NOFILTERING2 🚀
-  type: vless
-  server: 151.101.3.8
-  port: '80'
-- name: ✅سرورهایبیشتردرکانال:prrofile_purple@✅
-  type: vless
-  server: 185.197.182.18
-  port: '23590'
-- name: '@WomanLifeFreedomVPN'
-  type: vless
-  server: wlfspeedtest.wlftest.xyz
-  port: '443'
-- name: 🇫🇮@FreakConfig
+- name: 🔥Join+Telegram:@Farah_VPN🟣
   type: vless
   server: ipw.gfdv54cvghhgfhgj-njhgj64.info
-  port: '443'
-- name: '@awlix_ir'
-  type: vless
-  server: 172.67.189.227
-  port: '443'
-- name: telegram
-  type: vless
-  server: 165.227.150.75
-  port: '443'
-- name: '@Vpn_Tehran+💖+کانفیگ+ویژه+در+تلگرام'
-  type: vless
-  server: 45.82.251.58
-  port: '8880'
-- name: '['
-  type: vless
-  server: 209.38.42.122
-  port: '2027'
-- name: telegram
-  type: vless
-  server: 638948510129815070.dezful-drc-tusaas.info
-  port: '8880'
-- name: '@rxv2ray'
-  type: vless
-  server: 88.216.69.54
   port: '2096'
-- name: 3️⃣قطع شد بیا اینجا بردار@configfree20255
+- name: 🔥Join+Telegram:@Farah_VPN🟣
   type: vless
-  server: 172.64.151.232
+  server: 104.25.113.15
   port: '443'
-- name: 𝗝𝗼𝗶𝗻 ➠ @V2ray1_Ng
-  type: vless
-  server: m60a.vip784.com
-  port: '33801'
-- name: '@flyv2ray'
-  type: vless
-  server: 172.66.40.99
-  port: '2096'
-- name: telegram
-  type: vless
-  server: 95.164.44.237
-  port: '49790'
-- name: telegram
-  type: vless
-  server: 638950952062344940.kish-prx-dnraacr.info
-  port: '8880'
-- name: '@CUSTOMVPNSERVER'
-  type: vless
-  server: 91.99.16.244
-  port: '443'
-- name: 🇩🇪 HELiX
-  type: vless
-  server: magazine.sentry-warrunner.xyz
-  port: '443'
-- name: 🇩🇪 HELiX
-  type: vless
-  server: magazine.sentry-warrunner.xyz
-  port: '443'
-- name: '@Vpn_Tehran+💥+کانفیگ+ویژه+در+تلگرام'
-  type: vless
-  server: 185.236.232.72
-  port: '8880'
-- name: 🇵🇾telegram ➠ @v2rayNG_Matsuri
-  type: vless
-  server: 176.223.66.8
-  port: '39948'
-- name: '@EuServer'
-  type: vless
-  server: 104.21.112.1
-  port: '80'
-- name: '@mehrosaboran'
-  type: vless
-  server: 135.125.88.66
-  port: '37612'
-- name: '@VlessConfig'
-  type: vless
-  server: 18.153.140.36
-  port: '22224'
-- name: '🇹🇷سرور های بیشتر: @customv2ray'
-  type: vless
-  server: 135.125.88.154
-  port: '33310'
-- name: '🇺🇲سرور های بیشتر: @customv2ray'
-  type: vless
-  server: Hetznear-de3.turkserver.ir
-  port: '8443'
-- name: '@Vpn_Tehran+💖+کانفیگ+ویژه+در+تلگرام'
-  type: vless
-  server: 638938179859468758.zagreb-prx-dnraacl.info
-  port: '8880'
-- name: '@configfree2025🚀کانال تلگرام ما🔴'
-  type: vless
-  server: 104.26.15.69
-  port: '2096'
-- name: ✅سرورهایبیشتردرکانال:prrofile_purple@✅
-  type: vless
-  server: 141.227.166.78
-  port: '35728'
-- name: telegram
-  type: vless
-  server: 91.99.181.225
-  port: '443'
-- name: '@V2rayNGVPN+<=+کانفیگ+رایگان'
-  type: vless
-  server: 194.4.49.226
-  port: '8880'
-- name: ✅سرورهایبیشتردرکانال:prrofile_purple@✅
-  type: vless
-  server: 51.38.232.101
-  port: '80'
-- name: 🇬🇧telegram ➠ @v2rayNG_Matsuri
-  type: vless
-  server: 188.225.81.91
-  port: '443'
-- name: Lrnbymaa
-  type: vless
-  server: 157.90.247.32
-  port: '30052'
-- name: '@proxy_kafee'
-  type: vless
-  server: 141.227.138.82
-  port: '18541'
-- name: '@V2rayNGVPN <= کانفیگ رایگان'
-  type: vless
-  server: www.speedtest.net
-  port: '443'
-- name: 🇹🇷@FreakConfig
-  type: vless
-  server: 185.234.66.89
-  port: '8880'
-- name: '@rxv2ray'
-  type: vless
-  server: 638943819862861158.oslo-prx-dnraacp.info
-  port: '8880'
-- name: ✅🍷@vless_vmess x | همه اپراتورها
-  type: vless
-  server: gleeful-error.seotoolsforyou.co.uk
-  port: '80'
-- name: '@NIM_VPN_ir'
-  type: vless
-  server: 45.82.251.58
-  port: '8880'
-- name: ✅سرورهایبیشتردرکانال:prrofile_purple@✅
-  type: vless
-  server: 78.47.216.178
-  port: '22933'
-- name: 🇳🇱@FreakConfig
-  type: vless
-  server: 638928668169310838.rasht-drc-tusabp.info
-  port: '8880'
-- name: TLS-hamrah+|+@ArV2ray
-  type: vless
-  server: ArV2ray.mehpow.IR
-  port: '443'
-- name: '@flyv2ray'
-  type: vless
-  server: 91.209.253.43
-  port: '2096'
-- name: telegram
-  type: vless
-  server: 638948510129820437.dezful-drc-tusaas.info
-  port: '8880'
-- name: '@V2rayNGVPN <= کانفیگ رایگان'
-  type: vless
-  server: 141.94.168.171
-  port: '32647'
-- name: '['
-  type: vless
-  server: cdn7.bazicore.ir
-  port: '443'
-- name: 🇩🇪@FreakConfig
-  type: vless
-  server: 188.68.53.100
-  port: '6666'
-- name: '@configfree20255'
-  type: vless
-  server: 104.26.15.69
-  port: '2096'
-- name: ✅سرورهایبیشتردرکانال:prrofile_purple@✅
-  type: vless
-  server: 172.66.146.26
-  port: '443'
-- name: ⚡@vpn_go67🇩🇪
-  type: vless
-  server: cltechip-mci.argha-v2pedia.monster
-  port: '8443'
-- name: telegram
-  type: vless
-  server: sss59124.tas-bazi.com
-  port: '443'
-- name: 'Channel id: @ShadowProxy66 🇨🇦'
-  type: vless
-  server: 172.66.40.99
-  port: '8443'
-- name: Cld-Emergency
-  type: vless
-  server: 91.107.170.215
-  port: '80'
-- name: '@V2rayNGVPN <= کانفیگ رایگان'
-  type: vless
-  server: 2margate.superip.ir
-  port: '3041'
-- name: '@CUSTOMVPNSERVER'
-  type: vless
-  server: 104.16.191.195
-  port: '80'
-- name: 🇳🇱@FreakConfig
-  type: vless
-  server: 638936661878829611.ahvaz-drc-tusacae.info
-  port: '8880'
-- name: tm⚡|@lrnbymaa
-  type: vless
-  server: 151.101.3.8
-  port: '80'
-- name: telegram
-  type: vless
-  server: 638929396024898748.lisbon-drc-dcrabj.info
-  port: '8880'
-- name: '@mehrosaboran'
-  type: vless
-  server: 141.227.160.163
-  port: '44606'
-- name: '@Vpn_Tehran+😍+کانفیگ+ویژه+در+تلگرام'
-  type: vless
-  server: 185.236.232.243
-  port: '8880'
-- name: TG:@V2ConfigGB
-  type: vless
-  server: '[2a01'
-  port: 4f8:1c1a:dc2b::1]:8888
-- name: 🏴‍☠️@FreakConfig
-  type: vless
-  server: 141.227.166.55
-  port: '20421'
-- name: '@rxv2ray'
-  type: vless
-  server: khabar.motionbetter.ir
-  port: '80'
-- name: 🇩🇪| All - @MsV2ray
-  type: vless
-  server: www.speedtest.net
-  port: '80'
-- name: ✅سرورهایبیشتردرکانال:prrofile_purple@✅
-  type: vless
-  server: 141.227.138.120
-  port: '24586'
-- name: NOFILTERING2 🚀
-  type: vless
-  server: test.fast.hosting-ip.com
-  port: '80'
-- name: '@WebShecan-27Mordad-1'
-  type: vless
-  server: webshecan.webredirect.org
-  port: '2087'
-- name: '@rxv2ray'
-  type: vless
-  server: 638949279865777517.brussels-prx-dnraacr.info
-  port: '8880'
-- name: '@bored_vpn'
-  type: vless
-  server: 141.227.162.18
-  port: '59995'
-- name: '@kingofilteradmin ارتباط با ما:1 [🇩🇪] ⚡️'
-  type: vless
-  server: 91.98.22.20
-  port: '22933'
-- name: '@hopev2ray💙'
-  type: vless
-  server: 104.254.140.15
-  port: '8443'
-- name: '@mehrosaboran'
-  type: vless
-  server: 141.227.134.93
-  port: '37847'
-- name: '@kingofilteradmin ارتبا%D…'
-  type: vless
-  server: 91.98.22.20
-  port: '22933'
-- name: سرور
-  type: vless
-  server: www.speedtest.net
-  port: '8443'
-- name: '@NIM_VPN_ir'
-  type: vless
-  server: prteam.darkping.net
-  port: '2422'
-- name: '@VMESSIR4N+جهت+خرید+کانفیگ'
-  type: vless
-  server: web.xhamster.biz.id
-  port: '443'
-- name: '@EuServer'
-  type: vless
-  server: 185.236.232.116
-  port: '8880'
-- name: '@V2rayNGVPN <= کانفیگ رایگان'
-  type: vless
-  server: emojiran.gg-moviez.ir
-  port: '57057'
-- name: telegram
-  type: vless
-  server: 172.66.40.99
-  port: '2096'
-- name: '@Hope_Net-join-us-on-Telegram'
-  type: vless
-  server: 104.20.251.248
-  port: '443'
-- name: '@CUSTOMVPNSERVER'
-  type: vless
-  server: 185.146.173.39
-  port: '8880'
-- name: tm⚡|@lightning6
-  type: vless
-  server: 151.101.3.8
-  port: '80'
-- name: '@hopev2ray💕'
-  type: vless
-  server: 94.26.228.10
-  port: '443'
-- name: '@Vpn_Tehran+💖+کانفیگ+ویژه+در+تلگرام'
-  type: vless
-  server: xn--ktff-jt6hr36l.tencentapp.cn
-  port: '443'
-- name: ✅سرورهایبیشتردرکانال:prrofile_purple@✅
-  type: vless
-  server: 172.66.40.99
-  port: '443'
-- name: '@proxy_kafee'
-  type: vless
-  server: 142.132.161.197
-  port: '443'
-- name: '@vpn_go67'
-  type: vless
-  server: cltechip-mci.argha-v2pedia.monster
-  port: '8443'
-- name: '@configfree20255'
-  type: vless
-  server: elegant-corporation.seotoolsforyou.co.uk
-  port: '80'
-- name: '🇺🇲سرور های بیشتر: @customv2ray'
-  type: vless
-  server: 94.26.228.10
-  port: '443'
-- name: 𝗝𝗼𝗶𝗻 ➠ @V2ray1_Ng
-  type: vless
-  server: m21a.vip784.com
-  port: '33801'
-- name: '@Parsashonam'
-  type: vless
-  server: '[2a01'
-  port: 4f8:1c1a:dc2b::1]:8888
-- name: '@MARAMBASHI 🫰'
-  type: vless
-  server: 104.21.3.219
-  port: '8443'
-- name: '@V2rayNGVPN <= کانفیگ رایگان'
-  type: vless
-  server: 94.131.14.28
-  port: '8880'
-- name: '@Vpn_Tehran+✅️+کانفیگ+ویژه+در+تلگرام'
-  type: vless
-  server: ava.game.naver.com.servpn.my.id
-  port: '443'
-- name: '@MARAMBASHI ♥'
-  type: vless
-  server: 94.131.14.28
-  port: '8880'
-- name: '@WebShecan-28Mordad-1'
-  type: vless
-  server: webshecan.webredirect.org
-  port: '2087'
-- name: ✅سرورهایبیشتردرکانال:prrofile_purple@✅
-  type: vless
-  server: 25.129.199.251
-  port: '8880'
-- name: '@VlessConfig'
-  type: vless
-  server: 52.47.32.134
-  port: '22224'
-- name: ✅سرورهایبیشتردرکانال:prrofile_purple@✅
-  type: vless
-  server: 157.90.247.32
-  port: '30052'
-- name: telegram
-  type: vless
-  server: 638950280342844263.esfahan-drc-tusaas.info
-  port: '8880'
-- name: '@Hope_Net-join-us-on-Telegram'
-  type: vless
-  server: 104.17.147.22
-  port: '8080'
-- name: '@Vpn_Tehran+😍+کانفیگ+ویژه+در+تلگرام'
-  type: vless
-  server: 638929259959016671.dezful-drc-tusabq.info
-  port: '8880'
-- name: 🇲🇪@vpn_ioss ♻️ عضو شو
-  type: vless
-  server: 162.159.152.205
-  port: '443'
-- name: ✅سرورهایبیشتردرکانال:prrofile_purple@✅
-  type: vless
-  server: deu163.unboundworld.org
-  port: '443'
-- name: telegram
-  type: vless
-  server: 161.35.77.24
-  port: '443'
-- name: telegram
-  type: vless
-  server: m67a.vip784.com
-  port: '33801'
-- name: کانفیگ اختصاصی فقط 90تومن| configfree20255@
-  type: vless
-  server: 104.18.36.24
-  port: '443'
-- name: XHTTP3-All | @ArV2ray
-  type: vless
-  server: test.fast.hosting-ip.com
-  port: '80'
-- name: telegram
-  type: vless
-  server: 13.58.200.193
-  port: '27775'
-- name: '@VPN'
-  type: vless
-  server: 91.99.192.185
-  port: '443'
-- name: 🇵🇾telegram ➠ @v2rayNG_Matsuri
-  type: vless
-  server: 164.92.188.15
-  port: '9696'
-- name: '@MARAMBASHI 🩵'
-  type: vless
-  server: 638950330462896620.neyshabur-prx-dnraacr.info
-  port: '8880'
-- name: telegram
-  type: vless
-  server: 2margate.superip.ir
-  port: '3041'
-- name: '@flyv2ray'
-  type: vless
-  server: 45.80.108.54
-  port: '2096'
-- name: '@vpn_go67'
-  type: vless
-  server: public.alpanel.top
-  port: '1403'
-- name: '@EuServer'
-  type: vless
-  server: 172.67.65.158
-  port: '8880'
-- name: ✅سرورهایبیشتردرکانال:prrofile_purple@✅
-  type: vless
-  server: 141.227.178.165
-  port: '25366'
-- name: telegram
-  type: vless
-  server: 172.66.156.81
-  port: '80'
-- name: 🇩🇪@FreakConfig
-  type: vless
-  server: 104.18.85.29
-  port: '443'
-- name: NIGHTLY
-  type: vless
-  server: 155.254.35.78
-  port: '33811'
-- name: telegram
-  type: vless
-  server: 638942397698496885.dublin-drc-tusacaf.info
-  port: '8880'
-- name: telegram
-  type: vless
-  server: 167.172.179.213
-  port: '443'
-- name: Mahsa_Amini
-  type: vless
-  server: WLF-V-P-N-ID.dnsfree.one
-  port: '443'
-- name: telegram
-  type: vless
-  server: 18.216.121.44
-  port: '27775'
-- name: United Kingdom Glide
-  type: vless
-  server: 172.66.40.99
-  port: '8443'
-- name: '@Vpn_Tehran+😍+کانفیگ+ویژه+در+تلگرام'
-  type: vless
-  server: 45.82.251.114
-  port: '8880'
-- name: '@configfree2025'
-  type: vless
-  server: 172.66.40.99
-  port: '443'
-- name: ✅سرورهایبیشتردرکانال:prrofile_purple@✅
-  type: vless
-  server: 185.75.135.224
-  port: '443'
-- name: ✅سرورهایبیشتردرکانال:prrofile_purple@✅
-  type: vless
-  server: 94.156.232.187
-  port: '2052'
-- name: 🇬🇧telegram ➠ @v2rayNG_Matsuri
-  type: vless
-  server: 638930975314214829.dublin-drc-tusabu.info
-  port: '8880'
-- name: '@iTV2RAY+/+MTN'
-  type: vless
-  server: mtn-iTV2RAY.ddns.net
-  port: '2083'
-- name: '@mehrosaboran'
-  type: vless
-  server: 141.227.130.32
-  port: '18885'
-- name: '@awlix_ir'
-  type: vless
-  server: 45.82.251.176
-  port: '8880'
-- name: telegram
-  type: vless
-  server: 638952778316597416.hamedan-drc-tusaas.info
-  port: '8880'
-- name: '@hopev2ray🩵'
-  type: vless
-  server: 170.114.46.175
-  port: '2096'
-- name: United States Relayed
-  type: vless
-  server: map.wimax.cc
-  port: '995'
-- name: telegram
-  type: vless
-  server: 104.16.1.106
-  port: '2082'
-- name: '@MARAMBASHI 💔'
-  type: vless
-  server: 88.216.69.54
-  port: '2096'
-- name: 🇩🇪
-  type: vless
-  server: www.digitalcity5.com
-  port: '2083'
-- name: telegram
-  type: vless
-  server: m37a.vip784.com
-  port: '33801'
-- name: ✅سرورهایبیشتردرکانال:prrofile_purple@✅
-  type: vless
-  server: 141.227.168.93
-  port: '40114'
-- name: ✅سرورهایبیشتردرکانال:prrofile_purple@✅
-  type: vless
-  server: 198.199.84.91
-  port: '2053'
-- name: 🇨🇵@FreakConfig
-  type: vless
-  server: 141.227.132.199
-  port: '42817'
-- name: '@NIM_VPN_ir'
-  type: vless
-  server: star.fastsoft98.ir
-  port: '80'
-- name: '@awlix_ir'
-  type: vless
-  server: 104.21.21.31
-  port: '443'
-- name: ⚡@vpn_go67⚡
-  type: vless
-  server: cltechip-mci.argha-v2pedia.monster
-  port: '8443'
-- name: '@flyv2ray'
-  type: vless
-  server: 45.136.5.109
-  port: '4040'
-- name: '@Vpn_Tehran+💖+کانفیگ+ویژه+در+تلگرام'
-  type: vless
-  server: 45.82.251.78
-  port: '8880'
-- name: ✅سرورهایبیشتردرکانال:prrofile_purple@✅
-  type: vless
-  server: by.segaro.xyz
-  port: '80'
-- name: '@iTV2RAY+/+MCI'
-  type: vless
-  server: mci-iTV2RAY.ddns.net
-  port: '2087'
-- name: Telegram:@free_v2rayyy
-  type: vless
-  server: dubi.fast-turbooserver.com
-  port: '8443'
-- name: ✅سرورهایبیشتردرکانال:prrofile_purple@✅
-  type: vless
-  server: 151.101.3.8
-  port: '80'
-- name: telegram
-  type: vless
-  server: 139.59.155.157
-  port: '443'
-- name: telegram
-  type: vless
-  server: 65.109.202.202
-  port: '443'
-- name: '@hopev2ray❤️'
-  type: vless
-  server: zula.ir
-  port: '2087'
-- name: WS6-Irancell+|+@ArV2ray
-  type: vless
-  server: 185.146.173.237
-  port: '80'
-- name: '@V2rayNGVPN <= کانفیگ رایگان'
-  type: vless
-  server: 95.111.204.150
-  port: '8443'
-- name: telegram
-  type: vless
-  server: 91.99.210.219
-  port: '443'
-- name: '@rxv2ray'
-  type: vless
-  server: pqh23v2.vetrkot.com
-  port: '8880'
-- name: '@awlix_ir'
-  type: vless
-  server: 84.32.9.26
-  port: '8880'
-- name: '@MARAMBASHI 💔'
-  type: vless
-  server: m32a.vip784.com
-  port: '33801'
-- name: telegram
-  type: vless
-  server: 134.209.226.70
-  port: '16543'
-- name: 𝗝𝗼𝗶𝗻 ➠ @V2ray1_Ng
-  type: vless
-  server: panelaf.dnsline.top
-  port: '55522'
-- name: '@rxv2ray'
-  type: vless
-  server: 638937544595891094.madrid-prx-dnraacl.info
-  port: '8880'
-- name: NOFILTERING2 🚀
-  type: vless
-  server: 172.66.40.99
-  port: '80'
-- name: 🇩🇪@FreakConfig
-  type: vless
-  server: cloudflare.182682.xyz
-  port: '443'
-- name: telegram
-  type: vless
-  server: 638950280342838285.esfahan-drc-tusaas.info
-  port: '8880'
-- name: NOFILTERING2 🚀
-  type: vless
-  server: 151.101.3.8
-  port: '80'
-- name: '@awlix_ir'
-  type: vless
-  server: 198.244.193.109
-  port: '13039'
-- name: '@V2rayNGVPN <= کانفیگ رایگان'
-  type: vless
-  server: 45.136.5.109
-  port: '4040'
-- name: 🇹🇷telegram ➠ @v2rayNG_Matsuri
-  type: vless
-  server: mci.dl101movis.ir
-  port: '80'
-- name: '@V2rayNGVPN <= کانفیگ رایگان'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: Evay_vpn.heloisfood.ir
+  port: '1530'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: all.yasharteam.com
+  port: '500'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
   type: vless
   server: mstr.fastly80.hosting-ip.com
   port: '80'
-- name: 🇬🇧telegram ➠ @v2rayNG_Matsuri
+- name: 🔥Join+Telegram:@Farah_VPN🟣
   type: vless
-  server: 94.26.228.68
+  server: www.speedtest.net
+  port: '8880'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 94.156.232.187
+  port: '8880'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: bRillIanT-KnOWLEDge.SeOTOoLsfoRYoU.cO.UK
+  port: '80'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 65.109.8.76
+  port: '36000'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 172.233.181.175
   port: '443'
-- name: 🇬🇧telegram ➠ @v2rayNG_Matsuri…
+- name: 🔥Join+Telegram:@Farah_VPN🟣
   type: vless
-  server: 87.121.47.190
-  port: '4657'
-- name: '@proxy_kafee'
+  server: sw.modernstore3.ir
+  port: '80'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
   type: vless
-  server: 141.94.213.115
-  port: '25365'
-- name: tm⚡|@lightning6
+  server: 185.242.87.160
+  port: '8880'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 172.67.176.243
+  port: '443'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
   type: vless
   server: 151.101.3.8
   port: '80'
-- name: (@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪
+- name: 🔥Join+Telegram:@Farah_VPN🟣
   type: vless
-  server: 80.92.206.19
+  server: 185.39.207.121
+  port: '443'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vmess
+  server: 155.254.35.214
+  port: '51409'
+  uuid: d2b794b2-3bdc-49e2-827a-1bf9fcba4b1c
+  alterId: '0'
+  cipher: auto
+  tls: ''
+  network: tcp
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: grounded-brother.seotoolsforyou.co.uk
+  port: '80'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: rayphoriahub.iranfastshop.ir
+  port: '7401'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 89.23.108.188
+  port: '443'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: tcp
+  server: 162.159.44.154
+  port: '443'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: best.cdniran.info
+  port: '443'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 151.101.3.8
+  port: '80'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 85.208.110.217
   port: '8880'
-- name: ✅سرورهایبیشتردرکانال:prrofile_purple@✅
+- name: 🔥Join+Telegram:@Farah_VPN🟣
   type: vless
-  server: 141.227.180.211
-  port: '25365'
-- name: 🍷@vless_vmess x | همه اپراتورها
-  type: vless
-  server: 206.71.158.10
-  port: '443'
-- name: '@FalconPolV2rayNG'
-  type: vless
-  server: 94.101.176.12
-  port: '443'
-- name: '@flyv2ray'
-  type: vless
-  server: ipw.gfdv54cvghhgfhgj-njhgj64.info
-  port: '443'
-- name: '@Hope_Net-join-us-on-Telegram'
-  type: vless
-  server: 127.0.0.1
-  port: '8080'
-- name: telegram
-  type: vless
-  server: m33a.vip784.com
+  server: m2a.vip784.com
   port: '33801'
-- name: 🇳🇱@FreakConfig
+- name: 🔥Join+Telegram:@Farah_VPN🟣
   type: vless
-  server: 638940560407106987.copenhagen-drc-tusacaf.info
-  port: '8880'
-- name: 'Channel id: @ShadowProxy66 🇳🇱'
+  server: 2.189.59.2
+  port: '443'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
   type: vless
-  server: 638937520064872286.london-prx-dnraacl.info
-  port: '8880'
-- name: '@VlessConfig'
+  server: 18.199.141.238
+  port: '25670'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: ss
+  server: ConfigV2RayNG","scy"
+  port: '"auto","sni":"cpp007-2.facai20250909.com","tls":"tls","type":"---","v":"2"}'
+  cipher: '{"add"'
+  password: '"cpp007-2.facai20250909.com","aid":"0","alpn":"","fp":"","host":"cpp007-2.facai20250909.com","id":"e134b5e9-4b16-4d50-b3d9-eaef652660b0","net":"ws","path":"/e134b5e9","port":"443","ps":"🍪73'
+  udp: true
+- name: 🔥Join+Telegram:@Farah_VPN🟣
   type: vless
-  server: 13.39.125.170
+  server: 3.122.164.64
   port: '22224'
-- name: '@awlix_ir'
-  type: vless
-  server: 5.199.169.208
-  port: '8880'
-- name: '@NpvV2rayFilTer'
-  type: vless
-  server: pqh38v5.avoipok.shop
-  port: '8880'
-- name: '@EuServer'
-  type: vless
-  server: 188.114.96.3
-  port: '8443'
-- name: '@awlix_ir'
-  type: vless
-  server: 194.182.79.100
-  port: '42438'
-- name: 𝗝𝗼𝗶𝗻 ➠ @V2ray1_Ng
-  type: vless
-  server: 104.16.1.106
-  port: '2082'
-- name: '@melov2ray'
-  type: vless
-  server: 159.69.101.178
-  port: '38141'
-- name: telegram
-  type: vless
-  server: 91.98.40.123
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vmess
+  server: 141.101.113.6
   port: '443'
-- name: '@MARAMBASHI 😁'
+  uuid: 8f74ec8a-971c-11ed-a8fc-0242ac120002
+  alterId: '0'
+  cipher: auto
+  tls: tls
+  network: ws
+- name: 🔥Join+Telegram:@Farah_VPN🟣
   type: vless
-  server: m40a.vip784.com
+  server: 172.66.47.175
+  port: '2083'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: tcp
+  server: 104.21.3.52
+  port: '443'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: m35a.vip784.com
   port: '33801'
-- name: '@V2rayNGVPN <= کانفیگ رایگان'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
   type: vless
-  server: emojiran.gg-moviez.ir
-  port: '57057'
-- name: ✅سرورهایبیشتردرکانال:prrofile_purple@✅
-  type: vless
-  server: 172.66.40.99
+  server: wlfspeedtest.wlftest.xyz
   port: '443'
-- name: 🇵🇸telegram ➠ @v2rayNG_Matsuri
+- name: 🔥Join+Telegram:@Farah_VPN🟣
   type: vless
-  server: speedtestcustom.com
-  port: '80'
-- name: TEST
+  server: 212.23.214.142
+  port: '55580'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
   type: vless
-  server: 172.66.46.213
+  server: 91.107.138.53
+  port: '2053'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 193.46.81.151
+  port: '49330'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vmess
+  server: 192.3.233.216
+  port: '33606'
+  uuid: 19d74f4a-e9a8-4942-9061-53f53af0c024
+  alterId: '0'
+  cipher: auto
+  tls: ''
+  network: tcp
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 45.131.5.189
+  port: '2053'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 45.131.5.122
+  port: '2053'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 141.95.16.124
+  port: '8080'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 185.146.173.39
+  port: '8880'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 173.245.58.217
+  port: '2087'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: sorry.glitsch.ir
+  port: '4083'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 5.75.206.114
   port: '443'
-- name: telegram
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vmess
+  server: 91.107.255.237
+  port: 24473
+  uuid: 3aaaa4bf-2361-4cf3-bc4f-287642b5cbdd
+  alterId: 0
+  cipher: auto
+  tls: tls
+  network: grpc
+- name: 🔥Join+Telegram:@Farah_VPN🟣
   type: vless
-  server: 91.98.95.109
-  port: '443'
-- name: ✅سرورهایبیشتردرکانال:prrofile_purple@✅
+  server: 65.109.184.141
+  port: '2052'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
   type: vless
-  server: 198.62.62.2
-  port: '443'
-- name: telegram
+  server: numberland.ir
+  port: '2052'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
   type: vless
-  server: V2rayNGSelllBoT.byte-server.ir
+  server: 638952778316586254.hamedan-drc-tusaas.info
+  port: '8880'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 176.124.198.145
+  port: '2087'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: '[2400'
+  port: 6180:0:d2:0:2:3c54:d000]:25288
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 141.227.136.183
+  port: '15819'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 95.217.158.184
   port: '2020'
-- name: '@flyv2ray'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
   type: vless
-  server: 78.46.136.143
-  port: '443'
-- name: '@MARAMBASHI 💔'
-  type: vless
-  server: m45a.vip784.com
+  server: m3a.vip784.com
   port: '33801'
-- name: telegram
+- name: 🔥Join+Telegram:@Farah_VPN🟣
   type: vless
-  server: 638949491062080162.prague-prx-dnraacr.info
-  port: '8880'
-- name: '@Capoit'
-  type: vless
-  server: 51.178.223.140
-  port: '19822'
-- name: '@ovpn2'
-  type: vless
-  server: de.talaniom.com
+  server: 194.4.49.217
   port: '443'
-- name: '@v2rayngninja'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
   type: vless
-  server: 95.85.95.85
-  port: '443'
-- name: ✅سرورهایبیشتردرکانال:prrofile_purple@✅
+  server: arman1.free.nextseesion.ir
+  port: '21214'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
   type: vless
-  server: 141.101.120.5
-  port: '443'
-- name: ✅🍷@vless_vmess x %…
-  type: vless
-  server: statue.lnmarketplace.net
-  port: '443'
-- name: '@flyv2ray'
-  type: vless
-  server: 166.62.106.32
-  port: '2096'
-- name: NOFILTERING2 🚀
-  type: vless
-  server: 151.101.3.8
+  server: www.speedtest.net
   port: '80'
-- name: '@FalconPolV2rayNG'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
   type: vless
-  server: sedr-sehat.online
-  port: '3060'
-- name: telegram
+  server: 5.253.43.14
+  port: '443'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
   type: vless
-  server: 638936664855921747.amsterdam-prx-dnraacl.info
+  server: 95.164.45.95
   port: '8880'
-- name: telegram
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: tcp
+  server: 51.44.130.78
+  port: '22223'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
   type: vless
-  server: m31a.vip784.com
-  port: '33801'
-- name: XHTTP-All | @ArV2ray
+  server: maralhost.com
+  port: '2053'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: nld-0001-xr.packet-drop-society.net
+  port: '443'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
   type: vless
   server: test.fast.hosting-ip.com
   port: '80'
-- name: '@V2range'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
   type: vless
-  server: freexxx.xhamster.biz.id
+  server: 195.42.233.135
   port: '443'
-- name: telegram
+- name: 🔥Join+Telegram:@Farah_VPN🟣
   type: vless
-  server: 172.66.40.99
-  port: '8880'
-- name: '@'
+  server: ArV2ray.mAshtimji.IR
+  port: '443'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
   type: vless
-  server: 85.209.153.82
-  port: '8880'
-- name: ✅سرورهایبیشتردرکانال:prrofile_purple@✅
+  server: xn--ktff-jt6hr36l.tencentapp.cn
+  port: '443'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vmess
+  server: 15.204.103.7
+  port: '443'
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: '0'
+  cipher: auto
+  tls: tls
+  network: ws
+- name: 🔥Join+Telegram:@Farah_VPN🟣
   type: vless
-  server: 167.99.239.69
-  port: '2053'
-- name: ✅سرورهایبیشتردرکانال:prrofile_purple@✅
+  server: Zula.iR
+  port: '80'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
   type: vless
-  server: Holn.xmonys.com
-  port: '625'
-- name: ⚡@V2PEDIA⚡(Insta:+v2pediaa)+74
-  type: vless
-  server: cltechip-mci.argha-v2pedia.monster
+  server: 104.129.167.255
   port: '8443'
-- name: '@Anty_Vpn سرورای بیشتر'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
   type: vless
-  server: fast-01.saitsazs.ir
+  server: live.skornorth.com
   port: '80'
-- name: Suren TM
+- name: 🔥Join+Telegram:@Farah_VPN🟣
   type: vless
-  server: 162.159.138.232
-  port: '443'
-- name: '@'
+  server: Evay_vpn.heloisfood.ir
+  port: '1530'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
   type: vless
-  server: 185.236.232.116
+  server: 104.16.53.11
+  port: '2053'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: cb14.connectbaash.info
+  port: '4414'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 195.42.233.82
   port: '8880'
-- name: Reality-Irancell-@ArV2ray
+- name: 🔥Join+Telegram:@Farah_VPN🟣
   type: vless
-  server: 188.245.65.59
-  port: '443'
-- name: 'tChannel : @vmessorg🏴🏳'
-  type: vless
-  server: 91.98.139.132
-  port: '44016'
-- name: 𝗝𝗼𝗶𝗻 ➠ @V2ray1_Ng
-  type: vless
-  server: 172.66.40.99
-  port: '2096'
-- name: '@FalconPolV2rayNG'
-  type: vless
-  server: sec.lucyshoping.ir
-  port: '11885'
-- name: '@mehrosaboran'
-  type: vless
-  server: 94.182.137.12
-  port: '20532'
-- name: telegram
-  type: vless
-  server: 91.99.211.47
-  port: '443'
-- name: '@hopev2ray💕'
-  type: vless
-  server: 185.236.232.189
-  port: '8880'
-- name: '@FalconPolV2rayNG'
-  type: vless
-  server: 104.16.0.113
+  server: speedtest.net
   port: '80'
-- name: '@configfree20255'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
   type: vless
-  server: 51.75.246.193
-  port: '2052'
-- name: telegram
-  type: vless
-  server: m71a.vip784.com
-  port: '33801'
-- name: WS3-Irancell+|+@v2ray_swhil
+  server: nv73.momdping.com
+  port: '443'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
   type: vless
   server: www.speedtest.net
+  port: '443'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 172.67.168.193
+  port: '80'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: all75-vip.f-sub.com
+  port: '3799'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: rus-0001-xr.packet-drop-society.net
+  port: '443'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: www.speedtest.net
+  port: '443'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 65.109.218.147
+  port: '8880'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 57.128.123.217
+  port: '37646'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 185.234.64.94
+  port: '8880'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: google.wlftest.xyz
+  port: '80'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 45.136.5.109
+  port: '2081'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 85.90.197.100
+  port: '9956'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 8.208.19.107
+  port: '443'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 185.234.66.92
+  port: '8880'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: de.srv.oplcdn.link
+  port: '8443'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 638955432252142128.shiraz-prx-dnraact.info
+  port: '8880'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 37.27.2.66
+  port: '39871'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vmess
+  server: 91.107.255.237
+  port: 24473
+  uuid: b5e4a13b-4f58-4bad-a2d0-279fa7534188
+  alterId: 0
+  cipher: auto
+  tls: tls
+  network: grpc
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vmess
+  server: fapeng.org
+  port: '443'
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: '0'
+  cipher: auto
+  tls: tls
+  network: ws
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: ipV2Ray-mci.ddns.net
+  port: '2096'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: tgju.org
+  port: '80'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: test.fast.hosting-ip.com
+  port: '80'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vmess
+  server: hk2.lrzdx.uk
+  port: 443
+  uuid: db69d5bc-d36c-4903-f471-74b98c5cefe5
+  alterId: 0
+  cipher: auto
+  tls: tls
+  network: ws
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 50.62.194.253
+  port: '2096'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: chat.deepseek.com
+  port: '80'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 51.89.176.242
+  port: '3478'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 91.99.179.41
+  port: '42671'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: game.wlftest.xyz
+  port: '443'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 45.12.142.96
+  port: '8880'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: de.xn--mes34jx0kfx3c.com
+  port: '11013'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 84.247.149.142
+  port: '443'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 185.174.136.244
   port: '8080'
-- name: '@MARAMBASHI ♥'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
   type: vless
-  server: 88.216.69.54
-  port: '2096'
-- name: '@flyv2ray'
-  type: vless
-  server: pqh38v4.avoipok.shop
-  port: '8880'
-- name: '@MARAMBASHI 💔'
-  type: vless
-  server: 185.251.80.54
-  port: '2096'
-- name: 🇬🇧@FreakConfig
-  type: vless
-  server: 141.227.174.116
-  port: '28329'
-- name: ✅سرورهایبیشتردرکانال:prrofile_purple@✅
-  type: vless
-  server: www.visa.com.tw
-  port: '443'
-- name: '@rxv2ray'
-  type: vless
-  server: 91.99.58.127
-  port: '2090'
-- name: 🇯🇵@vpn_ioss ♻️ عضو شو
-  type: vless
-  server: 195.42.233.105
-  port: '8880'
-- name: telegram
-  type: vless
-  server: 172.66.156.81
+  server: 151.101.3.8
   port: '80'
-- name: ✅سرورهایبیشتردرکانال:prrofile_purple@✅
+- name: 🔥Join+Telegram:@Farah_VPN🟣
   type: vless
-  server: 54.36.117.130
-  port: '25365'
-- name: '🇺🇲سرور های بیشتر: @customv2ray'
-  type: vless
-  server: 104.18.35.85
+  server: usa-join.outline-vpn.fun
   port: '443'
-- name: 🇩🇪telegram ➠ @v2rayNG_Matsuri
+- name: 🔥Join+Telegram:@Farah_VPN🟣
   type: vless
-  server: fx.ircloudmarket.com
+  server: usa-join.outline-vpn.fun
+  port: '443'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: yt.ducks.tel
+  port: '443'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 142.132.161.197
+  port: '443'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 104.21.21.179
+  port: '443'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vmess
+  server: 45.159.51.116
+  port: '48019'
+  uuid: c06797d5-fa41-4b48-b132-d268d2acb302
+  alterId: '0'
+  cipher: auto
+  tls: ''
+  network: tcp
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: sss47060.tas-bazi.com
+  port: '443'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 104.21.96.1
   port: '80'
-- name: telegram
+- name: 🔥Join+Telegram:@Farah_VPN🟣
   type: vless
-  server: 638948510378519565.mashhad-drc-tusacaf.info
+  server: 45.8.146.207
+  port: '80'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: android-config.gstatic.cyberscaler.net
+  port: '443'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: cloudcdn3.parsgit.com
+  port: '4040'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 94.131.13.14
+  port: '443'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: tcp
+  server: 154.197.121.175
+  port: '443'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 91.99.166.94
+  port: '666'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 151.101.70.85
+  port: '80'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 185.242.87.128
   port: '8880'
-- name: '@hopev2ray💛'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
   type: vless
-  server: 104.21.36.57
+  server: 638959558652399004.arak-blkaft-aaao.info
+  port: '8880'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: axe.soyet2j.ir
+  port: '2053'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 91.99.217.4
   port: '443'
-- name: '@WomanLifeFreedomVPN'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
   type: vless
-  server: speedtest.wlftest.xyz
+  server: 185.234.66.94
   port: '443'
-- name: '@MARAMBASHI 🩵'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
   type: vless
-  server: m61a.vip784.com
-  port: '33801'
-- name: '@mehrosaboran'
+  server: www.speedtest.net
+  port: '443'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
   type: vless
-  server: 141.227.136.29
-  port: '13833'
-- name: '@Capoit'
+  server: 63.141.128.29
+  port: '80'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
   type: vless
-  server: 141.227.140.168
-  port: '45946'
-- name: telegram
+  server: gur.gov.ua
+  port: '443'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
   type: vless
-  server: panel.pouyahmd.sbs
-  port: '2085'
-- name: '@CUSTOMVPNSERVER'
+  server: '[2a03'
+  port: b0c0:1:e0::a400:5001]:24256
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: tcp
+  server: us-3.stunnel.cc
+  port: '8441'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 172.66.40.99
+  port: '443'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: numberland.ir
+  port: '80'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 45.159.248.108
+  port: '8880'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 172.66.40.99
+  port: '8080'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 185.231.205.231
+  port: '8880'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: tgju.org
+  port: '80'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: cloudcdn1.parsgit.com
+  port: '4040'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 62.60.153.55
+  port: '14703'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: tcp
+  server: 160.16.240.91
+  port: '1331'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 45.80.111.198
+  port: '2053'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: amazon-15.cristiano.name.ng
+  port: '443'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 45.131.4.147
+  port: '8080'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 80.13.135.11
+  port: '57546'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: tcp
+  server: 92.112.126.22
+  port: '8441'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 91.99.181.225
+  port: '443'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 104.18.36.24
+  port: '443'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 638949521660379297.copenhagen-prx-dnraacr.info
+  port: '8880'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: jone.fast-turbooserver.com
+  port: '8443'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
   type: vless
   server: www.indyskipass.com
   port: '443'
-- name: SvnTeam-WIFI-irancell
+- name: 🔥Join+Telegram:@Farah_VPN🟣
   type: vless
-  server: wWw.SpeedTest.Net
+  server: 195.201.32.169
+  port: '42671'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: pqh38v1.avoipok.shop
+  port: '8880'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: data.dayhostpro.com
+  port: '29664'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 91.98.22.20
+  port: '22933'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 13.37.210.69
+  port: '22224'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: Www.Speedtest.net
+  port: '2095'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: cumhuriyet.com.tr
   port: '80'
-- name: '@vmessorg'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vmess
+  server: 51.79.102.253
+  port: '80'
+  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+  alterId: '0'
+  cipher: auto
+  tls: ''
+  network: ws
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 5.10.214.253
+  port: '2096'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vmess
+  server: 57.129.59.201
+  port: '443'
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: '1'
+  cipher: auto
+  tls: tls
+  network: ws
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 178.162.244.196
+  port: '1331'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 62.60.164.140
+  port: '4040'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 103.133.1.227
+  port: '443'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 108.162.194.154
+  port: '2087'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 31.43.179.43
+  port: '2053'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: ilta-wzxrxkdhbjpnprhkkpplsjwawhssvollvxzdhqshiqckwdgrdm.orbnet.xyz
+  port: '443'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: '[2a01'
+  port: 4f8:1c1a:dc2b::1]:8888
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: Ger-server1-panyous.tap30.sbs
+  port: '2560'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: vipvpn2022.esnpenel.com
+  port: '2020'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 3.97.115.40
+  port: '443'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: armenia.glitsch.ir
+  port: '3943'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: apkq.bosx.net
+  port: '443'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: '[2a01'
+  port: 4f8:1c1b:2cab::1]:443
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 188.114.96.3
+  port: '443'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 146.19.230.248
+  port: '8880'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 151.101.3.8
+  port: '80'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: ss
+  server: V2ray1_Ng","scy"
+  port: '"auto","sni":"fapeng.org","tls":"tls","type":"---","v":"2"}'
+  cipher: '{"add"'
+  password: '"57.129.59.202","aid":"0","alpn":"","fp":"","host":"fapeng.org","id":"03fcc618-b93d-6796-6aed-8a38c975d581","net":"ws","path":"linkvws","port":"443","ps":"'
+  udp: true
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 172.66.156.81
+  port: '80'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: Free2026.niceserver.sbs
+  port: '142'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 176.223.66.8
+  port: '39948'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: tcp
+  server: 52.47.92.82
+  port: '22222'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: tcp
+  server: 91.107.252.182
+  port: '26805'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vmess
+  server: 65.109.217.125
+  port: '8443'
+  uuid: 5a38afce-c5eb-4cb8-8e5e-bb4f03462b44
+  alterId: '0'
+  cipher: auto
+  tls: tls
+  network: ws
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 638948510378508794.mashhad-drc-tusacaf.info
+  port: '8880'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 162.19.250.117
+  port: '25921'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 138.68.74.242
+  port: '443'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vmess
+  server: 57.129.25.20
+  port: '443'
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: '0'
+  cipher: auto
+  tls: tls
+  network: ws
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: masterserver1.de.huqpmfood.ir
+  port: '1331'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: join.VPNCUSTOMIZE.fastly80-3.hosting-ip.com
+  port: '80'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vmess
+  server: 94.131.111.195
+  port: '444'
+  uuid: 8bbd9d8c-481b-49b6-8029-e4648f2ea31d
+  alterId: '0'
+  cipher: auto
+  tls: ''
+  network: tcp
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 89.44.242.222
+  port: '46822'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: best.cdniran.info
+  port: '443'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: xn--ktff-jt6hr36l.tencentapp.cn
+  port: '443'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: best.cdniran.info
+  port: '443'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: i.ownlink.pro
+  port: '28570'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 185.236.232.116
+  port: '8880'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 91.99.117.29
+  port: '443'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 151.101.3.8
+  port: '80'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 188.42.145.253
+  port: '2096'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: '[2a01'
+  port: 4f8:1c1a:dc2b::1]:8888
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: t1.gately.xyz
+  port: '1717'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: ss
+  server: V2rayNG3","scy"
+  port: '"auto","sni":"putihb.org","tls":"tls","type":"---","v":"2"}'
+  cipher: '{"add"'
+  password: '"putihb.org","aid":"0","alpn":"","fp":"","host":"putihb.org","id":"03fcc618-b93d-6796-6aed-8a38c975d581","net":"ws","path":"linkvws","port":"443","ps":"'
+  udp: true
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: T.irimcs.org
+  port: '2053'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 151.101.3.8
+  port: '80'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: dedicated-development.seotoolsforyou.co.uk
+  port: '80'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 92.223.2.119
+  port: '36136'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 45.89.107.244
+  port: '443'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 158.69.50.164
+  port: '1331'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 95.134.130.138
+  port: '5437'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 638952778316586254.hamedan-drc-tusaas.info
+  port: '8880'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 185.231.205.248
+  port: '8880'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: cumhuriyet.com.tr
+  port: '8080'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 104.18.36.24
+  port: '443'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: direct-jde6zos4zet26b15zzd1.appcity-download.ir
+  port: '17337'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: cloudcdn3.parsgit.com
+  port: '4040'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 103.246.145.244
+  port: '11802'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vmess
+  server: 8.217.92.110
+  port: '20522'
+  uuid: 31e1f90f-0218-4097-91f9-a42df9b3334a
+  alterId: '0'
+  cipher: auto
+  tls: ''
+  network: ws
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 154.194.0.61
+  port: '2096'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 5.181.20.219
+  port: '17422'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 91.107.129.66
+  port: '3080'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 92.112.126.22
+  port: '8442'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
   type: vless
   server: www.speedtest.net
-  port: '2052'
-- name: '@MARAMBASHI 💜'
+  port: '2095'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
   type: vless
-  server: 104.18.85.29
+  server: EVAY_VPN.fastly80.hosting-ip.com
+  port: '80'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 104.16.34.128
   port: '443'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: mar13t.rasmar1400.com
+  port: '2080'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 31.47.45.96
+  port: '29968'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: V2ngFast.huqpmfood.ir
+  port: '1146'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 104.26.2.186
+  port: '443'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: ss
+  server: ShadowProxy66 ","scy"
+  port: '"auto","sni":"","tls":"","type":"","v":"2"}'
+  cipher: '{"add"'
+  password: '"2001:bc8:32d7:302::10","aid":"0","alpn":"","fp":"","host":"","id":"8e34e170-13ae-4892-9d20-05962acc9f84","net":"ws","path":"/","port":"44579","ps":"Channel
+    id: '
+  udp: true
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 84.32.9.37
+  port: '8880'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 185.242.87.247
+  port: '8880'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: Op.mciickoir.ir
+  port: '9620'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: ss
+  server: Hope_Net-join-us-on-Telegram", "tls"
+  port: ' "tls", "type": "auto", "security": "auto", "skip-cert-verify": true, "sni":
+    ""}'
+  cipher: '{"add"'
+  password: ' "158.51.121.36", "aid": 0, "host": "158.51.121.36", "id": "03fcc618-b93d-6796-6aed-8a38c975d581",
+    "net": "ws", "path": "/linkvws", "port": 443, "ps": "'
+  udp: true
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 93.127.180.143
+  port: '2087'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 45.128.232.102
+  port: '16798'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 172.66.40.99
+  port: '443'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vmess
+  server: 143.198.18.35
+  port: '8881'
+  uuid: db5afae4-ac23-41a6-8378-f307a9a47436
+  alterId: '0'
+  cipher: auto
+  tls: tls
+  network: tcp
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 51.89.176.242
+  port: '3478'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: Zula.ir
+  port: '8880'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 104.20.43.81
+  port: '80'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 151.101.3.8
+  port: '80'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 185.236.232.20
+  port: '80'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 638947655359333933.birjand-drc-tusaas.info
+  port: '8880'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: vpn-srv-2.circlevpn.net
+  port: '37096'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vmess
+  server: 127.1.1.127
+  port: '80'
+  uuid: 602736e4-a2e8-4eb3-9fc9-7c7082925365
+  alterId: '0'
+  cipher: auto
+  tls: ''
+  network: tcp
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 194.4.49.229
+  port: '443'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: www.speedtest.net
+  port: '2095'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 91.99.179.41
+  port: '10138'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: mixed-luci-mmrknight-5f66680b.koyeb.app
+  port: '443'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: tcp
+  server: 3.123.67.61
+  port: '22222'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: mstr.fastly80.hosting-ip.com
+  port: '80'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: masterserver1.heloisfood.ir
+  port: '1331'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: aut-0001-xr.packet-drop-society.net
+  port: '443'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 195.42.233.92
+  port: '8880'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: ipw.gfdv54cvghhgfhgj-njhgj64.info
+  port: '2096'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: npmjs.com
+  port: '80'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: sss49730.tas-bazi.com
+  port: '443'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: parsvds.com.ir-outline.click
+  port: '443'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 45.194.53.52
+  port: '443'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 63.178.9.121
+  port: '25670'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: gleeful-error.seotoolsforyou.co.uk
+  port: '80'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: world-of.ru
+  port: '443'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: d.eans.top
+  port: '7008'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: ss
+  server: V2RAY_VMESS_free","scy"
+  port: '"auto","sni":"","tls":"","type":"none","v":"2"}'
+  cipher: '{"add"'
+  password: '"39.107.155.11","aid":"0","alpn":"","fp":"chrome","host":"","id":"418048af-a293-4b99-9b0c-98ca3580dd24","net":"tcp","path":"","port":"30302","ps":"'
+  udp: true
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 195.85.59.95
+  port: '2082'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: MINIPROXY.NET
+  port: '8443'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vmess
+  server: 45.231.132.46
+  port: '45979'
+  uuid: 23bdf6df-c482-46d0-c0f4-5a98d534ea11
+  alterId: '0'
+  cipher: auto
+  tls: ''
+  network: ws
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 91.107.245.14
+  port: '2095'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: api.hostbaran.info
+  port: '15810'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 147.78.180.10
+  port: '443'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: test.fast.hosting-ip.com
+  port: '80'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 91.99.179.41
+  port: '42671'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vmess
+  server: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
+  port: 443
+  uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682
+  alterId: 0
+  cipher: auto
+  tls: tls
+  network: ws
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: www.speedtest.net
+  port: '80'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 195.42.233.94
+  port: '8880'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 74.119.192.28
+  port: '443'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 141.227.134.240
+  port: '54983'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: dl.nim3.azarbanou.ir
+  port: '5252'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: tcp
+  server: 13.37.71.98
+  port: '22222'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: cafearz.com
+  port: '8080'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 146.19.230.247
+  port: '8880'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 88.218.16.228
+  port: '1231'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 173.245.59.132
+  port: '8880'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 65.109.212.37
+  port: '443'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: app-stg.gopay.co.id.servpn.my.id
+  port: '443'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 172.66.40.99
+  port: '8443'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 91.99.216.235
+  port: '443'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: m11a.vip784.com
+  port: '33801'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 172.232.190.207
+  port: '443'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: www.Speedtest.Net
+  port: '2095'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: ws
+  server: 45.131.4.216
+  port: '2096'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 172.238.190.16
+  port: '443'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 188.114.98.112
+  port: '2095'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 37.152.173.139
+  port: '8464'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 172.236.193.246
+  port: '8443'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 104.26.15.69
+  port: '8880'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 185.146.173.39
+  port: '8880'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: www.arizona.edu
+  port: '443'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: mtn-iTV2RAY.ddns.net
+  port: '2083'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vmess
+  server: 172.67.71.160
+  port: '443'
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: '0'
+  cipher: auto
+  tls: tls
+  network: ws
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: m71a.vip784.com
+  port: '33801'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 103.231.75.129
+  port: '8880'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 185.242.87.195
+  port: '8880'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: www.speedtest.net
+  port: '2082'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 45.15.170.183
+  port: '443'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: all.tellmethetrue.shop
+  port: '443'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: www.speedtest.net
+  port: '2082'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 193.24.209.127
+  port: '52289'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
+  type: vless
+  server: 3.70.168.130
+  port: '25670'
