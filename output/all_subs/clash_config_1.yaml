@@ -1,4 +1,328 @@
 proxies:
+- name: 🇵🇱[By EbraSha] vless-PL 🔒
+  type: vless
+  server: 45.144.51.41
+  port: '443'
+- name: 🇰🇿[By EbraSha] vless-KZ 🔒
+  type: vless
+  server: 91.224.74.178
+  port: '443'
+- name: 🇮🇱[By EbraSha] vless-IL 🔒
+  type: vless
+  server: ilta-wzxrxkdhbjpnprhkkpplsjwawhssvollvxzdhqshiqckwdgrdm.orbnet.xyz
+  port: '443'
+- name: 🇩🇪[By EbraSha] vless-DE 🔒
+  type: vless
+  server: beast-masters.fonixapp.org
+  port: '49406'
+- name: 🇩🇪[By EbraSha] vless-DE 🔒
+  type: vless
+  server: drow-ranger.fonixapp.org
+  port: '56765'
+- name: 🇩🇪[By EbraSha] vless-DE 🔒
+  type: vless
+  server: windrunner.fonixapp.org
+  port: '10726'
+- name: 🇩🇪[By EbraSha] vless-DE 🔒
+  type: vless
+  server: butcher.fonixapp.org
+  port: '20220'
+- name: 🇺🇸[By EbraSha] vless-US 🔒
+  type: vless
+  server: 216.133.149.139
+  port: '23581'
+- name: 🇺🇸[By EbraSha] vless-US 🔒
+  type: vless
+  server: 104.167.199.50
+  port: '443'
+- name: 🇮🇱[By EbraSha] vless-IL 🔒
+  type: vless
+  server: ilta-wzxrxkdhbjpnprhkkpplsjwawhssvollvxzdhqshiqckwdgrdm.orbnet.xyz
+  port: '443'
+- name: 🇭🇰[By EbraSha] trojan-HK 🔒
+  type: tcp
+  server: 221.128.195.12
+  port: '3841'
+- name: 🇫🇮[By EbraSha] vless-FI 🔒
+  type: vless
+  server: fl-3-direct.djarbnet.ru
+  port: '443'
+- name: 🇫🇷[By EbraSha] vless-FR 🔒
+  type: vless
+  server: 185.234.64.104
+  port: '8880'
+- name: 🇫🇷[By EbraSha] vless-FR 🔒
+  type: vless
+  server: 638934319458527217.zagreb-drc-tusaby.info
+  port: '8880'
+- name: 🇫🇷[By EbraSha] vless-FR 🔒
+  type: vless
+  server: 195.42.233.71
+  port: '8880'
+- name: 🇫🇷[By EbraSha] vless-FR 🔒
+  type: vless
+  server: 195.42.233.96
+  port: '8880'
+- name: 🇩🇪[By EbraSha] vless-DE 🔒
+  type: vless
+  server: necrolyte.fonixapp.org
+  port: '37843'
+- name: 🇩🇪[By EbraSha] vless-DE 🔒
+  type: vless
+  server: bonefletcher.fonixapp.org
+  port: '22925'
+- name: 🇫🇷[By EbraSha] vless-FR 🔒
+  type: vless
+  server: paris.fonixapp.org
+  port: '15833'
+- name: 🇳🇱[By EbraSha] vless-NL 🔒
+  type: vless
+  server: amsterdam.fonixapp.org
+  port: '31603'
+- name: 🇺🇸[By EbraSha] vless-US 🔒
+  type: vless
+  server: virginia.fonixapp.org
+  port: '52230'
+- name: 🇺🇸[By EbraSha] vless-US 🔒
+  type: vless
+  server: 103.35.189.107
+  port: '8880'
+- name: 🇬🇧[By EbraSha] vless-GB 🔒
+  type: vless
+  server: london.fonixapp.org
+  port: '11133'
+- name: 🇩🇪[By EbraSha] vless-DE 🔒
+  type: vless
+  server: upihhqhvoa2gv.bervatoldbqj.lat
+  port: '2052'
+- name: 🇩🇪[By EbraSha] vless-DE 🔒
+  type: vless
+  server: arcwarden.fonixapp.org
+  port: '29993'
+- name: 🇩🇪[By EbraSha] vless-DE 🔒
+  type: vless
+  server: alchemistss.fonixapp.org
+  port: '23328'
+- name: 🇬🇧[By EbraSha] vless-GB 🔒
+  type: vless
+  server: finland4.clear-vpn.org
+  port: '443'
+- name: 🇺🇸[By EbraSha] vless-US 🔒
+  type: vless
+  server: all.tellmethetrue.shop
+  port: '443'
+- name: 🇭🇰[By EbraSha] trojan-HK 🔒
+  type: tcp
+  server: 58.152.53.186
+  port: '443'
+- name: 🇺🇸[By EbraSha] vless-US 🔒
+  type: vless
+  server: pqh29v5.ipforvetra.shop
+  port: '80'
+- name: 🇫🇷[By EbraSha] vless-FR 🔒
+  type: vless
+  server: 195.42.233.139
+  port: '8880'
+- name: 🇫🇮[By EbraSha] vless-FI 🔒
+  type: vless
+  server: mww1ek4ipewzn.toshibl2hvg.lat
+  port: '2052'
+- name: 🇺🇦[By EbraSha] vless-UA 🔒
+  type: vless
+  server: 82.118.18.101
+  port: '10004'
+- name: 🇺🇸[By EbraSha] vless-US 🔒
+  type: vless
+  server: 45.82.251.23
+  port: '80'
+- name: 🇩🇪[By EbraSha] vless-DE 🔒
+  type: vless
+  server: 198.186.131.216
+  port: '47387'
+- name: 🇪🇸[By EbraSha] vless-ES 🔒
+  type: vless
+  server: 45.12.150.186
+  port: '8880'
+- name: 🇪🇸[By EbraSha] vless-ES 🔒
+  type: vless
+  server: 45.12.150.134
+  port: '8880'
+- name: 🇬🇧[By EbraSha] vless-GB 🔒
+  type: vless
+  server: 185.138.164.186
+  port: '8880'
+- name: 🇩🇪[By EbraSha] vless-DE 🔒
+  type: vless
+  server: deu406.unboundaccess.org
+  port: '443'
+- name: 🇬🇧[By EbraSha] vless-GB 🔒
+  type: vless
+  server: 638977742221952935.warsaw-blkaft-aaav.info
+  port: '8880'
+- name: 🇩🇪[By EbraSha] vless-DE 🔒
+  type: vless
+  server: 7ygb3r6bw.royalcontl5h1i.lat
+  port: '2052'
+- name: 🇺🇸[By EbraSha] vless-US 🔒
+  type: vless
+  server: 103.35.189.45
+  port: '8880'
+- name: 🇺🇸[By EbraSha] vless-US 🔒
+  type: vless
+  server: pqh29v4.ipforvetra.shop
+  port: '80'
+- name: 🇸🇬[By EbraSha] vless-SG 🔒
+  type: vless
+  server: 171.22.114.244
+  port: '8880'
+- name: 🇺🇸[By EbraSha] vless-US 🔒
+  type: vless
+  server: 638977742221950608.warsaw-blkaft-aaav.info
+  port: '8880'
+- name: 🇬🇧[By EbraSha] vless-GB 🔒
+  type: vless
+  server: 94.182.137.12
+  port: '20532'
+- name: 🇹🇷[By EbraSha] vless-TR 🔒
+  type: vless
+  server: 185.234.66.93
+  port: '8880'
+- name: 🇹🇷[By EbraSha] vless-TR 🔒
+  type: vless
+  server: 185.234.66.106
+  port: '8880'
+- name: 🇹🇷[By EbraSha] vless-TR 🔒
+  type: vless
+  server: 185.234.66.80
+  port: '8880'
+- name: 🇹🇷[By EbraSha] vless-TR 🔒
+  type: vless
+  server: 185.234.66.75
+  port: '8880'
+- name: 🇹🇷[By EbraSha] vless-TR 🔒
+  type: vless
+  server: 185.234.66.100
+  port: '8880'
+- name: 🇹🇷[By EbraSha] vless-TR 🔒
+  type: vless
+  server: 185.234.66.88
+  port: '8880'
+- name: 🇹🇷[By EbraSha] vless-TR 🔒
+  type: vless
+  server: 185.234.66.103
+  port: '8880'
+- name: 🇹🇷[By EbraSha] vless-TR 🔒
+  type: vless
+  server: 185.234.66.87
+  port: '8880'
+- name: 🇹🇷[By EbraSha] vless-TR 🔒
+  type: vless
+  server: 185.234.66.99
+  port: '8880'
+- name: 🇹🇷[By EbraSha] vless-TR 🔒
+  type: vless
+  server: 185.234.66.96
+  port: '8880'
+- name: 🇫🇷[By EbraSha] vless-FR 🔒
+  type: vless
+  server: 638949279865777517.brussels-prx-dnraacr.info
+  port: '8880'
+- name: 🇫🇷[By EbraSha] vless-FR 🔒
+  type: vless
+  server: 95.164.6.169
+  port: '8880'
+- name: 🇬🇧[By EbraSha] vless-GB 🔒
+  type: vless
+  server: 104.26.6.89
+  port: '443'
+- name: 🇩🇪[By EbraSha] vless-DE 🔒
+  type: vless
+  server: www.speedtest.net
+  port: '443'
+- name: 🇱🇻[By EbraSha] vless-LV 🔒
+  type: vless
+  server: 188.253.19.234
+  port: '444'
+- name: 🇬🇧[By EbraSha] vless-GB 🔒
+  type: vless
+  server: 638977742221947111.warsaw-blkaft-aaav.info
+  port: '8880'
+- name: 🇸🇬[By EbraSha] vless-SG 🔒
+  type: vless
+  server: aws-linksg64.eovay.com
+  port: '31064'
+- name: 🇫🇷[By EbraSha] vless-FR 🔒
+  type: vless
+  server: 195.42.233.126
+  port: '8880'
+- name: 🇫🇷[By EbraSha] vless-FR 🔒
+  type: vless
+  server: 638931272656134408.malayer-drc-tusabu.info
+  port: '8880'
+- name: 🇫🇷[By EbraSha] vless-FR 🔒
+  type: vless
+  server: 195.42.233.27
+  port: '8880'
+- name: 🇫🇷[By EbraSha] vless-FR 🔒
+  type: vless
+  server: 195.42.233.89
+  port: '8880'
+- name: 🇫🇷[By EbraSha] vless-FR 🔒
+  type: vless
+  server: 638955951255889101.oslo-prx-dnraacu.info
+  port: '8880'
+- name: 🇬🇧[By EbraSha] vless-GB 🔒
+  type: vless
+  server: 45.140.167.172
+  port: '8880'
+- name: 🇬🇧[By EbraSha] vless-GB 🔒
+  type: vless
+  server: 45.140.167.213
+  port: '8880'
+- name: 🇫🇷[By EbraSha] vless-FR 🔒
+  type: vless
+  server: 86.104.74.73
+  port: '8880'
+- name: 🇫🇷[By EbraSha] vless-FR 🔒
+  type: vless
+  server: 62.60.148.21
+  port: '443'
+- name: 🇺🇸[By EbraSha] vless-US 🔒
+  type: vless
+  server: 45.82.251.145
+  port: '80'
+- name: 🇺🇸[By EbraSha] vless-US 🔒
+  type: vless
+  server: 62.60.177.167
+  port: '443'
+- name: 🇵🇱[By EbraSha] vless-PL 🔒
+  type: vless
+  server: 38.180.250.185
+  port: '8443'
+- name: 🇬🇧[By EbraSha] vless-GB 🔒
+  type: vless
+  server: 45.140.167.209
+  port: '8880'
+- name: 🇬🇧[By EbraSha] vless-GB 🔒
+  type: vless
+  server: 185.138.164.67
+  port: '8880'
+- name: 🇫🇷[By EbraSha] vless-FR 🔒
+  type: vless
+  server: 45.12.133.212
+  port: '8880'
+- name: 🇬🇧[By EbraSha] vless-GB 🔒
+  type: vless
+  server: 45.140.167.173
+  port: '8880'
+- name: 🇫🇷[By EbraSha] vless-FR 🔒
+  type: vless
+  server: 86.104.74.62
+  port: '8880'
+- name: 🇫🇷[By EbraSha] vless-FR 🔒
+  type: vless
+  server: 217.69.11.74
+  port: '8880'
 - name: 🇭🇰[By EbraSha] trojan-HK 🔒
   type: tcp
   server: 203.198.122.129
@@ -7,177 +331,21 @@ proxies:
   type: tcp
   server: 58.152.53.42
   port: '443'
-- name: 🇩🇪[By EbraSha] vless-DE 🔒
-  type: vless
-  server: germany85.clearorbitllc.com
-  port: '443'
-- name: 🇮🇱[By EbraSha] vless-IL 🔒
-  type: vless
-  server: ilta-wzxrxkdhbjpnprhkkpplsjwawhssvollvxzdhqshiqckwdgrdm.orbnet.xyz
-  port: '443'
-- name: 🇵🇱[By EbraSha] trojan-PL 🔒
-  type: tcp
-  server: pl.scpnb.top
-  port: '50191'
-- name: 🇮🇳[By EbraSha] vless-IN 🔒
-  type: vless
-  server: india2.clearorbitllc.com
-  port: '443'
-- name: 🇺🇸[By EbraSha] vless-US 🔒
-  type: vless
-  server: usa32.clearorbitllc.com
-  port: '443'
-- name: 🇩🇪[By EbraSha] vless-DE 🔒
-  type: vless
-  server: 79.132.136.80
-  port: '17287'
-- name: 🇫🇷[By EbraSha] vless-FR 🔒
-  type: vless
-  server: 185.234.64.12
-  port: '8880'
-- name: 🇺🇸[By EbraSha] vless-US 🔒
-  type: vless
-  server: us1.projecthope.ir
-  port: '2053'
-- name: 🇺🇸[By EbraSha] vless-US 🔒
-  type: vless
-  server: 85.209.195.66
-  port: '8880'
-- name: 🇫🇷[By EbraSha] vless-FR 🔒
-  type: vless
-  server: france18.clearorbitllc.com
-  port: '443'
-- name: 🇮🇪[By EbraSha] vless-IE 🔒
-  type: vless
-  server: 192.210.183.136
-  port: '36678'
-- name: 🇳🇱[By EbraSha] vless-NL 🔒
-  type: vless
-  server: netherlands85.clearorbitllc.com
-  port: '443'
-- name: 🇩🇪[By EbraSha] vless-DE 🔒
-  type: vless
-  server: 91.98.233.176
-  port: '10138'
-- name: 🇫🇷[By EbraSha] vless-FR 🔒
-  type: vless
-  server: 185.234.64.49
-  port: '8880'
-- name: 🇩🇪[By EbraSha] vless-DE 🔒
-  type: vless
-  server: 172.66.40.99
-  port: '8880'
 - name: 🇺🇸[By EbraSha] vless-US 🔒
   type: vless
   server: 38.54.104.230
   port: '443'
-- name: 🇫🇷[By EbraSha] vless-FR 🔒
-  type: vless
-  server: 5.189.190.60
-  port: '34704'
 - name: 🇷🇴[By EbraSha] vless-RO 🔒
   type: vless
   server: 31.6.1.187
   port: '25607'
-- name: 🇫🇷[By EbraSha] vless-FR 🔒
-  type: vless
-  server: 95.164.45.27
-  port: '8880'
-- name: 🇫🇷[By EbraSha] vless-FR 🔒
-  type: vless
-  server: 94.232.247.235
-  port: '8880'
-- name: 🇮🇸[By EbraSha] vless-IS 🔒
-  type: vless
-  server: 89.221.224.216
-  port: '8880'
-- name: 🇮🇸[By EbraSha] vless-IS 🔒
-  type: vless
-  server: 89.221.224.244
-  port: '8880'
 - name: 🇬🇧[By EbraSha] vless-GB 🔒
   type: vless
-  server: 638974363192987483.budapest-blkaft-aaav.info
+  server: 638977742221946555.warsaw-blkaft-aaav.info
   port: '8880'
 - name: 🇫🇷[By EbraSha] vless-FR 🔒
-  type: vless
-  server: 638975946113097669.berlin-drcn-aaaae.info
-  port: '8880'
-- name: 🇫🇷[By EbraSha] vless-FR 🔒
-  type: vless
-  server: 138.124.91.185
-  port: '443'
-- name: 🏳[By EbraSha] vless- 🔒
   type: vless
   server: 638974563192163059.stockholm-drcn-aaaad.info
-  port: '8880'
-- name: 🇬🇧[By EbraSha] vless-GB 🔒
-  type: vless
-  server: 638974363192988782.budapest-blkaft-aaav.info
-  port: '8880'
-- name: 🇩🇪[By EbraSha] vless-DE 🔒
-  type: vless
-  server: 142.93.109.68
-  port: '443'
-- name: 🇫🇮[By EbraSha] vless-FI 🔒
-  type: vless
-  server: 62.60.237.26
-  port: '443'
-- name: 🇮🇸[By EbraSha] vless-IS 🔒
-  type: vless
-  server: 89.221.224.238
-  port: '8880'
-- name: 🇫🇮[By EbraSha] vless-FI 🔒
-  type: vless
-  server: fin.monkeyisland.life
-  port: '443'
-- name: 🇬🇧[By EbraSha] vless-GB 🔒
-  type: vless
-  server: uk29.clearorbitllc.com
-  port: '443'
-- name: 🇩🇪[By EbraSha] vless-DE 🔒
-  type: vless
-  server: cent1de.maga171717.sbs
-  port: '443'
-- name: 🇫🇷[By EbraSha] vless-FR 🔒
-  type: vless
-  server: 95.164.45.62
-  port: '8880'
-- name: 🇫🇷[By EbraSha] vless-FR 🔒
-  type: vless
-  server: 94.232.247.206
-  port: '8880'
-- name: 🇸🇪[By EbraSha] vless-SE 🔒
-  type: vless
-  server: sweden11.clearorbitllc.com
-  port: '443'
-- name: 🇫🇷[By EbraSha] vless-FR 🔒
-  type: vless
-  server: 94.232.247.177
-  port: '8880'
-- name: 🇫🇷[By EbraSha] vless-FR 🔒
-  type: vless
-  server: 95.164.6.7
-  port: '8880'
-- name: 🇫🇷[By EbraSha] vless-FR 🔒
-  type: vless
-  server: 95.164.6.22
-  port: '8880'
-- name: 🇫🇷[By EbraSha] vless-FR 🔒
-  type: vless
-  server: 95.164.6.211
-  port: '8880'
-- name: 🇫🇷[By EbraSha] vless-FR 🔒
-  type: vless
-  server: 95.164.6.183
-  port: '8880'
-- name: 🇫🇷[By EbraSha] vless-FR 🔒
-  type: vless
-  server: 95.164.45.119
-  port: '8880'
-- name: 🇫🇷[By EbraSha] vless-FR 🔒
-  type: vless
-  server: 95.164.6.82
   port: '8880'
 - name: 🇱🇻[By EbraSha] vless-LV 🔒
   type: vless
@@ -185,280 +353,28 @@ proxies:
   port: '53299'
 - name: 🇩🇪[By EbraSha] vless-DE 🔒
   type: vless
-  server: socialup.live
-  port: '443'
-- name: 🇫🇷[By EbraSha] vless-FR 🔒
-  type: vless
-  server: 95.164.6.244
-  port: '8880'
-- name: 🇩🇪[By EbraSha] vless-DE 🔒
-  type: vless
   server: 104.26.6.89
   port: '2053'
-- name: 🇫🇷[By EbraSha] vless-FR 🔒
-  type: vless
-  server: 94.232.247.186
-  port: '8880'
-- name: 🇫🇷[By EbraSha] vless-FR 🔒
-  type: vless
-  server: 95.164.6.15
-  port: '8880'
 - name: 🇺🇸[By EbraSha] vless-US 🔒
   type: vless
-  server: 147.93.184.37
-  port: '443'
-- name: 🇫🇮[By EbraSha] vless-FI 🔒
-  type: vless
-  server: 85.239.149.76
-  port: '443'
-- name: 🇺🇸[By EbraSha] vless-US 🔒
-  type: vless
-  server: 638974363192992700.budapest-blkaft-aaav.info
+  server: 638977742221950180.warsaw-blkaft-aaav.info
   port: '8880'
-- name: 🇫🇷[By EbraSha] vless-FR 🔒
-  type: vless
-  server: 193.233.133.166
-  port: '443'
-- name: 🇩🇪[By EbraSha] vless-DE 🔒
-  type: vless
-  server: 188.40.96.166
-  port: '443'
 - name: 🇬🇧[By EbraSha] vless-GB 🔒
   type: vless
   server: 638974363192994984.budapest-blkaft-aaav.info
   port: '8880'
-- name: 🇺🇸[By EbraSha] vless-US 🔒
-  type: vless
-  server: 137.220.56.53
-  port: '29752'
-- name: 🇳🇱[By EbraSha] vless-NL 🔒
-  type: vless
-  server: 167.17.70.41
-  port: '443'
 - name: 🇫🇷[By EbraSha] vless-FR 🔒
   type: vless
   server: 638974021050130973.kish-blkaft-aaba.info
   port: '8880'
-- name: 🇺🇸[By EbraSha] vless-US 🔒
-  type: vless
-  server: 77.110.127.105
-  port: '443'
 - name: 🇫🇷[By EbraSha] vless-FR 🔒
   type: vless
-  server: 95.164.45.25
+  server: 638973401251721246.esfahan-blkaft-aaba.info
   port: '8880'
-- name: 🇫🇷[By EbraSha] vless-FR 🔒
-  type: vless
-  server: 95.164.6.97
-  port: '8880'
-- name: 🇭🇰[By EbraSha] trojan-HK 🔒
-  type: tcp
-  server: 221.128.195.9
-  port: '22581'
-- name: 🇳🇱[By EbraSha] vless-NL 🔒
-  type: vless
-  server: 64.188.95.255
-  port: '443'
-- name: 🇯🇵[By EbraSha] vless-JP 🔒
-  type: vless
-  server: 172.238.22.96
-  port: '25599'
-- name: 🇬🇧[By EbraSha] vless-GB 🔒
-  type: vless
-  server: 46.250.250.149
-  port: '443'
-- name: 🇫🇷[By EbraSha] vless-FR 🔒
-  type: vless
-  server: 185.153.183.22
-  port: '8880'
-- name: 🇺🇸[By EbraSha] vless-US 🔒
-  type: vless
-  server: 638971077544307610.oslo-blkaft-aaav.info
-  port: '8880'
-- name: 🇮🇱[By EbraSha] vless-IL 🔒
-  type: vless
-  server: ilta-wzxrxkdhbjpnprhkkpplsjwawhssvollvxzdhqshiqckwdgrdm.orbnet.xyz
-  port: '443'
-- name: 🇩🇪[By EbraSha] vless-DE 🔒
-  type: vless
-  server: iplocation.net
-  port: '443'
 - name: 🇸🇬[By EbraSha] vless-SG 🔒
   type: vless
   server: 46.250.237.164
   port: '55076'
-- name: 🇬🇷[By EbraSha] vless-GR 🔒
-  type: vless
-  server: 94.131.8.19
-  port: '45448'
-- name: 🏳[By EbraSha] vless- 🔒
-  type: vless
-  server: 3.36.62.128
-  port: '443'
-- name: 🇱🇻[By EbraSha] vless-LV 🔒
-  type: vless
-  server: 77.73.238.211
-  port: '16109'
-- name: 🇬🇧[By EbraSha] vless-GB 🔒
-  type: vless
-  server: 104.18.15.201
-  port: '443'
-- name: 🇳🇱[By EbraSha] vless-NL 🔒
-  type: vless
-  server: 82.115.6.101
-  port: '14915'
-- name: 🇳🇱[By EbraSha] vless-NL 🔒
-  type: vless
-  server: 31.207.44.210
-  port: '32155'
-- name: 🇫🇮[By EbraSha] vless-FI 🔒
-  type: vless
-  server: 171.22.114.244
-  port: '8880'
-- name: 🇩🇪[By EbraSha] vless-DE 🔒
-  type: vless
-  server: 91.99.177.36
-  port: '443'
-- name: 🇫🇮[By EbraSha] vless-FI 🔒
-  type: vless
-  server: 65.108.253.253
-  port: '100'
-- name: 🇫🇷[By EbraSha] vless-FR 🔒
-  type: vless
-  server: 638960638051874642.london-blkaft-aaap.info
-  port: '8880'
-- name: 🇷🇸[By EbraSha] vless-RS 🔒
-  type: vless
-  server: 38.180.17.232
-  port: '443'
-- name: 🏳[By EbraSha] vless- 🔒
-  type: vless
-  server: 638959558652399004.arak-blkaft-aaao.info
-  port: '8880'
-- name: 🇸🇪[By EbraSha] vless-SE 🔒
-  type: vless
-  server: 62.182.192.91
-  port: '443'
-- name: 🇱🇻[By EbraSha] vless-LV 🔒
-  type: vless
-  server: latvia9.clearorbitllc.com
-  port: '443'
-- name: 🇫🇮[By EbraSha] vless-FI 🔒
-  type: vless
-  server: 171.22.114.194
-  port: '8880'
-- name: 🇸🇪[By EbraSha] vless-SE 🔒
-  type: vless
-  server: 78.40.117.185
-  port: '443'
-- name: 🇫🇷[By EbraSha] vless-FR 🔒
-  type: vless
-  server: 638967500853360616.mashhad-blkaft-aaap.info
-  port: '8880'
-- name: 🇫🇷[By EbraSha] vless-FR 🔒
-  type: vless
-  server: 638964503850730101.prague-blkaft-aaap.info
-  port: '8880'
-- name: 🇫🇷[By EbraSha] vless-FR 🔒
-  type: vless
-  server: 638966622454168195.helsinki-blkaft-aaap.info
-  port: '8880'
-- name: 🇫🇷[By EbraSha] vless-FR 🔒
-  type: vless
-  server: 638967288453104894.lahijan-blkaft-aaap.info
-  port: '8880'
-- name: 🇬🇧[By EbraSha] vless-GB 🔒
-  type: vless
-  server: 638961293929376530.rasht-drc-tusaas.info
-  port: '8880'
-- name: 🇫🇷[By EbraSha] vless-FR 🔒
-  type: vless
-  server: 185.231.205.192
-  port: '8880'
-- name: 🇳🇱[By EbraSha] vless-NL 🔒
-  type: vless
-  server: 144.124.234.87
-  port: '443'
-- name: 🇫🇷[By EbraSha] vless-FR 🔒
-  type: vless
-  server: 638959700852260413.esfahan-blkaft-aaao.info
-  port: '8880'
-- name: 🇫🇷[By EbraSha] vless-FR 🔒
-  type: vless
-  server: 185.231.205.152
-  port: '8880'
-- name: 🇫🇷[By EbraSha] vless-FR 🔒
-  type: vless
-  server: 95.164.6.26
-  port: '8880'
-- name: 🇫🇷[By EbraSha] vless-FR 🔒
-  type: vless
-  server: 185.153.183.210
-  port: '8880'
-- name: 🇫🇮[By EbraSha] vless-FI 🔒
-  type: vless
-  server: 157.180.123.25
-  port: '443'
-- name: 🏳[By EbraSha] vless- 🔒
-  type: vless
-  server: 54.219.42.163
-  port: '443'
-- name: 🇺🇸[By EbraSha] vless-US 🔒
-  type: vless
-  server: 185.68.244.86
-  port: '42545'
-- name: 🇦🇪[By EbraSha] trojan-AE 🔒
-  type: tcp
-  server: 38.54.8.233
-  port: '11254'
-- name: 🇺🇸[By EbraSha] vless-US 🔒
-  type: vless
-  server: 185.236.232.118
-  port: '80'
-- name: 🇺🇸[By EbraSha] vless-US 🔒
-  type: vless
-  server: 185.236.232.159
-  port: '80'
-- name: 🇺🇸[By EbraSha] vless-US 🔒
-  type: vless
-  server: 185.236.232.248
-  port: '80'
-- name: 🇺🇸[By EbraSha] vless-US 🔒
-  type: vless
-  server: 185.236.232.205
-  port: '80'
-- name: 🇺🇸[By EbraSha] vless-US 🔒
-  type: vless
-  server: 185.236.232.175
-  port: '80'
-- name: 🇺🇸[By EbraSha] vless-US 🔒
-  type: vless
-  server: 185.236.232.217
-  port: '80'
-- name: 🇺🇸[By EbraSha] vless-US 🔒
-  type: vless
-  server: 185.236.232.171
-  port: '80'
-- name: 🇺🇸[By EbraSha] vless-US 🔒
-  type: vless
-  server: 185.236.232.125
-  port: '80'
-- name: 🇺🇸[By EbraSha] vless-US 🔒
-  type: vless
-  server: 185.236.232.251
-  port: '80'
-- name: 🇺🇸[By EbraSha] vless-US 🔒
-  type: vless
-  server: 185.236.232.77
-  port: '80'
-- name: 🇺🇸[By EbraSha] vless-US 🔒
-  type: vless
-  server: 185.236.232.99
-  port: '80'
-- name: 🇺🇸[By EbraSha] vless-US 🔒
-  type: vless
-  server: 153.121.45.101
-  port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: ss
   server: 13.49.228.30
@@ -1327,14 +1243,6 @@ proxies:
   udp: true
 - name: ' 🔒 [By EbraSha]'
   type: ss
-  server: ShadowProxy66 🇩🇪","scy"
-  port: '"auto","sni":"kapelleng.com","tls":"tls","type":"","v":"2"}'
-  cipher: '{"add"'
-  password: '"57.129.64.238","aid":"0","alpn":"","fp":"","host":"kapelleng.com","id":"03fcc618-b93d-6796-6aed-8a38c975d581","net":"ws","path":"/linkvws","port":"443","ps":"Channel
-    id: '
-  udp: true
-- name: ' 🔒 [By EbraSha]'
-  type: ss
   server: v2rayan 😘😊","scy"
   port: '"auto","sni":"","tls":"","type":"http","v":"2"}'
   cipher: '{"add"'
@@ -1756,23 +1664,7 @@ proxies:
   server: 144.22.250.122
   port: '443'
 - name: ' 🔒 [By EbraSha]'
-  type: ws
-  server: 104.17.247.140
-  port: '443'
-- name: ' 🔒 [By EbraSha]'
-  type: ws
-  server: 104.19.111.152
-  port: '443'
-- name: ' 🔒 [By EbraSha]'
-  type: ws
-  server: 104.25.149.137
-  port: '443'
-- name: ' 🔒 [By EbraSha]'
   type: tcp
-  server: azer.net
-  port: '443'
-- name: ' 🔒 [By EbraSha]'
-  type: ws
   server: azer.net
   port: '443'
 - name: ' 🔒 [By EbraSha]'
@@ -2158,7 +2050,15 @@ proxies:
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: gz01.xiaohouzi.club
+  port: '14705'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: gz01.xiaohouzi.club
   port: '20091'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: hn.xiaohouzi.club
+  port: '14185'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: hn.xiaohouzi.club
@@ -2170,14 +2070,6 @@ proxies:
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: hn.xiaohouzi.club
-  port: '16015'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: hn.xiaohouzi.club
-  port: '18432'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: hn.xiaohouzi.club
   port: '18432'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
@@ -2195,10 +2087,6 @@ proxies:
   type: tcp
   server: hn.xiaohouzi.club
   port: '18435'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: hn.xiaohouzi.club
-  port: '18459'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: hn.xiaohouzi.club
@@ -2214,15 +2102,11 @@ proxies:
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: hn.xiaohouzi.club
-  port: '46014'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: hn.xiaohouzi.club
   port: '48434'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: hn.xiaohouzi.club
-  port: '48434'
+  port: '61003'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: hn.xiaohouzi.club
@@ -2234,14 +2118,6 @@ proxies:
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: hnm.xiaohouzi.club
-  port: '17106'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: hnm.xiaohouzi.club
-  port: '17107'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: hnm.xiaohouzi.club
   port: '17107'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
@@ -2259,10 +2135,6 @@ proxies:
   type: tcp
   server: hnm.xiaohouzi.club
   port: '19362'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: hnm.xiaohouzi.club
-  port: '27482'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: hnm.xiaohouzi.club
@@ -2278,11 +2150,19 @@ proxies:
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: hnm.xiaohouzi.club
+  port: '36305'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: hnm.xiaohouzi.club
   port: '49361'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: hnm.xiaohouzi.club
   port: '49361'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: hnm.xiaohouzi.club
+  port: '49363'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: hnm.xiaohouzi.club
@@ -2303,10 +2183,6 @@ proxies:
   type: tcp
   server: iplc.xiaohouzi.club
   port: '20018'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: iplc.xiaohouzi.club
-  port: '20032'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: iplc.xiaohouzi.club
@@ -2497,6 +2373,10 @@ proxies:
   port: '80'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
+  server: 15.235.197.4
+  port: '80'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
   server: ni.mjt000.com
   port: '443'
 - name: ' 🔒 [By EbraSha]'
@@ -2584,9 +2464,9 @@ proxies:
   server: x1-sweden-linode-v2-71u92.devefun.org
   port: '1935'
 - name: ' 🔒 [By EbraSha]'
-  type: xhttp
-  server: ru2.asc-sam.ir
-  port: '443'
+  type: ws
+  server: sg006.421421.xyz
+  port: '20230'
 - name: ' 🔒 [By EbraSha]'
   type: ws
   server: 104.18.32.69
@@ -2601,8 +2481,144 @@ proxies:
   port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
-  server: 43.206.67.76
-  port: '36306'
+  server: 117.172.176.22
+  port: '1334'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 117.172.176.22
+  port: '1334'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 117.172.176.22
+  port: '1334'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 117.172.176.22
+  port: '1334'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 117.172.176.22
+  port: '2173'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 117.172.176.22
+  port: '2173'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 117.172.176.22
+  port: '2173'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 117.172.176.22
+  port: '2173'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 117.172.176.22
+  port: '2283'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 117.172.176.22
+  port: '2283'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 117.172.176.22
+  port: '2283'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 117.172.176.22
+  port: '4095'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 117.172.176.22
+  port: '4095'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 117.172.176.22
+  port: '4095'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 117.172.176.22
+  port: '4095'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 117.172.176.22
+  port: '4095'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 117.172.176.22
+  port: '4095'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 153.121.44.99
+  port: '1328'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 153.121.44.99
+  port: '1328'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 153.121.44.99
+  port: '1328'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 153.121.44.99
+  port: '1328'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 153.121.44.99
+  port: '1328'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 153.121.44.99
+  port: '1328'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 202.181.103.246
+  port: '2173'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 202.181.103.246
+  port: '4452'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 203.198.122.194
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 203.198.122.194
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 203.198.122.194
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 203.198.122.194
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 203.198.122.194
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 221.128.195.12
+  port: '3841'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 221.128.195.12
+  port: '3841'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 221.128.195.12
+  port: '3841'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 221.128.195.12
+  port: '3841'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 221.128.195.12
+  port: '3841'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 43.206.67.76
@@ -2646,10 +2662,6 @@ proxies:
 - name: ' 🔒 [By EbraSha]'
   type: 'tcp '
   server: uk-03.allhubb.info
-  port: '8443'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 206.168.190.219
   port: '8443'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
@@ -2738,7 +2750,7 @@ proxies:
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: hn.xiaohouzi.club
-  port: '18733'
+  port: '18581'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: hn.xiaohouzi.club
@@ -2751,10 +2763,6 @@ proxies:
   type: tcp
   server: hn.xiaohouzi.club
   port: '18835'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: hn.xiaohouzi.club
-  port: '19023'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: hn.xiaohouzi.club
@@ -2763,6 +2771,10 @@ proxies:
   type: tcp
   server: hnm.xiaohouzi.club
   port: '16082'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: hnm.xiaohouzi.club
+  port: '18634'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: hnm.xiaohouzi.club
@@ -2783,6 +2795,14 @@ proxies:
   type: tcp
   server: hnm.xiaohouzi.club
   port: '27094'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: hnm.xiaohouzi.club
+  port: '27094'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: hnm.xiaohouzi.club
+  port: '47651'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: hnm.xiaohouzi.club
@@ -2829,20 +2849,12 @@ proxies:
   port: '1085'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
-  server: 153.121.39.240
-  port: '4234'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 153.121.51.29
-  port: '1331'
+  server: 153.121.45.139
+  port: '1700'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 153.121.51.29
   port: '1802'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 153.121.51.29
-  port: '409'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 153.121.70.134
@@ -2854,15 +2866,15 @@ proxies:
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 153.121.73.102
+  port: '3294'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 153.121.73.102
   port: '3296'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 157.120.32.122
   port: '443'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 160.16.116.227
-  port: '1331'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 160.16.116.227
@@ -2874,7 +2886,7 @@ proxies:
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 160.16.117.182
-  port: '3296'
+  port: '4317'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 160.16.117.182
@@ -2882,27 +2894,19 @@ proxies:
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 160.16.124.55
+  port: '6752'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 160.16.124.55
+  port: '6752'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 160.16.130.66
+  port: '4729'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 160.16.138.24
   port: '1331'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 160.16.124.55
-  port: '1572'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 160.16.124.55
-  port: '6752'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 160.16.124.55
-  port: '6752'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 160.16.130.66
-  port: '2045'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 160.16.130.66
-  port: '3296'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 160.16.138.24
@@ -2913,20 +2917,8 @@ proxies:
   port: '1572'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
-  server: 160.16.196.59
-  port: '1802'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
   server: 160.16.231.103
-  port: '3160'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 160.16.236.32
-  port: '443'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 160.16.236.32
-  port: '449'
+  port: '1331'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 160.16.57.238
@@ -2934,15 +2926,19 @@ proxies:
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 160.16.63.16
-  port: '447'
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 160.16.68.250
+  port: '2381'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 160.16.72.33
   port: '3294'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
-  server: 160.16.87.174
-  port: '1700'
+  server: 160.16.81.84
+  port: '1536'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 160.16.87.174
@@ -2954,19 +2950,7 @@ proxies:
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 182.237.0.26
-  port: '1177'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 182.237.0.26
   port: '2200'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 202.181.103.246
-  port: '443'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 203.198.123.174
-  port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 203.198.123.174
@@ -2981,16 +2965,20 @@ proxies:
   port: '4431'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
-  server: 23.227.194.234
-  port: '443'
+  server: 36.150.215.188
+  port: '1546'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 36.150.215.203
-  port: '3043'
+  port: '40950'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 36.150.215.203
-  port: '3270'
+  port: '4801'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 36.150.215.203
+  port: '7177'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 36.156.102.125
@@ -3074,15 +3062,11 @@ proxies:
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 36.156.102.88
-  port: '1801'
+  port: '1806'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 36.156.102.88
   port: '1924'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 36.156.102.88
-  port: '3271'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 58.152.25.156
@@ -3141,6 +3125,10 @@ proxies:
   port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
+  server: kaizen-hk-8.mielink-dns2.com
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
   server: kaizen-jp-11.mielink-dns2.com
   port: '443'
 - name: ' 🔒 [By EbraSha]'
@@ -3161,7 +3149,7 @@ proxies:
   port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
-  server: kaizen-tw-1.mielink-dns2.com
+  server: kaizen-tw-2.mielink-dns2.com
   port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
@@ -3174,14 +3162,6 @@ proxies:
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: kaizen-tw-4.mielink-dns2.com
-  port: '443'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: kaizen-tw-4.mielink-dns2.com
-  port: '443'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: kaizen-us-6.mielink-dns2.com
   port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
@@ -3231,10 +3211,6 @@ proxies:
   type: tcp
   server: 23.142.200.175
   port: '443'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: t5.583181.xyz
-  port: '1258'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: t5.583181.xyz
@@ -3307,10 +3283,6 @@ proxies:
   type: ws
   server: 172.67.159.13
   port: '443'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 3.85.62.200
-  port: '54527'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 3.85.62.200
@@ -3553,19 +3525,11 @@ proxies:
   port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
-  server: 104.21.30.167
-  port: '443'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
   server: uk2-full.privateip.net
   port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: 'tcp '
   server: uk1.test3.net
-  port: '443'
-- name: ' 🔒 [By EbraSha]'
-  type: ws
-  server: aio.proxybox.dpdns.org
   port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
@@ -3704,14 +3668,6 @@ proxies:
   server: uk1.test3.net
   port: '443'
 - name: ' 🔒 [By EbraSha]'
-  type: grpc
-  server: 91.108.250.230
-  port: '50191'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: pl.scpnb.top
-  port: '50191'
-- name: ' 🔒 [By EbraSha]'
   type: tcp
   server: toaster.isquirrel.net
   port: '443'
@@ -3747,10 +3703,6 @@ proxies:
   type: tcp
   server: 170.64.220.25
   port: '443'
-- name: ' 🔒 [By EbraSha]'
-  type: ws
-  server: 190.93.246.255
-  port: '2053'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: kbawsjp2.aiopen.cfd
@@ -3934,11 +3886,23 @@ proxies:
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: east.eeeeeef998.buzz
+  port: '15002'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: east.eeeeeef998.buzz
+  port: '15003'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: east.eeeeeef998.buzz
   port: '15003'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: east.eeeeeef998.buzz
   port: '15005'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: east.eeeeeef998.buzz
+  port: '15006'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: east.eeeeeef998.buzz
@@ -3959,6 +3923,10 @@ proxies:
   type: tcp
   server: sp1.connecton.surf
   port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: uk01.clashzone.xyz
+  port: '54122'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: uk01.clashzone.xyz
@@ -4506,11 +4474,15 @@ proxies:
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: sdv2-hk.04z3susick.download
-  port: '5601'
+  port: '5602'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: sdv2-hk.04z3susick.download
   port: '5603'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: sdv2-hk.04z3susick.download
+  port: '5606'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: sdv2-hk.04z3susick.download
@@ -4522,19 +4494,15 @@ proxies:
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: sdv2-sg.04z3susick.download
-  port: '5609'
+  port: '5610'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: sdv2-sg.04z3susick.download
-  port: '5612'
+  port: '5611'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: sdv2-sg.04z3susick.download
   port: '5613'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: sdv2-sg.04z3susick.download
-  port: '5614'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: sdv2-tw.04z3susick.download
@@ -4653,7 +4621,11 @@ proxies:
   port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
-  server: 51.83.186.142
+  server: 625tw.ok365.cyou
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 625us.ok365.cyou
   port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
@@ -4731,10 +4703,6 @@ proxies:
   type: 'tcp '
   server: 146.56.179.67
   port: '40006'
-- name: ' 🔒 [By EbraSha]'
-  type: ws
-  server: 54.255.183.193
-  port: '20230'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: ca.liangyuandian.top
@@ -4872,16 +4840,8 @@ proxies:
   server: cc44a92e67c3a06550903ab1a79cd258.v1.cac.node-is.green
   port: '42728'
 - name: ' 🔒 [By EbraSha]'
-  type: ws
-  server: 172.67.168.193
-  port: '443'
-- name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 103.224.212.211
-  port: '443'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: jp-h1.sshub.xyz
   port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
@@ -4969,16 +4929,20 @@ proxies:
   port: '51058'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
-  server: gz01.xiaohouzi.club
-  port: '51058'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
   server: hn.xiaohouzi.club
   port: '16012'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: hn.xiaohouzi.club
   port: '17112'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: hn.xiaohouzi.club
+  port: '17112'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: hn.xiaohouzi.club
+  port: '17115'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: hn.xiaohouzi.club
@@ -4998,11 +4962,15 @@ proxies:
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: hn.xiaohouzi.club
-  port: '19359'
+  port: '18463'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: hn.xiaohouzi.club
   port: '19359'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: hn.xiaohouzi.club
+  port: '19362'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: hn.xiaohouzi.club
@@ -5022,6 +4990,14 @@ proxies:
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: hn.xiaohouzi.club
+  port: '42541'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: hn.xiaohouzi.club
+  port: '48431'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: hn.xiaohouzi.club
   port: '48431'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
@@ -5038,7 +5014,7 @@ proxies:
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: hn.xiaohouzi.club
-  port: '48464'
+  port: '48462'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: hn.xiaohouzi.club
@@ -5058,11 +5034,15 @@ proxies:
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: hn.xiaohouzi.club
-  port: '51054'
+  port: '49438'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: hn.xiaohouzi.club
   port: '51054'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: hn.xiaohouzi.club
+  port: '61005'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: hn.xiaohouzi.club
@@ -5094,10 +5074,6 @@ proxies:
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: hnm.xiaohouzi.club
-  port: '47552'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: hnm.xiaohouzi.club
   port: '47555'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
@@ -5110,19 +5086,11 @@ proxies:
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: hnm.xiaohouzi.club
-  port: '51052'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: hnm.xiaohouzi.club
   port: '60047'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: hnm.xiaohouzi.club
   port: '60047'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: iplc.xiaohouzi.club
-  port: '20011'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: iplc.xiaohouzi.club
@@ -5133,8 +5101,8 @@ proxies:
   port: '20036'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
-  server: sh.xiaohouzi.club
-  port: '12468'
+  server: iplc.xiaohouzi.club
+  port: '20036'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: sh.xiaohouzi.club
@@ -5147,6 +5115,10 @@ proxies:
   type: tcp
   server: sub.xiaohouzi.club
   port: '16011'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: szf02.xiaohouzi.club
+  port: '36304'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: szf02.xiaohouzi.club
@@ -5800,10 +5772,6 @@ proxies:
   server: jobsfortheworldtoday.com
   port: '443'
 - name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: n002.xunxunmimisbs.sbs
-  port: '23100'
-- name: ' 🔒 [By EbraSha]'
   type: ws
   server: 162.159.153.7
   port: '443'
@@ -5845,6 +5813,10 @@ proxies:
   port: '50014'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
+  server: 103.234.53.23
+  port: '50014'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
   server: 155.117.228.70
   port: '26193'
 - name: ' 🔒 [By EbraSha]'
@@ -5856,20 +5828,12 @@ proxies:
   server: fr1.test3.net
   port: '443'
 - name: ' 🔒 [By EbraSha]'
-  type: grpc
-  server: 136.175.177.136
-  port: '8000'
-- name: ' 🔒 [By EbraSha]'
   type: tcp
   server: stirring-parakeet.shiner427.skin
   port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: stirring-parakeet.shiner427.skin
-  port: '443'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 154.3.37.9
   port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
@@ -6453,10 +6417,6 @@ proxies:
   port: '23001'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
-  server: lazy.rsqpq.cn
-  port: '33001'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
   server: 103.173.255.228
   port: '28443'
 - name: ' 🔒 [By EbraSha]'
@@ -6873,6 +6833,10 @@ proxies:
   port: '30050'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
+  server: it-full.privateip.net
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
   server: 168.138.44.176
   port: '443'
 - name: ' 🔒 [By EbraSha]'
@@ -6920,6 +6884,10 @@ proxies:
   server: 172.66.44.230
   port: '8443'
 - name: ' 🔒 [By EbraSha]'
+  type: ws
+  server: 172.66.44.230
+  port: '8443'
+- name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 172.66.47.26
   port: '8443'
@@ -6939,10 +6907,6 @@ proxies:
   type: tcp
   server: 172.66.46.249
   port: '443'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: auto.wgnmdgfw.com
-  port: '16327'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: auto.wgnmdgfw.com
@@ -6990,6 +6954,10 @@ proxies:
 - name: ' 🔒 [By EbraSha]'
   type: ws
   server: 104.26.15.85
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: fr.test3.net
   port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
@@ -7372,14 +7340,6 @@ proxies:
   server: usa.test3.net
   port: '443'
 - name: ' 🔒 [By EbraSha]'
-  type: ws
-  server: bestcdn2.868863.xyz
-  port: '443'
-- name: ' 🔒 [By EbraSha]'
-  type: ws
-  server: bestcdn3.868863.xyz
-  port: '443'
-- name: ' 🔒 [By EbraSha]'
   type: tcp
   server: fuckxijinping.cf
   port: '443 '
@@ -7434,14 +7394,6 @@ proxies:
 - name: ' 🔒 [By EbraSha]'
   type: xhttp
   server: NoForcedHeaven@NoForcedHeaven@NoForcedHeaven@NoForcedHeaven@ru2.asc-sam.ir
-  port: '443'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: NoForcedHeaven@NoForcedHeaven@NoForcedHeaven@ru2.asc-sam.ir
-  port: '8443'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 45.64.22.55
   port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
@@ -11125,63 +11077,167 @@ proxies:
   port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
-  server: 36.150.215.197
-  port: '2088'
+  server: 203.198.122.129
+  port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
-  server: 36.150.215.197
-  port: '2088'
+  server: 203.198.122.129
+  port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
-  server: 36.150.215.197
-  port: '51825'
+  server: 203.198.122.129
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: 'tcp '
+  server: 203.198.122.129
+  port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
-  server: 36.150.215.197
-  port: '9713'
+  server: 203.198.122.129
+  port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
-  server: 36.150.215.236
+  server: 36.150.215.239
+  port: '24392'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 36.150.215.239
+  port: '24392'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 36.150.215.239
+  port: '53743'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 36.150.215.244
+  port: '2753'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 36.150.215.247
+  port: '1251'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 36.150.215.247
+  port: '1251'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 36.150.215.247
+  port: '1251'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 36.150.215.247
+  port: '1251'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 36.150.215.247
+  port: '1251'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 36.150.215.248
+  port: '4011'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 36.150.215.248
+  port: '4011'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 36.150.215.248
+  port: '4011'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 36.150.215.248
+  port: '4011'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 36.150.215.248
+  port: '4011'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 36.150.215.248
   port: '4492'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
-  server: 36.150.215.236
-  port: '487'
+  server: 36.150.215.248
+  port: '8041'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 36.150.215.248
+  port: '8041'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 36.150.215.248
+  port: '8041'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 36.151.192.242
+  port: '194'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 36.151.192.242
+  port: '194'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 36.151.192.242
   port: '4556'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
-  server: 36.151.251.47
-  port: '53743'
+  server: 36.151.192.242
+  port: '4556'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
-  server: 36.151.251.47
-  port: '53743'
+  server: 36.151.251.38
+  port: '38799'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 36.151.251.38
+  port: '38799'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 36.151.251.38
+  port: '38799'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 36.151.251.38
+  port: '38799'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 36.151.251.38
+  port: '38799'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 36.156.102.115
   port: '26876'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
-  server: 36.156.102.72
-  port: '194'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 36.156.102.72
-  port: '194'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 36.156.102.74
-  port: '43567'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 36.156.102.74
-  port: '4861'
+  server: 58.152.30.26
+  port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 58.152.46.98
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: 'tcp '
+  server: 58.152.46.98
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 58.152.46.98
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 58.152.53.186
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 58.152.53.186
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 58.152.53.186
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 58.152.53.186
   port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
@@ -11236,14 +11292,6 @@ proxies:
   server: 38.54.8.233
   port: '11254'
 - name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 38.54.8.233
-  port: '11254'
-- name: ' 🔒 [By EbraSha]'
-  type: grpc
-  server: 209.200.246.53
-  port: '10785'
-- name: ' 🔒 [By EbraSha]'
   type: ws
   server: 104.17.147.22
   port: '2096'
@@ -11283,10 +11331,6 @@ proxies:
   type: tcp
   server: tw01.balala2016.xyz
   port: '20261'
-- name: ' 🔒 [By EbraSha]'
-  type: 'ws '
-  server: www.speedtest.net
-  port: '2082'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 219.76.13.180
@@ -11389,6 +11433,10 @@ proxies:
   port: '882'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
+  server: gkifo-8-tr-0.tw-tpe-hinet-0-0.o-two.xyz
+  port: '889'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
   server: 104.17.234.12
   port: '443'
 - name: ' 🔒 [By EbraSha]'
@@ -11398,10 +11446,6 @@ proxies:
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 121.78.213.3
-  port: '443'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 47.52.101.237
   port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
@@ -13324,17 +13368,17 @@ proxies:
   server: 51.77.71.131
   port: '443'
 - name: ' 🔒 [By EbraSha]'
+  type: 'tcp '
+  server: nl-1.tr202501.com
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 219.76.13.181
   port: '443'
 - name: ' 🔒 [By EbraSha]'
-  type: ws
-  server: 172.66.47.42
-  port: '2053'
-- name: ' 🔒 [By EbraSha]'
-  type: ws
-  server: nop-55q.pages.dev
-  port: '2053'
+  type: tcp
+  server: 219.76.13.181
+  port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 172.66.44.214
@@ -13362,26 +13406,6 @@ proxies:
 - name: ' 🔒 [By EbraSha]'
   type: ws
   server: _WvT8Ho@LW%w_,@172.66.47.42
-  port: '2053'
-- name: ' 🔒 [By EbraSha]'
-  type: ws
-  server: _WvT8Ho@LW%w_,@172.66.47.42
-  port: '2053'
-- name: ' 🔒 [By EbraSha]'
-  type: ws
-  server: _WvT8Ho@LW%w_,@172.66.47.42
-  port: '2053'
-- name: ' 🔒 [By EbraSha]'
-  type: ws
-  server: _WvT8Ho@LW%w_,@172.66.47.42
-  port: '2053'
-- name: ' 🔒 [By EbraSha]'
-  type: ws
-  server: _WvT8Ho@LW%w_,@nop-55q.pages.dev
-  port: '2053'
-- name: ' 🔒 [By EbraSha]'
-  type: ws
-  server: _WvT8Ho@LW%w_,@nop-55q.pages.dev
   port: '2053'
 - name: ' 🔒 [By EbraSha]'
   type: ws
@@ -13617,23 +13641,11 @@ proxies:
   port: '2053'
 - name: ' 🔒 [By EbraSha]'
   type: ws
-  server: creativecommons.org
-  port: '2053'
-- name: ' 🔒 [By EbraSha]'
-  type: ws
   server: www.speedtest.net
   port: '2087'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 45.64.22.23
-  port: '443'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 45.64.22.23
-  port: '443'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 45.64.22.55
   port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
@@ -13661,11 +13673,11 @@ proxies:
   port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
-  server: 18.163.249.175
+  server: 47.52.101.237
   port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
-  server: 219.76.13.175
+  server: 18.163.249.175
   port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
@@ -13681,11 +13693,19 @@ proxies:
   port: '2053'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
+  server: 219.76.13.180
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 219.76.13.180
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
   server: 47.52.101.237
   port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
-  server: tgunivstar.219.76.13.175.sslip.io
+  server: 47.52.101.237
   port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: ws
@@ -13698,6 +13718,10 @@ proxies:
 - name: ' 🔒 [By EbraSha]'
   type: 'tcp '
   server: 23.106.33.156
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 219.76.13.175
   port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
@@ -13928,10 +13952,6 @@ proxies:
   server: 9ad7f35bb9e47826c45a3c8dfa7c28b9.v1.cac.node-is.green
   port: '42349'
 - name: ' 🔒 [By EbraSha]'
-  type: 'tcp '
-  server: 127.0.0.1
-  port: '8080'
-- name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 36.231.122.107
   port: '443'
@@ -13959,22 +13979,6 @@ proxies:
   type: tcp
   server: 104.21.23.162
   port: '443'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: oss-cn-shanghai.letssepub.com
-  port: '20021'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: oss-cn-shanghai.letssepub.com
-  port: '20021'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: oss-cn-shanghai.letssepub.com
-  port: '20021'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: oss-cn-shanghai.letssepub.com
-  port: '20021'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: oss-cn-shanghai.letssepub.com
@@ -14031,6 +14035,10 @@ proxies:
   type: 'tcp '
   server: 23.227.39.89
   port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 43.198.12.229
+  port: '28443'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 43.198.12.229
@@ -14533,10 +14541,6 @@ proxies:
   port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: ws
-  server: 172.66.46.254
-  port: '443'
-- name: ' 🔒 [By EbraSha]'
-  type: ws
   server: 172.66.47.150
   port: '8443'
 - name: ' 🔒 [By EbraSha]'
@@ -14595,10 +14599,6 @@ proxies:
   type: tcp
   server: 104.21.36.165
   port: '443'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 211.72.35.152
-  port: '3389'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 211.72.35.155
@@ -14679,10 +14679,6 @@ proxies:
   type: tcp
   server: 150.230.249.20
   port: '443'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 51.38.71.175
-  port: '80'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 51.38.71.175
@@ -14789,6 +14785,10 @@ proxies:
   port: '3389'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
+  server: 120.236.197.205
+  port: '3389'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
   server: 104.21.71.205
   port: '443'
 - name: ' 🔒 [By EbraSha]'
@@ -14828,137 +14828,9 @@ proxies:
   server: 172.66.44.58
   port: '443'
 - name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 117.172.176.24
-  port: '1332'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 117.172.176.24
-  port: '1332'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 117.172.176.24
-  port: '1332'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 117.172.176.24
-  port: '1332'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 117.172.176.24
-  port: '1332'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 117.172.176.24
-  port: '2283'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 117.172.176.24
-  port: '2283'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 117.172.176.24
-  port: '2283'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 117.172.176.24
-  port: '2283'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 117.172.176.24
-  port: '2283'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 117.172.176.24
-  port: '3161'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 117.172.176.24
-  port: '3161'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 117.172.176.24
-  port: '3161'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 117.172.176.24
-  port: '3161'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 117.172.176.24
-  port: '3161'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 117.172.176.24
-  port: '5041'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 117.172.176.24
-  port: '5321'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 160.16.107.37
-  port: '5048'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 160.16.107.37
-  port: '5048'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 160.16.107.37
-  port: '5048'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 160.16.107.37
-  port: '5048'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 160.16.107.37
-  port: '5048'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 160.16.236.32
-  port: '4452'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 221.128.195.9
-  port: '22581'
-- name: ' 🔒 [By EbraSha]'
   type: 'tcp '
   server: 221.128.195.9
   port: '22581'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 58.152.53.42
-  port: '443'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 58.152.53.42
-  port: '443'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 58.152.53.42
-  port: '443'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 58.152.53.42
-  port: '443'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 58.152.53.42
-  port: '443'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 58.152.53.42
-  port: '443'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 58.152.53.42
-  port: '443'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 58.152.53.42
-  port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: 'tcp '
   server: 127.0.0.1
@@ -17021,10 +16893,6 @@ proxies:
   port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
-  server: de1.trojan-lite.com
-  port: '443'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
   server: 150.230.217.213
   port: '443'
 - name: ' 🔒 [By EbraSha]'
@@ -17154,23 +17022,11 @@ proxies:
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 153.121.41.97
-  port: '2381'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 153.121.41.97
-  port: '2467'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 153.121.41.97
-  port: '5041'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 153.121.56.122
   port: '5041'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 160.16.106.144
-  port: '1331'
+  port: '2381'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 160.16.106.144
@@ -17186,29 +17042,21 @@ proxies:
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 160.16.131.243
-  port: '1331'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 160.16.131.243
   port: '316'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 160.16.131.243
-  port: '5321'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 160.16.132.158
   port: '2283'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 160.16.132.158
+  port: '2381'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 160.16.132.158
   port: '2467'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
-  server: 160.16.138.24
-  port: '5041'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
   server: 160.16.144.208
   port: '1331'
 - name: ' 🔒 [By EbraSha]'
@@ -17217,24 +17065,24 @@ proxies:
   port: '2283'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
-  server: 160.16.240.91
-  port: '1331'
+  server: 160.16.144.208
+  port: '2381'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
-  server: 160.16.240.91
+  server: 160.16.144.208
   port: '316'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
-  server: 160.16.240.91
-  port: '5041'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
   server: 202.181.103.246
   port: '2283'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 202.181.103.246
   port: '5041'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 203.198.122.28
+  port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 203.198.123.249
@@ -17242,15 +17090,11 @@ proxies:
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 36.156.102.84
-  port: '1085'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 36.156.102.84
   port: '1806'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 36.156.102.84
-  port: '3272'
+  port: '2381'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 58.152.30.87
@@ -17258,14 +17102,6 @@ proxies:
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 58.152.30.92
-  port: '443'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 58.152.53.162
-  port: '443'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 58.152.53.214
   port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
@@ -17409,6 +17245,10 @@ proxies:
   port: '20712'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
+  server: 20.24.192.3
+  port: '20712'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
   server: scloudtw1-tg-data.amazonwebservicess.com
   port: '443'
 - name: ' 🔒 [By EbraSha]'
@@ -17545,19 +17385,11 @@ proxies:
   port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
+  server: 104.208.100.101
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
   server: uk.liangyuandian.top
-  port: '443'
-- name: ' 🔒 [By EbraSha]'
-  type: ws
-  server: 188.114.97.3
-  port: '443'
-- name: ' 🔒 [By EbraSha]'
-  type: ws
-  server: whatismyipaddress.com
-  port: '443'
-- name: ' 🔒 [By EbraSha]'
-  type: ws
-  server: www.speedtest.net
   port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: 'tcp '
@@ -17572,27 +17404,11 @@ proxies:
   server: cn.speedabc.xyz
   port: '32002'
 - name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 104.25.254.4
-  port: '2087'
-- name: ' 🔒 [By EbraSha]'
-  type: ws
-  server: 104.25.254.4
-  port: '2087'
-- name: ' 🔒 [By EbraSha]'
   type: ws
   server: 104.25.254.4
   port: '2087'
 - name: ' 🔒 [By EbraSha]'
   type: 'tcp '
-  server: 104.25.254.4
-  port: '2087'
-- name: ' 🔒 [By EbraSha]'
-  type: ws
-  server: 104.25.254.4
-  port: '2087'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
   server: 104.25.254.4
   port: '2087'
 - name: ' 🔒 [By EbraSha]'
@@ -17606,6 +17422,10 @@ proxies:
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: jgwdb4.gaox.ml
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: ws
+  server: 172.67.192.215
   port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
@@ -17649,10 +17469,6 @@ proxies:
   port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
-  server: 107.181.161.163
-  port: '443'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
   server: 198.244.190.189
   port: '443'
 - name: ' 🔒 [By EbraSha]'
@@ -17689,11 +17505,11 @@ proxies:
   port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
-  server: sg-full.privateip.net
-  port: '443'
+  server: 23.247.137.70
+  port: '3389'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
-  server: 23.247.137.70
+  server: 45.11.104.94
   port: '3389'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
@@ -17781,10 +17597,6 @@ proxies:
   port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
-  server: jp-full.privateip.net
-  port: '443'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
   server: fr1.test3.net
   port: '443'
 - name: ' 🔒 [By EbraSha]'
@@ -17807,6 +17619,10 @@ proxies:
   type: ws
   server: 185.143.235.200
   port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 23.94.122.66
+  port: '38505'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 23.94.122.66
@@ -17945,10 +17761,6 @@ proxies:
   port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
-  server: 51.81.82.15
-  port: '443'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
   server: 103.180.132.78
   port: '10022'
 - name: ' 🔒 [By EbraSha]'
@@ -18017,24 +17829,12 @@ proxies:
   port: '2053'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
-  server: 104.21.44.185
-  port: '2053'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
   server: 178.239.171.103
   port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 152.67.162.166
   port: '443'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 51.91.11.29
-  port: '80'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 51.91.11.29
-  port: '80'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 51.91.11.29
@@ -18117,6 +17917,34 @@ proxies:
   port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
+  server: 117.172.176.22
+  port: '4173'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 117.172.176.22
+  port: '4173'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 117.172.176.22
+  port: '4173'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 58.152.53.42
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 58.152.53.42
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 58.152.53.42
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 58.152.53.42
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
   server: 54.36.173.159
   port: '443'
 - name: ' 🔒 [By EbraSha]'
@@ -18166,7 +17994,15 @@ proxies:
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 36.156.102.84
-  port: '1920'
+  port: '2173'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 36.156.102.84
+  port: '24673'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 36.156.102.84
+  port: '3271'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 36.156.102.84
@@ -18187,42 +18023,6 @@ proxies:
   type: tcp
   server: kz.mjt000.com
   port: '443'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 117.172.176.24
-  port: '2381'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 117.172.176.24
-  port: '2381'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 117.172.176.24
-  port: '2381'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 117.172.176.24
-  port: '2381'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 117.172.176.24
-  port: '2381'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 117.172.176.24
-  port: '2467'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 117.172.176.24
-  port: '2467'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 117.172.176.24
-  port: '2467'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 117.172.176.24
-  port: '2467'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 160.16.136.130
@@ -18317,18 +18117,6 @@ proxies:
   port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
-  server: kfjdi.pages.dev
-  port: '443'
-- name: ' 🔒 [By EbraSha]'
-  type: 'ws '
-  server: kfjdi.pages.dev
-  port: '443'
-- name: ' 🔒 [By EbraSha]'
-  type: ws
-  server: kfjdi.pages.dev
-  port: '443'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
   server: 104.19.171.3
   port: '443'
 - name: ' 🔒 [By EbraSha]'
@@ -18351,10 +18139,6 @@ proxies:
   type: 'tcp '
   server: us1.jjzgy.live
   port: '443'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: n001.xunxunmimisbs.sbs
-  port: '23100'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 146.56.189.146
@@ -18682,7 +18466,7 @@ proxies:
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: sdv2-hk.04z3susick.download
-  port: '5605'
+  port: '5604'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: sdv2-jp.04z3susick.download
@@ -18694,7 +18478,19 @@ proxies:
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: sdv2-jp.04z3susick.download
+  port: '5618'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: sdv2-jp.04z3susick.download
   port: '5619'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: sdv2-tw.04z3susick.download
+  port: '5621'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: sdv2-tw.04z3susick.download
+  port: '5622'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: sdv2-tw.04z3susick.download
@@ -18852,9 +18648,17 @@ proxies:
   server: 38.180.249.177
   port: '8443'
 - name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 38.180.249.177
+  port: '8443'
+- name: ' 🔒 [By EbraSha]'
   type: ws
   server: 135.125.232.253
   port: '2053'
+- name: ' 🔒 [By EbraSha]'
+  type: ws
+  server: 158.101.11.204
+  port: '15805'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 13.213.69.245
@@ -19133,6 +18937,10 @@ proxies:
   port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
+  server: 104.21.80.1
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
   server: x7-sweden-amazon-v2-ku4u8.devefun.org
   port: '1935'
 - name: ' 🔒 [By EbraSha]'
@@ -19181,6 +18989,10 @@ proxies:
   port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
+  server: 104.21.18.192
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: ws
   server: 104.21.18.192
   port: '443'
 - name: ' 🔒 [By EbraSha]'
@@ -19252,14 +19064,6 @@ proxies:
   server: 104.18.3.108
   port: '8443'
 - name: ' 🔒 [By EbraSha]'
-  type: ws
-  server: 185.7.240.195
-  port: '2096'
-- name: ' 🔒 [By EbraSha]'
-  type: ws
-  server: 192.169.223.87
-  port: '2096'
-- name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 104.25.145.188
   port: '2083'
@@ -19321,18 +19125,6 @@ proxies:
   port: '22222'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
-  server: 13.48.105.114
-  port: '22222'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 13.49.211.121
-  port: '22222'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 13.49.224.224
-  port: '22222'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
   server: 13.49.224.224
   port: '22222'
 - name: ' 🔒 [By EbraSha]'
@@ -19388,14 +19180,6 @@ proxies:
   server: 18.130.204.79
   port: '22222'
 - name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 18.130.204.79
-  port: '22222'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 18.130.204.79
-  port: '22222'
-- name: ' 🔒 [By EbraSha]'
   type: 'tcp '
   server: 18.153.223.103
   port: '22222'
@@ -19429,6 +19213,10 @@ proxies:
   port: '22222'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
+  server: 18.222.168.7
+  port: '22222'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
   server: 3.124.16.18
   port: '22223'
 - name: ' 🔒 [By EbraSha]'
@@ -19437,15 +19225,7 @@ proxies:
   port: '22222'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
-  server: 3.129.217.93
-  port: '22222'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
   server: 3.141.130.47
-  port: '22222'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 3.145.14.67
   port: '22222'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
@@ -19501,6 +19281,18 @@ proxies:
   port: '22222'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
+  server: 34.210.47.105
+  port: '22222'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 34.219.52.119
+  port: '22222'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 34.219.52.119
+  port: '22222'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
   server: 34.219.52.119
   port: '22222'
 - name: ' 🔒 [By EbraSha]'
@@ -19518,14 +19310,6 @@ proxies:
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 34.253.231.7
-  port: '22222'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 34.253.231.7
-  port: '22222'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 35.156.35.238
   port: '22222'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
@@ -19553,6 +19337,10 @@ proxies:
   port: '22222'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
+  server: 35.182.251.60
+  port: '22222'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
   server: 35.182.28.167
   port: '22222'
 - name: ' 🔒 [By EbraSha]'
@@ -19562,6 +19350,14 @@ proxies:
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 35.91.162.93
+  port: '22222'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 35.91.162.93
+  port: '22222'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 44.201.217.130
   port: '22222'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
@@ -19589,7 +19385,15 @@ proxies:
   port: '22223'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
-  server: 51.45.22.229
+  server: 51.45.27.162
+  port: '22223'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 51.45.27.162
+  port: '22223'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 51.45.27.162
   port: '22223'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
@@ -19609,7 +19413,7 @@ proxies:
   port: '22222'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
-  server: 63.176.32.161
+  server: 54.86.248.206
   port: '22222'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
@@ -19618,6 +19422,10 @@ proxies:
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 63.177.18.31
+  port: '22223'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 63.177.22.67
   port: '22223'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
@@ -19677,6 +19485,10 @@ proxies:
   port: '22222'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
+  server: 13.37.61.95
+  port: '22222'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
   server: 13.38.147.171
   port: '22222'
 - name: ' 🔒 [By EbraSha]'
@@ -19717,6 +19529,14 @@ proxies:
   port: '22222'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
+  server: 13.48.202.26
+  port: '22222'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 13.48.45.205
+  port: '22222'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
   server: 13.48.45.205
   port: '22222'
 - name: ' 🔒 [By EbraSha]'
@@ -19734,6 +19554,10 @@ proxies:
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 13.49.93.83
+  port: '22222'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 13.50.16.231
   port: '22222'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
@@ -19762,6 +19586,10 @@ proxies:
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 15.188.45.174
+  port: '22222'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 15.236.122.160
   port: '22222'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
@@ -19826,6 +19654,10 @@ proxies:
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 15.237.9.13
+  port: '22222'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 16.171.58.121
   port: '22222'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
@@ -19941,10 +19773,6 @@ proxies:
   port: '22222'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
-  server: 3.120.187.229
-  port: '22222'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
   server: 3.121.145.31
   port: '22222'
 - name: ' 🔒 [By EbraSha]'
@@ -19954,14 +19782,6 @@ proxies:
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 3.123.128.240
-  port: '22222'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 3.123.128.240
-  port: '22222'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 3.123.22.69
   port: '22222'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
@@ -19984,16 +19804,12 @@ proxies:
   server: 3.124.179.125
   port: '22222'
 - name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 3.124.61.82
+  port: '22222'
+- name: ' 🔒 [By EbraSha]'
   type: 'tcp '
   server: 3.125.188.184
-  port: '22222'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 3.126.173.69
-  port: '22222'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 3.126.224.170
   port: '22222'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
@@ -20022,6 +19838,10 @@ proxies:
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 3.253.67.209
+  port: '22222'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 3.65.217.252
   port: '22222'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
@@ -20065,6 +19885,10 @@ proxies:
   port: '22222'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
+  server: 3.75.78.231
+  port: '22222'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
   server: 3.76.184.58
   port: '22222'
 - name: ' 🔒 [By EbraSha]'
@@ -20085,6 +19909,10 @@ proxies:
   port: '22222'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
+  server: 3.8.123.26
+  port: '22222'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
   server: 34.252.21.244
   port: '22222'
 - name: ' 🔒 [By EbraSha]'
@@ -20094,14 +19922,6 @@ proxies:
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 35.157.236.123
-  port: '22222'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 35.157.82.27
-  port: '22222'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 35.177.137.88
   port: '22222'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
@@ -20137,11 +19957,11 @@ proxies:
   port: '22222'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
-  server: 35.181.20.21
+  server: 35.181.179.99
   port: '22222'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
-  server: 35.181.212.41
+  server: 35.181.20.21
   port: '22222'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
@@ -20198,14 +20018,6 @@ proxies:
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 51.44.56.77
-  port: '22222'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 51.44.62.62
-  port: '22222'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 52.213.245.214
   port: '22222'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
@@ -20273,10 +20085,6 @@ proxies:
   port: '22222'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
-  server: 54.78.157.126
-  port: '22222'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
   server: 54.93.240.151
   port: '22222'
 - name: ' 🔒 [By EbraSha]'
@@ -20298,10 +20106,6 @@ proxies:
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 63.177.18.31
-  port: '22222'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 63.177.202.143
   port: '22222'
 - name: ' 🔒 [By EbraSha]'
   type: 'tcp '
@@ -20369,19 +20173,19 @@ proxies:
   port: '22223'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
-  server: 3.126.173.69
+  server: 3.65.217.252
   port: '22223'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
-  server: 3.126.224.170
+  server: 3.75.78.231
+  port: '22223'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 35.181.179.99
   port: '22223'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
   server: 35.181.215.179
-  port: '22223'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 51.44.62.62
   port: '22223'
 - name: ' 🔒 [By EbraSha]'
   type: tcp
@@ -20461,10 +20265,6 @@ proxies:
   port: '443'
 - name: ' 🔒 [By EbraSha]'
   type: ws
-  server: 103.116.7.1
-  port: '443'
-- name: ' 🔒 [By EbraSha]'
-  type: ws
   server: 104.18.13.229
   port: '8443'
 - name: ' 🔒 [By EbraSha]'
@@ -20496,18 +20296,214 @@ proxies:
   server: 104.26.12.31
   port: '8443'
 - name: ' 🔒 [By EbraSha]'
-  type: tcp
-  server: 104.26.12.31
-  port: '8443'
-- name: ' 🔒 [By EbraSha]'
   type: 'tcp '
-  server: 104.26.12.31
-  port: '8443'
-- name: ' 🔒 [By EbraSha]'
-  type: tcp
   server: 104.26.12.31
   port: '8443'
 - name: ' 🔒 [By EbraSha]'
   type: ws
   server: 109.234.211.66
   port: '2087'
+- name: ' 🔒 [By EbraSha]'
+  type: ws
+  server: 109.234.211.66
+  port: '8443'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 172.64.155.16
+  port: '2053'
+- name: ' 🔒 [By EbraSha]'
+  type: ws
+  server: 172.64.155.16
+  port: '2053'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 172.67.130.66
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 172.67.75.172
+  port: '8443'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 185.133.35.46
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: ws
+  server: 22b.net
+  port: '2087'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 38.207.133.204
+  port: '10002'
+- name: ' 🔒 [By EbraSha]'
+  type: ws
+  server: 45.192.222.112
+  port: '8443'
+- name: ' 🔒 [By EbraSha]'
+  type: ws
+  server: 91.193.58.0
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: 'ws '
+  server: AZERB.NET
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: 'ws '
+  server: TM-AZARBAYJAB1.1.WORKERS.DEV
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: ip.sb
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: ws
+  server: ip.sb
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: ip.sb
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: ip.sb
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: ws
+  server: ip.sb
+  port: '8443'
+- name: ' 🔒 [By EbraSha]'
+  type: ws
+  server: www.digitalocean.com
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: www.digitalocean.com
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: www.digitalocean.com
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: www.digitalocean.com
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: ws
+  server: 14.102.228.216
+  port: '2096'
+- name: ' 🔒 [By EbraSha]'
+  type: ws
+  server: 14.102.229.216
+  port: '2096'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 164.52.2.98
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 172.64.156.106
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 172.64.156.107
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 172.64.156.11
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: tcp
+  server: 172.64.156.218
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: ws
+  server: 192.131.142.161
+  port: '46639'
+- name: ' 🔒 [By EbraSha]'
+  type: ws
+  server: 20.235.105.146
+  port: '443'
+- name: ' 🔒 [By EbraSha]'
+  type: ws
+  server: 25.25.25.216
+  port: '2096'
+- name: ' 🔒 [By EbraSha]'
+  type: ws
+  server: 25.26.27.216
+  port: '2096'
+- name: ' 🔒 [By EbraSha]'
+  type: ws
+  server: 31.12.75.216
+  port: '2096'
+- name: ' 🔒 [By EbraSha]'
+  type: ws
+  server: 31.185.108.216
+  port: '2096'
+- name: ' 🔒 [By EbraSha]'
+  type: ws
+  server: 31.43.179.216
+  port: '2096'
+- name: ' 🔒 [By EbraSha]'
+  type: ws
+  server: 45.12.30.216
+  port: '2096'
+- name: ' 🔒 [By EbraSha]'
+  type: ws
+  server: 45.12.31.216
+  port: '2096'
+- name: ' 🔒 [By EbraSha]'
+  type: ws
+  server: 45.128.76.216
+  port: '2096'
+- name: ' 🔒 [By EbraSha]'
+  type: ws
+  server: 45.130.125.216
+  port: '2096'
+- name: ' 🔒 [By EbraSha]'
+  type: ws
+  server: 45.131.208.216
+  port: '2096'
+- name: ' 🔒 [By EbraSha]'
+  type: ws
+  server: 45.131.209.216
+  port: '2096'
+- name: ' 🔒 [By EbraSha]'
+  type: ws
+  server: 45.131.210.216
+  port: '2096'
+- name: ' 🔒 [By EbraSha]'
+  type: ws
+  server: 45.131.211.216
+  port: '2096'
+- name: ' 🔒 [By EbraSha]'
+  type: ws
+  server: 45.131.4.216
+  port: '2096'
+- name: ' 🔒 [By EbraSha]'
+  type: ws
+  server: 45.131.5.216
+  port: '2096'
+- name: ' 🔒 [By EbraSha]'
+  type: ws
+  server: 45.131.6.216
+  port: '2096'
+- name: ' 🔒 [By EbraSha]'
+  type: ws
+  server: 45.131.7.216
+  port: '2096'
+- name: ' 🔒 [By EbraSha]'
+  type: ws
+  server: 45.135.235.216
+  port: '2096'
+- name: ' 🔒 [By EbraSha]'
+  type: ws
+  server: 45.142.120.216
+  port: '2096'
+- name: ' 🔒 [By EbraSha]'
+  type: ws
+  server: 45.146.201.216
+  port: '2096'
+- name: ' 🔒 [By EbraSha]'
+  type: ws
+  server: 45.149.12.216
+  port: '2096'
