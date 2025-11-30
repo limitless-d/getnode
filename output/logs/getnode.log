@@ -474,3 +474,41 @@ RuntimeError: 文件保存失败
 • 节点去重数:   112485
 • 真实节点数:   180949
 
+2025-11-30 19:12:29,560 - getnode - INFO - main.py:25 - === 开始执行爬虫任务 ===
+2025-11-30 19:12:41,144 - getnode - INFO - crawler.py:130 - 仓库搜索完成 | 总扫描仓库: 180 有效仓库: 180 跳过: 0
+2025-11-30 19:12:41,144 - getnode - INFO - main.py:30 - 发现 180 个相关仓库
+2025-11-30 19:12:41,144 - getnode - INFO - main.py:34 - 开始收集节点文件...
+2025-11-30 19:12:56,343 - getnode - INFO - crawler.py:50 - 已使用API次数: 100/小时
+2025-11-30 19:13:09,277 - getnode - INFO - crawler.py:50 - 已使用API次数: 200/小时
+2025-11-30 19:13:20,529 - getnode - INFO - crawler.py:50 - 已使用API次数: 300/小时
+2025-11-30 19:13:31,254 - getnode - INFO - crawler.py:50 - 已使用API次数: 400/小时
+2025-11-30 19:13:41,713 - getnode - INFO - crawler.py:50 - 已使用API次数: 500/小时
+2025-11-30 19:13:52,854 - getnode - INFO - crawler.py:50 - 已使用API次数: 600/小时
+2025-11-30 19:14:04,667 - getnode - INFO - crawler.py:50 - 已使用API次数: 700/小时
+2025-11-30 19:14:16,856 - getnode - INFO - crawler.py:50 - 已使用API次数: 800/小时
+2025-11-30 19:14:27,632 - getnode - INFO - crawler.py:50 - 已使用API次数: 900/小时
+2025-11-30 19:14:39,544 - getnode - INFO - crawler.py:50 - 已使用API次数: 1000/小时
+2025-11-30 19:14:51,583 - getnode - INFO - crawler.py:50 - 已使用API次数: 1100/小时
+2025-11-30 19:15:02,995 - getnode - INFO - crawler.py:50 - 已使用API次数: 1200/小时
+2025-11-30 19:15:16,527 - getnode - INFO - crawler.py:50 - 已使用API次数: 1300/小时
+2025-11-30 19:15:30,077 - getnode - INFO - crawler.py:50 - 已使用API次数: 1400/小时
+2025-11-30 19:15:42,542 - getnode - INFO - crawler.py:50 - 已使用API次数: 1500/小时
+2025-11-30 19:15:45,058 - getnode - INFO - main.py:38 - 总共发现 373 个节点文件
+2025-11-30 19:15:45,059 - getnode - INFO - nodesjob.py:18 - 开始处理链接集合，共 373 个链接
+2025-11-30 19:16:41,071 - getnode - INFO - nodesjob.py:74 - 链接处理完成。成功: 313, 失败: 60
+2025-11-30 19:17:55,742 - getnode - INFO - history_manager.py:22 - 成功加载历史节点数量: 180949
+2025-11-30 19:17:55,742 - getnode - INFO - history_manager.py:33 - 新节点：41050, 历史节点：180949
+2025-11-30 19:17:57,378 - getnode - INFO - history_manager.py:52 - 合并后总节点数: 191435
+2025-11-30 19:17:57,386 - getnode - INFO - nodesjob.py:560 - 开始保存节点结果到目录: output/all_subs
+2025-11-30 19:17:59,011 - getnode - INFO - nodesjob.py:578 - 开始写入输出文件...
+2025-11-30 19:19:28,357 - getnode - INFO - nodesjob.py:587 - 成功生成订阅文件，总节点数: 190369
+2025-11-30 19:19:28,700 - getnode - INFO - main.py:79 - 
+=== 文件处理统计 ===
+• 扫描文件总数: 10452
+• 因大小跳过:   171 (1.6%)
+• 有效处理文件: 10281
+=== 节点处理统计 ===
+• 扫描节点总数: 291339
+• 节点去重数:   99904
+• 真实节点数:   191435
+
