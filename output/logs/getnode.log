@@ -1,0 +1,36 @@
+2026-03-29 09:16:54,404 - getnode - INFO - main.py:24 - === 开始执行爬虫任务 ===
+2026-03-29 09:16:54,405 - getnode - WARNING - repo_manager.py:27 - 状态文件为空: output/repo_status.json
+2026-03-29 09:17:07,113 - getnode - INFO - crawler.py:130 - 仓库搜索完成 | 总扫描仓库: 180 有效仓库: 180 跳过: 0
+2026-03-29 09:17:07,113 - getnode - INFO - main.py:29 - 发现 180 个相关仓库
+2026-03-29 09:17:07,113 - getnode - INFO - main.py:33 - 开始收集节点文件...
+2026-03-29 09:17:22,078 - getnode - INFO - crawler.py:50 - 已使用API次数: 100/小时
+2026-03-29 09:17:36,526 - getnode - INFO - crawler.py:50 - 已使用API次数: 200/小时
+2026-03-29 09:17:50,518 - getnode - INFO - crawler.py:50 - 已使用API次数: 300/小时
+2026-03-29 09:18:06,278 - getnode - INFO - crawler.py:50 - 已使用API次数: 400/小时
+2026-03-29 09:18:22,475 - getnode - INFO - crawler.py:50 - 已使用API次数: 500/小时
+2026-03-29 09:18:36,130 - getnode - INFO - crawler.py:50 - 已使用API次数: 600/小时
+2026-03-29 09:18:49,685 - getnode - INFO - crawler.py:50 - 已使用API次数: 700/小时
+2026-03-29 09:19:03,461 - getnode - INFO - crawler.py:50 - 已使用API次数: 800/小时
+2026-03-29 09:19:17,943 - getnode - INFO - crawler.py:50 - 已使用API次数: 900/小时
+2026-03-29 09:19:30,916 - getnode - INFO - crawler.py:50 - 已使用API次数: 1000/小时
+2026-03-29 09:19:44,408 - getnode - INFO - crawler.py:50 - 已使用API次数: 1100/小时
+2026-03-29 09:19:57,879 - getnode - INFO - crawler.py:50 - 已使用API次数: 1200/小时
+2026-03-29 09:20:15,480 - getnode - INFO - crawler.py:50 - 已使用API次数: 1300/小时
+2026-03-29 09:20:29,902 - getnode - INFO - crawler.py:50 - 已使用API次数: 1400/小时
+2026-03-29 09:20:43,851 - getnode - INFO - main.py:37 - 总共发现 392 个节点文件
+2026-03-29 09:20:43,851 - getnode - INFO - nodesjob.py:18 - 开始处理链接集合，共 392 个链接
+2026-03-29 09:22:28,789 - getnode - INFO - nodesjob.py:74 - 链接处理完成。成功: 324, 失败: 68
+2026-03-29 09:22:28,793 - getnode - INFO - nodesjob.py:560 - 开始保存节点结果到目录: output/all_subs
+2026-03-29 09:22:29,232 - getnode - INFO - nodesjob.py:578 - 开始写入输出文件...
+2026-03-29 09:22:41,691 - getnode - INFO - nodesjob.py:587 - 成功生成订阅文件，总节点数: 52315
+2026-03-29 09:22:41,701 - getnode - WARNING - repo_manager.py:27 - 状态文件为空: output/repo_status.json
+2026-03-29 09:22:41,806 - getnode - INFO - main.py:78 - 
+=== 文件处理统计 ===
+• 扫描文件总数: 11286
+• 因大小跳过:   218 (1.9%)
+• 有效处理文件: 11068
+=== 节点处理统计 ===
+• 扫描节点总数: 101013
+• 节点去重数:   48258
+• 真实节点数:   52755
+
