@@ -6,7 +6,6 @@ from src import (
     FileGenerator,
     RepoManager,
     HistoryManager,
-    NodeTester,
     FileCounter,
     NodeCounter
 )
@@ -41,12 +40,12 @@ async def main():
         new_nodes = NodeProcessor.parse_node_links([link['download_url'] for link in node_links])
 
         # 合并历史节点
-        history_nodes = HistoryManager.load_history_nodes()
+        # history_nodes = HistoryManager.load_history_nodes()
         # new_nodes = [n['data'] for n in parsed['nodes']]
-        merged_nodes = HistoryManager.merge_nodes(new_nodes, history_nodes)
+        # merged_nodes = HistoryManager.merge_nodes(new_nodes, history_nodes)
         
         # 保存去重后的节点结果
-        save_result = FileGenerator.save_results(merged_nodes)
+        save_result = FileGenerator.save_results(new_nodes)
         if not save_result['success']:
             raise RuntimeError("文件保存失败")
 

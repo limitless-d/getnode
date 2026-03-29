@@ -578,9 +578,9 @@ class FileGenerator:
             logger.info("开始写入输出文件...")
 
             # 判断是否需要分成多份
-            if len(clash_config['proxies']) > 5000 or len(v2rayn_lines) > 5000:
-                logger.debug("节点数量超过 5000，开始分成多份保存")
-                FileGenerator._write_split_files(output_dir, clash_config, v2rayn_lines, 5000)
+            # if len(clash_config['proxies']) > 5000 or len(v2rayn_lines) > 5000:
+            #     logger.debug("节点数量超过 5000，开始分成多份保存")
+            #     FileGenerator._write_split_files(output_dir, clash_config, v2rayn_lines, 5000)
             
             FileGenerator._write_files(output_dir, clash_config, v2rayn_lines)
 
