@@ -1,10 +1,10 @@
 {
   "iboxz/free-v2ray-collector": {
-    "last_commit": "2026-03-29T09:15:12Z",
+    "last_commit": "2026-03-30T15:45:21Z",
     "commit_hash": "R_kgDOKD0qhg"
   },
   "hoilc/scoop-lemon": {
-    "last_commit": "2026-03-29T09:15:04Z",
+    "last_commit": "2026-03-30T13:34:41Z",
     "commit_hash": "MDEwOlJlcG9zaXRvcnkyODA3MDY4ODU="
   },
   "30yami/V2r": {
@@ -12,7 +12,7 @@
     "commit_hash": "R_kgDOPqpCYg"
   },
   "ebrasha/free-v2ray-public-list": {
-    "last_commit": "2026-03-29T09:12:38Z",
+    "last_commit": "2026-03-30T15:44:09Z",
     "commit_hash": "R_kgDOPCjKJA"
   },
   "Alvin9999-newpac/fanqiang": {
@@ -20,7 +20,7 @@
     "commit_hash": "R_kgDOQr886Q"
   },
   "hello-world-1989/cn-news": {
-    "last_commit": "2026-03-29T09:10:08Z",
+    "last_commit": "2026-03-30T15:50:08Z",
     "commit_hash": "R_kgDOJOBk3g"
   },
   "Argh73/VpnConfigCollector": {
@@ -36,7 +36,7 @@
     "commit_hash": "R_kgDOJ3gBPg"
   },
   "barry-far/V2ray-Config": {
-    "last_commit": "2026-03-29T09:05:56Z",
+    "last_commit": "2026-03-30T15:47:47Z",
     "commit_hash": "R_kgDOO340_Q"
   },
   "longlon/v2ray-config": {
@@ -52,15 +52,15 @@
     "commit_hash": "R_kgDOOzIyUQ"
   },
   "roosterkid/openproxylist": {
-    "last_commit": "2026-03-29T09:00:20Z",
+    "last_commit": "2026-03-30T15:00:25Z",
     "commit_hash": "MDEwOlJlcG9zaXRvcnkzNTY3ODcxNzA="
   },
   "Pawdroid/Free-servers": {
-    "last_commit": "2026-03-29T09:00:18Z",
+    "last_commit": "2026-03-30T15:00:18Z",
     "commit_hash": "R_kgDOGtSk2g"
   },
   "junjun266/FreeProxyGo": {
-    "last_commit": "2026-03-29T09:00:09Z",
+    "last_commit": "2026-03-30T15:00:01Z",
     "commit_hash": "R_kgDOP3aJ4w"
   },
   "RomyxR/yarik-v-lesu": {
@@ -68,11 +68,11 @@
     "commit_hash": "R_kgDORuwOlQ"
   },
   "crackbest/V2ray-Config": {
-    "last_commit": "2026-03-29T08:59:55Z",
+    "last_commit": "2026-03-30T15:41:29Z",
     "commit_hash": "R_kgDOPaTumg"
   },
   "ts-sf/fly": {
-    "last_commit": "2026-03-29T08:59:13Z",
+    "last_commit": "2026-03-30T09:48:00Z",
     "commit_hash": "R_kgDOJbJ1Gg"
   },
   "TheFactoryX/screen-tests": {
@@ -88,7 +88,7 @@
     "commit_hash": "R_kgDOJ0NsZA"
   },
   "AvenCores/goida-vpn-configs": {
-    "last_commit": "2026-03-29T08:55:08Z",
+    "last_commit": "2026-03-30T15:42:11Z",
     "commit_hash": "R_kgDONZ8xDQ"
   },
   "Hidashimora/free-vpn-anti-rkn": {
@@ -96,11 +96,11 @@
     "commit_hash": "R_kgDOROLUdQ"
   },
   "NiceVPN123/NiceVPN": {
-    "last_commit": "2026-03-29T08:54:16Z",
+    "last_commit": "2026-03-30T14:55:16Z",
     "commit_hash": "R_kgDOIE5oLA"
   },
   "PuddinCat/BestClash": {
-    "last_commit": "2026-03-29T08:53:47Z",
+    "last_commit": "2026-03-30T15:15:40Z",
     "commit_hash": "R_kgDOORXFiA"
   },
   "hysteria350/free-jichang": {
@@ -108,11 +108,11 @@
     "commit_hash": "R_kgDOPZMpSg"
   },
   "gslege/CloudflareIP": {
-    "last_commit": "2026-03-29T08:51:49Z",
+    "last_commit": "2026-03-30T15:11:17Z",
     "commit_hash": "R_kgDOP4hzCg"
   },
   "Surfboardv2ray/Proxy-sorter": {
-    "last_commit": "2026-03-29T08:51:19Z",
+    "last_commit": "2026-03-30T15:11:18Z",
     "commit_hash": "R_kgDOLqrXXg"
   },
   "mmbateni/armenia_v2ray_checker": {
@@ -136,19 +136,19 @@
     "commit_hash": "R_kgDOOChxqA"
   },
   "crashgfw/free-airport-nodes": {
-    "last_commit": "2026-03-29T08:49:54Z",
+    "last_commit": "2026-03-30T14:42:25Z",
     "commit_hash": "R_kgDON5_tlA"
   },
   "sakha1370/OpenRay": {
-    "last_commit": "2026-03-29T08:49:16Z",
+    "last_commit": "2026-03-30T15:10:48Z",
     "commit_hash": "R_kgDOPhQkmw"
   },
   "free-nodes/v2rayfree": {
-    "last_commit": "2026-03-29T08:48:55Z",
+    "last_commit": "2026-03-30T13:44:40Z",
     "commit_hash": "R_kgDOGNaQnw"
   },
   "pkgforge-dev/Termux-Packages": {
-    "last_commit": "2026-03-29T08:48:37Z",
+    "last_commit": "2026-03-30T13:45:05Z",
     "commit_hash": "R_kgDOK5lVjQ"
   },
   "MahanKenway/Freedom-V2Ray": {
@@ -160,7 +160,7 @@
     "commit_hash": "R_kgDOOdpjcA"
   },
   "Firmfox/Proxify": {
-    "last_commit": "2026-03-29T08:46:04Z",
+    "last_commit": "2026-03-30T14:33:26Z",
     "commit_hash": "R_kgDOPChPDg"
   },
   "wpdevelopment11/xray-tutorial": {
@@ -172,7 +172,7 @@
     "commit_hash": "R_kgDORPYWKw"
   },
   "MhdiTaheri/V2rayCollector_Py": {
-    "last_commit": "2026-03-29T08:44:35Z",
+    "last_commit": "2026-03-30T15:07:33Z",
     "commit_hash": "R_kgDOK1eESw"
   },
   "CB-X2-Jun/Free-v2ray-node": {
@@ -180,7 +180,7 @@
     "commit_hash": "R_kgDOQ80Qog"
   },
   "itxve/fetch-clash-node": {
-    "last_commit": "2026-03-29T08:43:31Z",
+    "last_commit": "2026-03-30T05:27:00Z",
     "commit_hash": "R_kgDOJB2Rsg"
   },
   "Ilyacom4ik/free-v2ray-2026": {
@@ -204,15 +204,15 @@
     "commit_hash": "R_kgDORU_SRw"
   },
   "V2RayRoot/V2RayConfig": {
-    "last_commit": "2026-03-29T08:41:10Z",
+    "last_commit": "2026-03-30T14:49:26Z",
     "commit_hash": "R_kgDOOf_GPA"
   },
   "nyeinkokoaung404/V2ray-Configs": {
-    "last_commit": "2026-03-29T08:40:40Z",
+    "last_commit": "2026-03-30T15:46:21Z",
     "commit_hash": "R_kgDOM9854Q"
   },
   "Danialsamadi/v2go": {
-    "last_commit": "2026-03-29T08:40:12Z",
+    "last_commit": "2026-03-30T14:31:56Z",
     "commit_hash": "R_kgDOPRFDdw"
   },
   "aiksatria/pvc": {
@@ -220,7 +220,7 @@
     "commit_hash": "R_kgDORePl8g"
   },
   "MatinGhanbari/v2ray-configs": {
-    "last_commit": "2026-03-29T08:39:04Z",
+    "last_commit": "2026-03-30T15:03:42Z",
     "commit_hash": "R_kgDOOcqFEw"
   },
   "pog7x/vpn-configs": {
@@ -228,7 +228,7 @@
     "commit_hash": "R_kgDOQ25lHA"
   },
   "Epodonios/v2ray-configs": {
-    "last_commit": "2026-03-29T08:38:26Z",
+    "last_commit": "2026-03-30T14:29:47Z",
     "commit_hash": "R_kgDOLQL4Yg"
   },
   "Remission78/Remission": {
@@ -244,15 +244,15 @@
     "commit_hash": "R_kgDOM2ki3A"
   },
   "gfpcom/free-proxy-list": {
-    "last_commit": "2026-03-29T08:37:10Z",
+    "last_commit": "2026-03-30T14:49:53Z",
     "commit_hash": "R_kgDONzGrJQ"
   },
   "shaoyouvip/free": {
-    "last_commit": "2026-03-29T08:35:16Z",
+    "last_commit": "2026-03-30T14:59:50Z",
     "commit_hash": "R_kgDOORynHg"
   },
   "MhdiTaheri/V2rayCollector": {
-    "last_commit": "2026-03-29T08:34:51Z",
+    "last_commit": "2026-03-30T14:59:20Z",
     "commit_hash": "R_kgDOKw0g-Q"
   },
   "9Knight9n/v2ray-aggregator": {
@@ -260,11 +260,11 @@
     "commit_hash": "R_kgDOMo61xw"
   },
   "Epodonios/bulk-xray-v2ray-vless-vmess-...-configs": {
-    "last_commit": "2026-03-29T08:32:47Z",
+    "last_commit": "2026-03-30T14:25:14Z",
     "commit_hash": "R_kgDOLODc2w"
   },
   "igareck/vpn-configs-for-russia": {
-    "last_commit": "2026-03-29T08:32:27Z",
+    "last_commit": "2026-03-30T15:33:01Z",
     "commit_hash": "R_kgDOQVD4Eg"
   },
   "peacefish/nodefree": {
@@ -272,15 +272,15 @@
     "commit_hash": "R_kgDOI3wFSQ"
   },
   "hiddify/Hiddify-Manager": {
-    "last_commit": "2026-03-29T08:27:22Z",
+    "last_commit": "2026-03-29T17:44:31Z",
     "commit_hash": "R_kgDOIEqHxA"
   },
   "hamedcode/port-based-v2ray-configs": {
-    "last_commit": "2026-03-29T08:27:16Z",
+    "last_commit": "2026-03-30T12:49:47Z",
     "commit_hash": "R_kgDOO8A5dA"
   },
   "superiorlu/AITreasureBox": {
-    "last_commit": "2026-03-29T08:25:34Z",
+    "last_commit": "2026-03-30T14:47:09Z",
     "commit_hash": "R_kgDOJKa5Bw"
   },
   "xCtersReal/V2rayFree": {
@@ -312,7 +312,7 @@
     "commit_hash": "R_kgDORmcXag"
   },
   "Argh94/Proxy-List": {
-    "last_commit": "2026-03-29T08:00:34Z",
+    "last_commit": "2026-03-30T14:00:34Z",
     "commit_hash": "R_kgDOPrmnIw"
   },
   "moneyfly004/jichangnodelist": {
@@ -360,7 +360,7 @@
     "commit_hash": "R_kgDOIegvxA"
   },
   "kort0881/vpn-vless-configs-russia": {
-    "last_commit": "2026-03-29T07:12:32Z",
+    "last_commit": "2026-03-30T13:47:12Z",
     "commit_hash": "R_kgDOP8QI9A"
   },
   "perditioinc/reporium-dataset": {
@@ -404,11 +404,11 @@
     "commit_hash": "R_kgDORmr2Ag"
   },
   "xiaoji235/airport-free": {
-    "last_commit": "2026-03-29T06:57:01Z",
+    "last_commit": "2026-03-30T13:06:27Z",
     "commit_hash": "R_kgDONFuOnw"
   },
   "NiREvil/vless": {
-    "last_commit": "2026-03-29T06:56:31Z",
+    "last_commit": "2026-03-30T13:50:42Z",
     "commit_hash": "R_kgDOJx8FjQ"
   },
   "hongjr03/awesome-stars": {
@@ -416,11 +416,11 @@
     "commit_hash": "R_kgDON-OGGw"
   },
   "xyfqzy/free-nodes": {
-    "last_commit": "2026-03-29T06:55:02Z",
+    "last_commit": "2026-03-30T13:00:57Z",
     "commit_hash": "R_kgDOPB9--w"
   },
   "snakem982/proxypool": {
-    "last_commit": "2026-03-29T06:54:35Z",
+    "last_commit": "2026-03-30T12:59:23Z",
     "commit_hash": "R_kgDOJw3r4g"
   },
   "dick318/awesome-stars": {
@@ -448,7 +448,7 @@
     "commit_hash": "R_kgDOJS_QYA"
   },
   "itgoyo/TelegramGroup": {
-    "last_commit": "2026-03-29T06:29:06Z",
+    "last_commit": "2026-03-29T12:17:22Z",
     "commit_hash": "R_kgDOOBcvBQ"
   },
   "bahmany/censorship_hunter": {
@@ -476,7 +476,7 @@
     "commit_hash": "R_kgDORwi6iw"
   },
   "pluwen/awesome-testflight-link": {
-    "last_commit": "2026-03-29T05:11:24Z",
+    "last_commit": "2026-03-30T05:24:40Z",
     "commit_hash": "MDEwOlJlcG9zaXRvcnkyMTU0MzQxODM="
   },
   "b1ank1108/awesome-stars": {
@@ -508,11 +508,11 @@
     "commit_hash": "R_kgDOQbbGiA"
   },
   "roseforljh/KunBox": {
-    "last_commit": "2026-03-29T04:10:22Z",
+    "last_commit": "2026-03-29T19:42:38Z",
     "commit_hash": "R_kgDOQqDSCw"
   },
   "free18/v2ray": {
-    "last_commit": "2026-03-29T04:09:46Z",
+    "last_commit": "2026-03-30T03:37:35Z",
     "commit_hash": "R_kgDOGqrdZw"
   },
   "hiifong/starList": {
@@ -524,7 +524,7 @@
     "commit_hash": "MDEwOlJlcG9zaXRvcnkxMjEwMTA1ODY="
   },
   "EvanLi/Github-Ranking": {
-    "last_commit": "2026-03-29T04:06:53Z",
+    "last_commit": "2026-03-30T04:06:56Z",
     "commit_hash": "MDEwOlJlcG9zaXRvcnkxNjIwMTU1NzM="
   },
   "clashxw/clashxw.github.io": {
@@ -532,11 +532,11 @@
     "commit_hash": "R_kgDONfrH3w"
   },
   "mahdibland/V2RayAggregator": {
-    "last_commit": "2026-03-29T04:04:02Z",
+    "last_commit": "2026-03-30T14:33:21Z",
     "commit_hash": "R_kgDOIGTWHA"
   },
   "yutao8/starred": {
-    "last_commit": "2026-03-29T04:00:31Z",
+    "last_commit": "2026-03-30T10:00:25Z",
     "commit_hash": "R_kgDOLFFFJw"
   },
   "maqibg/Stargazer": {
@@ -548,7 +548,7 @@
     "commit_hash": "R_kgDOKcx2pw"
   },
   "jxzzlfh/awesome-stars": {
-    "last_commit": "2026-03-29T03:50:57Z",
+    "last_commit": "2026-03-30T03:54:41Z",
     "commit_hash": "R_kgDOIh08Lw"
   },
   "crazyuploader/Awesome-Starred": {
@@ -718,5 +718,361 @@
   "downclash/web_monitor": {
     "last_commit": "2026-03-29T02:53:24Z",
     "commit_hash": "R_kgDORSwiqw"
+  },
+  "1c7/chinese-independent-developer": {
+    "last_commit": "2026-03-30T14:35:24Z",
+    "commit_hash": "MDEwOlJlcG9zaXRvcnkxMDQzMzc3NzM="
+  },
+  "Ruk1ng001/freeSub": {
+    "last_commit": "2026-03-30T14:00:07Z",
+    "commit_hash": "R_kgDOKtkqNg"
+  },
+  "johe123qwe/github-trending": {
+    "last_commit": "2026-03-30T13:42:09Z",
+    "commit_hash": "R_kgDOJXEmYA"
+  },
+  "HakurouKen/free-node": {
+    "last_commit": "2026-03-30T13:26:12Z",
+    "commit_hash": "R_kgDOIoG-Ug"
+  },
+  "Mahdi0024/ProxyCollector": {
+    "last_commit": "2026-03-30T13:16:44Z",
+    "commit_hash": "R_kgDOKVFLMg"
+  },
+  "tribixbite/awesome": {
+    "last_commit": "2026-03-30T12:28:49Z",
+    "commit_hash": "R_kgDOHCNqtQ"
+  },
+  "9seconds/mtg": {
+    "last_commit": "2026-03-30T11:10:43Z",
+    "commit_hash": "MDEwOlJlcG9zaXRvcnkxMzU1NDQ2NDk="
+  },
+  "agarrharr/awesome-cli-apps": {
+    "last_commit": "2026-03-30T07:57:29Z",
+    "commit_hash": "MDEwOlJlcG9zaXRvcnkzODgzMjk0Mg=="
+  },
+  "XTLS/Xray-core": {
+    "last_commit": "2026-03-30T07:48:21Z",
+    "commit_hash": "MDEwOlJlcG9zaXRvcnkzMTEzMTU3MzE="
+  },
+  "quic-go/quic-go": {
+    "last_commit": "2026-03-30T06:39:57Z",
+    "commit_hash": "MDEwOlJlcG9zaXRvcnk1NTYzNzU3NQ=="
+  },
+  "ermaozi01/free_clash_vpn": {
+    "last_commit": "2026-03-30T04:35:16Z",
+    "commit_hash": "R_kgDOJCpHbg"
+  },
+  "ZeroDeng01/sublinkPro": {
+    "last_commit": "2026-03-30T04:14:40Z",
+    "commit_hash": "R_kgDOQKb_-g"
+  },
+  "wzdnzd/aggregator": {
+    "last_commit": "2026-03-30T04:14:32Z",
+    "commit_hash": "MDEwOlJlcG9zaXRvcnkxOTEwOTcwNzI="
+  },
+  "free-clash-v2ray/free-clash-v2ray.github.io": {
+    "last_commit": "2026-03-30T03:32:28Z",
+    "commit_hash": "R_kgDONya63g"
+  },
+  "wjf0214/awesome-stars-wjf0214": {
+    "last_commit": "2026-03-30T02:45:51Z",
+    "commit_hash": "R_kgDOHv5WEg"
+  },
+  "erbanku/awesome": {
+    "last_commit": "2026-03-30T02:02:41Z",
+    "commit_hash": "R_kgDOGMlFuA"
+  },
+  "eryajf/awesome-stars-eryajf": {
+    "last_commit": "2026-03-30T01:46:33Z",
+    "commit_hash": "R_kgDOHvB6Tg"
+  },
+  "viktorbezdek/awesome-github-projects": {
+    "last_commit": "2026-03-30T01:04:19Z",
+    "commit_hash": "R_kgDOLiYy2w"
+  },
+  "maguowei/awesome-stars": {
+    "last_commit": "2026-03-30T01:04:07Z",
+    "commit_hash": "MDEwOlJlcG9zaXRvcnk2NDA3NTY4Mw=="
+  },
+  "pcqpcq/open-source-android-apps": {
+    "last_commit": "2026-03-30T00:55:39Z",
+    "commit_hash": "MDEwOlJlcG9zaXRvcnkzMjM3NDUxMw=="
+  },
+  "uhub/awesome-cpp": {
+    "last_commit": "2026-03-30T00:08:25Z",
+    "commit_hash": "MDEwOlJlcG9zaXRvcnk0MDU4Njc5Mw=="
+  },
+  "xrayfree/free-ssr-ss-v2ray-vpn-clash": {
+    "last_commit": "2026-03-29T22:33:07Z",
+    "commit_hash": "MDEwOlJlcG9zaXRvcnkzOTQ4MjcyMDk="
+  },
+  "5VNetwork/VX": {
+    "last_commit": "2026-03-29T18:33:02Z",
+    "commit_hash": "R_kgDOOhupzQ"
+  },
+  "hiddify/hiddify-app": {
+    "last_commit": "2026-03-29T18:30:50Z",
+    "commit_hash": "R_kgDOJlsYmg"
+  },
+  "uhub/awesome-chatgpt": {
+    "last_commit": "2026-03-29T01:05:05Z",
+    "commit_hash": "R_kgDOJQ1i0A"
+  },
+  "Lissy93/awesome-privacy": {
+    "last_commit": "2026-03-28T13:53:41Z",
+    "commit_hash": "R_kgDOHoiebw"
+  },
+  "awesome-android-root/awesome-android-root": {
+    "last_commit": "2026-03-28T12:59:15Z",
+    "commit_hash": "R_kgDOMZuSLw"
+  },
+  "zhuima/awesome-cloudflare": {
+    "last_commit": "2026-03-27T16:00:17Z",
+    "commit_hash": "R_kgDOLq2JLw"
+  },
+  "free-clash-meta/free-clash-meta.github.io": {
+    "last_commit": "2026-03-27T11:31:44Z",
+    "commit_hash": "R_kgDONyYYVQ"
+  },
+  "Ghost-Clocker/V2raySSSSRShare": {
+    "last_commit": "2026-03-27T09:38:10Z",
+    "commit_hash": "MDEwOlJlcG9zaXRvcnkzNDc5ODExNDY="
+  },
+  "shadowsocks/shadowsocks-rust": {
+    "last_commit": "2026-03-27T06:46:43Z",
+    "commit_hash": "MDEwOlJlcG9zaXRvcnkyNTI1MDkxMw=="
+  },
+  "violettoolssite/CFspider": {
+    "last_commit": "2026-03-27T06:03:10Z",
+    "commit_hash": "R_kgDOQylbEg"
+  },
+  "chenyl8848/great-open-source-project": {
+    "last_commit": "2026-03-27T02:16:51Z",
+    "commit_hash": "R_kgDOI37UXg"
+  },
+  "aehyok/blog": {
+    "last_commit": "2026-03-25T23:22:51Z",
+    "commit_hash": "MDEwOlJlcG9zaXRvcnkzMjY1MzA4MDU="
+  },
+  "SamNet-dev/dnstm-setup": {
+    "last_commit": "2026-03-25T18:30:45Z",
+    "commit_hash": "R_kgDORevzMw"
+  },
+  "hackerschoice/thc-tips-tricks-hacks-cheat-sheet": {
+    "last_commit": "2026-03-25T15:21:58Z",
+    "commit_hash": "MDEwOlJlcG9zaXRvcnkyMzU4MDQzNjQ="
+  },
+  "yzcjd/jiedian": {
+    "last_commit": "2026-03-24T10:35:52Z",
+    "commit_hash": "R_kgDOHna9Eg"
+  },
+  "houyushan/telegram-groups-search": {
+    "last_commit": "2026-03-23T17:32:04Z",
+    "commit_hash": "R_kgDOKHkHVQ"
+  },
+  "futianhang/freeNodes": {
+    "last_commit": "2026-03-23T15:47:03Z",
+    "commit_hash": "R_kgDOKFyQMg"
+  },
+  "uhub/awesome-shell": {
+    "last_commit": "2026-03-21T00:04:09Z",
+    "commit_hash": "MDEwOlJlcG9zaXRvcnk0MDY0NDMwNg=="
+  },
+  "uhub/awesome-scala": {
+    "last_commit": "2026-03-20T00:01:47Z",
+    "commit_hash": "MDEwOlJlcG9zaXRvcnk0MDYyMjQxOA=="
+  },
+  "xeefei/X-Panel": {
+    "last_commit": "2026-03-18T12:11:49Z",
+    "commit_hash": "R_kgDOL0cnJA"
+  },
+  "shadowsocks/shadowsocks-libev": {
+    "last_commit": "2026-03-18T05:42:04Z",
+    "commit_hash": "MDEwOlJlcG9zaXRvcnk3MTc3MjY5"
+  },
+  "freev2rayclash/freev2rayclash.github.io": {
+    "last_commit": "2026-03-18T03:45:42Z",
+    "commit_hash": "R_kgDOMwG_iA"
+  },
+  "hello-world-1989/temp": {
+    "last_commit": "2026-03-17T22:16:42Z",
+    "commit_hash": "R_kgDOHLce-Q"
+  },
+  "zxcvos/Xray-script": {
+    "last_commit": "2026-03-17T13:45:52Z",
+    "commit_hash": "R_kgDOJJ--XQ"
+  },
+  "OverTheWallNode/SSV2RayTrojanSSRClash": {
+    "last_commit": "2026-03-16T12:16:58Z",
+    "commit_hash": "MDEwOlJlcG9zaXRvcnkyNjQzMzcyMTY="
+  },
+  "toolleeo/awesome-cli-apps-in-a-csv": {
+    "last_commit": "2026-03-16T09:29:45Z",
+    "commit_hash": "MDEwOlJlcG9zaXRvcnk5NDk0NTc5Mg=="
+  },
+  "sharkDoor/vpn-free-nodes": {
+    "last_commit": "2026-03-14T20:40:12Z",
+    "commit_hash": "R_kgDOGNvH3g"
+  },
+  "rebeccapanel/Rebecca": {
+    "last_commit": "2026-03-23T13:51:53Z",
+    "commit_hash": "R_kgDOQIWoPA"
+  },
+  "jackvale/rectg": {
+    "last_commit": "2026-03-14T12:52:02Z",
+    "commit_hash": "R_kgDOJwd8PA"
+  },
+  "John19187/v2ray-SSR-Clash-Verge-Shadowrocke": {
+    "last_commit": "2026-03-13T23:12:54Z",
+    "commit_hash": "R_kgDOL-c9bQ"
+  },
+  "arbal/awesome-stars": {
+    "last_commit": "2026-03-13T03:35:41Z",
+    "commit_hash": "MDEwOlJlcG9zaXRvcnkzNDE4MDEzMDk="
+  },
+  "ehsandftm/Cloudflare-L7-Analyzer": {
+    "last_commit": "2026-03-12T12:01:18Z",
+    "commit_hash": "R_kgDORGJFqQ"
+  },
+  "Firestar-Reimu/Arch-and-Manjaro-KDE-Installation": {
+    "last_commit": "2026-03-10T17:36:50Z",
+    "commit_hash": "MDEwOlJlcG9zaXRvcnkyODY3ODY2MDU="
+  },
+  "HotCakeX/Privacy-Anonymity-Compartmentalization": {
+    "last_commit": "2026-03-09T12:48:47Z",
+    "commit_hash": "R_kgDOJ-fd5A"
+  },
+  "uhub/awesome-go": {
+    "last_commit": "2026-03-08T00:05:47Z",
+    "commit_hash": "MDEwOlJlcG9zaXRvcnk0MDU4NTgyMA=="
+  },
+  "jpacg/awesome-stars": {
+    "last_commit": "2026-03-06T09:38:38Z",
+    "commit_hash": "MDEwOlJlcG9zaXRvcnk2NDczMDA1Mg=="
+  },
+  "v2fly/geoip": {
+    "last_commit": "2026-03-05T02:23:39Z",
+    "commit_hash": "MDEwOlJlcG9zaXRvcnkyODE4NDY2Nzk="
+  },
+  "zw963/asuswrt-merlin-v2ray": {
+    "last_commit": "2026-03-03T11:36:51Z",
+    "commit_hash": "R_kgDOGJ7HOA"
+  },
+  "fscarmen/warp-sh": {
+    "last_commit": "2026-03-01T16:34:26Z",
+    "commit_hash": "R_kgDOKTIAOA"
+  },
+  "AmiRCandy/CandyConnect": {
+    "last_commit": "2026-02-25T13:24:26Z",
+    "commit_hash": "R_kgDORN2qjQ"
+  },
+  "tehlug/projects": {
+    "last_commit": "2026-02-22T17:14:35Z",
+    "commit_hash": "R_kgDON5ZAIA"
+  },
+  "AzadNetCH/Clash": {
+    "last_commit": "2026-02-20T17:55:05Z",
+    "commit_hash": "MDEwOlJlcG9zaXRvcnkzMTY3MTYyOTQ="
+  },
+  "mermeroo/V2RAY-CLASH-BASE64-Subscription.Links": {
+    "last_commit": "2026-02-20T11:01:51Z",
+    "commit_hash": "R_kgDOKvxf3A"
+  },
+  "Surfboardv2ray/v2ray-worker-sub": {
+    "last_commit": "2026-02-20T07:41:44Z",
+    "commit_hash": "R_kgDOLBKPtQ"
+  },
+  "MasterKia/PersianBlocker": {
+    "last_commit": "2026-02-19T15:47:13Z",
+    "commit_hash": "R_kgDOHaScGw"
+  },
+  "GFW4Fun/x-ui-pro": {
+    "last_commit": "2026-02-18T16:28:26Z",
+    "commit_hash": "R_kgDOKbrG2Q"
+  },
+  "shahinst/cdn-ip-scanner": {
+    "last_commit": "2026-02-18T11:11:14Z",
+    "commit_hash": "R_kgDORKhiAA"
+  },
+  "penhandev/AutoAiVPN": {
+    "last_commit": "2026-02-15T14:38:08Z",
+    "commit_hash": "R_kgDOPPxEUw"
+  },
+  "hans-thomas/v2ray-subscription": {
+    "last_commit": "2026-02-15T10:44:30Z",
+    "commit_hash": "R_kgDOOeVDrA"
+  },
+  "peditx/PeDitXOs": {
+    "last_commit": "2026-02-14T17:03:49Z",
+    "commit_hash": "R_kgDOJo_djg"
+  },
+  "dongyubin/Free-AppleId-Serve": {
+    "last_commit": "2026-02-14T08:29:50Z",
+    "commit_hash": "R_kgDOH3377A"
+  },
+  "jwadow/kiro-gateway": {
+    "last_commit": "2026-02-12T00:37:39Z",
+    "commit_hash": "R_kgDOQn0Dwg"
+  },
+  "zhaoolee/ChromeAppHeroes": {
+    "last_commit": "2026-02-11T03:18:26Z",
+    "commit_hash": "MDEwOlJlcG9zaXRvcnkxNjk1Mjk1Njc="
+  },
+  "perfect-panel/server": {
+    "last_commit": "2026-02-08T11:51:54Z",
+    "commit_hash": "R_kgDOOfW35Q"
+  },
+  "code3-dev/ProxyCloud": {
+    "last_commit": "2026-02-07T20:15:23Z",
+    "commit_hash": "R_kgDOPbY-HA"
+  },
+  "voidr3aper-anon/GFW-slayer": {
+    "last_commit": "2026-02-06T20:46:10Z",
+    "commit_hash": "R_kgDOP11hlA"
+  },
+  "githubvpn007/v2rayNvpn": {
+    "last_commit": "2026-02-06T03:52:54Z",
+    "commit_hash": "MDEwOlJlcG9zaXRvcnkzODIyNjIxMTc="
+  },
+  "cirosantilli/china-dictatorship": {
+    "last_commit": "2026-02-05T07:59:11Z",
+    "commit_hash": "MDEwOlJlcG9zaXRvcnkzMzMzMTI0Nw=="
+  },
+  "mRFWq7LwNPZjaVv5v6eo/cihna-dictattorshrip-8": {
+    "last_commit": "2026-02-05T07:59:02Z",
+    "commit_hash": "R_kgDOGzXBBQ"
+  },
+  "cirosantilli/china-dictatroship-7": {
+    "last_commit": "2026-02-05T07:59:02Z",
+    "commit_hash": "MDEwOlJlcG9zaXRvcnkzOTc1MjMwOTQ="
+  },
+  "lza6/free-VPN": {
+    "last_commit": "2026-02-05T06:47:39Z",
+    "commit_hash": "R_kgDOPoJHRA"
+  },
+  "MahdiMajdian/v2ray": {
+    "last_commit": "2026-02-03T17:14:53Z",
+    "commit_hash": "R_kgDOO_t1tg"
+  },
+  "Pawdroid/shadowrocket_for_android": {
+    "last_commit": "2026-01-31T18:59:49Z",
+    "commit_hash": "R_kgDOGmsW0A"
+  },
+  "lagzian/SS-Collector": {
+    "last_commit": "2026-01-24T17:58:47Z",
+    "commit_hash": "R_kgDOKC8Czg"
+  },
+  "VZiChoushaDui/Libertea": {
+    "last_commit": "2026-01-21T21:35:23Z",
+    "commit_hash": "R_kgDOIxplHg"
+  },
+  "mrvcoder/V2rayCollector": {
+    "last_commit": "2026-01-20T13:43:07Z",
+    "commit_hash": "R_kgDOJE4Zdg"
+  },
+  "Flikify/Free-Node": {
+    "last_commit": "2025-12-30T08:38:01Z",
+    "commit_hash": "R_kgDOIwIuCQ"
   }
 }
