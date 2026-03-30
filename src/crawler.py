@@ -158,6 +158,11 @@ class GitHubCrawler:
         if name.startswith(('.', '_')):
             return False
 
+        # ⭐ 新增：排除 .py 和 .js 文件
+        if name.endswith(('.py', '.js')):
+            logger.debug(f"跳过代码文件: {item['name']}")
+            return False
+
         # 大小过滤
         if item.get("size", 0) > MAX_FILE_SIZE:
             FileCounter.skipped += 1
