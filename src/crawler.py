@@ -15,7 +15,7 @@ logger = logging.getLogger("getnode")
 
 # 配置常量
 GITHUB_API_URL = "https://api.github.com/search/repositories"
-MAX_RESULTS = 180
+MAX_RESULTS = 50
 RESULTS_PER_PAGE = 30
 SLEEP_INTERVAL = 1.2
 MAX_RETRIES = 5
