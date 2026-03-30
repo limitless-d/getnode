@@ -1,9 +1,9 @@
 name: Node Crawler # 工作流名称
 
 on:
- # schedule:
-  #  - cron: '0 19 * * 0'
-  workflow_dispatch: # 允许手动触发工作流
+ schedule:
+   - cron: '0 2 * * *' # 每天凌晨 2 点触发 即 北京时间每天 10 点触发
+ workflow_dispatch: # 允许手动触发工作流
 
 jobs:
   crawl-deploy:
