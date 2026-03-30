@@ -4,26 +4,28 @@ import time
 import requests
 import json
 import logging
-from datetime import datetime
+from datetime import datetime, timedelta
 from tenacity import retry, wait_exponential, stop_after_attempt, retry_if_exception_type
 from urllib.parse import urlparse
 from typing import Dict
 from .repo_manager import RepoManager
 from .counters import FileCounter
 
-
 logger = logging.getLogger("getnode")
 
 # 配置常量
 GITHUB_API_URL = "https://api.github.com/search/repositories"
-MAX_RESULTS = 180  # 最大搜索结果数
+MAX_RESULTS = 180
 RESULTS_PER_PAGE = 30
 SLEEP_INTERVAL = 1.2
 MAX_RETRIES = 5
 MAX_FILE_SIZE = 1024 * 1024 * 1.2  # 1.2MB
 MAX_RECURSION_DEPTH = 3
 PER_PAGE = 100
-MAX_CONTENTS_TOTAL = 100  # 最大目录条目数
+MAX_CONTENTS_TOTAL = 100
+
+# 新增：时间限制（最近3个月）
+DAYS_BACK = 90
 
 class APICounter:
     """API调用计数器"""
@@ -46,7 +48,7 @@ class APICounter:
             cls.last_reset = current_time
             cls.count = 0
 
-        if cls.count % 100 == 0:  # 新增监控日志
+        if cls.count % 100 == 0:
             logger.info(f"已使用API次数: {cls.count}/小时")
         elif cls.count > 4000:
             if cls.count % 50 == 0:
@@ -81,14 +83,19 @@ class GitHubCrawler:
             raise
 
     def search_repos(self) -> list:
+        """搜索仓库，增加热度与更新时间条件"""
         repos = []
+        # 计算三个月前的日期
+        since_date = (datetime.now() - timedelta(days=DAYS_BACK)).strftime("%Y-%m-%d")
+        # 修改查询：包含关键词、stars>=50、最近3个月有更新
+        query = "v2ray free in:readme,description stars:>=50 pushed:>={}".format(since_date)
         params = {
-            "q": "v2ray free in:readme,description",
+            "q": query,
             "sort": "updated",
             "order": "desc",
             "per_page": RESULTS_PER_PAGE
         }
-        repo_manager = RepoManager()  # 提前初始化管理器
+        repo_manager = RepoManager()
         page = 1
 
         try:
@@ -102,18 +109,15 @@ class GitHubCrawler:
                     data = self.safe_request(GITHUB_API_URL, params)
                     raw_repos = data.get("items", [])
                     
-                    # 无更多数据时终止循环
                     if not raw_repos:
                         logger.debug(f"第 {page} 页无数据，终止搜索")
                         break
 
-                    # 实时过滤仓库
                     for repo in raw_repos:
                         FileCounter.repo_total += 1
                         if repo_manager.should_process(repo['html_url'], repo['pushed_at']):
                             FileCounter.repo_added += 1
                             repos.append(repo)
-                            # 达到最大限制时立即终止
                             if len(repos) >= MAX_RESULTS:
                                 break
 
@@ -138,13 +142,14 @@ class GitHubCrawler:
             logger.error(f"仓库搜索失败: {str(e)}", exc_info=True)
             return []
 
-
     def find_node_files(self, repo_url: str) -> list:
-        logger.debug(f"开始处理仓库: {repo_url}")  # 新增日志
+        """递归查找节点文件，返回文件信息列表"""
+        logger.debug(f"开始处理仓库: {repo_url}")
         repo_api_url = repo_url.replace("https://github.com/", "https://api.github.com/repos/")
         return self._search_contents(repo_api_url + "/contents/")
 
     def _search_contents(self, path: str, depth=0) -> list:
+        """递归扫描目录，收集节点文件信息"""
         if depth > MAX_RECURSION_DEPTH:
             logger.debug(f"达到最大递归深度{depth}: {path}")
             return []
@@ -157,25 +162,20 @@ class GitHubCrawler:
                 params = {"page": page, "per_page": PER_PAGE}
                 contents = self.safe_request(path, params)
                 
-                total_links = 0
-                # 处理异常响应
                 if not isinstance(contents, list):
                     logger.debug(f"异常响应类型: {type(contents)}")
                     break
 
-                # 处理空目录    
                 if not contents:
                     logger.debug(f"空目录: {path}")
                     break
 
-                # 处理条目过多的目录
                 if len(contents) > MAX_CONTENTS_TOTAL:
                     logger.debug(f"条目过多跳过：{path}\n 该目录条目数：{len(contents)}")
                     break
 
                 for item in contents:
                     if not self._process_item(item, depth):
-                        logger.debug(f"跳过无效节点文件: {item.get('name')}")
                         continue
                     
                     node_files.append({
@@ -183,10 +183,7 @@ class GitHubCrawler:
                         "url": item["html_url"],
                         "download_url": item["download_url"]
                     })
-                    total_links += 1
                     logger.debug(f"发现节点文件: {item['name']}")
-                
-                logger.debug(f"目录中发现了{total_links}个节点文件")
 
                 if len(contents) <= PER_PAGE:
                     break
@@ -206,24 +203,20 @@ class GitHubCrawler:
         """处理单个目录项，返回是否有效节点文件"""
         FileCounter.total += 1
         
-        # 验证基础字段
         if not all(key in item for key in ['type', 'name', 'url', 'download_url']):
             logger.debug(f"字段缺失: {item.get('name')}")
             return False
             
-        # 过滤特殊文件
         name = item["name"].lower()
         if name.startswith(('.', '_')):
             logger.debug(f"忽略系统文件: {name}")
             return False
             
-        # 文件大小过滤
         if item.get("size", 0) > MAX_FILE_SIZE:
             FileCounter.skipped += 1
             logger.debug(f"跳过 {item['size']/1024:.1f}KB 文件: {item.get('url')}")
             return False
             
-        # 目录递归
         if item["type"] == "dir":
             dir_name = item["name"].strip()
             # 匹配6-8位纯数字（示例：202501 或 20250101）
@@ -235,8 +228,7 @@ class GitHubCrawler:
             self._search_contents(item["url"], depth+1)
             return False
         
-        # 确保文件名存在    
-        if not name:  
+        if not name:
             return False
             
         # 关键词匹配
@@ -244,17 +236,13 @@ class GitHubCrawler:
         if not keyword_pattern.search(name):
             return False
     
-        
         parsed = urlparse(item["download_url"])
         scheme = parsed.scheme
 
-        # 确保 scheme 是字符串类型
         if isinstance(scheme, bytes):
             scheme = scheme.decode('utf-8')
-        # 验证下载链接
         if not scheme.startswith('http'):
             logger.debug(f"非常用协议: {scheme}")
             return False
             
         return True
-
