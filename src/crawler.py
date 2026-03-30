@@ -174,7 +174,7 @@ class GitHubCrawler:
         # 文件扩展名/关键词过滤
         if not name:
             return False
-        keyword_pattern = re.compile(r'v2ray|clash|node|proxy|sub|ss|trojan|conf|tls|ws|converted', re.IGNORECASE)
+        keyword_pattern = re.compile(r'v2ray|clash|node|proxy|sub|ss|trojan|conf|tls|ws|converted|mihomo', re.IGNORECASE)
         if not keyword_pattern.search(name):
             return False
 
