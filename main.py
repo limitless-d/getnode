@@ -2,10 +2,10 @@ import asyncio
 import logging
 from src import (
     GitHubCrawler,
-    FileGenerator,   # 仅用于保存文件，保留但不解析节点
-    RepoManager,
-    FileCounter,
-    NodeCounter
+    # FileGenerator,   
+    # RepoManager,
+    # FileCounter,
+    # NodeCounter
 )
 from src.logger import setup_logger
 
