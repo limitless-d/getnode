@@ -45,12 +45,12 @@ async def main():
         logger.info(f"链接已保存至 {output_file}")
 
         # 更新仓库状态（可选）
-        repo_manager = RepoManager()
-        for repo in repos:
-            repo_manager.update_status(repo['html_url'], {
-                'timestamp': repo['pushed_at'],
-                'hash': repo['node_id']
-            })
+        # repo_manager = RepoManager()
+        # for repo in repos:
+        #     repo_manager.update_status(repo['html_url'], {
+        #         'timestamp': repo['pushed_at'],
+        #         'hash': repo['node_id']
+        #     })
 
     except Exception as e:
         logger.error(f"执行失败: {str(e)}", exc_info=True)

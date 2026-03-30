@@ -95,7 +95,7 @@ class GitHubCrawler:
             "order": "desc",
             "per_page": RESULTS_PER_PAGE
         }
-        repo_manager = RepoManager()
+        # repo_manager = RepoManager()
         page = 1
 
         try:
@@ -115,11 +115,9 @@ class GitHubCrawler:
 
                     for repo in raw_repos:
                         FileCounter.repo_total += 1
-                        if repo_manager.should_process(repo['html_url'], repo['pushed_at']):
-                            FileCounter.repo_added += 1
-                            repos.append(repo)
-                            if len(repos) >= MAX_RESULTS:
-                                break
+                        repos.append(repo)
+                        if len(repos) >= MAX_RESULTS:
+                            break
 
                     logger.debug(f"第 {page} 页处理完成，有效仓库数: {len(repos)}/{MAX_RESULTS}")
                     page += 1
