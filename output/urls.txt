@@ -87,6 +87,7 @@ https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Sub7.txt
 https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Sub8.txt
 https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Sub9.txt
 https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/clash.yaml
+https://raw.githubusercontent.com/ZeroDeng01/sublinkPro/main/config.example.yaml
 https://raw.githubusercontent.com/barry-far/V2ray-Config/main/All_Configs_Sub.txt
 https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Sub1.txt
 https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Sub2.txt
