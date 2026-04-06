@@ -1,3 +1,4 @@
+https://raw.githubusercontent.com/Argh94/Proxy-List/main/All_Config.txt
 https://raw.githubusercontent.com/Argh94/Proxy-List/main/ShadowSocks.txt
 https://raw.githubusercontent.com/Argh94/Proxy-List/main/ShadowsocksR.txt
 https://raw.githubusercontent.com/Argh94/Proxy-List/main/Trojan.txt
@@ -10,7 +11,6 @@ https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub14.txt
 https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub15.txt
 https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub16.txt
 https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub17.txt
-https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub18.txt
 https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub2.txt
 https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub3.txt
 https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub4.txt
@@ -101,7 +101,6 @@ https://raw.githubusercontent.com/hello-world-1989/cn-news/main/end-gfw-together
 https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_SS+All_RUS.txt
 https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS.txt
 https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS_mobile.txt
-https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Vless-Reality-White-Lists-Rus-Mobile-2.txt
 https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Vless-Reality-White-Lists-Rus-Mobile.txt
 https://raw.githubusercontent.com/nyeinkokoaung404/V2ray-Configs/main/All_Configs_Sub.txt
 https://raw.githubusercontent.com/nyeinkokoaung404/V2ray-Configs/main/Sub1.txt
