@@ -1,4 +1,3 @@
-https://raw.githubusercontent.com/Argh94/Proxy-List/main/All_Config.txt
 https://raw.githubusercontent.com/Argh94/Proxy-List/main/ShadowSocks.txt
 https://raw.githubusercontent.com/Argh94/Proxy-List/main/ShadowsocksR.txt
 https://raw.githubusercontent.com/Argh94/Proxy-List/main/Trojan.txt
