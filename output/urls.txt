@@ -10,6 +10,7 @@ https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub14.txt
 https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub15.txt
 https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub16.txt
 https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub17.txt
+https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub18.txt
 https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub2.txt
 https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub3.txt
 https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub4.txt
@@ -25,7 +26,6 @@ https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Sub11.txt
 https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Sub12.txt
 https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Sub13.txt
 https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Sub14.txt
-https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Sub15.txt
 https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Sub16.txt
 https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Sub17.txt
 https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Sub18.txt
@@ -88,7 +88,6 @@ https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Sub7.txt
 https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Sub8.txt
 https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Sub9.txt
 https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/clash.yaml
-https://raw.githubusercontent.com/ZeroDeng01/sublinkPro/main/config.example.yaml
 https://raw.githubusercontent.com/barry-far/V2ray-Config/main/All_Configs_Sub.txt
 https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Sub1.txt
 https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Sub2.txt
@@ -96,8 +95,6 @@ https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Sub3.txt
 https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Sub4.txt
 https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Sub5.txt
 https://raw.githubusercontent.com/crackbest/V2ray-Config/main/config.txt
-https://raw.githubusercontent.com/githubvpn007/v2rayNvpn/main/ss_ios.md
-https://raw.githubusercontent.com/githubvpn007/v2rayNvpn/main/ssr_windows.md
 https://raw.githubusercontent.com/gslege/CloudflareIP/main/Vless.txt
 https://raw.githubusercontent.com/hello-world-1989/cn-news/main/clash-test.yaml
 https://raw.githubusercontent.com/hello-world-1989/cn-news/main/clash.yaml
