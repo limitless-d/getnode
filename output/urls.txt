@@ -26,6 +26,7 @@ https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Sub11.txt
 https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Sub12.txt
 https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Sub13.txt
 https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Sub14.txt
+https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Sub15.txt
 https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Sub16.txt
 https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Sub17.txt
 https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Sub18.txt

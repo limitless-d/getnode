@@ -183,3 +183,14 @@
 2026-04-09 18:03:55,056 - getnode - INFO - crawler.py:46 - 已使用API次数: 500/小时
 2026-04-09 18:03:57,004 - getnode - INFO - main.py:26 - 共收集到 113 个有效节点文件链接
 2026-04-09 18:03:57,004 - getnode - INFO - main.py:32 - 链接已保存至 output/urls.txt
+2026-04-10 17:51:22,048 - getnode - INFO - main.py:14 - === 开始执行爬虫任务（全量模式 + 内容验证）===
+2026-04-10 17:51:26,120 - getnode - INFO - crawler.py:104 - 仓库搜索完成，共 50 个仓库
+2026-04-10 17:51:26,120 - getnode - INFO - main.py:18 - 发现 50 个相关仓库
+2026-04-10 17:51:47,799 - getnode - INFO - crawler.py:46 - 已使用API次数: 100/小时
+2026-04-10 17:52:15,188 - getnode - INFO - crawler.py:46 - 已使用API次数: 200/小时
+2026-04-10 17:52:39,095 - getnode - INFO - crawler.py:46 - 已使用API次数: 300/小时
+2026-04-10 17:52:51,315 - getnode - INFO - crawler.py:46 - 已使用API次数: 400/小时
+2026-04-10 17:53:05,919 - getnode - INFO - crawler.py:46 - 已使用API次数: 500/小时
+2026-04-10 17:53:23,080 - getnode - INFO - crawler.py:46 - 已使用API次数: 600/小时
+2026-04-10 17:53:27,725 - getnode - INFO - main.py:26 - 共收集到 114 个有效节点文件链接
+2026-04-10 17:53:27,725 - getnode - INFO - main.py:32 - 链接已保存至 output/urls.txt
