@@ -1,0 +1,2044 @@
+proxies:
+  - mport: 35000-39000
+    name: "\U0001F1FA\U0001F1F8US_1|5.0MB/s"
+    password: 38428a74-c651-47a5-b2c9-4bec5a1809cf
+    port: 35000
+    ports: 35000-39000
+    server: 208.87.242.77
+    skip-cert-verify: true
+    sni: www.apple.com
+    type: hysteria2
+    udp: true
+  - mport: 35000-39000
+    name: "\U0001F1EF\U0001F1F5JP_1|2.8MB/s"
+    password: 38428a74-c651-47a5-b2c9-4bec5a1809cf
+    port: 35000
+    ports: 35000-39000
+    server: 103.62.49.76
+    skip-cert-verify: true
+    sni: www.apple.com
+    type: hysteria2
+    udp: true
+  - cipher: none
+    name: "\U0001F1ED\U0001F1F0HK_1|3.2MB/s"
+    password: 3e96ef7d-8637-42c2-ac73-75182196e755
+    plugin: v2ray-plugin
+    plugin-opts:
+      host: mfvpn.fuchen.indevs.in
+      mode: websocket
+      mux: false
+      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560
+      skip-cert-verify: false
+      tls: true
+    port: 443
+    server: 47.57.182.141
+    skip-cert-verify: false
+    type: ss
+    udp: false
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1E9\U0001F1EADE_1|2.1MB/s"
+    network: ws
+    port: 443
+    server: 18.245.54.3
+    tls: true
+    type: vless
+    udp: true
+    uuid: 97b2cd5b-b98d-494f-8f97-3a06e8c1bbd2
+    ws-opts:
+      headers:
+        Host: d2241b25w3zftf.cloudfront.net
+        User-Agent: >-
+          Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.3
+          (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
+      path: /
+    xudp: true
+    servername: d2241b25w3zftf.cloudfront.net
+  - cipher: none
+    name: "\U0001F1F8\U0001F1ECSG_1|3.4MB/s"
+    password: 79960b0b-7d31-4263-8915-6511b0e137a8
+    plugin: v2ray-plugin
+    plugin-opts:
+      host: woshinidie-et3.pages.dev
+      mode: websocket
+      mux: false
+      path: /79960b0b-7d31-4263-8915-6511b0e137a8/?ed=2560
+      tls: true
+    port: 443
+    server: 8.35.211.116
+    type: ss
+    udp: true
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1ED\U0001F1F0HK_2|3.8MB/s"
+    network: tcp
+    port: 7754
+    server: efan.dnsefan04881.com
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: 009e558d-3cf4-49d8-b5e4-82c9e14fe1a4
+    xudp: true
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1EB\U0001F1F7FR_1|3.5MB/s"
+    obfs: ''
+    obfs-password: ''
+    password: dongtaiwang.com
+    port: 40022
+    server: 163.172.113.118
+    skip-cert-verify: true
+    sni: www.microsoft.com
+    type: hysteria2
+    up: ''
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1E9\U0001F1EADE_2|4.1MB/s"
+    network: ws
+    port: 443
+    server: 104.18.16.56
+    tls: true
+    type: vless
+    udp: true
+    uuid: Telegram-Parsashonam
+    ws-opts:
+      headers:
+        Host: test.atlasw.ir
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T; wv)
+          AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91
+          Mobile Safari/537.36
+      path: /
+    xudp: true
+    servername: test.atlasw.ir
+  - name: "\U0001F1EF\U0001F1F5JP_2|2.6MB/s"
+    obfs: salamander
+    obfs-password: CF7WJGiw6r1c8imX
+    password: 48b36b6a-eaa6-4843-9231-0bb8b38b5da5
+    port: 5443
+    server: jp-hy2.onetaplink.app
+    sni: hy2-jp.onetaplink.app
+    type: hysteria2
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1F5\U0001F1F1PL_1|2.6MB/s"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: _KTsOFhGnC0W28ZqO8_FApozMp7tJ9cVBTLKLAA_OR0
+      short-id: "ae64c9b46bff174a"
+    server: 144.31.1.59
+    tls: true
+    type: vless
+    udp: true
+    uuid: ab1ddafb-9514-40ab-9e4b-a3878f70931d
+    xudp: true
+    servername: pl.sky-vault.top
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1E9\U0001F1EADE_3|2.5MB/s"
+    obfs: ''
+    obfs-password: ''
+    password: fb211338854624f161f1Ea3D9584E2DEFE7c10A3
+    port: 8443
+    server: sde.dbp.qzz.io
+    skip-cert-verify: true
+    sni: dbp.qzz.io
+    type: hysteria2
+    up: ''
+  - cipher: none
+    name: "\U0001F1EF\U0001F1F5JP_3|1.2MB/s"
+    password: 79960b0b-7d31-4263-8915-6511b0e137a8
+    plugin: v2ray-plugin
+    plugin-opts:
+      host: woshinidie-et3.pages.dev
+      mode: websocket
+      mux: false
+      path: /79960b0b-7d31-4263-8915-6511b0e137a8/?ed=2560
+      tls: true
+    port: 443
+    server: 162.159.39.31
+    type: ss
+    udp: true
+  - client-fingerprint: chrome
+    name: "\U0001F1F3\U0001F1F1NL_1|2.8MB/s"
+    network: ws
+    password: trojan
+    port: 8444
+    server: 152.53.60.198
+    skip-cert-verify: false
+    sni: jflsjlaf.pages.dev
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 4.4.2; de-de; SAMSUNG GT-I9195
+          Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5
+          Chrome/28.0.1500.94 Mobile Safari/537.36
+      path: /
+  - cipher: none
+    name: "\U0001F1EF\U0001F1F5JP_4|2.8MB/s"
+    password: 79960b0b-7d31-4263-8915-6511b0e137a8
+    plugin: v2ray-plugin
+    plugin-opts:
+      host: woshinidie-et3.pages.dev
+      mode: websocket
+      mux: false
+      path: /79960b0b-7d31-4263-8915-6511b0e137a8/?ed=2560
+      tls: true
+    port: 443
+    server: 162.159.45.203
+    type: ss
+    udp: true
+  - alpn:
+      - h2
+      - http/1.1
+    client-fingerprint: randomized
+    name: "\U0001F1FA\U0001F1F8US_2|544KB/s"
+    network: ws
+    password: '8r<[9''l6hAO#8ZQi'
+    port: 8443
+    server: koma-yt.pages.dev
+    skip-cert-verify: false
+    sni: Koma-YT.PAGeS.Dev
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 7.0; Moto C Build/NRD90M.059)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
+      path: /tro8sFW1S91B6sZrM1
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+  - alpn:
+      - h2
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1E9\U0001F1EADE_4|3.3MB/s"
+    network: ws
+    port: 8443
+    server: 172.64.152.23
+    tls: true
+    type: vless
+    udp: true
+    uuid: b179aef9-46a6-4e21-9a15-d21139c705b9
+    ws-opts:
+      headers:
+        Host: line.smartphone1.top
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/61.0.3163.100 Safari/537.36
+      path: /shop
+    xudp: true
+    servername: line.smartphone1.top
+  - encryption: none
+    name: "\U0001F1FA\U0001F1F8US_3|3.9MB/s"
+    network: ws
+    port: 2082
+    server: 104.19.222.169
+    type: vless
+    udp: true
+    uuid: ef23616d-8a9d-4b22-b2f5-9bda864de179
+    ws-opts:
+      headers:
+        Host: index.arcane509.workers.dev
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/62.0.3202.94 Safari/537.36
+      path: /gfdn0yadxgfr
+    xudp: true
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1F9\U0001F1EDTH_1|560KB/s"
+    network: ws
+    port: 443
+    server: mangu1.zqjsqapi.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: 8d5e7f2a-3c1b-4d9e-a6f8-2b5c0e7d4a19
+    ws-opts:
+      headers:
+        Host: ''
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/68.0.3440.75 Safari/537.36
+      path: /proxy
+    xudp: true
+    servername: mangu1.zqjsqapi.com
+  - client-fingerprint: random
+    encryption: none
+    flow: xtls-rprx-vision
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1F7\U0001F1FARU_1|3.2MB/s"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: DoZSKLwNQjogQMlE7oEEuB8TqpNa-umXzG-2Q6dTTEY
+      short-id: "4fa44664f6a566d3"
+    server: uk.milas.click
+    tls: true
+    type: vless
+    udp: true
+    uuid: 913c6074-a747-492b-a7e9-5abfcad6369d
+    xudp: true
+    servername: uk.milas.click
+  - alpn:
+      - h2
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1E9\U0001F1EADE_5|2.0MB/s"
+    network: ws
+    port: 443
+    server: 104.18.16.56
+    tls: true
+    type: vless
+    udp: true
+    uuid: bb32b8af-7dd5-454c-8abc-fe6b0ce6fe9d
+    ws-opts:
+      headers:
+        Host: aref.cafearef.ir
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/49.0.2623.112 Safari/537.36
+      path: /aref
+    xudp: true
+    servername: aref.cafearef.ir
+  - alpn:
+      - h2
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1E9\U0001F1EADE_6|2.6MB/s"
+    network: ws
+    port: 443
+    server: 104.18.16.56
+    tls: true
+    type: vless
+    udp: true
+    uuid: 968e1903-ba56-45df-9b42-cf98b44f2657
+    ws-opts:
+      headers:
+        Host: net.unknowngod01.sbs
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/41.0.2272.101 Safari/537.36
+      path: /@ClaudeNet
+    xudp: true
+    servername: net.unknowngod01.sbs
+  - client-fingerprint: qq
+    flow: xtls-rprx-vision
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1F3\U0001F1F1NL_2|2.2MB/s"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: 1HeKf_8KDjfzXfUi9P7WBaGStMvr96TKdUbofpkwBzQ
+      short-id: "8bd29483ded126b4"
+    server: meowams.nethcloud.top
+    tls: true
+    type: vless
+    udp: true
+    uuid: 951c7521-7158-4978-b82c-2736d4f21044
+    xudp: true
+    servername: wikihow.com
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: "\U0001F1E6\U0001F1EAAE_1|2.1MB/s"
+    network: tcp
+    port: 8443
+    server: bot2.jetstoreapp.ru
+    tls: true
+    type: vless
+    udp: true
+    uuid: 148cf088-5fa8-48a2-afbb-7003696c5cc1
+    xudp: true
+    servername: bot2.jetstoreapp.ru
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1FA\U0001F1F8US_4|2.7MB/s"
+    network: tcp
+    port: 4495
+    reality-opts:
+      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+      short-id: ''
+    server: 72.56.8.81
+    tls: true
+    type: vless
+    udp: true
+    uuid: 0b5d4737-0665-4b36-a941-0299f5362491
+    xudp: true
+    servername: files.moscownews24.ru
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1E9\U0001F1EADE_7|2.8MB/s"
+    network: ws
+    port: 443
+    server: 172.64.149.54
+    tls: true
+    type: vless
+    udp: true
+    uuid: Telegram-Parsashonam
+    ws-opts:
+      headers:
+        Host: test.atlasw.ir
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/60.0.3112.90 Safari/537.36
+      path: /
+    xudp: true
+    servername: test.atlasw.ir
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1F7\U0001F1FARU_2|2.2MB/s"
+    network: tcp
+    port: 4525
+    reality-opts:
+      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+      short-id: ''
+    server: 72.56.15.227
+    tls: true
+    type: vless
+    udp: true
+    uuid: 6e2a5fe6-bb51-40e0-8c1d-fce978815d71
+    xudp: true
+    servername: files.moscownews24.ru
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1FA\U0001F1F8US_5|3.1MB/s"
+    network: tcp
+    port: 9443
+    reality-opts:
+      public-key: wAYsJ6RJXFy94w_WaTIhp1ZfCePAPoZmP27RarvUqXg
+      short-id: "2344766a270a6298"
+    server: 72.56.8.156
+    tls: true
+    type: vless
+    udp: true
+    uuid: 4649d681-7f26-4959-a3f2-02eb8866230f
+    xudp: true
+    servername: yahoo.com
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1F5\U0001F1F1PL_2|2.8MB/s"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: _KTsOFhGnC0W28ZqO8_FApozMp7tJ9cVBTLKLAA_OR0
+      short-id: "ae64c9b46bff174a"
+    server: pl.sky-vault.top
+    tls: true
+    type: vless
+    udp: true
+    uuid: ab1ddafb-9514-40ab-9e4b-a3878f70931d
+    xudp: true
+    servername: pl.sky-vault.top
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1F3\U0001F1F1NL_3|2.8MB/s"
+    network: tcp
+    port: 8443
+    reality-opts:
+      public-key: cynncQk7kKzEQaExg-FN7pMqFaZPSXEi_Ggy7AXXmVg
+      short-id: "2356d1ae4b"
+    server: lb1.aliusvpn.ru
+    tls: true
+    type: vless
+    udp: true
+    uuid: cc01b906-676a-42ce-99d0-bad6c1b350f7
+    xudp: true
+    servername: aliusfilms.ru
+  - mport: 35000-39000
+    name: "\U0001F1E7\U0001F1F7BR_1|1006KB/s"
+    password: 38428a74-c651-47a5-b2c9-4bec5a1809cf
+    port: 35000
+    ports: 35000-39000
+    server: 167.234.251.78
+    skip-cert-verify: true
+    sni: www.apple.com
+    type: hysteria2
+    udp: true
+  - client-fingerprint: chrome
+    encryption: none
+    grpc-opts:
+      grpc-service-name: data-sync
+    name: "\U0001F1F8\U0001F1EASE_1|2.4MB/s"
+    network: grpc
+    port: 443
+    reality-opts:
+      public-key: _PUvVU7EjN678sdosgO-jX8svQ3fKOROq0BCVrx9NzE
+      short-id: "62f087ac"
+    server: rusw-3.coinbridge.nl
+    tls: true
+    type: vless
+    udp: true
+    uuid: a3a90d47-df89-496b-a578-814d8c85d8fc
+    xudp: true
+    servername: coinbridge.nl
+  - client-fingerprint: chrome
+    encryption: none
+    grpc-opts:
+      grpc-service-name: /sequre/grpc/
+    name: "\U0001F1F7\U0001F1FARU_3|2.6MB/s"
+    network: grpc
+    port: 443
+    server: 155.212.140.222.vhub.pro
+    tls: true
+    type: vless
+    udp: true
+    uuid: fb89a947-0d5b-43b2-982e-20b89d48d161
+    xudp: true
+    servername: 155.212.140.222.vhub.pro
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1FA\U0001F1F8US_6|2.0MB/s"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: eviE8juc95l6ayL84WVaXDLwb9VmI0UNpb-AmLhn9Gs
+      short-id: "47da4aebbec6aef6"
+    server: estinode.lumixnet.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: a534ec08-6c69-4b36-b7e6-7f6651d30265
+    xudp: true
+    servername: estinode.lumixnet.com
+  - client-fingerprint: qq
+    flow: xtls-rprx-vision
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1F3\U0001F1F1NL_4|3.1MB/s"
+    network: tcp
+    port: 7443
+    reality-opts:
+      public-key: 5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI
+      short-id: "be0ce047"
+    server: 45.43.92.62
+    tls: true
+    type: vless
+    udp: true
+    uuid: 248d1886-8ae0-4079-a281-4d21bdb74ba4
+    xudp: true
+    servername: chat.deepseek.com
+  - client-fingerprint: qq
+    encryption: none
+    flow: xtls-rprx-vision
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1EE\U0001F1F9IT_1|1.0MB/s"
+    network: tcp
+    port: 9879
+    reality-opts:
+      public-key: im7-98zxWz_OGimQfeoN_Y5p1tAy8KoZCxOe2wOeWS4
+      short-id: ''
+    server: 72.56.32.60
+    tls: true
+    type: vless
+    udp: true
+    uuid: 0599bdbc-b131-42cc-9b5c-03857e111eb9
+    xudp: true
+    servername: www.id.vk.ru
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1EB\U0001F1F7FR_2|1.7MB/s"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: '-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw'
+      short-id: '50'
+    server: 7qqrbome80g.country-35.de-nfast.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: 4b481152-ba7f-4445-8cc0-d33d58546e23
+    xudp: true
+    servername: fr.de-nfast.com
+  - client-fingerprint: qq
+    flow: xtls-rprx-vision
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1E9\U0001F1EADE_8|3.0MB/s"
+    network: tcp
+    port: 7443
+    reality-opts:
+      public-key: 5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI
+      short-id: "d82fb387"
+    server: 152.53.148.223
+    tls: true
+    type: vless
+    udp: true
+    uuid: 248d1886-8ae0-4079-a281-4d21bdb74ba4
+    xudp: true
+    servername: chat.deepseek.com
+  - client-fingerprint: random
+    encryption: none
+    flow: xtls-rprx-vision
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1E8\U0001F1EDCH_1|2.6MB/s"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: DoZSKLwNQjogQMlE7oEEuB8TqpNa-umXzG-2Q6dTTEY
+      short-id: "4fa44664f6a566d3"
+    server: es.milas.click
+    tls: true
+    type: vless
+    udp: true
+    uuid: 913c6074-a747-492b-a7e9-5abfcad6369d
+    xudp: true
+    servername: es.milas.click
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1EC\U0001F1E7GB_1|2.0MB/s"
+    network: xhttp
+    port: 443
+    reality-opts:
+      public-key: A7rUZxACVEZDLxE5yl0bwplc6HMl2XBDasR9X8hy-CA
+      short-id: "c8855701"
+    server: pl4.gosocial.today
+    tls: true
+    type: vless
+    udp: true
+    uuid: 337582a5-3705-11f1-953f-dc08fb041e0d
+    xudp: true
+    servername: pl4.gosocial.today
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: "\U0001F1F9\U0001F1F7TR_1|2.6MB/s"
+    network: tcp
+    port: 7443
+    reality-opts:
+      public-key: 5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI
+      short-id: "d82fb387"
+    server: 77.239.126.150
+    tls: true
+    type: vless
+    udp: true
+    uuid: 72eb4de8-5eca-420d-8876-173ef58d82e8
+    xudp: true
+    servername: chat.deepseek.com
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: "\U0001F1E9\U0001F1EADE_9|2.5MB/s"
+    network: tcp
+    port: 7443
+    reality-opts:
+      public-key: 5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI
+      short-id: "d82fb387"
+    server: 92.119.166.90
+    tls: true
+    type: vless
+    udp: true
+    uuid: 72eb4de8-5eca-420d-8876-173ef58d82e8
+    xudp: true
+    servername: chat.deepseek.com
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1E8\U0001F1EDCH_2|1.6MB/s"
+    network: tcp
+    port: 4356
+    reality-opts:
+      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+      short-id: ''
+    server: 147.45.159.44
+    tls: true
+    type: vless
+    udp: true
+    uuid: 6e2a5fe6-bb51-40e0-8c1d-fce978815d71
+    xudp: true
+    servername: files.moscownews24.ru
+  - client-fingerprint: qq
+    encryption: none
+    flow: xtls-rprx-vision
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1F5\U0001F1F1PL_3|535KB/s"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
+      short-id: "868419504747f6de"
+    server: pl5.lazeroe.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: 3b7e7ab6-feb0-4c12-b575-b5b2b8e7b8e5
+    xudp: true
+    servername: pl5.lazeroe.com
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1E8\U0001F1EDCH_3|2.1MB/s"
+    network: tcp
+    port: 4320
+    reality-opts:
+      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+      short-id: ''
+    server: 72.56.15.227
+    tls: true
+    type: vless
+    udp: true
+    uuid: 6e2a5fe6-bb51-40e0-8c1d-fce978815d71
+    xudp: true
+    servername: files.moscownews24.ru
+  - client-fingerprint: qq
+    encryption: none
+    flow: xtls-rprx-vision
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1F8\U0001F1EASE_2|1.6MB/s"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: zrsoSERYFT2ZNMvykzMUkie-Ho5rn_afn7cLPOQgNzg
+      short-id: "8999066b636226f7"
+    server: se.stuffcollections.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: 5557ef99-aa86-49e1-8430-aaae12111c28
+    xudp: true
+    servername: se.stuffcollections.com
+  - cipher: none
+    name: "\U0001F1FA\U0001F1F8US_7|3.4MB/s"
+    password: 79960b0b-7d31-4263-8915-6511b0e137a8
+    plugin: v2ray-plugin
+    plugin-opts:
+      host: woshinidie-et3.pages.dev
+      mode: websocket
+      mux: false
+      path: /79960b0b-7d31-4263-8915-6511b0e137a8/?ed=2560
+      tls: true
+    port: 443
+    server: 89.169.8.223
+    type: ss
+    udp: true
+  - cipher: none
+    name: "\U0001F1FA\U0001F1F8US_8|3.4MB/s"
+    password: 79960b0b-7d31-4263-8915-6511b0e137a8
+    plugin: v2ray-plugin
+    plugin-opts:
+      host: woshinidie-et3.pages.dev
+      mode: websocket
+      mux: false
+      path: /79960b0b-7d31-4263-8915-6511b0e137a8/?ed=2560
+      tls: true
+    port: 443
+    server: 104.17.53.235
+    type: ss
+    udp: true
+  - client-fingerprint: random
+    encryption: none
+    flow: xtls-rprx-vision
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1FA\U0001F1F8US_9|2.8MB/s"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: DoZSKLwNQjogQMlE7oEEuB8TqpNa-umXzG-2Q6dTTEY
+      short-id: "4fa44664f6a566d3"
+    server: se.milas.click
+    tls: true
+    type: vless
+    udp: true
+    uuid: 913c6074-a747-492b-a7e9-5abfcad6369d
+    xudp: true
+    servername: se.milas.click
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1E8\U0001F1EDCH_4|2.4MB/s"
+    network: tcp
+    port: 4356
+    reality-opts:
+      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+      short-id: ''
+    server: 83.217.221.220
+    tls: true
+    type: vless
+    udp: true
+    uuid: 6e2a5fe6-bb51-40e0-8c1d-fce978815d71
+    xudp: true
+    servername: files.moscownews24.ru
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1FA\U0001F1F8US_10|3.7MB/s"
+    network: tcp
+    port: 1443
+    reality-opts:
+      public-key: 2-PK2RY8YRcxqD01Me8ZSRK91iSgE3Zls2P0WFwxqig
+      short-id: "b8a8f008c9"
+    server: de19.fastlanehosting.ru
+    tls: true
+    type: vless
+    udp: true
+    uuid: 7e4d0612-41b5-4b44-a8f1-1f7cda6b6f78
+    xudp: true
+    servername: eh.vk.com
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1E8\U0001F1EDCH_5|2.5MB/s"
+    network: tcp
+    port: 4359
+    reality-opts:
+      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+      short-id: ''
+    server: 217.149.30.14
+    tls: true
+    type: vless
+    udp: true
+    uuid: 6e2a5fe6-bb51-40e0-8c1d-fce978815d71
+    xudp: true
+    servername: files.moscownews24.ru
+  - client-fingerprint: random
+    encryption: none
+    flow: xtls-rprx-vision
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1FA\U0001F1F8US_11|1.9MB/s"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: DoZSKLwNQjogQMlE7oEEuB8TqpNa-umXzG-2Q6dTTEY
+      short-id: "4fa44664f6a566d3"
+    server: 171.22.181.107
+    tls: true
+    type: vless
+    udp: true
+    uuid: 913c6074-a747-492b-a7e9-5abfcad6369d
+    xudp: true
+    servername: uk.milas.click
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1ED\U0001F1F0HK_3|5.2MB/s"
+    port: 7754
+    server: efan.dnsefan04881.com
+    type: vmess
+    uuid: 7cd96dbe-ecec-4937-9e05-87ab70af2f30
+    network: tcp
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1ED\U0001F1F0HK_4|8.2MB/s"
+    port: 7754
+    server: efan.dnsefan04881.com
+    type: vmess
+    uuid: 009e558d-3cf4-49d8-b5e4-82c9e14fe1a4
+    network: tcp
+  - alpn:
+      - h2
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1E9\U0001F1EADE_10|3.3MB/s"
+    network: xhttp
+    port: 8443
+    server: 104.17.71.206
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    uuid: MahsaNG-vpn-74777300
+    xhttp-opts:
+      headers:
+        Host: h9-7.digicala.online
+      mode: stream-up
+      path: /
+    servername: h9-7.digicala.online
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1ED\U0001F1F0HK_5|8.1MB/s"
+    port: 7754
+    server: vm51544542.dns8656815.com
+    type: vmess
+    uuid: 7cd96dbe-ecec-4937-9e05-87ab70af2f30
+    network: tcp
+  - client-fingerprint: qq
+    encryption: none
+    flow: xtls-rprx-vision
+    name: "\U0001F1EC\U0001F1E7GB_2|1.0MB/s"
+    network: tcp
+    port: 7443
+    reality-opts:
+      public-key: 5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI
+      short-id: "d82fb387"
+    server: 152.89.253.111
+    tls: true
+    type: vless
+    udp: true
+    uuid: 248d1886-8ae0-4079-a281-4d21bdb74ba4
+    xudp: true
+    servername: chat.deepseek.com
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1F7\U0001F1FARU_4|1.2MB/s"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: QsdftfvfD6Owl-SutPVzJTijXYmQO7LD_YR9mq1vqnI
+      short-id: "b03a4d1767157467"
+    server: 193.233.82.149
+    tls: true
+    type: vless
+    udp: true
+    uuid: f00984ef-f57e-41db-9182-b25f7bc3a1e2
+    xudp: true
+    servername: nnt.stardevs.top
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1E9\U0001F1EADE_11|2.0MB/s"
+    obfs: ''
+    obfs-password: ''
+    password: 4d092122-268a-4a1a-b23f-83931c5abc3a
+    port: 2056
+    server: 37.114.49.38
+    skip-cert-verify: true
+    sni: flkf.mangshe.xyz
+    type: hysteria2
+    up: ''
+  - alpn:
+      - http%25252F1.1
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1E9\U0001F1EADE_12|4.1MB/s"
+    network: tcp
+    port: 52006
+    server: ger-13.anti-vpn.ru
+    tls: true
+    type: vless
+    udp: true
+    uuid: 75807638-6f19-01f4-ae08-38492ee85c88
+    xudp: true
+    servername: ger-13.anti-vpn.ru
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1EB\U0001F1EEFI_1|2.2MB/s"
+    network: tcp
+    port: 4497
+    reality-opts:
+      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+      short-id: ''
+    server: 72.56.236.223
+    tls: true
+    type: vless
+    udp: true
+    uuid: 6e2a5fe6-bb51-40e0-8c1d-fce978815d71
+    xudp: true
+    servername: files.moscownews24.ru
+  - alpn:
+      - h3
+    down: ''
+    fingerprint: ''
+    name: "\U0001F1ED\U0001F1F0HK_6|2.4MB/s"
+    obfs: ''
+    obfs-password: ''
+    password: 3286b74d-a633-401f-8e22-6e8e61c5f1d9
+    port: 5555
+    server: 45.192.195.52
+    skip-cert-verify: true
+    sni: ''
+    type: hysteria2
+    up: ''
+    disable-sni: true
+  - alpn:
+      - http%25252525252525252525252525252525252F1.1
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1F5\U0001F1F1PL_4|4.2MB/s"
+    network: tcp
+    port: 52006
+    server: ger-13.anti-vpn.ru
+    tls: true
+    type: vless
+    udp: true
+    uuid: 75807638-6f19-2710-ae08-38492ee85c88
+    xudp: true
+    servername: ger-13.anti-vpn.ru
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1F5\U0001F1F1PL_5|2.5MB/s"
+    network: tcp
+    port: 52006
+    server: germ-dop.anti-vpn.ru
+    tls: true
+    type: vless
+    udp: true
+    uuid: 75807638-6f19-2710-ae08-38492ee85c88
+    xudp: true
+    servername: germ-dop.anti-vpn.ru
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    fp: firefox
+    headerType: none
+    name: "\U0001F1FA\U0001F1F8US_12|2.2MB/s"
+    network: tcp
+    pbk: _zJXh1QBg7D0lcPUFPrxPh7Zfqu1wK0sX8W0AQNIRg0
+    port: 12345
+    reality-opts:
+      public-key: _zJXh1QBg7D0lcPUFPrxPh7Zfqu1wK0sX8W0AQNIRg0
+      server-name: dash.cloudflare.com
+      short-id: ''
+    security: reality
+    server: px-x02.xiaoxiaobujidao.xyz
+    tls: true
+    type: vless
+    uuid: 9b5b522d-e150-495d-9aa3-b4b74cd8981d
+    servername: dash.cloudflare.com
+  - insecure: '1'
+    name: "\U0001F1EC\U0001F1E7GB_3|769KB/s"
+    password: 9b5b522d-e150-495d-9aa3-b4b74cd8981d
+    port: 19443
+    server: uk-001.xiaoxiaobujidao.xyz
+    skip-cert-verify: true
+    sni: uk-001.xiaoxiaobujidao.xyz
+    type: hysteria2
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1FA\U0001F1F8US_13|2.5MB/s"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: djH9iD2QV748ocK-wPH7HvDd03lu88zHhS4G-61w6Dc
+      short-id: "a120"
+    server: 144.31.131.33
+    tls: true
+    type: vless
+    udp: true
+    uuid: ae852d97-85f5-45cf-82a4-254eba345480
+    xudp: true
+    servername: cdn.cdnjst.org
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: "\U0001F1F7\U0001F1FARU_5|4.2MB/s"
+    network: tcp
+    port: 52006
+    server: russ-13.anti-vpn.ru
+    tls: true
+    type: vless
+    udp: true
+    uuid: 75807638-6f19-07d0-ae08-38492ee85c88
+    xudp: true
+    servername: russ-13.anti-vpn.ru
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1F7\U0001F1FARU_6|2.4MB/s"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: QsdftfvfD6Owl-SutPVzJTijXYmQO7LD_YR9mq1vqnI
+      short-id: "b03a4d1767157467"
+    server: nnt.stardevs.top
+    tls: true
+    type: vless
+    udp: true
+    uuid: f00984ef-f57e-41db-9182-b25f7bc3a1e2
+    xudp: true
+    servername: nnt.stardevs.top
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1FA\U0001F1F8US_14|1.9MB/s"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: djH9iD2QV748ocK-wPH7HvDd03lu88zHhS4G-61w6Dc
+      short-id: "a120"
+    server: cdn.cdnjst.org
+    tls: true
+    type: vless
+    udp: true
+    uuid: ae852d97-85f5-45cf-82a4-254eba345480
+    xudp: true
+    servername: cdn.cdnjst.org
+  - encryption: none
+    name: "\U0001F1F3\U0001F1F1NL_5|3.4MB/s"
+    network: ws
+    port: 80
+    server: cdn.tzpro.xyz
+    type: vless
+    udp: true
+    uuid: f2083aa4-f27d-43da-81cf-8bab31730400
+    ws-opts:
+      headers:
+        Host: germany.vipserver14.workers.dev
+        User-Agent: >-
+          Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36
+          (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
+      path: /
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2048
+    xudp: true
+  - client-fingerprint: qq
+    flow: xtls-rprx-vision
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1ED\U0001F1FAHU_1|1.8MB/s"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: KK3PpCIROYNt4zgMW2O3PvCMVjy-TQjPUz3eyKhRsVc
+      short-id: "71e87186710e710e"
+    server: efta.tconnect.services
+    tls: true
+    type: vless
+    udp: true
+    uuid: ff8fb04e-1e8d-466d-85bf-89573844e539
+    xudp: true
+    servername: cloudcdn-m9-6.cdn.yandex.net
+  - cipher: aes-256-cfb
+    name: "\U0001F1F7\U0001F1FARU_7|702KB/s"
+    password: gYCYXfkUQEs2TaJQ
+    port: 9038
+    server: 194.116.173.21
+    type: ss
+    udp: true
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1EB\U0001F1F7FR_3|2.5MB/s"
+    network: tcp
+    port: 4443
+    reality-opts:
+      public-key: praGYag8YPbz_rcd_Pa6Fqsi_IiQtO3e1AosYBcu6h4
+      short-id: "378086fbdb7c61cd"
+    server: msaab.whit3.net
+    tls: true
+    type: vless
+    udp: true
+    uuid: 52ca0d43-e64a-4127-a972-a15623886a06
+    xudp: true
+    servername: max.ru
+  - alpn:
+      - http%252525252525252525252F1.1
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1E8\U0001F1FECY_1|1.2MB/s"
+    network: tcp
+    port: 52006
+    server: cmm-13.anti-vpn.ru
+    tls: true
+    type: vless
+    udp: true
+    uuid: 75807638-6f19-07d0-ae08-38492ee85c88
+    xudp: true
+    servername: cmm-13.anti-vpn.ru
+  - name: "\U0001F1F0\U0001F1F7KR_1|1.2MB/s"
+    port: 1090
+    server: 121.169.46.116
+    tls: false
+    type: socks5
+    username: Og%3D%3D
+  - cipher: aes-256-cfb
+    name: "\U0001F1FB\U0001F1F3VN_1|669KB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.249
+    type: ss
+  - client-fingerprint: random
+    encryption: none
+    name: "\U0001F1FA\U0001F1F8US_15|4.0MB/s"
+    network: ws
+    port: 443
+    server: shopify.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
+    ws-opts:
+      headers:
+        Host: misaka.cndyw.ggff.net
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/52.0.2743.116 Safari/537.36
+      path: /
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    xudp: true
+    servername: misaka.cndyw.ggff.net
+  - client-fingerprint: random
+    encryption: none
+    name: "\U0001F1F3\U0001F1F1NL_6|3.4MB/s"
+    network: ws
+    port: 443
+    server: xn--b6gac.eu.org
+    tls: true
+    type: vless
+    udp: true
+    uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
+    ws-opts:
+      headers:
+        Host: misaka.cndyw.ggff.net
+        User-Agent: >-
+          Mozilla/5.0 (Unknown; Linux) AppleWebKit/538.1 (KHTML, like Gecko)
+          Chrome/v1.0.0 Safari/538.1
+      path: /
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    xudp: true
+    servername: misaka.cndyw.ggff.net
+  - client-fingerprint: random
+    encryption: none
+    name: "\U0001F1FA\U0001F1F8US_16|3.9MB/s"
+    network: ws
+    port: 443
+    server: www.visa.co.jp
+    tls: true
+    type: vless
+    udp: true
+    uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
+    ws-opts:
+      headers:
+        Host: misaka.cndyw.ggff.net
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/48.0.2564.109 Safari/537.36
+      path: /
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    xudp: true
+    servername: misaka.cndyw.ggff.net
+  - client-fingerprint: random
+    encryption: none
+    name: "\U0001F1E9\U0001F1EADE_13|3.3MB/s"
+    network: ws
+    port: 443
+    server: www.gco.gov.qa
+    tls: true
+    type: vless
+    udp: true
+    uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
+    ws-opts:
+      headers:
+        Host: misaka.cndyw.ggff.net
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 5.1; HUAWEI CUN-L22 Build/HUAWEICUN-L22;
+          wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0
+          Chrome/62.0.3202.84 Mobile Safari/537.36
+      path: /
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    xudp: true
+    servername: misaka.cndyw.ggff.net
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1F7\U0001F1FARU_8|1.6MB/s"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: uGspoS3wwbemRcyzO-VaIiF_lGvR4JyFWjwbkVF6zQU
+      short-id: '7474585086'
+    server: dds.dendibase.org
+    tls: true
+    type: vless
+    udp: true
+    uuid: a96f18f0-4a56-4c4f-be6e-434835f5523c
+    xudp: true
+    servername: ads.x5.ru
+  - client-fingerprint: random
+    encryption: none
+    name: "\U0001F1FA\U0001F1F8US_17|1.5MB/s"
+    network: ws
+    port: 443
+    server: www.glassdoor.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
+    ws-opts:
+      headers:
+        Host: misaka.cndyw.ggff.net
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/57.0.2987.133 Safari/537.36
+      path: /
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    xudp: true
+    servername: misaka.cndyw.ggff.net
+  - client-fingerprint: random
+    encryption: none
+    name: "\U0001F1FA\U0001F1F8US_18|1.1MB/s"
+    network: ws
+    port: 443
+    server: www.digitalocean.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
+    ws-opts:
+      headers:
+        Host: misaka.cndyw.ggff.net
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/70.0.3538.67 Safari/537.36
+      path: /
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    xudp: true
+    servername: misaka.cndyw.ggff.net
+  - client-fingerprint: random
+    encryption: none
+    name: "\U0001F1F3\U0001F1F1NL_7|3.5MB/s"
+    network: ws
+    port: 443
+    server: www.ipget.net
+    tls: true
+    type: vless
+    udp: true
+    uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
+    ws-opts:
+      headers:
+        Host: misaka.cndyw.ggff.net
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/52.0.2743.116 Safari/537.36
+      path: /
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    xudp: true
+    servername: misaka.cndyw.ggff.net
+  - client-fingerprint: random
+    encryption: none
+    name: "\U0001F1E9\U0001F1EADE_14|1007KB/s"
+    network: ws
+    port: 443
+    server: cfip.xxxxxxxx.tk
+    tls: true
+    type: vless
+    udp: true
+    uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
+    ws-opts:
+      headers:
+        Host: misaka.cndyw.ggff.net
+        User-Agent: >-
+          Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.10
+          (KHTML, like Gecko) Chrome/8.0.552.237 Safari/534.10
+      path: /
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    xudp: true
+    servername: misaka.cndyw.ggff.net
+  - client-fingerprint: random
+    encryption: none
+    name: "\U0001F1E9\U0001F1EADE_15|671KB/s"
+    network: ws
+    port: 443
+    server: www.whatismyip.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
+    ws-opts:
+      headers:
+        Host: misaka.cndyw.ggff.net
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/46.0.2490.86 Safari/537.36
+      path: /
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    xudp: true
+    servername: misaka.cndyw.ggff.net
+  - client-fingerprint: random
+    encryption: none
+    name: "\U0001F1F3\U0001F1F1NL_8|647KB/s"
+    network: ws
+    port: 443
+    server: www.gov.ua
+    tls: true
+    type: vless
+    udp: true
+    uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
+    ws-opts:
+      headers:
+        Host: misaka.cndyw.ggff.net
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 5.1.1; A37fw Build/LMY47V)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile
+          Safari/537.36
+      path: /
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    xudp: true
+    servername: misaka.cndyw.ggff.net
+proxy-groups:
+  - name: "\U0001F680 节点选择"
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - "\U0001F1ED\U0001F1F0 香港节点"
+      - "\U0001F1E8\U0001F1F3 台湾节点"
+      - "\U0001F1F8\U0001F1EC 狮城节点"
+      - "\U0001F1EF\U0001F1F5 日本节点"
+      - "\U0001F1FA\U0001F1F2 美国节点"
+      - "\U0001F1F0\U0001F1F7 韩国节点"
+      - "\U0001F680 手动切换"
+      - DIRECT
+  - name: "\U0001F680 手动切换"
+    include-all: true
+    type: select
+  - name: ♻️ 自动选择
+    type: url-test
+    include-all: true
+    interval: 300
+    tolerance: 50
+  - name: "\U0001F4F2 电报消息"
+    type: select
+    proxies:
+      - "\U0001F680 节点选择"
+      - ♻️ 自动选择
+      - "\U0001F1F8\U0001F1EC 狮城节点"
+      - "\U0001F1ED\U0001F1F0 香港节点"
+      - "\U0001F1E8\U0001F1F3 台湾节点"
+      - "\U0001F1EF\U0001F1F5 日本节点"
+      - "\U0001F1FA\U0001F1F2 美国节点"
+      - "\U0001F1F0\U0001F1F7 韩国节点"
+      - "\U0001F680 手动切换"
+      - DIRECT
+  - name: "\U0001F4AC Ai平台"
+    type: select
+    proxies:
+      - "\U0001F680 节点选择"
+      - ♻️ 自动选择
+      - "\U0001F1F8\U0001F1EC 狮城节点"
+      - "\U0001F1ED\U0001F1F0 香港节点"
+      - "\U0001F1E8\U0001F1F3 台湾节点"
+      - "\U0001F1EF\U0001F1F5 日本节点"
+      - "\U0001F1FA\U0001F1F2 美国节点"
+      - "\U0001F1F0\U0001F1F7 韩国节点"
+      - "\U0001F680 手动切换"
+      - DIRECT
+  - name: "\U0001F4F9 油管视频"
+    type: select
+    proxies:
+      - "\U0001F680 节点选择"
+      - ♻️ 自动选择
+      - "\U0001F1F8\U0001F1EC 狮城节点"
+      - "\U0001F1ED\U0001F1F0 香港节点"
+      - "\U0001F1E8\U0001F1F3 台湾节点"
+      - "\U0001F1EF\U0001F1F5 日本节点"
+      - "\U0001F1FA\U0001F1F2 美国节点"
+      - "\U0001F1F0\U0001F1F7 韩国节点"
+      - "\U0001F680 手动切换"
+      - DIRECT
+  - name: "\U0001F3A5 奈飞视频"
+    type: select
+    proxies:
+      - "\U0001F680 节点选择"
+      - ♻️ 自动选择
+      - "\U0001F3A5 奈飞节点"
+      - "\U0001F1F8\U0001F1EC 狮城节点"
+      - "\U0001F1ED\U0001F1F0 香港节点"
+      - "\U0001F1E8\U0001F1F3 台湾节点"
+      - "\U0001F1EF\U0001F1F5 日本节点"
+      - "\U0001F1FA\U0001F1F2 美国节点"
+      - "\U0001F1F0\U0001F1F7 韩国节点"
+      - "\U0001F680 手动切换"
+      - DIRECT
+  - name: "\U0001F4FA 巴哈姆特"
+    type: select
+    proxies:
+      - "\U0001F1E8\U0001F1F3 台湾节点"
+      - "\U0001F680 节点选择"
+      - "\U0001F680 手动切换"
+      - DIRECT
+  - name: "\U0001F4FA 哔哩哔哩"
+    type: select
+    proxies:
+      - "\U0001F3AF 全球直连"
+      - "\U0001F1E8\U0001F1F3 台湾节点"
+      - "\U0001F1ED\U0001F1F0 香港节点"
+  - name: "\U0001F30D 国外媒体"
+    type: select
+    proxies:
+      - "\U0001F680 节点选择"
+      - ♻️ 自动选择
+      - "\U0001F1ED\U0001F1F0 香港节点"
+      - "\U0001F1E8\U0001F1F3 台湾节点"
+      - "\U0001F1F8\U0001F1EC 狮城节点"
+      - "\U0001F1EF\U0001F1F5 日本节点"
+      - "\U0001F1FA\U0001F1F2 美国节点"
+      - "\U0001F1F0\U0001F1F7 韩国节点"
+      - "\U0001F680 手动切换"
+      - DIRECT
+  - name: "\U0001F30F 国内媒体"
+    type: select
+    proxies:
+      - DIRECT
+      - "\U0001F1ED\U0001F1F0 香港节点"
+      - "\U0001F1E8\U0001F1F3 台湾节点"
+      - "\U0001F1F8\U0001F1EC 狮城节点"
+      - "\U0001F1EF\U0001F1F5 日本节点"
+      - "\U0001F680 手动切换"
+  - name: "\U0001F4E2 谷歌FCM"
+    type: select
+    proxies:
+      - DIRECT
+      - "\U0001F680 节点选择"
+      - "\U0001F1FA\U0001F1F2 美国节点"
+      - "\U0001F1ED\U0001F1F0 香港节点"
+      - "\U0001F1E8\U0001F1F3 台湾节点"
+      - "\U0001F1F8\U0001F1EC 狮城节点"
+      - "\U0001F1EF\U0001F1F5 日本节点"
+      - "\U0001F1F0\U0001F1F7 韩国节点"
+      - "\U0001F680 手动切换"
+  - name: Ⓜ️ 微软Bing
+    type: select
+    proxies:
+      - DIRECT
+      - "\U0001F680 节点选择"
+      - "\U0001F1FA\U0001F1F2 美国节点"
+      - "\U0001F1ED\U0001F1F0 香港节点"
+      - "\U0001F1E8\U0001F1F3 台湾节点"
+      - "\U0001F1F8\U0001F1EC 狮城节点"
+      - "\U0001F1EF\U0001F1F5 日本节点"
+      - "\U0001F1F0\U0001F1F7 韩国节点"
+      - "\U0001F680 手动切换"
+  - name: Ⓜ️ 微软云盘
+    type: select
+    proxies:
+      - DIRECT
+      - "\U0001F680 节点选择"
+      - "\U0001F1FA\U0001F1F2 美国节点"
+      - "\U0001F1ED\U0001F1F0 香港节点"
+      - "\U0001F1E8\U0001F1F3 台湾节点"
+      - "\U0001F1F8\U0001F1EC 狮城节点"
+      - "\U0001F1EF\U0001F1F5 日本节点"
+      - "\U0001F1F0\U0001F1F7 韩国节点"
+      - "\U0001F680 手动切换"
+  - name: Ⓜ️ 微软服务
+    type: select
+    proxies:
+      - "\U0001F680 节点选择"
+      - DIRECT
+      - "\U0001F1FA\U0001F1F2 美国节点"
+      - "\U0001F1ED\U0001F1F0 香港节点"
+      - "\U0001F1E8\U0001F1F3 台湾节点"
+      - "\U0001F1F8\U0001F1EC 狮城节点"
+      - "\U0001F1EF\U0001F1F5 日本节点"
+      - "\U0001F1F0\U0001F1F7 韩国节点"
+      - "\U0001F680 手动切换"
+  - name: "\U0001F34E 苹果服务"
+    type: select
+    proxies:
+      - DIRECT
+      - "\U0001F680 节点选择"
+      - "\U0001F1FA\U0001F1F2 美国节点"
+      - "\U0001F1ED\U0001F1F0 香港节点"
+      - "\U0001F1E8\U0001F1F3 台湾节点"
+      - "\U0001F1F8\U0001F1EC 狮城节点"
+      - "\U0001F1EF\U0001F1F5 日本节点"
+      - "\U0001F1F0\U0001F1F7 韩国节点"
+      - "\U0001F680 手动切换"
+  - name: "\U0001F3AE 游戏平台"
+    type: select
+    proxies:
+      - DIRECT
+      - "\U0001F680 节点选择"
+      - "\U0001F1FA\U0001F1F2 美国节点"
+      - "\U0001F1ED\U0001F1F0 香港节点"
+      - "\U0001F1E8\U0001F1F3 台湾节点"
+      - "\U0001F1F8\U0001F1EC 狮城节点"
+      - "\U0001F1EF\U0001F1F5 日本节点"
+      - "\U0001F1F0\U0001F1F7 韩国节点"
+      - "\U0001F680 手动切换"
+  - name: "\U0001F3B6 网易音乐"
+    type: select
+    include-all: true
+    filter: (?i)网易|音乐|NetEase|Music
+    proxies:
+      - DIRECT
+      - "\U0001F680 节点选择"
+      - ♻️ 自动选择
+  - name: "\U0001F3AF 全球直连"
+    type: select
+    proxies:
+      - DIRECT
+      - "\U0001F680 节点选择"
+      - ♻️ 自动选择
+  - name: "\U0001F6D1 广告拦截"
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+  - name: "\U0001F343 应用净化"
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+  - name: "\U0001F41F 漏网之鱼"
+    type: select
+    proxies:
+      - "\U0001F680 节点选择"
+      - ♻️ 自动选择
+      - DIRECT
+      - "\U0001F1ED\U0001F1F0 香港节点"
+      - "\U0001F1E8\U0001F1F3 台湾节点"
+      - "\U0001F1F8\U0001F1EC 狮城节点"
+      - "\U0001F1EF\U0001F1F5 日本节点"
+      - "\U0001F1FA\U0001F1F2 美国节点"
+      - "\U0001F1F0\U0001F1F7 韩国节点"
+      - "\U0001F680 手动切换"
+  - name: "\U0001F1ED\U0001F1F0 香港节点"
+    include-all: true
+    filter: (?i)港|HK|hk|Hong Kong|HongKong|hongkong
+    type: url-test
+    interval: 300
+    tolerance: 50
+  - name: "\U0001F1EF\U0001F1F5 日本节点"
+    include-all: true
+    filter: (?i)日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan
+    type: url-test
+    interval: 300
+    tolerance: 50
+  - name: "\U0001F1FA\U0001F1F2 美国节点"
+    include-all: true
+    filter: (?i)美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States
+    type: url-test
+    interval: 300
+    tolerance: 50
+  - name: "\U0001F1E8\U0001F1F3 台湾节点"
+    include-all: true
+    filter: (?i)台|新北|彰化|TW|Taiwan
+    type: url-test
+    interval: 300
+    tolerance: 50
+  - name: "\U0001F1F8\U0001F1EC 狮城节点"
+    include-all: true
+    filter: (?i)新加坡|坡|狮城|SG|Singapore
+    type: url-test
+    interval: 300
+    tolerance: 50
+  - name: "\U0001F1F0\U0001F1F7 韩国节点"
+    include-all: true
+    filter: (?i)KR|Korea|KOR|首尔|韩|韓
+    type: url-test
+    interval: 300
+    tolerance: 50
+  - name: "\U0001F3A5 奈飞节点"
+    include-all: true
+    filter: (?i)NF|奈飞|解锁|Netflix|NETFLIX|Media
+    type: select
+rule-providers:
+  LocalAreaNetwork:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/LocalAreaNetwork.list
+    path: ./ruleset/LocalAreaNetwork.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  UnBan:
+    url: 'https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/UnBan.list'
+    path: ./ruleset/UnBan.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  BanAD:
+    url: 'https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/BanAD.list'
+    path: ./ruleset/BanAD.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  BanProgramAD:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/BanProgramAD.list
+    path: ./ruleset/BanProgramAD.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  GoogleFCM:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/GoogleFCM.list
+    path: ./ruleset/GoogleFCM.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  GoogleCN:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/GoogleCN.list
+    path: ./ruleset/GoogleCN.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  SteamCN:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/SteamCN.list
+    path: ./ruleset/SteamCN.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Bing:
+    url: 'https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Bing.list'
+    path: ./ruleset/Bing.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  OneDrive:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/OneDrive.list
+    path: ./ruleset/OneDrive.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Microsoft:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Microsoft.list
+    path: ./ruleset/Microsoft.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Apple:
+    url: 'https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Apple.list'
+    path: ./ruleset/Apple.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Telegram:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Telegram.list
+    path: ./ruleset/Telegram.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  AI:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/AI.list
+    path: ./ruleset/AI.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  OpenAi:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/OpenAi.list
+    path: ./ruleset/OpenAi.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  NetEaseMusic:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/NetEaseMusic.list
+    path: ./ruleset/NetEaseMusic.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Epic:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/Epic.list
+    path: ./ruleset/Epic.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Origin:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/Origin.list
+    path: ./ruleset/Origin.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Sony:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/Sony.list
+    path: ./ruleset/Sony.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Steam:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/Steam.list
+    path: ./ruleset/Steam.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Nintendo:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/Nintendo.list
+    path: ./ruleset/Nintendo.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  YouTube:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/YouTube.list
+    path: ./ruleset/YouTube.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Netflix:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/Netflix.list
+    path: ./ruleset/Netflix.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Bahamut:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/Bahamut.list
+    path: ./ruleset/Bahamut.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  BilibiliHMT:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/BilibiliHMT.list
+    path: ./ruleset/BilibiliHMT.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Bilibili:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/Bilibili.list
+    path: ./ruleset/Bilibili.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  ChinaMedia:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/ChinaMedia.list
+    path: ./ruleset/ChinaMedia.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  ProxyMedia:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/ProxyMedia.list
+    path: ./ruleset/ProxyMedia.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  ProxyGFWlist:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/ProxyGFWlist.list
+    path: ./ruleset/ProxyGFWlist.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  ChinaDomain:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/ChinaDomain.list
+    path: ./ruleset/ChinaDomain.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  ChinaCompanyIp:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/ChinaCompanyIp.list
+    path: ./ruleset/ChinaCompanyIp.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Download:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Download.list
+    path: ./ruleset/Download.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+rules:
+  - "PROCESS-NAME,subs-check.exe,\U0001F3AF 全球直连"
+  - "PROCESS-NAME,subs-check,\U0001F3AF 全球直连"
+  - "RULE-SET,LocalAreaNetwork,\U0001F3AF 全球直连"
+  - "RULE-SET,UnBan,\U0001F3AF 全球直连"
+  - "RULE-SET,BanAD,\U0001F6D1 广告拦截"
+  - "RULE-SET,BanProgramAD,\U0001F343 应用净化"
+  - "RULE-SET,GoogleFCM,\U0001F4E2 谷歌FCM"
+  - "RULE-SET,GoogleCN,\U0001F3AF 全球直连"
+  - "RULE-SET,SteamCN,\U0001F3AF 全球直连"
+  - 'RULE-SET,Bing,Ⓜ️ 微软Bing'
+  - 'RULE-SET,OneDrive,Ⓜ️ 微软云盘'
+  - 'RULE-SET,Microsoft,Ⓜ️ 微软服务'
+  - "RULE-SET,Apple,\U0001F34E 苹果服务"
+  - "RULE-SET,Telegram,\U0001F4F2 电报消息"
+  - "RULE-SET,AI,\U0001F4AC Ai平台"
+  - "RULE-SET,NetEaseMusic,\U0001F3B6 网易音乐"
+  - "RULE-SET,Epic,\U0001F3AE 游戏平台"
+  - "RULE-SET,Origin,\U0001F3AE 游戏平台"
+  - "RULE-SET,Sony,\U0001F3AE 游戏平台"
+  - "RULE-SET,Steam,\U0001F3AE 游戏平台"
+  - "RULE-SET,Nintendo,\U0001F3AE 游戏平台"
+  - "RULE-SET,YouTube,\U0001F4F9 油管视频"
+  - "RULE-SET,Netflix,\U0001F3A5 奈飞视频"
+  - "RULE-SET,Bahamut,\U0001F4FA 巴哈姆特"
+  - "RULE-SET,BilibiliHMT,\U0001F4FA 哔哩哔哩"
+  - "RULE-SET,Bilibili,\U0001F4FA 哔哩哔哩"
+  - "RULE-SET,ChinaMedia,\U0001F30F 国内媒体"
+  - "RULE-SET,ProxyMedia,\U0001F30D 国外媒体"
+  - "RULE-SET,ProxyGFWlist,\U0001F680 节点选择"
+  - "RULE-SET,ChinaDomain,\U0001F3AF 全球直连"
+  - "RULE-SET,ChinaCompanyIp,\U0001F3AF 全球直连"
+  - "RULE-SET,Download,\U0001F3AF 全球直连"
+  - "GEOIP,CN,\U0001F3AF 全球直连"
+  - "MATCH,\U0001F41F 漏网之鱼"
