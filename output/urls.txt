@@ -93,6 +93,7 @@ https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Sub1.txt
 https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Sub2.txt
 https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Sub3.txt
 https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Sub4.txt
+https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Sub5.txt
 https://raw.githubusercontent.com/crackbest/V2ray-Config/main/config.txt
 https://raw.githubusercontent.com/gslege/CloudflareIP/main/Vless.txt
 https://raw.githubusercontent.com/hello-world-1989/cn-news/main/clash-test.yaml
