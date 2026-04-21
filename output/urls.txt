@@ -11,7 +11,6 @@ https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub15.txt
 https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub16.txt
 https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub17.txt
 https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub18.txt
-https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub19.txt
 https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub2.txt
 https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub3.txt
 https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub4.txt
@@ -20,6 +19,7 @@ https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub6.txt
 https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub7.txt
 https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub8.txt
 https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub9.txt
+https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/All_Configs_Sub.txt
 https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Sub1.txt
 https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Sub10.txt
 https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Sub11.txt
@@ -108,7 +108,6 @@ https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Vless-Real
 https://raw.githubusercontent.com/nyeinkokoaung404/V2ray-Configs/main/All_Configs_Sub.txt
 https://raw.githubusercontent.com/nyeinkokoaung404/V2ray-Configs/main/Sub1.txt
 https://raw.githubusercontent.com/nyeinkokoaung404/V2ray-Configs/main/Sub2.txt
-https://raw.githubusercontent.com/nyeinkokoaung404/V2ray-Configs/main/Sub3.txt
 https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY.txt
 https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY_RAW.txt
 https://raw.githubusercontent.com/shaoyouvip/free/main/mihomo.yaml
