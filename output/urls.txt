@@ -19,6 +19,7 @@ https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub6.txt
 https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub7.txt
 https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub8.txt
 https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub9.txt
+https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/All_Configs_Sub.txt
 https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Sub1.txt
 https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Sub10.txt
 https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Sub11.txt
@@ -94,7 +95,6 @@ https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Sub2.txt
 https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Sub3.txt
 https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Sub4.txt
 https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Sub5.txt
-https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Sub6.txt
 https://raw.githubusercontent.com/crackbest/V2ray-Config/main/config.txt
 https://raw.githubusercontent.com/gslege/CloudflareIP/main/Vless.txt
 https://raw.githubusercontent.com/hello-world-1989/cn-news/main/clash-test.yaml
