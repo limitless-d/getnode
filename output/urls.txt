@@ -108,7 +108,6 @@ https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Vless-Real
 https://raw.githubusercontent.com/nyeinkokoaung404/V2ray-Configs/main/All_Configs_Sub.txt
 https://raw.githubusercontent.com/nyeinkokoaung404/V2ray-Configs/main/Sub1.txt
 https://raw.githubusercontent.com/nyeinkokoaung404/V2ray-Configs/main/Sub2.txt
-https://raw.githubusercontent.com/nyeinkokoaung404/V2ray-Configs/main/Sub3.txt
 https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY.txt
 https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY_RAW.txt
 https://raw.githubusercontent.com/shaoyouvip/free/main/mihomo.yaml
