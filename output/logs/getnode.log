@@ -479,3 +479,15 @@ Please, don't. https://github
 2026-04-24 08:37:12,407 - getnode - INFO - crawler.py:46 - 已使用API次数: 600/小时
 2026-04-24 08:37:38,997 - getnode - INFO - main.py:26 - 共收集到 115 个有效节点文件链接
 2026-04-24 08:37:38,997 - getnode - INFO - main.py:32 - 链接已保存至 output/urls.txt
+2026-04-24 14:14:36,890 - getnode - INFO - main.py:14 - === 开始执行爬虫任务（全量模式 + 内容验证）===
+2026-04-24 14:14:41,378 - getnode - INFO - crawler.py:104 - 仓库搜索完成，共 50 个仓库
+2026-04-24 14:14:41,378 - getnode - INFO - main.py:18 - 发现 50 个相关仓库
+2026-04-24 14:15:31,102 - getnode - INFO - crawler.py:46 - 已使用API次数: 100/小时
+2026-04-24 14:16:06,961 - getnode - INFO - crawler.py:46 - 已使用API次数: 200/小时
+2026-04-24 14:17:04,027 - getnode - INFO - crawler.py:46 - 已使用API次数: 300/小时
+2026-04-24 14:18:07,958 - getnode - INFO - crawler.py:46 - 已使用API次数: 400/小时
+2026-04-24 14:18:39,813 - getnode - INFO - crawler.py:46 - 已使用API次数: 500/小时
+2026-04-24 14:19:11,282 - getnode - INFO - crawler.py:46 - 已使用API次数: 600/小时
+2026-04-24 14:19:53,667 - getnode - INFO - crawler.py:46 - 已使用API次数: 700/小时
+2026-04-24 14:20:16,951 - getnode - INFO - main.py:26 - 共收集到 115 个有效节点文件链接
+2026-04-24 14:20:16,952 - getnode - INFO - main.py:32 - 链接已保存至 output/urls.txt
