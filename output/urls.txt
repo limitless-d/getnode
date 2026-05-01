@@ -101,6 +101,16 @@ https://raw.githubusercontent.com/ebrasha/free-v2ray-public-list/main/V2Ray-Conf
 https://raw.githubusercontent.com/ebrasha/free-v2ray-public-list/main/ss_configs.txt
 https://raw.githubusercontent.com/ebrasha/free-v2ray-public-list/main/ssr_configs.txt
 https://raw.githubusercontent.com/ebrasha/free-v2ray-public-list/main/trojan_configs.txt
+https://raw.githubusercontent.com/free-nodes/clashfree/main/clash20260422.yml
+https://raw.githubusercontent.com/free-nodes/clashfree/main/clash20260423.yml
+https://raw.githubusercontent.com/free-nodes/clashfree/main/clash20260424.yml
+https://raw.githubusercontent.com/free-nodes/clashfree/main/clash20260425.yml
+https://raw.githubusercontent.com/free-nodes/clashfree/main/clash20260426.yml
+https://raw.githubusercontent.com/free-nodes/clashfree/main/clash20260427.yml
+https://raw.githubusercontent.com/free-nodes/clashfree/main/clash20260428.yml
+https://raw.githubusercontent.com/free-nodes/clashfree/main/clash20260429.yml
+https://raw.githubusercontent.com/free-nodes/clashfree/main/clash20260430.yml
+https://raw.githubusercontent.com/free-nodes/clashfree/main/clash20260501.yml
 https://raw.githubusercontent.com/gslege/CloudflareIP/main/Vless.txt
 https://raw.githubusercontent.com/hello-world-1989/cn-news/main/clash-test.yaml
 https://raw.githubusercontent.com/hello-world-1989/cn-news/main/clash.yaml
