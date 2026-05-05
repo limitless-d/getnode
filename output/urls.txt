@@ -11,7 +11,6 @@ https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub15.txt
 https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub16.txt
 https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub17.txt
 https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub18.txt
-https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub19.txt
 https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub2.txt
 https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub3.txt
 https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub4.txt
@@ -88,6 +87,7 @@ https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Sub68.txt
 https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Sub7.txt
 https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Sub8.txt
 https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Sub9.txt
+https://raw.githubusercontent.com/ZeroDeng01/sublinkPro/main/config.example.yaml
 https://raw.githubusercontent.com/barry-far/V2ray-Config/main/All_Configs_Sub.txt
 https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Sub1.txt
 https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Sub2.txt
@@ -120,6 +120,7 @@ https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLES
 https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS_mobile.txt
 https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Vless-Reality-White-Lists-Rus-Mobile-2.txt
 https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Vless-Reality-White-Lists-Rus-Mobile.txt
+https://raw.githubusercontent.com/liMilCo/v2r/main/new_configs.txt
 https://raw.githubusercontent.com/nyeinkokoaung404/V2ray-Configs/main/All_Configs_Sub.txt
 https://raw.githubusercontent.com/nyeinkokoaung404/V2ray-Configs/main/Sub1.txt
 https://raw.githubusercontent.com/nyeinkokoaung404/V2ray-Configs/main/Sub2.txt
