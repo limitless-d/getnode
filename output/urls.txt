@@ -15,6 +15,7 @@ https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub19.txt
 https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub2.txt
 https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub20.txt
 https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub21.txt
+https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub22.txt
 https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub3.txt
 https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub4.txt
 https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub5.txt
@@ -129,5 +130,5 @@ https://raw.githubusercontent.com/nyeinkokoaung404/V2ray-Configs/main/Sub1.txt
 https://raw.githubusercontent.com/nyeinkokoaung404/V2ray-Configs/main/Sub2.txt
 https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY.txt
 https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY_RAW.txt
-https://raw.githubusercontent.com/ts-sf/fly/main/clash
+https://raw.githubusercontent.com/shaoyouvip/free/main/mihomo.yaml
 https://raw.githubusercontent.com/xiaoji235/airport-free/main/v2ray.txt
