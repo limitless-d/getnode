@@ -132,8 +132,7 @@ https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Sub4.txt
 https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Sub5.txt
 https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Sub6.txt
 https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Sub7.txt
-https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Sub8.txt
-https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Sub9.txt
+https://raw.githubusercontent.com/crackbest/V2ray-Config/main/config.txt
 https://raw.githubusercontent.com/ebrasha/free-v2ray-public-list/main/V2Ray-Config-By-EbraSha.txt
 https://raw.githubusercontent.com/ebrasha/free-v2ray-public-list/main/ssr_configs.txt
 https://raw.githubusercontent.com/free-nodes/clashfree/main/clash20260521.yml
@@ -155,7 +154,7 @@ https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLES
 https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Vless-Reality-White-Lists-Rus-Mobile.txt
 https://raw.githubusercontent.com/nyeinkokoaung404/V2ray-Configs/main/All_Configs_Sub.txt
 https://raw.githubusercontent.com/nyeinkokoaung404/V2ray-Configs/main/Sub1.txt
-https://raw.githubusercontent.com/nyeinkokoaung404/V2ray-Configs/main/Sub2.txt
 https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY.txt
 https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY_RAW.txt
+https://raw.githubusercontent.com/shaoyouvip/free/main/mihomo.yaml
 https://raw.githubusercontent.com/xiaoji235/airport-free/main/v2ray.txt
