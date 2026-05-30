@@ -124,7 +124,6 @@ https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Sub7.txt
 https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Sub8.txt
 https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Sub9.txt
 https://raw.githubusercontent.com/Flikify/Free-Node/main/clash.yaml
-https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/clash.yaml
 https://raw.githubusercontent.com/barry-far/V2ray-Config/main/All_Configs_Sub.txt
 https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Sub1.txt
 https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Sub2.txt
@@ -136,7 +135,6 @@ https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Sub7.txt
 https://raw.githubusercontent.com/crackbest/V2ray-Config/main/config.txt
 https://raw.githubusercontent.com/ebrasha/free-v2ray-public-list/main/V2Ray-Config-By-EbraSha.txt
 https://raw.githubusercontent.com/ebrasha/free-v2ray-public-list/main/ssr_configs.txt
-https://raw.githubusercontent.com/free-nodes/clashfree/main/clash20260521.yml
 https://raw.githubusercontent.com/free-nodes/clashfree/main/clash20260522.yml
 https://raw.githubusercontent.com/free-nodes/clashfree/main/clash20260523.yml
 https://raw.githubusercontent.com/free-nodes/clashfree/main/clash20260524.yml
@@ -155,5 +153,5 @@ https://raw.githubusercontent.com/nyeinkokoaung404/V2ray-Configs/main/All_Config
 https://raw.githubusercontent.com/nyeinkokoaung404/V2ray-Configs/main/Sub1.txt
 https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY.txt
 https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY_RAW.txt
-https://raw.githubusercontent.com/shaoyouvip/free/main/mihomo.yaml
+https://raw.githubusercontent.com/ts-sf/fly/main/clash
 https://raw.githubusercontent.com/xiaoji235/airport-free/main/v2ray.txt
