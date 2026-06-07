@@ -1,3 +1,4 @@
+https://raw.githubusercontent.com/Argh94/Proxy-List/main/All_Config.txt
 https://raw.githubusercontent.com/Argh94/Proxy-List/main/ShadowSocks.txt
 https://raw.githubusercontent.com/Argh94/Proxy-List/main/ShadowsocksR.txt
 https://raw.githubusercontent.com/Argh94/Proxy-List/main/Trojan.txt
@@ -133,7 +134,6 @@ https://raw.githubusercontent.com/barry-far/V2ray-Config/main/All_Configs_Sub.tx
 https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Sub1.txt
 https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Sub10.txt
 https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Sub11.txt
-https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Sub12.txt
 https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Sub2.txt
 https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Sub3.txt
 https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Sub4.txt
@@ -157,5 +157,6 @@ https://raw.githubusercontent.com/nyeinkokoaung404/V2ray-Configs/main/All_Config
 https://raw.githubusercontent.com/nyeinkokoaung404/V2ray-Configs/main/Sub1.txt
 https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY.txt
 https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY_RAW.txt
+https://raw.githubusercontent.com/ts-sf/fly/main/clash
 https://raw.githubusercontent.com/wenxig/free-nodes-sub/main/clash_template.yaml
 https://raw.githubusercontent.com/xiaoji235/airport-free/main/v2ray.txt
