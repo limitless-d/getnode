@@ -2435,3 +2435,13 @@ TypeError: startswith first arg must be bytes or a tuple of bytes, not str
 2026-06-12 17:44:03,573 - getnode - INFO - crawler.py:46 - 已使用API次数: 500/小时
 2026-06-12 17:44:04,860 - getnode - INFO - main.py:26 - 共收集到 104 个有效节点文件链接
 2026-06-12 17:44:04,860 - getnode - INFO - main.py:32 - 链接已保存至 output/urls.txt
+2026-06-12 22:28:13,391 - getnode - INFO - main.py:14 - === 开始执行爬虫任务（全量模式 + 内容验证）===
+2026-06-12 22:28:17,894 - getnode - INFO - crawler.py:104 - 仓库搜索完成，共 50 个仓库
+2026-06-12 22:28:17,894 - getnode - INFO - main.py:18 - 发现 50 个相关仓库
+2026-06-12 22:29:22,905 - getnode - INFO - crawler.py:46 - 已使用API次数: 100/小时
+2026-06-12 22:29:49,989 - getnode - INFO - crawler.py:46 - 已使用API次数: 200/小时
+2026-06-12 22:30:57,474 - getnode - INFO - crawler.py:46 - 已使用API次数: 300/小时
+2026-06-12 22:31:47,589 - getnode - INFO - crawler.py:46 - 已使用API次数: 400/小时
+2026-06-12 22:32:28,460 - getnode - INFO - crawler.py:46 - 已使用API次数: 500/小时
+2026-06-12 22:33:06,738 - getnode - INFO - main.py:26 - 共收集到 167 个有效节点文件链接
+2026-06-12 22:33:06,739 - getnode - INFO - main.py:32 - 链接已保存至 output/urls.txt
