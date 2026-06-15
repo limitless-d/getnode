@@ -3,7 +3,6 @@ https://raw.githubusercontent.com/Argh94/Proxy-List/main/ShadowsocksR.txt
 https://raw.githubusercontent.com/Argh94/Proxy-List/main/Trojan.txt
 https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/config.example.yaml
 https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/config.yaml
-https://raw.githubusercontent.com/Code-Leafy/G2ray/main/configs.txt
 https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub1.txt
 https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub10.txt
 https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub11.txt
@@ -65,6 +64,7 @@ https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub61.txt
 https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub62.txt
 https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub63.txt
 https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub64.txt
+https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub65.txt
 https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub7.txt
 https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub8.txt
 https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub9.txt
@@ -150,7 +150,6 @@ https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Sub7.txt
 https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Sub8.txt
 https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Sub9.txt
 https://raw.githubusercontent.com/crackbest/V2ray-Config/main/config.txt
-https://raw.githubusercontent.com/ebrasha/free-v2ray-public-list/main/V2Ray-Config-By-EbraSha.txt
 https://raw.githubusercontent.com/ebrasha/free-v2ray-public-list/main/ssr_configs.txt
 https://raw.githubusercontent.com/gslege/CloudflareIP/main/Vless.txt
 https://raw.githubusercontent.com/hello-world-1989/cn-news/main/clash-test.yaml
