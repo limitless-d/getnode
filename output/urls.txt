@@ -66,7 +66,6 @@ https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub63.txt
 https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub64.txt
 https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub65.txt
 https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub66.txt
-https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub67.txt
 https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub7.txt
 https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub8.txt
 https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub9.txt
@@ -139,7 +138,7 @@ https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Sub7.txt
 https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Sub8.txt
 https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Sub9.txt
 https://raw.githubusercontent.com/Shayanthn/V2ray-Tester-Pro/main/TELEGRAM_PROXY_SETUP.md
-https://raw.githubusercontent.com/ZeroDeng01/sublinkPro/main/config.example.yaml
+https://raw.githubusercontent.com/barry-far/V2ray-Config/main/All_Configs_Sub.txt
 https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Sub1.txt
 https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Sub10.txt
 https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Sub11.txt
