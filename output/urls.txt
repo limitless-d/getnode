@@ -115,6 +115,7 @@ https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Sub46.txt
 https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Sub47.txt
 https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Sub48.txt
 https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Sub49.txt
+https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Sub5.txt
 https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Sub50.txt
 https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Sub51.txt
 https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Sub52.txt
