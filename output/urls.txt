@@ -145,13 +145,11 @@ https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Sub7.txt
 https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Sub8.txt
 https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Sub9.txt
 https://raw.githubusercontent.com/Shayanthn/V2ray-Tester-Pro/main/TELEGRAM_PROXY_SETUP.md
-https://raw.githubusercontent.com/ZeroDeng01/sublinkPro/main/config.example.yaml
 https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Sub1.txt
 https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Sub10.txt
 https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Sub11.txt
 https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Sub12.txt
 https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Sub13.txt
-https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Sub14.txt
 https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Sub2.txt
 https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Sub3.txt
 https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Sub4.txt
@@ -161,6 +159,7 @@ https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Sub7.txt
 https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Sub8.txt
 https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Sub9.txt
 https://raw.githubusercontent.com/crackbest/V2ray-Config/main/config.txt
+https://raw.githubusercontent.com/ebrasha/free-v2ray-public-list/main/V2Ray-Config-By-EbraSha.txt
 https://raw.githubusercontent.com/ebrasha/free-v2ray-public-list/main/ssr_configs.txt
 https://raw.githubusercontent.com/gslege/CloudflareIP/main/Vless.txt
 https://raw.githubusercontent.com/hello-world-1989/cn-news/main/clash-test.yaml
