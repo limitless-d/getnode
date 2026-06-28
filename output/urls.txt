@@ -3,6 +3,7 @@ https://raw.githubusercontent.com/Argh94/Proxy-List/main/ShadowsocksR.txt
 https://raw.githubusercontent.com/Argh94/Proxy-List/main/Trojan.txt
 https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/config.example.yaml
 https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/config.yaml
+https://raw.githubusercontent.com/Code-Leafy/G2Leafy/main/configs.txt
 https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub1.txt
 https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub10.txt
 https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub11.txt
@@ -132,6 +133,7 @@ https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Sub56.txt
 https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Sub57.txt
 https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Sub58.txt
 https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Sub59.txt
+https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Sub6.txt
 https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Sub60.txt
 https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Sub61.txt
 https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Sub62.txt
@@ -144,7 +146,6 @@ https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Sub68.txt
 https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Sub7.txt
 https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Sub8.txt
 https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Sub9.txt
-https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/clash.yaml
 https://raw.githubusercontent.com/Shayanthn/V2ray-Tester-Pro/main/TELEGRAM_PROXY_SETUP.md
 https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Sub1.txt
 https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Sub10.txt
