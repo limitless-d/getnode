@@ -165,8 +165,6 @@ https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Sub9.txt
 https://raw.githubusercontent.com/crackbest/V2ray-Config/main/config.txt
 https://raw.githubusercontent.com/ebrasha/free-v2ray-public-list/main/V2Ray-Config-By-EbraSha.txt
 https://raw.githubusercontent.com/ebrasha/free-v2ray-public-list/main/ssr_configs.txt
-https://raw.githubusercontent.com/githubvpn007/v2rayNvpn/main/ss_ios.md
-https://raw.githubusercontent.com/githubvpn007/v2rayNvpn/main/ssr_windows.md
 https://raw.githubusercontent.com/gslege/CloudflareIP/main/Vless.txt
 https://raw.githubusercontent.com/hello-world-1989/cn-news/main/clash-test.yaml
 https://raw.githubusercontent.com/hello-world-1989/cn-news/main/clash.yaml
@@ -174,6 +172,7 @@ https://raw.githubusercontent.com/hello-world-1989/cn-news/main/end-gfw-together
 https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS.txt
 https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS_mobile.txt
 https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Vless-Reality-White-Lists-Rus-Mobile.txt
+https://raw.githubusercontent.com/itsyebekhe/PSG/main/config.txt
 https://raw.githubusercontent.com/nyeinkokoaung404/V2ray-Configs/main/All_Configs_Sub.txt
 https://raw.githubusercontent.com/nyeinkokoaung404/V2ray-Configs/main/Sub1.txt
 https://raw.githubusercontent.com/nyeinkokoaung404/V2ray-Configs/main/Sub2.txt
