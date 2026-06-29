@@ -3140,3 +3140,20 @@ TypeError: startswith first arg must be bytes or a tuple of bytes, not str
 2026-06-29 08:24:16,853 - getnode - INFO - crawler.py:46 - 已使用API次数: 500/小时
 2026-06-29 08:25:15,799 - getnode - INFO - main.py:26 - 共收集到 182 个有效节点文件链接
 2026-06-29 08:25:15,800 - getnode - INFO - main.py:32 - 链接已保存至 output/urls.txt
+2026-06-29 13:10:59,480 - getnode - INFO - main.py:14 - === 开始执行爬虫任务（全量模式 + 内容验证）===
+2026-06-29 13:11:03,971 - getnode - INFO - crawler.py:104 - 仓库搜索完成，共 50 个仓库
+2026-06-29 13:11:03,971 - getnode - INFO - main.py:18 - 发现 50 个相关仓库
+2026-06-29 13:11:35,107 - getnode - INFO - crawler.py:46 - 已使用API次数: 100/小时
+2026-06-29 13:11:50,436 - getnode - INFO - crawler.py:46 - 已使用API次数: 200/小时
+2026-06-29 13:12:14,294 - getnode - INFO - crawler.py:46 - 已使用API次数: 300/小时
+2026-06-29 13:12:45,127 - getnode - INFO - crawler.py:46 - 已使用API次数: 400/小时
+2026-06-29 13:13:10,257 - getnode - ERROR - crawler.py:70 - HTTP Error 401: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+2026-06-29 13:13:14,436 - getnode - INFO - crawler.py:46 - 已使用API次数: 500/小时
+2026-06-29 13:13:52,598 - getnode - INFO - crawler.py:46 - 已使用API次数: 600/小时
+2026-06-29 13:14:12,651 - getnode - INFO - crawler.py:46 - 已使用API次数: 700/小时
+2026-06-29 13:14:33,297 - getnode - INFO - main.py:26 - 共收集到 183 个有效节点文件链接
+2026-06-29 13:14:33,297 - getnode - INFO - main.py:32 - 链接已保存至 output/urls.txt
