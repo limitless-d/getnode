@@ -153,7 +153,6 @@ https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Sub10.txt
 https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Sub11.txt
 https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Sub12.txt
 https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Sub13.txt
-https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Sub14.txt
 https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Sub2.txt
 https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Sub3.txt
 https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Sub4.txt
@@ -171,8 +170,9 @@ https://raw.githubusercontent.com/hello-world-1989/cn-news/main/clash.yaml
 https://raw.githubusercontent.com/hello-world-1989/cn-news/main/end-gfw-together-ss
 https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS.txt
 https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS_mobile.txt
+https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Vless-Reality-White-Lists-Rus-Mobile-2.txt
 https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Vless-Reality-White-Lists-Rus-Mobile.txt
-https://raw.githubusercontent.com/itsyebekhe/PSG/main/config.txt
+https://raw.githubusercontent.com/liMilCo/v2r/main/new_configs.txt
 https://raw.githubusercontent.com/nyeinkokoaung404/V2ray-Configs/main/All_Configs_Sub.txt
 https://raw.githubusercontent.com/nyeinkokoaung404/V2ray-Configs/main/Sub1.txt
 https://raw.githubusercontent.com/nyeinkokoaung404/V2ray-Configs/main/Sub2.txt
@@ -180,5 +180,6 @@ https://raw.githubusercontent.com/nyeinkokoaung404/V2ray-Configs/main/Sub3.txt
 https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY.txt
 https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY_RAW.txt
 https://raw.githubusercontent.com/shaoyouvip/free/main/mihomo.yaml
+https://raw.githubusercontent.com/ts-sf/fly/main/clash
 https://raw.githubusercontent.com/wenxig/free-nodes-sub/main/clash_template.yaml
 https://raw.githubusercontent.com/xiaoji235/airport-free/main/v2ray.txt
