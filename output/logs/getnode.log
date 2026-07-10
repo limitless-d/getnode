@@ -3847,3 +3847,19 @@ DRY up these templates and make 'em nice and re-usable, right?
 Please, don't. https://github
 2026-07-10 12:08:49,585 - getnode - INFO - main.py:26 - 共收集到 91 个有效节点文件链接
 2026-07-10 12:08:49,586 - getnode - INFO - main.py:32 - 链接已保存至 output/urls.txt
+2026-07-10 17:00:54,691 - getnode - INFO - main.py:14 - === 开始执行爬虫任务（全量模式 + 内容验证）===
+2026-07-10 17:00:59,075 - getnode - INFO - crawler.py:104 - 仓库搜索完成，共 50 个仓库
+2026-07-10 17:00:59,076 - getnode - INFO - main.py:18 - 发现 50 个相关仓库
+2026-07-10 17:01:20,936 - getnode - ERROR - crawler.py:70 - HTTP Error 502: <!DOCTYPE html>
+<!--
+
+Hello future GitHubber! I bet you're here to remove those nasty inline styles,
+DRY up these templates and make 'em nice and re-usable, right?
+
+Please, don't. https://github
+2026-07-10 17:03:53,937 - getnode - INFO - crawler.py:46 - 已使用API次数: 100/小时
+2026-07-10 17:06:15,136 - getnode - INFO - crawler.py:46 - 已使用API次数: 200/小时
+2026-07-10 17:08:09,815 - getnode - INFO - crawler.py:46 - 已使用API次数: 300/小时
+2026-07-10 17:09:40,780 - getnode - INFO - crawler.py:46 - 已使用API次数: 400/小时
+2026-07-10 17:09:54,628 - getnode - INFO - main.py:26 - 共收集到 106 个有效节点文件链接
+2026-07-10 17:09:54,629 - getnode - INFO - main.py:32 - 链接已保存至 output/urls.txt
