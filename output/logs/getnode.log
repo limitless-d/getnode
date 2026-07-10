@@ -3590,3 +3590,260 @@ TypeError: startswith first arg must be bytes or a tuple of bytes, not str
 2026-07-10 06:54:49,097 - getnode - INFO - crawler.py:46 - 已使用API次数: 400/小时
 2026-07-10 06:56:09,538 - getnode - INFO - main.py:26 - 共收集到 107 个有效节点文件链接
 2026-07-10 06:56:09,539 - getnode - INFO - main.py:32 - 链接已保存至 output/urls.txt
+2026-07-10 11:56:57,421 - getnode - INFO - main.py:14 - === 开始执行爬虫任务（全量模式 + 内容验证）===
+2026-07-10 11:57:01,570 - getnode - INFO - crawler.py:104 - 仓库搜索完成，共 50 个仓库
+2026-07-10 11:57:01,570 - getnode - INFO - main.py:18 - 发现 50 个相关仓库
+2026-07-10 11:58:03,136 - getnode - ERROR - crawler.py:70 - HTTP Error 502: <!DOCTYPE html>
+<!--
+
+Hello future GitHubber! I bet you're here to remove those nasty inline styles,
+DRY up these templates and make 'em nice and re-usable, right?
+
+Please, don't. https://github
+2026-07-10 11:58:32,513 - getnode - INFO - crawler.py:46 - 已使用API次数: 100/小时
+2026-07-10 11:59:39,731 - getnode - ERROR - crawler.py:70 - HTTP Error 502: <!DOCTYPE html>
+<!--
+
+Hello future GitHubber! I bet you're here to remove those nasty inline styles,
+DRY up these templates and make 'em nice and re-usable, right?
+
+Please, don't. https://github
+2026-07-10 11:59:43,508 - getnode - ERROR - crawler.py:70 - HTTP Error 502: <!DOCTYPE html>
+<!--
+
+Hello future GitHubber! I bet you're here to remove those nasty inline styles,
+DRY up these templates and make 'em nice and re-usable, right?
+
+Please, don't. https://github
+2026-07-10 11:59:49,819 - getnode - ERROR - crawler.py:70 - HTTP Error 502: <!DOCTYPE html>
+<!--
+
+Hello future GitHubber! I bet you're here to remove those nasty inline styles,
+DRY up these templates and make 'em nice and re-usable, right?
+
+Please, don't. https://github
+2026-07-10 11:59:52,224 - getnode - ERROR - crawler.py:70 - HTTP Error 502: <!DOCTYPE html>
+<!--
+
+Hello future GitHubber! I bet you're here to remove those nasty inline styles,
+DRY up these templates and make 'em nice and re-usable, right?
+
+Please, don't. https://github
+2026-07-10 12:00:07,839 - getnode - ERROR - crawler.py:70 - HTTP Error 502: <!DOCTYPE html>
+<!--
+
+Hello future GitHubber! I bet you're here to remove those nasty inline styles,
+DRY up these templates and make 'em nice and re-usable, right?
+
+Please, don't. https://github
+2026-07-10 12:00:09,342 - getnode - ERROR - crawler.py:70 - HTTP Error 502: <!DOCTYPE html>
+<!--
+
+Hello future GitHubber! I bet you're here to remove those nasty inline styles,
+DRY up these templates and make 'em nice and re-usable, right?
+
+Please, don't. https://github
+2026-07-10 12:00:12,130 - getnode - ERROR - crawler.py:70 - HTTP Error 502: <!DOCTYPE html>
+<!--
+
+Hello future GitHubber! I bet you're here to remove those nasty inline styles,
+DRY up these templates and make 'em nice and re-usable, right?
+
+Please, don't. https://github
+2026-07-10 12:00:13,554 - getnode - INFO - crawler.py:46 - 已使用API次数: 200/小时
+2026-07-10 12:00:13,994 - getnode - ERROR - crawler.py:70 - HTTP Error 502: <!DOCTYPE html>
+<!--
+
+Hello future GitHubber! I bet you're here to remove those nasty inline styles,
+DRY up these templates and make 'em nice and re-usable, right?
+
+Please, don't. https://github
+2026-07-10 12:00:15,145 - getnode - ERROR - crawler.py:70 - HTTP Error 502: <!DOCTYPE html>
+<!--
+
+Hello future GitHubber! I bet you're here to remove those nasty inline styles,
+DRY up these templates and make 'em nice and re-usable, right?
+
+Please, don't. https://github
+2026-07-10 12:00:42,753 - getnode - ERROR - crawler.py:70 - HTTP Error 502: <!DOCTYPE html>
+<!--
+
+Hello future GitHubber! I bet you're here to remove those nasty inline styles,
+DRY up these templates and make 'em nice and re-usable, right?
+
+Please, don't. https://github
+2026-07-10 12:00:44,282 - getnode - ERROR - crawler.py:70 - HTTP Error 502: <!DOCTYPE html>
+<!--
+
+Hello future GitHubber! I bet you're here to remove those nasty inline styles,
+DRY up these templates and make 'em nice and re-usable, right?
+
+Please, don't. https://github
+2026-07-10 12:00:45,760 - getnode - ERROR - crawler.py:70 - HTTP Error 502: <!DOCTYPE html>
+<!--
+
+Hello future GitHubber! I bet you're here to remove those nasty inline styles,
+DRY up these templates and make 'em nice and re-usable, right?
+
+Please, don't. https://github
+2026-07-10 12:01:50,772 - getnode - ERROR - crawler.py:70 - HTTP Error 502: <!DOCTYPE html>
+<!--
+
+Hello future GitHubber! I bet you're here to remove those nasty inline styles,
+DRY up these templates and make 'em nice and re-usable, right?
+
+Please, don't. https://github
+2026-07-10 12:02:10,153 - getnode - ERROR - crawler.py:70 - HTTP Error 502: <!DOCTYPE html>
+<!--
+
+Hello future GitHubber! I bet you're here to remove those nasty inline styles,
+DRY up these templates and make 'em nice and re-usable, right?
+
+Please, don't. https://github
+2026-07-10 12:02:13,999 - getnode - ERROR - crawler.py:70 - HTTP Error 502: <!DOCTYPE html>
+<!--
+
+Hello future GitHubber! I bet you're here to remove those nasty inline styles,
+DRY up these templates and make 'em nice and re-usable, right?
+
+Please, don't. https://github
+2026-07-10 12:02:15,295 - getnode - ERROR - crawler.py:70 - HTTP Error 502: <!DOCTYPE html>
+<!--
+
+Hello future GitHubber! I bet you're here to remove those nasty inline styles,
+DRY up these templates and make 'em nice and re-usable, right?
+
+Please, don't. https://github
+2026-07-10 12:02:17,571 - getnode - ERROR - crawler.py:70 - HTTP Error 502: <!DOCTYPE html>
+<!--
+
+Hello future GitHubber! I bet you're here to remove those nasty inline styles,
+DRY up these templates and make 'em nice and re-usable, right?
+
+Please, don't. https://github
+2026-07-10 12:02:35,162 - getnode - INFO - crawler.py:46 - 已使用API次数: 300/小时
+2026-07-10 12:02:49,354 - getnode - ERROR - crawler.py:70 - HTTP Error 502: <!DOCTYPE html>
+<!--
+
+Hello future GitHubber! I bet you're here to remove those nasty inline styles,
+DRY up these templates and make 'em nice and re-usable, right?
+
+Please, don't. https://github
+2026-07-10 12:03:05,170 - getnode - ERROR - crawler.py:70 - HTTP Error 502: <!DOCTYPE html>
+<!--
+
+Hello future GitHubber! I bet you're here to remove those nasty inline styles,
+DRY up these templates and make 'em nice and re-usable, right?
+
+Please, don't. https://github
+2026-07-10 12:03:08,056 - getnode - ERROR - crawler.py:70 - HTTP Error 502: <!DOCTYPE html>
+<!--
+
+Hello future GitHubber! I bet you're here to remove those nasty inline styles,
+DRY up these templates and make 'em nice and re-usable, right?
+
+Please, don't. https://github
+2026-07-10 12:03:59,528 - getnode - INFO - crawler.py:46 - 已使用API次数: 400/小时
+2026-07-10 12:04:22,077 - getnode - ERROR - crawler.py:70 - HTTP Error 502: <!DOCTYPE html>
+<!--
+
+Hello future GitHubber! I bet you're here to remove those nasty inline styles,
+DRY up these templates and make 'em nice and re-usable, right?
+
+Please, don't. https://github
+2026-07-10 12:04:25,631 - getnode - ERROR - crawler.py:70 - HTTP Error 502: <!DOCTYPE html>
+<!--
+
+Hello future GitHubber! I bet you're here to remove those nasty inline styles,
+DRY up these templates and make 'em nice and re-usable, right?
+
+Please, don't. https://github
+2026-07-10 12:04:28,721 - getnode - ERROR - crawler.py:70 - HTTP Error 502: <!DOCTYPE html>
+<!--
+
+Hello future GitHubber! I bet you're here to remove those nasty inline styles,
+DRY up these templates and make 'em nice and re-usable, right?
+
+Please, don't. https://github
+2026-07-10 12:05:15,901 - getnode - INFO - crawler.py:46 - 已使用API次数: 500/小时
+2026-07-10 12:05:17,384 - getnode - ERROR - crawler.py:70 - HTTP Error 502: <!DOCTYPE html>
+<!--
+
+Hello future GitHubber! I bet you're here to remove those nasty inline styles,
+DRY up these templates and make 'em nice and re-usable, right?
+
+Please, don't. https://github
+2026-07-10 12:05:36,013 - getnode - ERROR - crawler.py:70 - HTTP Error 502: <!DOCTYPE html>
+<!--
+
+Hello future GitHubber! I bet you're here to remove those nasty inline styles,
+DRY up these templates and make 'em nice and re-usable, right?
+
+Please, don't. https://github
+2026-07-10 12:05:41,309 - getnode - ERROR - crawler.py:70 - HTTP Error 502: <!DOCTYPE html>
+<!--
+
+Hello future GitHubber! I bet you're here to remove those nasty inline styles,
+DRY up these templates and make 'em nice and re-usable, right?
+
+Please, don't. https://github
+2026-07-10 12:05:42,973 - getnode - ERROR - crawler.py:70 - HTTP Error 502: <!DOCTYPE html>
+<!--
+
+Hello future GitHubber! I bet you're here to remove those nasty inline styles,
+DRY up these templates and make 'em nice and re-usable, right?
+
+Please, don't. https://github
+2026-07-10 12:06:25,734 - getnode - ERROR - crawler.py:70 - HTTP Error 502: <!DOCTYPE html>
+<!--
+
+Hello future GitHubber! I bet you're here to remove those nasty inline styles,
+DRY up these templates and make 'em nice and re-usable, right?
+
+Please, don't. https://github
+2026-07-10 12:06:33,052 - getnode - ERROR - crawler.py:70 - HTTP Error 502: <!DOCTYPE html>
+<!--
+
+Hello future GitHubber! I bet you're here to remove those nasty inline styles,
+DRY up these templates and make 'em nice and re-usable, right?
+
+Please, don't. https://github
+2026-07-10 12:06:39,905 - getnode - INFO - crawler.py:46 - 已使用API次数: 600/小时
+2026-07-10 12:07:15,888 - getnode - ERROR - crawler.py:70 - HTTP Error 502: <!DOCTYPE html>
+<!--
+
+Hello future GitHubber! I bet you're here to remove those nasty inline styles,
+DRY up these templates and make 'em nice and re-usable, right?
+
+Please, don't. https://github
+2026-07-10 12:07:53,505 - getnode - ERROR - crawler.py:70 - HTTP Error 502: <!DOCTYPE html>
+<!--
+
+Hello future GitHubber! I bet you're here to remove those nasty inline styles,
+DRY up these templates and make 'em nice and re-usable, right?
+
+Please, don't. https://github
+2026-07-10 12:07:58,008 - getnode - ERROR - crawler.py:70 - HTTP Error 502: <!DOCTYPE html>
+<!--
+
+Hello future GitHubber! I bet you're here to remove those nasty inline styles,
+DRY up these templates and make 'em nice and re-usable, right?
+
+Please, don't. https://github
+2026-07-10 12:08:05,281 - getnode - INFO - crawler.py:46 - 已使用API次数: 700/小时
+2026-07-10 12:08:33,876 - getnode - ERROR - crawler.py:70 - HTTP Error 502: <!DOCTYPE html>
+<!--
+
+Hello future GitHubber! I bet you're here to remove those nasty inline styles,
+DRY up these templates and make 'em nice and re-usable, right?
+
+Please, don't. https://github
+2026-07-10 12:08:37,698 - getnode - ERROR - crawler.py:70 - HTTP Error 502: <!DOCTYPE html>
+<!--
+
+Hello future GitHubber! I bet you're here to remove those nasty inline styles,
+DRY up these templates and make 'em nice and re-usable, right?
+
+Please, don't. https://github
+2026-07-10 12:08:49,585 - getnode - INFO - main.py:26 - 共收集到 91 个有效节点文件链接
+2026-07-10 12:08:49,586 - getnode - INFO - main.py:32 - 链接已保存至 output/urls.txt
