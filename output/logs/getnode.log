@@ -3912,3 +3912,27 @@ Please, don't. https://github
 2026-07-11 05:46:37,127 - getnode - INFO - crawler.py:46 - 已使用API次数: 400/小时
 2026-07-11 05:46:46,853 - getnode - INFO - main.py:26 - 共收集到 107 个有效节点文件链接
 2026-07-11 05:46:46,853 - getnode - INFO - main.py:32 - 链接已保存至 output/urls.txt
+2026-07-11 10:18:33,545 - getnode - INFO - main.py:14 - === 开始执行爬虫任务（全量模式 + 内容验证）===
+2026-07-11 10:18:37,633 - getnode - INFO - crawler.py:104 - 仓库搜索完成，共 50 个仓库
+2026-07-11 10:18:37,633 - getnode - INFO - main.py:18 - 发现 50 个相关仓库
+2026-07-11 10:21:29,220 - getnode - ERROR - crawler.py:70 - HTTP Error 502: <!DOCTYPE html>
+<!--
+
+Hello future GitHubber! I bet you're here to remove those nasty inline styles,
+DRY up these templates and make 'em nice and re-usable, right?
+
+Please, don't. https://github
+2026-07-11 10:21:48,250 - getnode - INFO - crawler.py:46 - 已使用API次数: 100/小时
+2026-07-11 10:24:41,982 - getnode - INFO - crawler.py:46 - 已使用API次数: 200/小时
+2026-07-11 10:26:29,029 - getnode - ERROR - crawler.py:70 - HTTP Error 502: <!DOCTYPE html>
+<!--
+
+Hello future GitHubber! I bet you're here to remove those nasty inline styles,
+DRY up these templates and make 'em nice and re-usable, right?
+
+Please, don't. https://github
+2026-07-11 10:26:37,306 - getnode - INFO - crawler.py:46 - 已使用API次数: 300/小时
+2026-07-11 10:27:06,486 - getnode - INFO - crawler.py:46 - 已使用API次数: 400/小时
+2026-07-11 10:27:50,556 - getnode - INFO - crawler.py:46 - 已使用API次数: 500/小时
+2026-07-11 10:28:12,169 - getnode - INFO - main.py:26 - 共收集到 108 个有效节点文件链接
+2026-07-11 10:28:12,170 - getnode - INFO - main.py:32 - 链接已保存至 output/urls.txt
