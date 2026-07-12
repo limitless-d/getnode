@@ -4028,3 +4028,41 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-07-11 21:57:30,712 - getnode - INFO - crawler.py:46 - 已使用API次数: 500/小时
 2026-07-11 21:57:48,149 - getnode - INFO - main.py:26 - 共收集到 107 个有效节点文件链接
 2026-07-11 21:57:48,150 - getnode - INFO - main.py:32 - 链接已保存至 output/urls.txt
+2026-07-12 06:08:19,706 - getnode - INFO - main.py:14 - === 开始执行爬虫任务（全量模式 + 内容验证）===
+2026-07-12 06:08:24,091 - getnode - INFO - crawler.py:104 - 仓库搜索完成，共 50 个仓库
+2026-07-12 06:08:24,092 - getnode - INFO - main.py:18 - 发现 50 个相关仓库
+2026-07-12 06:12:07,628 - getnode - INFO - crawler.py:46 - 已使用API次数: 100/小时
+2026-07-12 06:14:35,039 - getnode - INFO - crawler.py:46 - 已使用API次数: 200/小时
+2026-07-12 06:15:11,796 - getnode - ERROR - crawler.py:70 - HTTP Error 502: <!DOCTYPE html>
+<!--
+
+Hello future GitHubber! I bet you're here to remove those nasty inline styles,
+DRY up these templates and make 'em nice and re-usable, right?
+
+Please, don't. https://github
+2026-07-12 06:17:08,096 - getnode - INFO - crawler.py:46 - 已使用API次数: 300/小时
+2026-07-12 06:18:34,478 - getnode - ERROR - crawler.py:70 - HTTP Error 502: <!DOCTYPE html>
+<!--
+
+Hello future GitHubber! I bet you're here to remove those nasty inline styles,
+DRY up these templates and make 'em nice and re-usable, right?
+
+Please, don't. https://github
+2026-07-12 06:19:29,010 - getnode - INFO - crawler.py:46 - 已使用API次数: 400/小时
+2026-07-12 06:19:32,532 - getnode - ERROR - crawler.py:70 - HTTP Error 502: <!DOCTYPE html>
+<!--
+
+Hello future GitHubber! I bet you're here to remove those nasty inline styles,
+DRY up these templates and make 'em nice and re-usable, right?
+
+Please, don't. https://github
+2026-07-12 06:21:13,368 - getnode - ERROR - crawler.py:70 - HTTP Error 502: <!DOCTYPE html>
+<!--
+
+Hello future GitHubber! I bet you're here to remove those nasty inline styles,
+DRY up these templates and make 'em nice and re-usable, right?
+
+Please, don't. https://github
+2026-07-12 06:22:01,311 - getnode - INFO - crawler.py:46 - 已使用API次数: 500/小时
+2026-07-12 06:23:34,849 - getnode - INFO - main.py:26 - 共收集到 106 个有效节点文件链接
+2026-07-12 06:23:34,850 - getnode - INFO - main.py:32 - 链接已保存至 output/urls.txt
