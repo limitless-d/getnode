@@ -34,6 +34,8 @@ https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Sub9.txt
 https://raw.githubusercontent.com/crackbest/V2ray-Config/main/config.txt
 https://raw.githubusercontent.com/ebrasha/free-v2ray-public-list/main/V2Ray-Config-By-EbraSha.txt
 https://raw.githubusercontent.com/ebrasha/free-v2ray-public-list/main/ssr_configs.txt
+https://raw.githubusercontent.com/githubvpn007/v2rayNvpn/main/ss_ios.md
+https://raw.githubusercontent.com/githubvpn007/v2rayNvpn/main/ssr_windows.md
 https://raw.githubusercontent.com/gslege/CloudflareIP/main/Vless.txt
 https://raw.githubusercontent.com/hello-world-1989/cn-news/main/clash-test.yaml
 https://raw.githubusercontent.com/hello-world-1989/cn-news/main/clash.yaml
@@ -51,4 +53,4 @@ https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY.txt
 https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY_RAW.txt
 https://raw.githubusercontent.com/shaoyouvip/free/main/mihomo.yaml
 https://raw.githubusercontent.com/wenxig/free-nodes-sub/main/clash_template.yaml
-https://raw.githubusercontent.com/zhuhaiuk/free-nodes/main/clash_config.yaml
+https://raw.githubusercontent.com/xiaoji235/airport-free/main/v2ray.txt
