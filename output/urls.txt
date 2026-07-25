@@ -2,7 +2,6 @@ https://raw.githubusercontent.com/Argh94/Proxy-List/main/ShadowSocks.txt
 https://raw.githubusercontent.com/Argh94/Proxy-List/main/ShadowsocksR.txt
 https://raw.githubusercontent.com/Argh94/Proxy-List/main/Trojan.txt
 https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/config.example.yaml
-https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/config.yaml
 https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Sub1.txt
 https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Sub2.txt
 https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Sub21.txt
