@@ -33,11 +33,7 @@ https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub33.txt
 https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub34.txt
 https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub35.txt
 https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub36.txt
-https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub37.txt
-https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub38.txt
-https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub39.txt
 https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub4.txt
-https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub40.txt
 https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub5.txt
 https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub6.txt
 https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub7.txt
@@ -86,12 +82,13 @@ https://raw.githubusercontent.com/nyeinkokoaung404/V2ray-Configs/main/All_Config
 https://raw.githubusercontent.com/nyeinkokoaung404/V2ray-Configs/main/Sub1.txt
 https://raw.githubusercontent.com/nyeinkokoaung404/V2ray-Configs/main/Sub2.txt
 https://raw.githubusercontent.com/nyeinkokoaung404/V2ray-Configs/main/Sub3.txt
+https://raw.githubusercontent.com/nyeinkokoaung404/V2ray-Configs/main/Sub4.txt
 https://raw.githubusercontent.com/penhandev/AutoAiVPN/main/allConfigs.txt
 https://raw.githubusercontent.com/penhandev/AutoAiVPN/main/russia.txt
 https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY.txt
 https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY_RAW.txt
 https://raw.githubusercontent.com/shaoyouvip/free/main/mihomo.yaml
-https://raw.githubusercontent.com/ts-sf/fly/main/clash
 https://raw.githubusercontent.com/wenxig/dongtai-sub/main/clash_template.yaml
+https://raw.githubusercontent.com/wenxig/free-nodes-sub/main/clash_template.yaml
 https://raw.githubusercontent.com/zhuhaiuk/free-nodes/main/clash_config.yaml
 https://raw.githubusercontent.com/zhuhaiuk/free-nodes/main/extra_clash_config.yaml
