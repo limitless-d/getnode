@@ -1,3 +1,6 @@
+https://raw.githubusercontent.com/Argh94/Proxy-List/main/ShadowSocks.txt
+https://raw.githubusercontent.com/Argh94/Proxy-List/main/ShadowsocksR.txt
+https://raw.githubusercontent.com/Argh94/Proxy-List/main/Trojan.txt
 https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/config.example.yaml
 https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/config.yaml
 https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub1.txt
@@ -53,6 +56,7 @@ https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Sub4.txt
 https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Sub5.txt
 https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Sub6.txt
 https://raw.githubusercontent.com/Shayanthn/V2ray-Tester-Pro/main/TELEGRAM_PROXY_SETUP.md
+https://raw.githubusercontent.com/Shayanthn/V2ray-Tester-Pro/main/working_configs.json
 https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Sub1.txt
 https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Sub10.txt
 https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Sub11.txt
@@ -81,7 +85,6 @@ https://raw.githubusercontent.com/nyeinkokoaung404/V2ray-Configs/main/All_Config
 https://raw.githubusercontent.com/nyeinkokoaung404/V2ray-Configs/main/Sub1.txt
 https://raw.githubusercontent.com/nyeinkokoaung404/V2ray-Configs/main/Sub2.txt
 https://raw.githubusercontent.com/nyeinkokoaung404/V2ray-Configs/main/Sub3.txt
-https://raw.githubusercontent.com/nyeinkokoaung404/V2ray-Configs/main/Sub4.txt
 https://raw.githubusercontent.com/penhandev/AutoAiVPN/main/allConfigs.txt
 https://raw.githubusercontent.com/penhandev/AutoAiVPN/main/russia.txt
 https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY.txt
@@ -89,5 +92,3 @@ https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY_RAW.txt
 https://raw.githubusercontent.com/shaoyouvip/free/main/mihomo.yaml
 https://raw.githubusercontent.com/wenxig/dongtai-sub/main/clash_template.yaml
 https://raw.githubusercontent.com/wenxig/free-nodes-sub/main/clash_template.yaml
-https://raw.githubusercontent.com/zhuhaiuk/free-nodes/main/clash_config.yaml
-https://raw.githubusercontent.com/zhuhaiuk/free-nodes/main/extra_clash_config.yaml
