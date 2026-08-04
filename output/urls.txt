@@ -32,7 +32,6 @@ https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub32.txt
 https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub33.txt
 https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub34.txt
 https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub35.txt
-https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub36.txt
 https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub4.txt
 https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub5.txt
 https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub6.txt
@@ -75,7 +74,6 @@ https://raw.githubusercontent.com/gslege/CloudflareIP/main/Vless.txt
 https://raw.githubusercontent.com/hello-world-1989/cn-news/main/clash-test.yaml
 https://raw.githubusercontent.com/hello-world-1989/cn-news/main/clash.yaml
 https://raw.githubusercontent.com/hello-world-1989/cn-news/main/end-gfw-together-ss
-https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_SS+All_RUS.txt
 https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS.txt
 https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS_mobile.txt
 https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Vless-Reality-White-Lists-Rus-Mobile.txt
