@@ -53,5 +53,3 @@ https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY_RAW.txt
 https://raw.githubusercontent.com/shaoyouvip/free/main/mihomo.yaml
 https://raw.githubusercontent.com/wenxig/dongtai-sub/main/clash_template.yaml
 https://raw.githubusercontent.com/wenxig/free-nodes-sub/main/clash_template.yaml
-https://raw.githubusercontent.com/zhuhaiuk/free-nodes/main/clash_config.yaml
-https://raw.githubusercontent.com/zhuhaiuk/free-nodes/main/extra_clash_config.yaml
