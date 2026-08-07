@@ -15,7 +15,6 @@ https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Sub5.txt
 https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Sub6.txt
 https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Sub7.txt
 https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Sub8.txt
-https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/clash.yaml
 https://raw.githubusercontent.com/Shayanthn/V2ray-Tester-Pro/main/TELEGRAM_PROXY_SETUP.md
 https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Sub1.txt
 https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Sub10.txt
@@ -37,7 +36,6 @@ https://raw.githubusercontent.com/ebrasha/free-v2ray-public-list/main/V2Ray-Conf
 https://raw.githubusercontent.com/ebrasha/free-v2ray-public-list/main/ss_configs.txt
 https://raw.githubusercontent.com/ebrasha/free-v2ray-public-list/main/ssr_configs.txt
 https://raw.githubusercontent.com/ebrasha/free-v2ray-public-list/main/trojan_configs.txt
-https://raw.githubusercontent.com/gslege/CloudflareIP/main/Vless.txt
 https://raw.githubusercontent.com/hello-world-1989/cn-news/main/clash-test.yaml
 https://raw.githubusercontent.com/hello-world-1989/cn-news/main/clash.yaml
 https://raw.githubusercontent.com/hello-world-1989/cn-news/main/end-gfw-together-ss
