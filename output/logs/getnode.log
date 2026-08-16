@@ -5500,3 +5500,13 @@ Please, don't. https://github
 2026-08-16 15:29:56,151 - getnode - INFO - crawler.py:46 - 已使用API次数: 400/小时
 2026-08-16 15:30:43,262 - getnode - INFO - main.py:26 - 共收集到 59 个有效节点文件链接
 2026-08-16 15:30:43,263 - getnode - INFO - main.py:32 - 链接已保存至 output/urls.txt
+2026-08-16 21:24:59,962 - getnode - INFO - main.py:14 - === 开始执行爬虫任务（全量模式 + 内容验证）===
+2026-08-16 21:25:04,222 - getnode - INFO - crawler.py:104 - 仓库搜索完成，共 50 个仓库
+2026-08-16 21:25:04,222 - getnode - INFO - main.py:18 - 发现 50 个相关仓库
+2026-08-16 21:26:08,842 - getnode - INFO - crawler.py:46 - 已使用API次数: 100/小时
+2026-08-16 21:27:38,855 - getnode - INFO - crawler.py:46 - 已使用API次数: 200/小时
+2026-08-16 21:28:40,855 - getnode - INFO - crawler.py:46 - 已使用API次数: 300/小时
+2026-08-16 21:29:34,207 - getnode - INFO - crawler.py:46 - 已使用API次数: 400/小时
+2026-08-16 21:30:25,094 - getnode - INFO - crawler.py:46 - 已使用API次数: 500/小时
+2026-08-16 21:31:03,552 - getnode - INFO - main.py:26 - 共收集到 56 个有效节点文件链接
+2026-08-16 21:31:03,552 - getnode - INFO - main.py:32 - 链接已保存至 output/urls.txt
