@@ -2,7 +2,7 @@ name: Node Crawler # 工作流名称
 
 on:
   schedule:
-    - cron: '0 10 * * *' # 每天10点一次
+    - cron: '0 2 * * *' # 每天2点一次
   workflow_dispatch: # 允许手动触发工作流
 
 jobs:
