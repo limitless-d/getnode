@@ -47,6 +47,7 @@ https://raw.githubusercontent.com/nyeinkokoaung404/V2ray-Configs/main/All_Config
 https://raw.githubusercontent.com/nyeinkokoaung404/V2ray-Configs/main/Sub1.txt
 https://raw.githubusercontent.com/nyeinkokoaung404/V2ray-Configs/main/Sub2.txt
 https://raw.githubusercontent.com/nyeinkokoaung404/V2ray-Configs/main/Sub3.txt
+https://raw.githubusercontent.com/nyeinkokoaung404/V2ray-Configs/main/Sub4.txt
 https://raw.githubusercontent.com/penhandev/AutoAiVPN/main/allConfigs.txt
 https://raw.githubusercontent.com/penhandev/AutoAiVPN/main/russia.txt
 https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY.txt
