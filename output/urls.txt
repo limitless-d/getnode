@@ -44,7 +44,6 @@ https://raw.githubusercontent.com/hello-world-1989/cn-news/main/end-gfw-together
 https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_SS_WEAK_DPI_RUS.txt
 https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS.txt
 https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS_mobile.txt
-https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Vless-Reality-White-Lists-Rus-Mobile.txt
 https://raw.githubusercontent.com/liMilCo/v2r/main/new_configs.txt
 https://raw.githubusercontent.com/nyeinkokoaung404/V2ray-Configs/main/All_Configs_Sub.txt
 https://raw.githubusercontent.com/nyeinkokoaung404/V2ray-Configs/main/Sub1.txt
@@ -53,10 +52,8 @@ https://raw.githubusercontent.com/nyeinkokoaung404/V2ray-Configs/main/Sub3.txt
 https://raw.githubusercontent.com/nyeinkokoaung404/V2ray-Configs/main/Sub4.txt
 https://raw.githubusercontent.com/penhandev/AutoAiVPN/main/allConfigs.txt
 https://raw.githubusercontent.com/penhandev/AutoAiVPN/main/russia.txt
-https://raw.githubusercontent.com/pornnewbee/free-vless-VPN/main/vless.txt
 https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY.txt
 https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY_RAW.txt
-https://raw.githubusercontent.com/shaoyouvip/free/main/mihomo.yaml
 https://raw.githubusercontent.com/ts-sf/fly/main/clash
 https://raw.githubusercontent.com/wenxig/dongtai-sub/main/clash_template.yaml
 https://raw.githubusercontent.com/zhuhaiuk/free-nodes/main/clash_config.yaml
