@@ -6033,3 +6033,27 @@ TypeError: startswith first arg must be bytes or a tuple of bytes, not str
 2026-09-28 08:37:55,678 - getnode - INFO - crawler.py:46 - 已使用API次数: 1100/小时
 2026-09-28 08:38:18,308 - getnode - INFO - main.py:26 - 共收集到 39 个有效节点文件链接
 2026-09-28 08:38:18,308 - getnode - INFO - main.py:32 - 链接已保存至 output/urls.txt
+2026-09-29 08:10:14,435 - getnode - INFO - main.py:14 - === 开始执行爬虫任务（全量模式 + 内容验证）===
+2026-09-29 08:10:18,613 - getnode - INFO - crawler.py:104 - 仓库搜索完成，共 50 个仓库
+2026-09-29 08:10:18,613 - getnode - INFO - main.py:18 - 发现 50 个相关仓库
+2026-09-29 08:10:29,840 - getnode - ERROR - crawler.py:145 - 处理异常: startswith first arg must be bytes or a tuple of bytes, not str
+Traceback (most recent call last):
+  File "/home/runner/work/getnode/getnode/src/crawler.py", line 132, in _search_contents
+    if self._process_item(item, depth):
+  File "/home/runner/work/getnode/getnode/src/crawler.py", line 188, in _process_item
+    if not parsed.scheme.startswith('http'):
+TypeError: startswith first arg must be bytes or a tuple of bytes, not str
+2026-09-29 08:10:50,950 - getnode - INFO - crawler.py:46 - 已使用API次数: 100/小时
+2026-09-29 08:11:32,924 - getnode - INFO - crawler.py:46 - 已使用API次数: 200/小时
+2026-09-29 08:11:57,215 - getnode - INFO - crawler.py:46 - 已使用API次数: 300/小时
+2026-09-29 08:12:22,697 - getnode - INFO - crawler.py:46 - 已使用API次数: 400/小时
+2026-09-29 08:12:48,016 - getnode - INFO - crawler.py:46 - 已使用API次数: 500/小时
+2026-09-29 08:13:45,340 - getnode - INFO - crawler.py:46 - 已使用API次数: 600/小时
+2026-09-29 08:14:16,581 - getnode - INFO - crawler.py:46 - 已使用API次数: 700/小时
+2026-09-29 08:14:46,715 - getnode - INFO - crawler.py:46 - 已使用API次数: 800/小时
+2026-09-29 08:15:07,108 - getnode - INFO - crawler.py:46 - 已使用API次数: 900/小时
+2026-09-29 08:15:38,313 - getnode - INFO - crawler.py:46 - 已使用API次数: 1000/小时
+2026-09-29 08:16:04,070 - getnode - INFO - crawler.py:46 - 已使用API次数: 1100/小时
+2026-09-29 08:16:25,685 - getnode - INFO - crawler.py:46 - 已使用API次数: 1200/小时
+2026-09-29 08:16:41,237 - getnode - INFO - main.py:26 - 共收集到 35 个有效节点文件链接
+2026-09-29 08:16:41,238 - getnode - INFO - main.py:32 - 链接已保存至 output/urls.txt
