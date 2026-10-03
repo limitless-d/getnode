@@ -2,9 +2,12 @@ https://raw.githubusercontent.com/Argh94/Proxy-List/main/ShadowSocks.txt
 https://raw.githubusercontent.com/Argh94/Proxy-List/main/ShadowsocksR.txt
 https://raw.githubusercontent.com/Argh94/Proxy-List/main/Trojan.txt
 https://raw.githubusercontent.com/Shayanthn/V2ray-Tester-Pro/main/TELEGRAM_PROXY_SETUP.md
+https://raw.githubusercontent.com/Shayanthn/V2ray-Tester-Pro/main/working_configs.json
 https://raw.githubusercontent.com/SoliSpirit/SolVPN/main/all_configs.txt
 https://raw.githubusercontent.com/ebrasha/free-v2ray-public-list/main/V2Ray-Config-By-EbraSha.txt
+https://raw.githubusercontent.com/ebrasha/free-v2ray-public-list/main/ss_configs.txt
 https://raw.githubusercontent.com/ebrasha/free-v2ray-public-list/main/ssr_configs.txt
+https://raw.githubusercontent.com/ebrasha/free-v2ray-public-list/main/trojan_configs.txt
 https://raw.githubusercontent.com/gslege/CloudflareIP/main/Vless.txt
 https://raw.githubusercontent.com/hello-world-1989/cn-news/main/clash-free.yaml
 https://raw.githubusercontent.com/hello-world-1989/cn-news/main/clash-test.yaml
