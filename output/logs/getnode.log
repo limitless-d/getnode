@@ -6415,3 +6415,20 @@ TypeError: startswith first arg must be bytes or a tuple of bytes, not str
 2026-10-26 07:40:21,685 - getnode - INFO - crawler.py:46 - 已使用API次数: 500/小时
 2026-10-26 07:40:30,507 - getnode - INFO - main.py:26 - 共收集到 64 个有效节点文件链接
 2026-10-26 07:40:30,507 - getnode - INFO - main.py:32 - 链接已保存至 output/urls.txt
+2026-10-27 07:34:06,869 - getnode - INFO - main.py:14 - === 开始执行爬虫任务（全量模式 + 内容验证）===
+2026-10-27 07:34:11,325 - getnode - INFO - crawler.py:104 - 仓库搜索完成，共 50 个仓库
+2026-10-27 07:34:11,325 - getnode - INFO - main.py:18 - 发现 50 个相关仓库
+2026-10-27 07:35:05,767 - getnode - INFO - crawler.py:46 - 已使用API次数: 100/小时
+2026-10-27 07:35:24,428 - getnode - INFO - crawler.py:46 - 已使用API次数: 200/小时
+2026-10-27 07:35:57,538 - getnode - INFO - crawler.py:46 - 已使用API次数: 300/小时
+2026-10-27 07:37:00,207 - getnode - INFO - crawler.py:46 - 已使用API次数: 400/小时
+2026-10-27 07:37:40,874 - getnode - INFO - crawler.py:46 - 已使用API次数: 500/小时
+2026-10-27 07:38:24,808 - getnode - INFO - crawler.py:46 - 已使用API次数: 600/小时
+2026-10-27 07:38:53,398 - getnode - INFO - crawler.py:46 - 已使用API次数: 700/小时
+2026-10-27 07:39:23,320 - getnode - INFO - crawler.py:46 - 已使用API次数: 800/小时
+2026-10-27 07:39:49,806 - getnode - INFO - crawler.py:46 - 已使用API次数: 900/小时
+2026-10-27 07:40:15,922 - getnode - INFO - crawler.py:46 - 已使用API次数: 1000/小时
+2026-10-27 07:40:46,015 - getnode - INFO - crawler.py:46 - 已使用API次数: 1100/小时
+2026-10-27 07:41:30,227 - getnode - INFO - crawler.py:46 - 已使用API次数: 1200/小时
+2026-10-27 07:41:34,519 - getnode - INFO - main.py:26 - 共收集到 48 个有效节点文件链接
+2026-10-27 07:41:34,519 - getnode - INFO - main.py:32 - 链接已保存至 output/urls.txt
