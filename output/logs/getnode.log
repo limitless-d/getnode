@@ -6541,3 +6541,15 @@ TypeError: startswith first arg must be bytes or a tuple of bytes, not str
 2026-11-03 09:19:36,891 - getnode - INFO - crawler.py:46 - 已使用API次数: 800/小时
 2026-11-03 09:20:02,661 - getnode - INFO - main.py:26 - 共收集到 29 个有效节点文件链接
 2026-11-03 09:20:02,661 - getnode - INFO - main.py:32 - 链接已保存至 output/urls.txt
+2026-11-04 08:50:06,477 - getnode - INFO - main.py:14 - === 开始执行爬虫任务（全量模式 + 内容验证）===
+2026-11-04 08:50:10,996 - getnode - INFO - crawler.py:104 - 仓库搜索完成，共 50 个仓库
+2026-11-04 08:50:10,997 - getnode - INFO - main.py:18 - 发现 50 个相关仓库
+2026-11-04 08:50:58,861 - getnode - INFO - crawler.py:46 - 已使用API次数: 100/小时
+2026-11-04 08:51:41,382 - getnode - INFO - crawler.py:46 - 已使用API次数: 200/小时
+2026-11-04 08:52:24,422 - getnode - INFO - crawler.py:46 - 已使用API次数: 300/小时
+2026-11-04 08:53:03,574 - getnode - INFO - crawler.py:46 - 已使用API次数: 400/小时
+2026-11-04 08:53:47,937 - getnode - INFO - crawler.py:46 - 已使用API次数: 500/小时
+2026-11-04 08:54:17,498 - getnode - INFO - crawler.py:46 - 已使用API次数: 600/小时
+2026-11-04 08:54:39,435 - getnode - INFO - crawler.py:46 - 已使用API次数: 700/小时
+2026-11-04 08:55:03,951 - getnode - INFO - main.py:26 - 共收集到 32 个有效节点文件链接
+2026-11-04 08:55:03,952 - getnode - INFO - main.py:32 - 链接已保存至 output/urls.txt
