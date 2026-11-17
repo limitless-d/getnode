@@ -1,8 +1,8 @@
 https://raw.githubusercontent.com/Argh94/Proxy-List/main/ShadowSocks.txt
 https://raw.githubusercontent.com/Argh94/Proxy-List/main/ShadowsocksR.txt
 https://raw.githubusercontent.com/Argh94/Proxy-List/main/Trojan.txt
-https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/clash.yaml
 https://raw.githubusercontent.com/Shayanthn/V2ray-Tester-Pro/main/TELEGRAM_PROXY_SETUP.md
+https://raw.githubusercontent.com/Shayanthn/V2ray-Tester-Pro/main/working_configs.json
 https://raw.githubusercontent.com/SoliSpirit/SolVPN/main/all_configs.txt
 https://raw.githubusercontent.com/ZeroDeng01/sublinkPro/main/config.example.yaml
 https://raw.githubusercontent.com/gslege/CloudflareIP/main/Vless.txt
@@ -11,7 +11,6 @@ https://raw.githubusercontent.com/hello-world-1989/cn-news/main/clash-test.yaml
 https://raw.githubusercontent.com/hello-world-1989/cn-news/main/clash.yaml
 https://raw.githubusercontent.com/hello-world-1989/cn-news/main/end-gfw-together-ss
 https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_SS+All_RUS.txt
-https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_SS_WEAK_DPI_RUS.txt
 https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS.txt
 https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS_mobile.txt
 https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Vless-Reality-White-Lists-Rus-Mobile.txt
