@@ -14,7 +14,6 @@ https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Sub15.txt
 https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Sub16.txt
 https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Sub17.txt
 https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Sub18.txt
-https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Sub19.txt
 https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Sub2.txt
 https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Sub3.txt
 https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Sub4.txt
@@ -47,7 +46,6 @@ https://raw.githubusercontent.com/nyeinkokoaung404/V2ray-Configs/main/Sub9.txt
 https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY.txt
 https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY_RAW.txt
 https://raw.githubusercontent.com/shaoyouvip/free/main/mihomo.yaml
-https://raw.githubusercontent.com/ts-sf/fly/main/clash
 https://raw.githubusercontent.com/yy1588133/proxy-pool/main/clash.yaml
 https://raw.githubusercontent.com/zhuhaiuk/free-nodes/main/clash_config.yaml
 https://raw.githubusercontent.com/zhuhaiuk/free-nodes/main/extra_clash_config.yaml
